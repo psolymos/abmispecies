@@ -6,8 +6,8 @@ We provide informaion on spatial distribution, habitat associations, responses t
 
 We provide maps of native vegetation, maps of human footprint types, temporal change in human footprint in Alberta.
 
-## versions
+## Versions
 
-* Current version: (http://species.abmi.ca/)
-* Development version: (http://species.abmi.ca/development/)
+* Current version: http://species.abmi.ca/
+* Development version: http://species.abmi.ca/development/
 
