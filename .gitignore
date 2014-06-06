@@ -1,7 +1,27 @@
+## gedit temp files
+*~
+
+## jekyll built website
 /_site/*
+
+## taxa pages except for TOC
 /mites/*
+!/mites/index.html
 /mosses/*
+!/mosses/index.html
 /mammals/*
+!/mammals/index.html
 /birds/*
+!/birds/index.html
 /lichens/*
+!/lichens/index.html
 /vascularplants/*
+!/vascularplants/index.html
+
+## figures from other dirs
+/methods/*
+!/methods/index.html
+/footprint/*
+!/footprint/index.html
+/vegetation/*
+!/vegetation/index.html
