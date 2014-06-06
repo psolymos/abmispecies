@@ -1,0 +1,27 @@
+-
+  letter: A
+  species:
+    - scinam: Abies alba
+      comnam: White Spruce
+      label: AbiesAlba
+    - scinam: Abies alba2
+      comnam: White Spruce2
+      label: AbiesAlba2
+-
+  letter: B
+  species:
+    - scinam: Betula pendula
+      comnam: White Birch
+      label: BetulaPendula
+    - scinam: Betula pendula2
+      comnam: White Birch2
+      label: BetulaPendula2
+-
+  letter: C
+  species:
+    - scinam: Conus virgo
+      comnam:
+      label: ConusVirgo
+    - scinam: Celtis occidentalis
+      comnam: Keleti ostorfa
+      label: CeltisOccidentalis

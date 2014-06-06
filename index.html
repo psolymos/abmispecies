@@ -1,0 +1,55 @@
+---
+layout: default
+description: "ABMI Species Website."
+sidebar: false
+---
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <!-- <h1>Hello, world!</h1> -->
+        <p>Alberta Biodiversity Monitoring Institute (ABMI) monitors species and their habitats
+        to understand distribution of biodiversity and to inform sustainable resource development and
+        biological conservation in Alberta.</p>
+        <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Species</h2>
+          <p>We provide informaion on spatial distribution, habitat associations, responses to human footprint, and predicted relative abundance distributions for a wide variety of species in Alberta.</p>
+          <ul class="list-group">
+                {% for taxon in site.taxa %}
+            <li class="list-group-item"><a href="{{ site.url }}{{ taxon.url }}">{{ taxon.title }}</a></li>
+                {% endfor %}
+          </ul> 
+        </div>
+        <div class="col-md-4">
+          <h2>Land cover</h2>
+          <p>We provide maps of native vegetation, maps of human footprint types, temporal change in human footprint in Alberta.</p>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="{{ site.url }}/vegetation/index.html">Vegetation</a></li>
+            <li class="list-group-item"><a href="{{ site.url }}/footprint/index.html">Footprint</a></li>
+          </ul>
+       </div>
+        <div class="col-md-4">
+          <div class="rounded-info">
+          <h2>Latest update</h2>
+          {% for post in site.posts limit:1 %}
+          <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+          <p><small>{{ post.date | date: "%Y-%m-%d" }}</small></p>
+          <p>{{ post.content | strip_html | strip_newlines | truncate: 360 }}</p>
+          <p><a class="btn btn-default" href="{{ site.url }}/news.html" role="button">Go to news &raquo;</a></p>
+          {% endfor %}
+          <!-- 
+          <h2>Methods</h2>
+          <p>ABMI uses state-of-ther are statistican analyses and high performance computing tools to process, combine and analyze species observations and a variety of geospatial information.</p>
+          <p><a class="btn btn-default" href="{{ site.url }}/methods/index.html" role="button">View details &raquo;</a></p>
+          -->
+        </div>
+      </div>
+
+    </div> <!-- /container -->

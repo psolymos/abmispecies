@@ -1,0 +1,17 @@
+-
+  letter: A
+  terms:
+    - dt: Abundance
+      dd: "Number of animals in sampling unit."
+    - dt: Animal
+      dd: "Something that is not plant, fungi, etc."
+-
+  letter: D
+  terms:
+    - dt: Density
+      dd: "Number of animals per unit area."
+-
+  letter: O
+  terms:
+    - dt: Occupancy
+      dd: "This is not too easy to explain."

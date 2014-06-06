@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  {% include _head.html %}
+  </head>
+  <body>
+  {% include _navigation.html %}
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+
+          <!-- toggle nav button -->
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+
+          <h1>{{ page.title }}</h1>
+
+          {% if page.toclabels.map %}
+          <div class="row">
+            <h2 id="map">Map</h2>
+            <div class="col-6 col-sm-6 col-lg-6">
+              <img src="{{ site.url }}/{{ page.taxon }}/map/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-6">
+              <p>This is a map.</p>
+            </div><!--/span-->
+          </div><!--/row-->
+          {% endif %}
+
+          {% if page.toclabels.pw %}
+          <div class="row">
+            <h2 id="pw">Habitat associations</h2>
+            <div class="col-6 col-sm-6 col-lg-6">
+              <img src="{{ site.url }}/{{ page.taxon }}/pw/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-6">
+              <p>Probability of occurrence weighted by habitat proportions.</p>
+            </div><!--/span-->
+          </div><!--/row-->
+          {% endif %}
+
+          <div class="row">
+            <h4 id="pw">Recommended citation</h4>
+            <p>ABMI ({{ post.date | date: '%Y' }}). {{ page.title }}. 
+            ABMI Species Website, version {{ site.version }}. 
+            URL: <a href="{{ site.url }}/{{ page.taxon }}/{{ page.spplabel}}.html">{{ site.url }}/{{ page.taxon }}/{{ page.spplabel}}.html</a>.</p>
+          </div><!--/row-->
+
+        </div><!--/span-->
+
+        <!-- sidebar offcanvas -->
+        <!-- <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="list-group">
+            {% if page.toclabels.map %}
+            <a href="{{ site.url }}{{ page.url }}#map" class="list-group-item">Map</a>
+            {% endif %}
+            {% if page.toclabels.pw %}
+            <a href="{{ site.url }}{{ page.url }}#pw" class="list-group-item">Habitat associations</a>
+            {% endif %}
+          </div>
+        </div><!--/span--> 
+
+      </div><!--/row-->
+    </div><!--/.container-->
+
+  {% include _footer.html %}
+  {% include _scripts.html %}
+  </body>
+</html>

@@ -1,0 +1,74 @@
+---
+title: Human footprint
+description: "Human footprint: spatial distribution and temporal changes."
+---
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+
+          <!-- toggle nav button -->
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+
+          <h1>{{ page.title }}</h1>
+
+          <div class="row">
+            <h2 id="s2">Valami bekezdes</h2>
+            <div class="col-6 col-sm-6 col-lg-6">
+              <p>Ide abra.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sem leo, rhoncus vitae consectetur quis, scelerisque sit amet dolor. Quisque non varius dolor. Suspendisse feugiat commodo semper. Sed fermentum, nunc ac tristique dictum, neque ante iaculis est, a rutrum nunc eros scelerisque augue. Suspendisse accumsan ligula bibendum orci pretium, sed dictum felis gravida. Nunc pellentesque tincidunt consectetur. Mauris imperdiet lectus non lacinia laoreet. Etiam ornare sollicitudin feugiat. Praesent scelerisque blandit elit sit amet venenatis.</p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-6">
+              <p>Ide szoveg, hogy az abra ala torjon reszponziv modban.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sem leo, rhoncus vitae consectetur quis, scelerisque sit amet dolor. Quisque non varius dolor. Suspendisse feugiat commodo semper. Sed fermentum, nunc ac tristique dictum, neque ante iaculis est, a rutrum nunc eros scelerisque augue. Suspendisse accumsan ligula bibendum orci pretium, sed dictum felis gravida. Nunc pellentesque tincidunt consectetur. Mauris imperdiet lectus non lacinia laoreet. Etiam ornare sollicitudin feugiat. Praesent scelerisque blandit elit sit amet venenatis.</p>
+            </div><!--/span-->
+          </div><!--/row-->
+
+          <div class="row">
+            <h2 id="s2">Next</h2>
+            <div class="col-6 col-sm-6 col-lg-6">
+              <p>Ide szoveg vagy abra.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sem leo, rhoncus vitae consectetur quis, scelerisque sit amet dolor. Quisque non varius dolor. Suspendisse feugiat commodo semper. Sed fermentum, nunc ac tristique dictum, neque ante iaculis est, a rutrum nunc eros scelerisque augue. Suspendisse accumsan ligula bibendum orci pretium, sed dictum felis gravida. Nunc pellentesque tincidunt consectetur. Mauris imperdiet lectus non lacinia laoreet. Etiam ornare sollicitudin feugiat. Praesent scelerisque blandit elit sit amet venenatis.</p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-6">
+              <p>Ide szoveg vagy abra.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sem leo, rhoncus vitae consectetur quis, scelerisque sit amet dolor. Quisque non varius dolor. Suspendisse feugiat commodo semper. Sed fermentum, nunc ac tristique dictum, neque ante iaculis est, a rutrum nunc eros scelerisque augue. Suspendisse accumsan ligula bibendum orci pretium, sed dictum felis gravida. Nunc pellentesque tincidunt consectetur. Mauris imperdiet lectus non lacinia laoreet. Etiam ornare sollicitudin feugiat. Praesent scelerisque blandit elit sit amet venenatis.</p>
+            </div><!--/span-->
+          </div><!--/row-->
+
+          <div class="row">
+            <h2 id="s3">Meg egy</h2>
+            <div class="col-6 col-sm-6 col-lg-6">
+              <p>Ide szoveg vagy abra.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sem leo, rhoncus vitae consectetur quis, scelerisque sit amet dolor. Quisque non varius dolor. Suspendisse feugiat commodo semper. Sed fermentum, nunc ac tristique dictum, neque ante iaculis est, a rutrum nunc eros scelerisque augue. Suspendisse accumsan ligula bibendum orci pretium, sed dictum felis gravida. Nunc pellentesque tincidunt consectetur. Mauris imperdiet lectus non lacinia laoreet. Etiam ornare sollicitudin feugiat. Praesent scelerisque blandit elit sit amet venenatis.</p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-6">
+              <p>Ide szoveg vagy abra.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sem leo, rhoncus vitae consectetur quis, scelerisque sit amet dolor. Quisque non varius dolor. Suspendisse feugiat commodo semper. Sed fermentum, nunc ac tristique dictum, neque ante iaculis est, a rutrum nunc eros scelerisque augue. Suspendisse accumsan ligula bibendum orci pretium, sed dictum felis gravida. Nunc pellentesque tincidunt consectetur. Mauris imperdiet lectus non lacinia laoreet. Etiam ornare sollicitudin feugiat. Praesent scelerisque blandit elit sit amet venenatis.</p>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+
+        <!-- sidebar offcanvas -->
+        <!-- <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="list-group">
+            <a href="#s1" class="list-group-item">Link</a>
+            <a href="#s2" class="list-group-item">Link</a>
+            <a href="#s3" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+          </div>
+        </div><!--/span--> 
+
+      </div><!--/row-->
+    </div><!--/.container-->

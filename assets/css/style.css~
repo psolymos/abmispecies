@@ -1,0 +1,32 @@
+.rounded-primary {
+  background-color: #428bca;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-radius:5px;
+}
+.rounded-success {
+  background-color: #dff0d8;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-radius:5px;
+}
+.rounded-info {
+  background-color: #d9edf7;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-radius:10px;
+}
+.rounded-warning {
+  background-color: #fcf8e3;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-radius:5px;
+}
+.rounded-danger {
+  background-color: #f2dede;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-radius:5px;
+}

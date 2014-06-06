@@ -1,0 +1,17 @@
+---
+layout: simple
+title: Glossary
+description: "ABMI Species Website: Glossary of Terms."
+sidebar: true
+---
+{% for idx in site.data.glossary %}
+<h3 id="{{ idx.letter }}">{{ idx.letter }}</h3>
+<p class="bg-info"><small>{% for lett in site.data.glossary %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
+<dl class="dl-horizontal">
+  {% for term in idx.terms %}
+  <dt>{{ term.dt }}</dt>
+  <dd>{{ term.dd }}</dd>
+  {% endfor %}
+</dl>
+{% endfor %}
+
