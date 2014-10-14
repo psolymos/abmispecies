@@ -15,8 +15,8 @@
 !/birds/index.html
 /lichens/*
 !/lichens/index.html
-/vascularplants/*
-!/vascularplants/index.html
+/vplants/*
+!/vplants/index.html
 
 ## figures from other dirs
 /methods/*

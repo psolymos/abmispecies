@@ -11,25 +11,53 @@
 
 
 #setwd("c:/Dropbox/www/species.abmi.ca/rscripts/")
-setwd("c:/Dropbox/www/species.abmi.ca/")
-dir_in <- "mites" # this is the root dir for a taxon
+#setwd("c:/Dropbox/www/species.abmi.ca/")
+setwd("c:/p/AB_data_v2014/web/")
+dir_in <- "mosses" # this is the root dir for a taxon
+## can take values:
+## - mites, birds, mammals, mosses, vplants, lichens
 
 file_in <- "" # this is the html template
 
-file_ext <- ".png"
+file_ext <- c(".jpg", ".png")
 
 ## this defines recognized plot types with TOC items & figure legends
 ## this list also defines ordering of plot types
-graph_labels <- c("map","pw")
+graph_labels <- c(
+    "map-pa", 
+    "coef-pw", 
+
+    "coef-veg", 
+    "coef-soil", 
+
+    "resid-soil", 
+    "resid-veg",
+
+    "map-rf-veg", 
+    "map-cr-veg", 
+    "map-df-veg", 
+
+    "map-rf-soil", 
+    "map-cr-soil", 
+    "map-df-soil",
+
+    "map-rf-all", 
+    "map-cr-all", 
+    "map-df-all", 
+
+    "map-rf-cv", 
+    "map-cr-cv")
+
 
 ## read in subdirs -- aka graph types
-subdirs <- dir(dir_in)
+subdirs <- list.dirs(dir_in, full.names=FALSE)[-1]
 tmp <- setdiff(subdirs, graph_labels)
 if (length(tmp) > 0) {
     cat("plot types not recognized:", paste(tmp, collapse=", "), "\n")
     subdirs <- subdirs[subdirs %in% graph_labels] # subset
 }
 subdirs <- subdirs[match(graph_labels, subdirs)] # ordering
+subdirs <- subdirs[!is.na(subdirs)]
 n_graph <- length(subdirs)
 
 ## read in file lists within subdirs
@@ -37,24 +65,25 @@ files <- lapply(subdirs, function(dir) list.files(file.path(dir_in, dir)))
 names(files) <- subdirs
 ## strip file extensions to get species labels
 labels <- files
-for (i in seq_len(n_graph))
-    labels[[i]] <- sub(file_ext, "", files[[i]])
+for (i in seq_len(n_graph)) {
+    tmp <- files[[i]]
+    for (j in file_ext) {
+        tmp <- gsub(j, "", tmp)
+    }
+    labels[[i]] <- tmp
+}
 all_spp <- unique(unlist(labels))
 all_spp <- all_spp[order(all_spp)]
 n_spp <- length(all_spp)
 
 ## graph indexing matrix
-M <- array(0L, dim=c(n_spp, n_graph), dimnames=list(all_spp, subdirs))
+M <- array(0L, dim=c(n_spp, length(graph_labels)), dimnames=list(all_spp, graph_labels))
 for (i in subdirs)
     M[labels[[i]][labels[[i]] %in% all_spp],i] <- 1L
 
-library(mefa4)
-load("c:/Dropbox/abmi/intactness/habcomp/OUT_mites_2014-06-06.Rdata")
-
-spptab <- taxa(m)[all_spp,]
-spptab$scinam <- spptab$SPECIES_OLD
+spptab <- read.csv(paste0(dir_in, "/taxa.csv"))
+rownames(spptab) <- spptab$label
 spptab$scinam <- as.character(spptab$scinam)
-spptab$comnam <- spptab$COMMON_NAME
 spptab$comnam <- as.character(spptab$comnam)
 spptab$comnam[is.na(spptab$comnam)] <- ""
 spptab <- spptab[,c("scinam","comnam")]
@@ -65,7 +94,7 @@ spptab <- spptab[,c("scinam","comnam")]
 
 ## YAML front matter variables
 yaml_directives <- 
-function(spplabel, title_format="comnam (<em>scinam</em>)")
+function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species")
 {
     i <- M[spplabel,]
     scinam <- as.character(spptab[spplabel, "scinam"])
@@ -73,17 +102,25 @@ function(spplabel, title_format="comnam (<em>scinam</em>)")
     title <- title_format
     title <- sub("scinam", scinam, title)
     title <- sub("comnam", comnam, title)
-    switches <- character(n_graph)
-    for (i in seq_len(n_graph))
+    switches <- character(length(graph_labels))
+    for (i in seq_len(length(graph_labels)))
         switches[i] <- paste0("  ", graph_labels[i], ": ",
             ifelse(M[spplabel, graph_labels[i]]==1, "true", "false"))
+    taxonname <- switch(dir_in,
+        "mites"="Soil mites",
+        "mammals"="Mammals",
+        "birds"="Birds",
+        "mosses"="Bryophytes",
+        "vplants"="Vascular plants",
+        "lichens"="Lichens")
     out <- c("---",
-        "layout: species",
+        paste0("layout: ", layout),
         paste0("title: ", title),
         paste0("spplabel: ", spplabel),
         paste0("description: \"ABMI species summary for ", scinam, "\""),
         "sidebar: true",
         paste0("taxon: ", dir_in),
+        paste0("taxonname: ", taxonname),
         "toclabels:",
         switches,
         "---")
@@ -93,16 +130,24 @@ spp <- all_spp[1]
 yaml <- yaml_directives(spp, "<em>scinam</em>")
 #writeLines(yaml, paste0(spp, ".html"))
 
-setwd("c:/Dropbox/www/species.abmi.ca/mites")
+#setwd("c:/Dropbox/www/species.abmi.ca/mites")
+#setwd("c:/p/AB_data_v2014/web/mites")
+#setwd("c:/p/AB_data_v2014/web/")
 for (spp in all_spp) {
-    yaml <- yaml_directives(spp, "<em>scinam</em>")
-    writeLines(yaml, paste0(spp, ".html"))
+    #yaml <- yaml_directives(spp, "<em>scinam</em>")
+    yaml <- yaml_directives(spp, "scinam") # Mites, Mosses
+    #yaml <- yaml_directives(spp, "comnam (scinam)") # Mammals
+    writeLines(yaml, paste0(dir_in, "/", spp, ".html"))
 }
 
 
 ## generating index
-tmp <- spptab[order(spptab$scinam),]
-lead <- substr(as.character(tmp$scinam), 1, 1)
+lead_var <- "scinam"
+if (dir_in %in% c("mammals","birds"))
+    lead_var <- "comnam"
+
+tmp <- spptab[order(spptab[[lead_var]]),]
+lead <- substr(as.character(tmp[[lead_var]]), 1, 1)
 ulead <- unique(lead)
 
 sppfun <- function(i, tmp) {
@@ -118,4 +163,5 @@ for (a in ulead) {
     res[[a]] <- c(lev1, lev2)
 }
 res <- unname(unlist(res))
-writeLines(res, "c:/Dropbox/www/species.abmi.ca/_data/mites_sci.yml")
+writeLines(res, paste0("c:/Dropbox/www/species.abmi.ca/_data/", dir_in, "_", substr(lead_var, 1, 3), ".yml"))
+

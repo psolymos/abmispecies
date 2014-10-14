@@ -1,0 +1,138 @@
+-
+  letter: B
+  species:
+    - scinam: Taxidea taxus
+      comnam: Badger
+      label: Badger
+    - scinam: Castor canadensis
+      comnam: Beaver
+      label: Beaver
+    - scinam: Bison bison
+      comnam: Bison
+      label: Bison
+-
+  letter: C
+  species:
+    - scinam: Lynx canadensis
+      comnam: Canada Lynx
+      label: CanadaLynx
+    - scinam: Sylvilagus
+      comnam: Cottontails
+      label: Cottontails
+    - scinam: Puma concolor
+      comnam: Cougar
+      label: Cougar
+    - scinam: Canis latrans
+      comnam: Coyote
+      label: Coyote
+-
+  letter: D
+  species:
+    - scinam: Odocoileus
+      comnam: Deer
+      label: Deer
+    - scinam: Felis catus
+      comnam: Domestic Cat (house Cat)
+      label: DomesticCathouseCat
+    - scinam: Bos taurus
+      comnam: Domestic Cow
+      label: DomesticCow
+    - scinam: Canis lupus familiaris
+      comnam: Domestic Dog
+      label: DomesticDog
+    - scinam: Equus caballus
+      comnam: Domesticated Horse
+      label: DomesticatedHorse
+-
+  letter: E
+  species:
+    - scinam: Cervus elaphus
+      comnam: Elk (wapiti)
+      label: Elkwapiti
+-
+  letter: F
+  species:
+    - scinam: Martes pennanti
+      comnam: Fisher
+      label: Fisher
+    - scinam: Vulpes
+      comnam: Foxes
+      label: Foxes
+-
+  letter: G
+  species:
+    - scinam: Canis lupus
+      comnam: Gray Wolf
+      label: GrayWolf
+    - scinam: Tetraoninae
+      comnam: Grouse, Ptarmigan and allies
+      label: AllGrouse
+-
+  letter: M
+  species:
+    - scinam: Martes americana
+      comnam: Marten
+      label: Marten
+    - scinam: Martes americana and M. pennanti
+      comnam: Marten and Fisher
+      label: MartenFisher
+    - scinam: Neovison vison
+      comnam: Mink
+      label: Mink
+    - scinam: Alces alces
+      comnam: Moose
+      label: Moose
+    - scinam: Ondatra zibethicus
+      comnam: Muskrat
+      label: Muskrat
+-
+  letter: P
+  species:
+    - scinam: Erethizon dorsatum
+      comnam: Porcupine
+      label: Porcupine
+    - scinam: Antilocapra americana
+      comnam: Pronghorn
+      label: Pronghorn
+-
+  letter: R
+  species:
+    - scinam: Procyon lotor
+      comnam: Raccoon
+      label: Raccoon
+    - scinam: Tamiasciurus hudsonicus
+      comnam: Red Squirrel
+      label: RedSquirrel
+    - scinam: Lontra canadensis
+      comnam: River Otter
+      label: RiverOtter
+-
+  letter: S
+  species:
+    - scinam: Lepus americanus
+      comnam: Snowshoe Hare
+      label: SnowshoeHare
+    - scinam: Mephitis mephitis
+      comnam: Striped Skunk
+      label: StripedSkunk
+-
+  letter: V
+  species:
+    - scinam: Muridae
+      comnam: Voles, Mice and Allies
+      label: VolesMiceandAllies
+-
+  letter: W
+  species:
+    - scinam: Mustela
+      comnam: Weasels and Ermine
+      label: WeaselsandErmine
+    - scinam: Lepus townsendii
+      comnam: White-tailed Jack Rabbit
+      label: WhitetailedJackRabbit
+    - scinam: Gulo gulo
+      comnam: Wolverine
+      label: Wolverine
+    - scinam: Rangifer tarandus caribou
+      comnam: Woodland Caribou
+      label: Caribou
