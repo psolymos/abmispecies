@@ -2,8 +2,8 @@ title:            ABMI Species Website
 version: 2.0
 description:      Information on individual species monitored by the Alberta Biodiversity Monitoring Institute.
 #url:              http://localhost:4000
-url: http://species.abmi.ca/development
-#url: http://species.abmi.ca
+#url: http://species.abmi.ca/development
+url: http://species.abmi.ca
 #url: c:/Dropbox/www/species.abmi.ca/_site
 #url: https://dl.dropboxusercontent.com/u/18096698/www
 #permalink:   /:categories/:title.html
