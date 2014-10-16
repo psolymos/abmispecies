@@ -1,8 +1,8 @@
 title:            ABMI Species Website
 version: 2.0
 description:      Information on individual species monitored by the Alberta Biodiversity Monitoring Institute.
-url:              http://localhost:4000
-#url: http://species.abmi.ca/development
+#url:              http://localhost:4000
+url: http://species.abmi.ca/development
 #url: http://species.abmi.ca
 #url: c:/Dropbox/www/species.abmi.ca/_site
 #url: https://dl.dropboxusercontent.com/u/18096698/www
@@ -18,20 +18,20 @@ timezone:    America/Edmonton
 
 taxa:
   - title: Mammals
-    url: /mammals/index.html
+    url: /pages/mammals.html
     label: mammals
   - title: Birds
-    url: /birds/index.html
+    url: /pages/birds.html
     label: birds
   - title: Soil mites
-    url: /mites/index.html
+    url: /pages/mites.html
     label: mites
   - title: Vascular plants
-    url: /vplants/index.html
+    url: /pages/vplants.html
     label: vplants
   - title: Bryophytes
-    url: /mosses/index.html
+    url: /pages/mosses.html
     label: mosses
   - title: Lichens
-    url: /lichens/index.html
+    url: /pages/lichens.html
     label: lichens

@@ -1,0 +1,4 @@
+rm /home/peter/Dropbox/www/species.abmi.ca/_site/site.tar.gz
+jekyll build --source /home/peter/Dropbox/www/species.abmi.ca --destination /home/peter/www
+tar -zcf /home/peter/Dropbox/www/species.abmi.ca/_site/site.tar.gz /home/peter/www
+

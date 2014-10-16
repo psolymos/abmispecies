@@ -4,19 +4,19 @@
 ## jekyll built website
 /_site/*
 
-## taxa pages except for TOC
-/mites/*
-!/mites/index.html
-/mosses/*
-!/mosses/index.html
-/mammals/*
-!/mammals/index.html
-/birds/*
-!/birds/index.html
-/lichens/*
-!/lichens/index.html
-/vplants/*
-!/vplants/index.html
+## old versions
+/versions/*
+
+## static content for species pages
+/content/*
+
+## species pages
+/pages/mites/*
+/pages/mosses/*
+/pages/mammals/*
+/pages/birds/*
+/pages/lichens/*
+/pages/vplants/*
 
 ## figures from other dirs
 /methods/*

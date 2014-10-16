@@ -23,7 +23,7 @@
           <div class="row">
             <h2 id="map-pa">Map of records at ABMI sites sampled</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-pa/{{ page.spplabel}}.png" class="img-responsive" alt="Map of detections">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-pa/{{ page.spplabel}}.png" class="img-responsive" alt="Map of detections">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>The map shows sites sampled by ABMI (+) and detections (dots). Natural regions are shown as different background colors.</p>
@@ -34,7 +34,7 @@
           {% if page.toclabels.coef-pw %}
           <div class="row">
             <h2 id="coef-pw">Empirical habitat associations</h2>
-              <img src="{{ site.url }}/{{ page.taxon }}/coef-pw/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/coef-pw/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
               <p>Habitat suitability index is base on the observations weighted by habitat proportions at a site. The index is relative to the availability of habitat types. An index value less than 1 indicates negative habitat association, and index value of more than 1 indicates positive habitat association.</p>
           </div>
           {% endif %}
@@ -43,7 +43,7 @@
           {% if page.toclabels.coef-veg %}
           <div class="row">
             <h2 id="coef-veg">Habitat associations: vegetation types in the North</h2>
-              <img src="{{ site.url }}/{{ page.taxon }}/coef-veg/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/coef-veg/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
               <p>The intactness models described in the <a href="{{ site.url }}/methods/index.html">methods</a>were used to fit specific models in the North (Boreal, Shield, Foothills natural regions) with at least 20 detections using ABMI data. Lines on the top of the bars indicate 90% confidence intervals.
 </p>
           </div>
@@ -53,7 +53,7 @@
           {% if page.toclabels.coef-soil %}
           <div class="row">
             <h2 id="coef-soil">Habitat associations: soil types in the South</h2>
-              <img src="{{ site.url }}/{{ page.taxon }}/coef-soil/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/coef-soil/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
               <p>The intactness models described in the <a href="{{ site.url }}/methods/index.html">methods</a>were used to fit specific models in the South (Grassland, Parkland natural regions, and Dry Mixedwood subregion of the Boreal) with at least 20 detections using ABMI data. Lines on the top of the bars indicate 90% confidence intervals.</p>
           </div>
           {% endif %}
@@ -62,7 +62,7 @@
           {% if page.toclabels.resid-veg %}
           <div class="row">
             <h2 id="resid-veg">Habitat associations: human footprint types in the North</h2>
-              <img src="{{ site.url }}/{{ page.taxon }}/resid-veg/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/resid-veg/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
               <p>Legend: green = successional, orange = agriculture,
 red = non-agricultural alienating, blue = linear.
 If a line is missing, it is because the species did not occur 
@@ -74,7 +74,7 @@ Shades indicate 90% confidence intervals. Model is based on data from the Boreal
           {% if page.toclabels.resid-soil %}
           <div class="row">
             <h2 id="resid-soil">Habitat associations: human footprint types in the South</h2>
-              <img src="{{ site.url }}/{{ page.taxon }}/resid-soil/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/resid-soil/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
               <p>Legend: green = successional, orange = agriculture,
 red = non-agricultural alienating, blue = linear.
 If a line is missing, it is because the species did not occur 
@@ -88,7 +88,7 @@ Shades indicate 90% confidence intervals. Model is based on data from the Grassl
           <div class="row">
             <h2 id="map-rf-veg">Reference conditions in the North</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-rf-veg/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-rf-veg/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red is the highest value for the species ('hot'), 
@@ -102,7 +102,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
           <div class="row">
             <h2 id="map-cr-veg">Current conditions in the North</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-cr-veg/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-cr-veg/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red is the highest value for the species ('hot'), 
@@ -116,7 +116,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
           <div class="row">
             <h2 id="map-df-veg">Difference between current and reference conditions in the North</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-df-veg/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-df-veg/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red means that reference values are higher than current values, green means that reference values are lower than current values. Model is based on data from the Boreal, Shield, and Foothills natural regions. The mapping unit is a quarter section (800 m x 800 m).</p>
@@ -129,7 +129,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
           <div class="row">
             <h2 id="map-rf-soil">Reference conditions in the South</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-rf-soil/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-rf-soil/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red is the highest value for the species ('hot'), 
@@ -143,7 +143,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
           <div class="row">
             <h2 id="map-cr-soil">Current conditions in the South</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-cr-soil/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-cr-soil/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red is the highest value for the species ('hot'), 
@@ -157,7 +157,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
           <div class="row">
             <h2 id="map-df-soil">Difference between current and reference conditions in the South</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-df-soil/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-df-soil/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red means that reference values are higher than current values, green means that reference values are lower than current values. Model is based on data from the Grassland and Parkland natural regions, and Dry Mixedwood subregion of the Boreal. The mapping unit is a quarter section (800 m x 800 m).</p>
@@ -170,7 +170,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
           <div class="row">
             <h2 id="map-rf-veg">Reference conditions in the Province</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-rf-all/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-rf-all/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red is the highest value for the species ('hot'), 
@@ -184,7 +184,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
           <div class="row">
             <h2 id="map-cr-veg">Current conditions in the Province</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-cr-all/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-cr-all/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red is the highest value for the species ('hot'), 
@@ -198,7 +198,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
           <div class="row">
             <h2 id="map-df-veg">Difference between current and reference conditions in the Province</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-df-all/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-df-all/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red means that reference values are higher than current values, green means that reference values are lower than current values. Model is based on data from the Boreal, Shield, and Foothills natural regions. The mapping unit is a quarter section (800 m x 800 m).</p>
@@ -211,7 +211,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
           <div class="row">
             <h2 id="map-rf-cv">Coefficient of variation in reference conditions</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-rf-cv/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-rf-cv/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>The coefficient of variation reflects the standard deviation of bootstrap reference prediction values standardized by the mean. The mapping unit is a township.</p>
@@ -224,7 +224,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
           <div class="row">
             <h2 id="map-cr-cv">Coefficient of variation in current conditions</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.url }}/{{ page.taxon }}/map-cr-cv/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/map-cr-cv/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>The coefficient of variation reflects the standard deviation of bootstrap current prediction values standardized by the mean. The mapping unit is a township.</p>
@@ -238,7 +238,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
             <h4 id="pw">Recommended citation</h4>
             <p>ABMI ({{ site.time | date: "%Y" }}). {{ page.title }}. 
             ABMI Species Website, version {{ site.version }}. 
-            URL: <a href="{{ site.url }}/{{ page.taxon }}/{{ page.spplabel}}.html">{{ site.url }}/{{ page.taxon }}/{{ page.spplabel}}.html</a>.</p>
+            URL: <a href="{{ site.url }}/content/{{ page.taxon }}/{{ page.spplabel}}.html">{{ site.url }}/content/{{ page.taxon }}/{{ page.spplabel}}.html</a>.</p>
           </div><!--/row-->
 
         </div><!--/span-->

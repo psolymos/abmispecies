@@ -15,7 +15,7 @@ listbycomnam: false
       <h3 id="{{ idx.letter }}">{{ idx.letter }}</h3>
       <p class="bg-info"><small>{% for lett in site.data.mosses_sci %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
       {% for spp in idx.species %}
-      <p><a href="{{ site.url }}/{{ page.taxon }}/{{ spp.label }}.html">
+      <p><a href="{{ site.url }}/pages/{{ page.taxon }}/{{ spp.label }}.html">
       <em>{{ spp.scinam }}</em>{% if page.listbycomnam %}{% if spp.comnam %} - {% endif %}{{ spp.comnam }}{% endif %}</a></p>
       {% endfor %}
     {% endfor %}
@@ -28,7 +28,7 @@ listbycomnam: false
       <h3 id="{{ idx.letter }}">{{ idx.letter }}</h3>
       <p class="bg-info"><small>{% for lett in site.data.mosses_com %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
       {% for spp in idx.species %}
-      <p><a href="{{ site.url }}/{{ page.taxon }}/{{ spp.label }}.html">
+      <p><a href="{{ site.url }}/pages/{{ page.taxon }}/{{ spp.label }}.html">
       {{ spp.comnam }} - <em>{{ spp.scinam }}</em></a></p>
       {% endfor %}
     {% endfor %}
