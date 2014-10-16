@@ -37,6 +37,9 @@ for (dir_in in TAXON) {
         "coef-veg", 
         "coef-soil", 
 
+        "coef-veg-plus", 
+        "coef-soil-plus", 
+
         "resid-soil", 
         "resid-veg",
 
