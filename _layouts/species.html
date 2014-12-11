@@ -19,6 +19,7 @@
 
           <h1>{{ page.title }} ({{ page.taxonname }})</h1>
 
+<!-- presence/absence map goes for all spp -->
           {% if page.toclabels.map-pa %}
           <div class="row">
             <h2 id="map-pa">Map of records at ABMI sites sampled</h2>
@@ -31,6 +32,7 @@
           </div>
           {% endif %}
 
+<!-- for un-modelled spp only -->
           {% if page.toclabels.coef-pw %}
           <div class="row">
             <h2 id="coef-pw">Empirical habitat associations</h2>
@@ -39,7 +41,7 @@
           </div>
           {% endif %}
 
-
+<!-- non-birds -->
           {% if page.toclabels.coef-veg %}
           <div class="row">
             <h2 id="coef-veg">Habitat associations: vegetation types in the North</h2>
@@ -49,7 +51,7 @@
           </div>
           {% endif %}
 
-
+<!-- birds, where modeling is slightly different -->
           {% if page.toclabels.coef-veg-plus %}
           <div class="row">
             <h2 id="coef-veg-plus">Habitat associations: vegetation types in the North</h2>
@@ -59,7 +61,7 @@
           </div>
           {% endif %}
 
-
+<!-- non-birds -->
           {% if page.toclabels.coef-soil %}
           <div class="row">
             <h2 id="coef-soil">Habitat associations: soil types in the South</h2>
@@ -68,7 +70,7 @@
           </div>
           {% endif %}
 
-
+<!-- birds -->
           {% if page.toclabels.coef-soil-plus %}
           <div class="row">
             <h2 id="coef-soil-plus">Habitat associations: soil types in the South</h2>
@@ -78,6 +80,8 @@
           {% endif %}
 
 
+<!-- this part is commented out -->
+<!--  
           {% if page.toclabels.resid-veg %}
           <div class="row">
             <h2 id="resid-veg">Habitat associations: human footprint types in the North</h2>
@@ -101,8 +105,10 @@ often enough near that footprint type to estimate the relationship.
 Shades indicate 90% confidence intervals. Model is based on data from the Grassland and Parkland natural regions, and Dry Mixedwood subregion of the Boreal.</p>
           </div>
           {% endif %}
+-->
 
-
+<!-- need to use combo map only -->
+<!-- 
           {% if page.toclabels.map-rf-veg %}
           <div class="row">
             <h2 id="map-rf-veg">Reference conditions in the North</h2>
@@ -183,8 +189,9 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
             </div>
           </div>
           {% endif %}
+-->
 
-
+<!-- combo maps -->
           {% if page.toclabels.map-rf-all %}
           <div class="row">
             <h2 id="map-rf-veg">Reference conditions in the Province</h2>
@@ -193,7 +200,8 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red is the highest value for the species ('hot'), 
-grading through light tan to dark blue ('cold') for none of the species. Model is based on data from the Boreal, Shield, and Foothills natural regions. The mapping unit is a quarter section (800 m x 800 m).</p>
+grading through light tan to dark blue ('cold') for none of the species. The map is a composite of two models. One model is based on data from the Boreal, Shield, and Foothills natural regions using vegetation information. 
+The other models is based on data from the Grassland and Parkland natural regions, and Dry Mixedwood subregion of the Boreal using soil information. The mapping unit is a quarter section (800 m x 800 m).</p>
             </div>
           </div>
           {% endif %}
@@ -207,7 +215,8 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
               <p>Legend: red is the highest value for the species ('hot'), 
-grading through light tan to dark blue ('cold') for none of the species. Model is based on data from the Boreal, Shield, and Foothills natural regions. The mapping unit is a quarter section (800 m x 800 m).</p>
+grading through light tan to dark blue ('cold') for none of the species. The map is a composite of two models. One model is based on data from the Boreal, Shield, and Foothills natural regions using vegetation and footprint information. 
+The other models is based on data from the Grassland and Parkland natural regions, and Dry Mixedwood subregion of the Boreal using soil and footprint information. The mapping unit is a quarter section (800 m x 800 m).</p>
             </div>
           </div>
           {% endif %}
@@ -220,7 +229,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
               <img src="{{ site.url }}/content/{{ page.taxon }}/map-df-all/{{ page.spplabel}}.jpg" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
-              <p>Legend: red means that reference values are higher than current values, green means that reference values are lower than current values. Model is based on data from the Boreal, Shield, and Foothills natural regions. The mapping unit is a quarter section (800 m x 800 m).</p>
+              <p>Legend: red means that reference values are higher than current values, green means that reference values are lower than current values. This map is based on the reference and current distribution maps. The mapping unit is a quarter section (800 m x 800 m).</p>
             </div>
           </div>
           {% endif %}
@@ -284,6 +293,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
             {% if page.toclabels.coef-soil %}
             <a href="{{ site.url }}{{ page.url }}#coef-soil-plus" class="list-group-item">Soils (points)</a>
             {% endif %}
+<!--
             {% if page.toclabels.resid-veg %}
             <a href="{{ site.url }}{{ page.url }}#resid-veg" class="list-group-item">Footprint North</a>
             {% endif %}
@@ -293,6 +303,8 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
             {% if page.toclabels.map-rf-veg %}
             <a href="{{ site.url }}{{ page.url }}#map-rf-veg" class="list-group-item">Reference map North</a>
             {% endif %}
+-->
+<!--
             {% if page.toclabels.map-cr-veg %}
             <a href="{{ site.url }}{{ page.url }}#map-cr-veg" class="list-group-item">Current map North</a>
             {% endif %}
@@ -308,6 +320,7 @@ grading through light tan to dark blue ('cold') for none of the species. Model i
             {% if page.toclabels.map-df-soil %}
             <a href="{{ site.url }}{{ page.url }}#map-df-soil" class="list-group-item">Difference map South</a>
             {% endif %}
+-->
             {% if page.toclabels.map-rf-all %}
             <a href="{{ site.url }}{{ page.url }}#map-rf-all" class="list-group-item">Reference map</a>
             {% endif %}
