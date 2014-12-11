@@ -13,6 +13,7 @@
 ## species pages
 ## note: TOC is in /pages/
 /pages/mites/*
+!/pages/mites/
 /pages/mosses/*
 /pages/mammals/*
 /pages/birds/*
