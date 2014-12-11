@@ -11,6 +11,7 @@
 /content/*
 
 ## species pages
+## note: TOC is in /pages/
 /pages/mites/*
 /pages/mosses/*
 /pages/mammals/*
