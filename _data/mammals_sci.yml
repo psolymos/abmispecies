@@ -23,8 +23,8 @@
       comnam: Coyote
       label: Coyote
     - scinam: Canis lupus
-      comnam: Gray Wolf
-      label: GrayWolf
+      comnam: Wolf
+      label: Wolf
     - scinam: Canis lupus familiaris
       comnam: Domestic Dog
       label: DomesticDog
@@ -32,8 +32,8 @@
       comnam: Beaver
       label: Beaver
     - scinam: Cervus elaphus
-      comnam: Elk (wapiti)
-      label: Elkwapiti
+      comnam: Elk
+      label: Elk
 -
   letter: E
   species:
@@ -58,30 +58,21 @@
 -
   letter: L
   species:
-    - scinam: Lepus americanus
-      comnam: Snowshoe Hare
-      label: SnowshoeHare
-    - scinam: Lepus townsendii
-      comnam: White-tailed Jack Rabbit
-      label: WhitetailedJackRabbit
+    - scinam: Lagomorpha
+      comnam: Hares and Rabbits
+      label: HaresandRabbits
     - scinam: Lontra canadensis
       comnam: River Otter
       label: RiverOtter
     - scinam: Lynx canadensis
-      comnam: Canada Lynx
-      label: CanadaLynx
+      comnam: Lynx
+      label: Lynx
 -
   letter: M
   species:
-    - scinam: Martes americana
-      comnam: Marten
-      label: Marten
     - scinam: Martes americana and M. pennanti
       comnam: Marten and Fisher
       label: MartenFisher
-    - scinam: Martes pennanti
-      comnam: Fisher
-      label: Fisher
     - scinam: Mephitis mephitis
       comnam: Striped Skunk
       label: StripedSkunk
@@ -89,8 +80,8 @@
       comnam: Voles, Mice and Allies
       label: VolesMiceandAllies
     - scinam: Mustela
-      comnam: Weasels and Ermine
-      label: WeaselsandErmine
+      comnam: Weasels
+      label: Weasels
 -
   letter: N
   species:
@@ -119,14 +110,8 @@
   letter: R
   species:
     - scinam: Rangifer tarandus caribou
-      comnam: Woodland Caribou
+      comnam: Caribou
       label: Caribou
--
-  letter: S
-  species:
-    - scinam: Sylvilagus
-      comnam: Cottontails
-      label: Cottontails
 -
   letter: T
   species:

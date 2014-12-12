@@ -238,9 +238,6 @@
     - scinam: Empidonax occidentalis
       comnam: Cordilleran Flycatcher
       label: CordilleranFlycatcher
-    - scinam: Canis latrans
-      comnam: Coyote
-      label: Coyote
 -
   letter: D
   species:
@@ -277,9 +274,6 @@
     - scinam: Contopus virens
       comnam: Eastern Wood-Pewee
       label: EasternWoodPewee
-    - scinam: Cervus elaphus
-      comnam: Elk (wapiti)
-      label: ElkWapiti
     - scinam: Sturnus vulgaris
       comnam: European Starling
       label: EuropeanStarling
@@ -325,9 +319,6 @@
     - scinam: Perdix perdix
       comnam: Gray Partridge
       label: GrayPartridge
-    - scinam: Canis lupus
-      comnam: Gray Wolf
-      label: GrayWolf
     - scinam: Ardea herodias
       comnam: Great Blue Heron
       label: GreatBlueHeron
@@ -577,9 +568,6 @@
     - scinam: Phalaropus fulicarius
       comnam: Red Phalarope
       label: RedPhalarope
-    - scinam: Tamiasciurus hudsonicus
-      comnam: Red Squirrel
-      label: RedSquirrel
     - scinam: Aythya americana
       comnam: Redhead
       label: Redhead

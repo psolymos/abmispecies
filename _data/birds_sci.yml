@@ -160,12 +160,6 @@
     - scinam: Callipepla californica
       comnam: California Quail
       label: CaliforniaQuail
-    - scinam: Canis latrans
-      comnam: Coyote
-      label: Coyote
-    - scinam: Canis lupus
-      comnam: Gray Wolf
-      label: GrayWolf
     - scinam: Cardelina canadensis
       comnam: Canada Warbler
       label: CanadaWarbler
@@ -187,9 +181,6 @@
     - scinam: Certhia americana
       comnam: Brown Creeper
       label: BrownCreeper
-    - scinam: Cervus elaphus
-      comnam: Elk (wapiti)
-      label: ElkWapiti
     - scinam: Charadrius semipalmatus
       comnam: Semipalmated Plover
       label: SemipalmatedPlover
@@ -727,9 +718,6 @@
     - scinam: Tachycineta thalassina
       comnam: Violet-green Swallow
       label: VioletgreenSwallow
-    - scinam: Tamiasciurus hudsonicus
-      comnam: Red Squirrel
-      label: RedSquirrel
     - scinam: Toxostoma rufum
       comnam: Brown Thrasher
       label: BrownThrasher

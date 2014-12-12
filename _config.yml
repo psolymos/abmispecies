@@ -35,3 +35,7 @@ taxa:
   - title: Lichens
     url: /pages/lichens.html
     label: lichens
+
+highlighter: pygments
+
+markdown: kramdown

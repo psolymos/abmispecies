@@ -12,7 +12,7 @@
 
 #setwd("c:/Dropbox/www/species.abmi.ca/rscripts/")
 #setwd("c:/Dropbox/www/species.abmi.ca/")
-setwd("c:/p/AB_data_v2014/web/")
+setwd("c:/p/AB_data_v2014/web2/raw/")
 
 #TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants")
 TAXON <- c("mites", "mosses", "lichens","mammals")
@@ -40,16 +40,16 @@ for (dir_in in TAXON) {
         "coef-veg-plus", 
         "coef-soil-plus", 
 
-        "resid-soil", 
-        "resid-veg",
+#        "resid-soil", 
+#        "resid-veg",
 
-        "map-rf-veg", 
-        "map-cr-veg", 
-        "map-df-veg", 
+#        "map-rf-veg", 
+#        "map-cr-veg", 
+#        "map-df-veg", 
 
-        "map-rf-soil", 
-        "map-cr-soil", 
-        "map-df-soil",
+#        "map-rf-soil", 
+#        "map-cr-soil", 
+#        "map-df-soil",
 
         "map-rf-all", 
         "map-cr-all", 
@@ -114,9 +114,14 @@ for (dir_in in TAXON) {
         title <- sub("scinam", scinam, title)
         title <- sub("comnam", comnam, title)
         switches <- character(length(graph_labels))
-        for (i in seq_len(length(graph_labels)))
+        exts <- character(length(graph_labels))
+        for (i in seq_len(length(graph_labels))) {
             switches[i] <- paste0("  ", graph_labels[i], ": ",
                 ifelse(M[spplabel, graph_labels[i]]==1, "true", "false"))
+            ext <- if (is.null(files[[graph_labels[i]]]))
+                "" else strsplit(files[[graph_labels[i]]][1], "\\.")[[1]][2]
+            exts[i] <- paste0("  ", graph_labels[i], ": ", ext)
+        }
         taxonname <- switch(dir_in,
             "mites"="Soil mites",
             "mammals"="Mammals",
@@ -134,6 +139,8 @@ for (dir_in in TAXON) {
             paste0("taxonname: ", taxonname),
             "toclabels:",
             switches,
+            "ext:",
+            exts,
             "---")
         out
     }
