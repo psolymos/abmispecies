@@ -1,0 +1,31 @@
+label,comnam,scinam,model
+AllGrouse,"Grouse, Ptarmigan and allies",Tetraoninae,1
+Lynx,Lynx,Lynx canadensis,1
+Caribou,Caribou,Rangifer tarandus caribou,1
+Coyote,Coyote,Canis latrans,1
+Deer,Deer,Odocoileus,1
+DomesticDog,Domestic Dog,Canis lupus familiaris,1
+Elk,Elk,Cervus elaphus,1
+Foxes,Foxes,Vulpes,1
+Wolf,Wolf,Canis lupus,1
+MartenFisher,Marten and Fisher,Martes americana and M. pennanti,1
+Mink,Mink,Neovison vison,1
+Moose,Moose,Alces alces,1
+RedSquirrel,Red Squirrel,Tamiasciurus hudsonicus,1
+RiverOtter,River Otter,Lontra canadensis,1
+HaresandRabbits,Hares and Rabbits,Lagomorpha,1
+VolesMiceandAllies,"Voles, Mice and Allies",Muridae,1
+Weasels,Weasels,Mustela,1
+Beaver,Beaver,Castor canadensis,0
+Muskrat,Muskrat,Ondatra zibethicus,0
+Porcupine,Porcupine,Erethizon dorsatum,0
+Wolverine,Wolverine,Gulo gulo,0
+StripedSkunk,Striped Skunk,Mephitis mephitis,0
+Badger,Badger,Taxidea taxus,0
+Raccoon,Raccoon,Procyon lotor,0
+DomesticatedHorse,Domesticated Horse,Equus caballus,0
+Bison,Bison,Bison bison,0
+Pronghorn,Pronghorn,Antilocapra americana,0
+DomesticCathouseCat,Domestic Cat (House Cat),Felis catus,0
+DomesticCow,Domestic Cow,Bos taurus,0
+Cougar,Cougar,Puma concolor,0

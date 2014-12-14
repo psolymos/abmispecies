@@ -19,9 +19,6 @@
     - scinam: Medicago sativa
       comnam: Alfalfa
       label: MedicagoSativa
-    - scinam: Poa secunda ssp. juncifolia
-      comnam: Alkali Bluegrass
-      label: PoaSecundaSspJuncifolia
     - scinam: Spartina gracilis
       comnam: Alkali Cord Grass
       label: SpartinaGracilis
@@ -61,7 +58,7 @@
     - scinam: Juncus alpinoarticulatus
       comnam: Alpine Rush
       label: JuncusAlpinoarticulatus
-    - scinam: Hierochloe alpina ssp. alpina
+    - scinam: Hierochloe alpina
       comnam: Alpine Sweet Grass
       label: HierochloeAlpinaSspAlpina
     - scinam: Trifolium hybridum
@@ -115,9 +112,6 @@
     - scinam: Brassica napus
       comnam: Argentine Canola
       label: BrassicaNapus
-    - scinam: Petasites frigidus var. sagittatus
-      comnam: Arrow Leaved Coltsfoot
-      label: PetasitesFrigidusVarSagittatus
     - scinam: Sagittaria cuneata
       comnam: Arum Leaved Arrowhead
       label: SagittariaCuneata
@@ -268,9 +262,6 @@
     - scinam: Pseudoroegneria spicata
       comnam: Bluebunch Wheatgrass
       label: PseudoroegneriaSpicata
-    - scinam: Pseudoroegneria spicata ssp. spicata
-      comnam: Bluebunch Wheatgrass
-      label: PseudoroegneriaSpicataSspSpicata
     - scinam: Lappula squarrosa
       comnam: Bluebur
       label: LappulaSquarrosa
@@ -313,9 +304,6 @@
     - scinam: Carex magellanica
       comnam: Boreal Bog Sedge
       label: CarexMagellanica
-    - scinam: Carex magellanica ssp. irrigua
-      comnam: Boreal Bog Sedge
-      label: CarexMagellanicaSspIrrigua
     - scinam: Pteridium aquilinum
       comnam: Bracken Fern
       label: PteridiumAquilinum
@@ -436,9 +424,6 @@
     - scinam: Astragalus canadensis
       comnam: Canadian Milk Vetch
       label: AstragalusCanadensis
-    - scinam: Poa secunda ssp. secunda
-      comnam: Canby Bluegrass
-      label: PoaSecundaSspSecunda
     - scinam: Carex capitata
       comnam: Capitate Sedge
       label: CarexCapitata
@@ -499,7 +484,7 @@
     - scinam: Hymenoxys richardsonii
       comnam: Colorado Rubber Plant
       label: HymenoxysRichardsonii
-    - scinam: Achnatherum nelsonii ssp. dorei
+    - scinam: Achnatherum nelsonii
       comnam: Columbia Needle Grass
       label: AchnatherumNelsoniiSspDorei
     - scinam: Helianthus annuus
@@ -511,7 +496,7 @@
     - scinam: Arctostaphylos uva-ursi
       comnam: Common Bearberry
       label: ArctostaphylosUvaursi
-    - scinam: Utricularia vulgaris ssp. macrorhiza
+    - scinam: Utricularia vulgaris
       comnam: Common Bladderwort
       label: UtriculariaVulgarisSspMacrorhiza
     - scinam: Sisyrinchium montanum
@@ -544,9 +529,6 @@
     - scinam: Euphrasia nemorosa
       comnam: Common Eyebright
       label: EuphrasiaNemorosa
-    - scinam: Chamerion angustifolium ssp. angustifolium
-      comnam: Common Fireweed
-      label: ChamerionAngustifoliumSspAngustifolium
     - scinam: Linum usitatissimum
       comnam: Common Flax
       label: LinumUsitatissimum
@@ -562,9 +544,6 @@
     - scinam: Equisetum arvense
       comnam: Common Horsetail
       label: EquisetumArvense
-    - scinam: Polygonum aviculare ssp. depressum
-      comnam: Common Knotweed
-      label: PolygonumAviculareSspDepressum
     - scinam: Rhododendron groenlandicum
       comnam: Common Labrador Tea
       label: RhododendronGroenlandicum
@@ -577,9 +556,6 @@
     - scinam: Cerastium fontanum
       comnam: Common Mouse Ear Chickweed
       label: CerastiumFontanum
-    - scinam: Cerastium fontanum ssp. vulgare
-      comnam: Common Mouse Ear Chickweed
-      label: CerastiumFontanumSspVulgare
     - scinam: Urtica dioica
       comnam: Common Nettle
       label: UrticaDioica
@@ -634,7 +610,7 @@
     - scinam: Heracleum maximum
       comnam: Cow Parsnip
       label: HeracleumMaximum
-    - scinam: Heracleum sphondylium ssp. montanum
+    - scinam: Heracleum sphondylium
       comnam: Cow Parsnip
       label: HeracleumSphondyliumSspMontanum
     - scinam: Melampyrum lineare
@@ -667,9 +643,6 @@
     - scinam: Cirsium arvense
       comnam: Creeping Thistle
       label: CirsiumArvense
-    - scinam: Symphyotrichum falcatum var. falcatum
-      comnam: Creeping White Prairie Aster
-      label: SymphyotrichumFalcatumVarFalcatum
     - scinam: Empetrum nigrum
       comnam: Crowberry
       label: EmpetrumNigrum
@@ -682,7 +655,7 @@
     - scinam: Rumex crispus
       comnam: Curled Dock
       label: RumexCrispus
-    - scinam: Escobaria vivipara var. vivipara
+    - scinam: Escobaria vivipara
       comnam: Cushion Cactus
       label: EscobariaViviparaVarVivipara
     - scinam: Astragalus gilviflorus
@@ -856,7 +829,7 @@
     - scinam: Potamogeton zosteriformis
       comnam: Flat Stemmed Pondweed
       label: PotamogetonZosteriformis
-    - scinam: Euthamia graminifolia var. graminifolia
+    - scinam: Euthamia graminifolia
       comnam: Flat Topped Goldenrod
       label: EuthamiaGraminifoliaVarGraminifolia
     - scinam: Stellaria crassifolia
@@ -964,9 +937,6 @@
     - scinam: Botrychium dusenii
       comnam: Grape Fern
       label: BotrychiumDusenii
-    - scinam: Salix glauca var. villosa
-      comnam: Grayleaf Willow
-      label: SalixGlaucaVarVillosa
     - scinam: Sarcobatus vermiculatus
       comnam: Greasewood
       label: SarcobatusVermiculatus
@@ -1033,9 +1003,6 @@
     - scinam: Leymus innovatus
       comnam: Hairy Wild Rye
       label: LeymusInnovatus
-    - scinam: Schoenoplectus acutus var. acutus
-      comnam: Hardstem Bulrush
-      label: SchoenoplectusAcutusVarAcutus
     - scinam: Campanula rotundifolia
       comnam: Harebell
       label: CampanulaRotundifolia
@@ -1264,9 +1231,9 @@
     - scinam: Pinus contorta
       comnam: Lodgepole Pine
       label: PinusContorta
-    - scinam: Pinus X murraybanksiana
+    - scinam: Pinus murraybanksiana
       comnam: Lodgepole X Jack Pine
-      label: PinusXMurraybanksiana
+      label: PinusMurraybanksiana
     - scinam: Liparis loeselii
       comnam: Loesel's Twayblade
       label: LiparisLoeselii
@@ -1330,9 +1297,9 @@
     - scinam: Ranunculus macounii
       comnam: Macoun's Buttercup
       label: RanunculusMacounii
-    - scinam: X Elyhordeum macounii
+    - scinam: Elyhordeum macounii
       comnam: Macoun's Wild Rye
-      label: XElyhordeumMacounii
+      label: ElyhordeumMacounii
     - scinam: Acer negundo
       comnam: Manitoba Maple
       label: AcerNegundo
@@ -1432,9 +1399,6 @@
     - scinam: Ranunculus eschscholtzii
       comnam: Mountain Buttercup
       label: RanunculusEschscholtzii
-    - scinam: Solidago simplex ssp. simplex
-      comnam: Mountain Goldenrod
-      label: SolidagoSimplexSspSimplex
     - scinam: Ribes inerme
       comnam: Mountain Gooseberry
       label: RibesInerme
@@ -1513,9 +1477,6 @@
     - scinam: Mirabilis linearis
       comnam: Narrowleaf Umbrella Wort
       label: MirabilisLinearis
-    - scinam: Hesperostipa comata ssp. comata
-      comnam: Needle and Thread
-      label: HesperostipaComataSspComata
     - scinam: Hesperostipa comata
       comnam: Needle and Thread Grass
       label: HesperostipaComata
@@ -1543,7 +1504,7 @@
     - scinam: Saxifraga cernua
       comnam: Nodding Saxifrage
       label: SaxifragaCernua
-    - scinam: Hackelia deflexa var. americana
+    - scinam: Hackelia deflexa
       comnam: Nodding Stickseed
       label: HackeliaDeflexaVarAmericana
     - scinam: Lupinus nootkatensis
@@ -1597,9 +1558,6 @@
     - scinam: Packera streptanthifolia
       comnam: Northern Ragwort
       label: PackeraStreptanthifolia
-    - scinam: Calamagrostis stricta ssp. inexpansa
-      comnam: Northern Reed Grass
-      label: CalamagrostisStrictaSspInexpansa
     - scinam: Piptatherum pungens
       comnam: Northern Rice Grass
       label: PiptatherumPungens
@@ -1630,9 +1588,6 @@
     - scinam: Epilobium ciliatum
       comnam: Northern Willowherb
       label: EpilobiumCiliatum
-    - scinam: Atriplex gardneri var. gardneri
-      comnam: Nuttall
-      label: AtriplexGardneriVarGardneri
     - scinam: Puccinellia nuttalliana
       comnam: Nuttall's Salt Meadow Grass
       label: PuccinelliaNuttalliana
@@ -1690,9 +1645,6 @@
     - scinam: Persicaria lapathifolia
       comnam: Pale Persicaria
       label: PersicariaLapathifolia
-    - scinam: Petasites frigidus var. palmatus
-      comnam: Palmate Leaved Coltsfoot
-      label: PetasitesFrigidusVarPalmatus
     - scinam: Viola tricolor
       comnam: Pansy
       label: ViolaTricolor
@@ -1858,18 +1810,12 @@
     - scinam: Dalea purpurea
       comnam: Purple Prairie Clover
       label: DaleaPurpurea
-    - scinam: Dalea purpurea var. purpurea
-      comnam: Purple Prairie Clover
-      label: DaleaPurpureaVarPurpurea
     - scinam: Calamagrostis purpurascens
       comnam: Purple Reed Grass
       label: CalamagrostisPurpurascens
     - scinam: Saxifraga oppositifolia
       comnam: Purple Saxifrage
       label: SaxifragaOppositifolia
-    - scinam: Symphyotrichum puniceum var. puniceum
-      comnam: Purple Stemmed Aster
-      label: SymphyotrichumPuniceumVarPuniceum
     - scinam: Astragalus purshii
       comnam: Pursh's Milk Vetch
       label: AstragalusPurshii
@@ -1921,9 +1867,6 @@
     - scinam: Phyllodoce empetriformis
       comnam: Red Heather
       label: PhyllodoceEmpetriformis
-    - scinam: Cornus sericea ssp. sericea
-      comnam: Red Osier Dogwood
-      label: CornusSericeaSspSericea
     - scinam: Amaranthus retroflexus
       comnam: Red Root Pigweed
       label: AmaranthusRetroflexus
@@ -1939,9 +1882,6 @@
     - scinam: Oxytropis deflexa
       comnam: Reflexed Locoweed
       label: OxytropisDeflexa
-    - scinam: Helianthus pauciflorus ssp. subrhomboideus
-      comnam: Rhombic Leaved Sunflower
-      label: HelianthusPauciflorusSspSubrhomboideus
     - scinam: Saxifraga occidentalis
       comnam: Rhomboid Leaved Saxifrage
       label: SaxifragaOccidentalis
@@ -1954,9 +1894,6 @@
     - scinam: Carex richardsonii
       comnam: Richardson's Sedge
       label: CarexRichardsonii
-    - scinam: Alnus incana ssp. tenuifolia
-      comnam: River Alder
-      label: AlnusIncanaSspTenuifolia
     - scinam: Polypodium virginianum
       comnam: Rock Polypody
       label: PolypodiumVirginianum
@@ -2113,7 +2050,7 @@
     - scinam: Arnica fulgens
       comnam: Shining Arnica
       label: ArnicaFulgens
-    - scinam: Salix lasiandra var. caudata
+    - scinam: Salix lasiandra
       comnam: Shining Willow
       label: SalixLasiandraVarCaudata
     - scinam: Salix lucida
@@ -2131,9 +2068,6 @@
     - scinam: Carex canescens
       comnam: Short Sedge
       label: CarexCanescens
-    - scinam: Carex canescens ssp. canescens
-      comnam: Short Sedge
-      label: CarexCanescensSspCanescens
     - scinam: Hesperostipa curtiseta
       comnam: Shortbristle Needle and Thread
       label: HesperostipaCurtiseta
@@ -2179,7 +2113,7 @@
     - scinam: Betula pendula
       comnam: Silver Birch
       label: BetulaPendula
-    - scinam: Eriogonum ovalifolium var. ovalifolium
+    - scinam: Eriogonum ovalifolium
       comnam: Silver Plant
       label: EriogonumOvalifoliumVarOvalifolium
     - scinam: Artemisia cana
@@ -2254,12 +2188,6 @@
     - scinam: Elymus trachycaulus
       comnam: Slender Wheat Grass
       label: ElymusTrachycaulus
-    - scinam: Elymus trachycaulus ssp. subsecundus
-      comnam: Slender Wheat Grass
-      label: ElymusTrachycaulusSspSubsecundus
-    - scinam: Elymus trachycaulus ssp. trachycaulus
-      comnam: Slender Wheat Grass
-      label: ElymusTrachycaulusSspTrachycaulus
     - scinam: Beckmannia syzigachne
       comnam: Slough Grass
       label: BeckmanniaSyzigachne
@@ -2314,24 +2242,15 @@
     - scinam: Anemone parviflora
       comnam: Small Wood Anemone
       label: AnemoneParviflora
-    - scinam: Symphyotrichum laeve var. laeve
-      comnam: Smooth Aster
-      label: SymphyotrichumLaeveVarLaeve
     - scinam: Symphyotrichum laeve
       comnam: Smooth Blue Aster
       label: SymphyotrichumLaeve
     - scinam: Penstemon nitidus
       comnam: Smooth Blue Beardtongue
       label: PenstemonNitidus
-    - scinam: Bromus inermis ssp. inermis
-      comnam: Smooth Brome
-      label: BromusInermisSspInermis
     - scinam: Erigeron glabellus
       comnam: Smooth Fleabane
       label: ErigeronGlabellus
-    - scinam: Sonchus arvensis ssp. uliginosus
-      comnam: Smooth Perennial Sow Thistle
-      label: SonchusArvensisSspUliginosus
     - scinam: Equisetum laevigatum
       comnam: Smooth Scouring Rush
       label: EquisetumLaevigatum
@@ -2425,7 +2344,7 @@
     - scinam: Heuchera cylindrica
       comnam: Sticky Alumroot
       label: HeucheraCylindrica
-    - scinam: Oxytropis borealis var. viscida
+    - scinam: Oxytropis borealis
       comnam: Sticky Crazyweed
       label: OxytropisBorealisVarViscida
     - scinam: Geranium viscosissimum
@@ -2467,7 +2386,7 @@
     - scinam: Kochia scoparia
       comnam: Summer Cypress
       label: KochiaScoparia
-    - scinam: Carex inops ssp. heliophila
+    - scinam: Carex inops
       comnam: Sun Loving Sedge
       label: CarexInopsSspHeliophila
     - scinam: Symphyotrichum puniceum
@@ -2479,9 +2398,6 @@
     - scinam: Pedicularis parviflora
       comnam: Swamp Lousewort
       label: PedicularisParviflora
-    - scinam: Petasites frigidus var. frigidus
-      comnam: Sweet Coltsfoot
-      label: PetasitesFrigidusVarFrigidus
     - scinam: Acorus americanus
       comnam: Sweet Flag
       label: AcorusAmericanus
@@ -2551,7 +2467,7 @@
     - scinam: Shepherdia argentea
       comnam: Thorny Buffaloberry
       label: ShepherdiaArgentea
-    - scinam: Stuckenia filiformis ssp. filiformis
+    - scinam: Stuckenia filiformis
       comnam: Thread Leaved Pondweed
       label: StuckeniaFiliformisSspFiliformis
     - scinam: Carex filifolia
@@ -2569,9 +2485,6 @@
     - scinam: Carex trisperma
       comnam: Three Seeded Sedge
       label: CarexTrisperma
-    - scinam: Schoenoplectus pungens var. pungens
-      comnam: Three Square Rush
-      label: SchoenoplectusPungensVarPungens
     - scinam: Sibbaldiopsis tridentata
       comnam: Three Toothed Cinquefoil
       label: SibbaldiopsisTridentata
@@ -2651,12 +2564,6 @@
       comnam: Two Stamened Sedge
       label: CarexDiandra
 -
-  letter: t
-  species:
-    - scinam: Brassica rapa var. rapa
-      comnam: turnip
-      label: BrassicaRapaVarRapa
--
   letter: V
   species:
     - scinam: Equisetum variegatum
@@ -2683,12 +2590,6 @@
     - scinam: Lathyrus palustris
       comnam: Vetchling Peavine
       label: LathyrusPalustris
-    - scinam: Petasites frigidus Xvitifolius
-      comnam: Vine-leaved Coltsfoot
-      label: PetasitesFrigidusXvitifolius
-    - scinam: Petasites frigidus var. vitifolius
-      comnam: Vine Leaved Coltsfoot
-      label: PetasitesFrigidusVarVitifolius
     - scinam: Botrychium virginianum
       comnam: Virginia Grape Fern
       label: BotrychiumVirginianum
@@ -2974,15 +2875,12 @@
     - scinam: Linum rigidum
       comnam: Yellow Flax
       label: LinumRigidum
-    - scinam: Setaria pumila ssp. pallidifusca
+    - scinam: Setaria pumila
       comnam: Yellow Foxtail
       label: SetariaPumilaSspPallidifusca
     - scinam: Hedysarum sulphurescens
       comnam: Yellow Hedysarum
       label: HedysarumSulphurescens
-    - scinam: Medicago sativa ssp. falcata
-      comnam: Yellow Lucerne
-      label: MedicagoSativaSspFalcata
     - scinam: Dryas drummondii
       comnam: Yellow Mountain Avens
       label: DryasDrummondii

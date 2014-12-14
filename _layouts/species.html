@@ -55,7 +55,7 @@
           {% if page.toclabels.coef-veg-plus %}
           <div class="row">
             <h2 id="coef-veg-plus">Habitat associations: vegetation types in the North</h2>
-              <img src="{{ site.url }}/content/{{ page.taxon }}/coef-veg/{{ page.spplabel}}.{{ page.ext.coef-veg-plus }}" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/coef-veg-plus/{{ page.spplabel}}.{{ page.ext.coef-veg-plus }}" class="img-responsive" alt="Map">
               <p>The intactness models described in the <a href="{{ site.url }}/methods/index.html">methods</a> were used to fit specific models in the whole province with at least 100 detections using point count level data from ABMI, Breeding Bird Surveys, and Dr. Bayne lab. Lines on the top of the bars indicate 90% confidence intervals. x represents burn, red signs in the Culttivated and Urban/Industry HF types represent footprint effects in the Grassland, Parkland natural regions, and south-eastern part of the Dry Mixedwood subregion (the grey bar represents forested regions and western part of the Dry Mixedwood subregion).
 </p>
           </div>
@@ -70,11 +70,11 @@
           </div>
           {% endif %}
 
-<!-- birds (switch is -plus but dir is usual) -->
+<!-- birds (switch is -plus ) -->
           {% if page.toclabels.coef-soil-plus %}
           <div class="row">
             <h2 id="coef-soil-plus">Habitat associations: soil types in the South</h2>
-              <img src="{{ site.url }}/content/{{ page.taxon }}/coef-soil/{{ page.spplabel}}.{{ page.ext.coef-soil-plus }}" class="img-responsive" alt="Map">
+              <img src="{{ site.url }}/content/{{ page.taxon }}/coef-soil-plus/{{ page.spplabel}}.{{ page.ext.coef-soil-plus }}" class="img-responsive" alt="Map">
               <p>The intactness models described in the <a href="{{ site.url }}/methods/index.html">methods</a> were used to fit specific models in the South (Grassland, Parkland natural regions, and Dry Mixedwood subregion of the Boreal) with at least 100 detections using point count level data from ABMI, Breeding Bird Surveys, and Dr. Bayne lab. Lines on the top of the bars indicate 90% confidence intervals. x represents burn, red signs in the Culttivated and Urban/Industry HF types represent footprint effects in the Grassland, Parkland natural regions, and south-eastern part of the Dry Mixedwood subregion (the grey bar represents forested regions and western part of the Dry Mixedwood subregion).</p>
           </div>
           {% endif %}
@@ -199,13 +199,13 @@ The other models is based on data from the Grassland and Parkland natural region
             <a href="{{ site.url }}{{ page.url }}#coef-veg" class="list-group-item">Vegetation</a>
             {% endif %}
             {% if page.toclabels.coef-veg-plus %}
-            <a href="{{ site.url }}{{ page.url }}#coef-veg-plus" class="list-group-item">Vegetation (points)</a>
+            <a href="{{ site.url }}{{ page.url }}#coef-veg-plus" class="list-group-item">Vegetation</a>
             {% endif %}
             {% if page.toclabels.coef-soil %}
             <a href="{{ site.url }}{{ page.url }}#coef-soil" class="list-group-item">Soils</a>
             {% endif %}
             {% if page.toclabels.coef-soil-plus %}
-            <a href="{{ site.url }}{{ page.url }}#coef-soil-plus" class="list-group-item">Soils (points)</a>
+            <a href="{{ site.url }}{{ page.url }}#coef-soil-plus" class="list-group-item">Soils</a>
             {% endif %}
 <!--
             {% if page.toclabels.resid-veg %}

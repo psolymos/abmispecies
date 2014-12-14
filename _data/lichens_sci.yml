@@ -1,15 +1,21 @@
 -
   letter: A
   species:
+    - scinam: Acarospora
+      comnam: 
+      label: Acarospora
     - scinam: Acarospora fuscata
       comnam: 
       label: AcarosporaFuscata
     - scinam: Acarospora schleicheri
       comnam: 
       label: AcarosporaSchleicheri
-    - scinam: Alectoria sarmentosa
+    - scinam: Acarosporaceae
       comnam: 
-      label: AlectoriaSarmentosa
+      label: Acarosporaceae
+    - scinam: Alectoria
+      comnam: 
+      label: Alectoria
     - scinam: Alectoria sarmentosa ssp. sarmentosa
       comnam: 
       label: AlectoriaSarmentosaSspSarmentosa
@@ -19,15 +25,27 @@
     - scinam: Arctoparmelia separata
       comnam: 
       label: ArctoparmeliaSeparata
+    - scinam: Ascomycota
+      comnam: 
+      label: Ascomycota
+    - scinam: Aspicilia
+      comnam: 
+      label: Aspicilia
 -
   letter: B
   species:
+    - scinam: Bacidia
+      comnam: 
+      label: Bacidia
     - scinam: Baeomyces rufus
       comnam: 
       label: BaeomycesRufus
     - scinam: Bilimbia sabuletorum
       comnam: 
       label: BilimbiaSabuletorum
+    - scinam: Bryoria
+      comnam: 
+      label: Bryoria
     - scinam: Bryoria capillaris
       comnam: 
       label: BryoriaCapillaris
@@ -37,21 +55,12 @@
     - scinam: Bryoria furcellata
       comnam: 
       label: BryoriaFurcellata
-    - scinam: Bryoria fuscescens
+    - scinam: Bryoria fuscescens grp. 
       comnam: 
-      label: BryoriaFuscescens
-    - scinam: Bryoria fuscescens var. positiva
-      comnam: 
-      label: BryoriaFuscescensVarPositiva
-    - scinam: Bryoria glabra
-      comnam: 
-      label: BryoriaGlabra
+      label: BryoriaFuscescensGrp
     - scinam: Bryoria implexa
       comnam: 
       label: BryoriaImplexa
-    - scinam: Bryoria lanestris
-      comnam: 
-      label: BryoriaLanestris
     - scinam: Bryoria nadvornikiana
       comnam: 
       label: BryoriaNadvornikiana
@@ -70,6 +79,9 @@
 -
   letter: C
   species:
+    - scinam: Calicium
+      comnam: 
+      label: Calicium
     - scinam: Calicium adaequatum
       comnam: 
       label: CaliciumAdaequatum
@@ -88,21 +100,27 @@
     - scinam: Calicium viride
       comnam: 
       label: CaliciumViride
+    - scinam: Caloplaca
+      comnam: 
+      label: Caloplaca
     - scinam: Caloplaca holocarpa
       comnam: 
       label: CaloplacaHolocarpa
-    - scinam: Candelaria concolor
+    - scinam: Candelaria
       comnam: 
-      label: CandelariaConcolor
-    - scinam: Candelaria fibrosa
+      label: Candelaria
+    - scinam: Candelariaceae
       comnam: 
-      label: CandelariaFibrosa
-    - scinam: Candelaria pacifica
+      label: Candelariaceae
+    - scinam: Candelariella
       comnam: 
-      label: CandelariaPacifica
+      label: Candelariella
     - scinam: Candelariella efflorescens
       comnam: 
       label: CandelariellaEfflorescens
+    - scinam: Cetraria
+      comnam: 
+      label: Cetraria
     - scinam: Cetraria aculeata
       comnam: 
       label: CetrariaAculeata
@@ -112,15 +130,9 @@
     - scinam: Cetraria ericetorum
       comnam: 
       label: CetrariaEricetorum
-    - scinam: Cetraria ericetorum ssp. ericetorum
+    - scinam: Cetraria islandica
       comnam: 
-      label: CetrariaEricetorumSspEricetorum
-    - scinam: Cetraria ericetorum ssp. reticulata
-      comnam: 
-      label: CetrariaEricetorumSspReticulata
-    - scinam: Cetraria islandica ssp. islandica
-      comnam: 
-      label: CetrariaIslandicaSspIslandica
+      label: CetrariaIslandica
     - scinam: Cetraria muricata
       comnam: 
       label: CetrariaMuricata
@@ -142,15 +154,15 @@
     - scinam: Circinaria hispida
       comnam: 
       label: CircinariaHispida
+    - scinam: Cladonia
+      comnam: 
+      label: Cladonia
     - scinam: Cladonia acuminata
       comnam: 
       label: CladoniaAcuminata
     - scinam: Cladonia amaurocraea
       comnam: 
       label: CladoniaAmaurocraea
-    - scinam: Cladonia arbuscula
-      comnam: 
-      label: CladoniaArbuscula
     - scinam: Cladonia arbuscula ssp. beringiana
       comnam: 
       label: CladoniaArbusculaSspBeringiana
@@ -160,21 +172,12 @@
     - scinam: Cladonia bacilliformis
       comnam: 
       label: CladoniaBacilliformis
-    - scinam: Cladonia bacilliscyphus DLH
-      comnam: 
-      label: CladoniaBacilliscyphusDLH
-    - scinam: Cladonia bellidiflora
-      comnam: 
-      label: CladoniaBellidiflora
-    - scinam: Cladonia borealis
-      comnam: 
-      label: CladoniaBorealis
     - scinam: Cladonia botrytes
       comnam: 
       label: CladoniaBotrytes
-    - scinam: Cladonia brevicyanipes DLH
+    - scinam: Cladonia brevicyanipes
       comnam: 
-      label: CladoniaBrevicyanipesDLH
+      label: CladoniaBrevicyanipes
     - scinam: Cladonia brevis
       comnam: 
       label: CladoniaBrevis
@@ -187,36 +190,18 @@
     - scinam: Cladonia cenotea
       comnam: 
       label: CladoniaCenotea
-    - scinam: Cladonia cervicornis
-      comnam: 
-      label: CladoniaCervicornis
-    - scinam: Cladonia chlorophaea
-      comnam: 
-      label: CladoniaChlorophaea
     - scinam: Cladonia chlorophaea grp.
       comnam: 
       label: CladoniaChlorophaeaGrp
-    - scinam: Cladonia coccifera
+    - scinam: Cladonia coccifera grp.
       comnam: 
-      label: CladoniaCoccifera
+      label: CladoniaCocciferaGrp
     - scinam: Cladonia coniocraea
       comnam: 
       label: CladoniaConiocraea
-    - scinam: Cladonia coniocraea DLH
-      comnam: 
-      label: CladoniaConiocraeaDLH
-    - scinam: Cladonia coniocraea f. pycnotheliza
-      comnam: 
-      label: CladoniaConiocraeaFPycnotheliza
     - scinam: Cladonia cornuta
       comnam: 
       label: CladoniaCornuta
-    - scinam: Cladonia cornuta ssp. cornuta
-      comnam: 
-      label: CladoniaCornutaSspCornuta
-    - scinam: Cladonia cornuta ssp. groenlandica
-      comnam: 
-      label: CladoniaCornutaSspGroenlandica
     - scinam: Cladonia crispata
       comnam: 
       label: CladoniaCrispata
@@ -226,24 +211,15 @@
     - scinam: Cladonia cristatella
       comnam: 
       label: CladoniaCristatella
-    - scinam: Cladonia cryptochlorophaea
-      comnam: 
-      label: CladoniaCryptochlorophaea
     - scinam: Cladonia cyanipes
       comnam: 
       label: CladoniaCyanipes
-    - scinam: Cladonia cyanipes DLH
-      comnam: 
-      label: CladoniaCyanipesDLH
     - scinam: Cladonia dahliana
       comnam: 
       label: CladoniaDahliana
     - scinam: Cladonia decorticata
       comnam: 
       label: CladoniaDecorticata
-    - scinam: Cladonia decorticata DLH
-      comnam: 
-      label: CladoniaDecorticataDLH
     - scinam: Cladonia deformis
       comnam: 
       label: CladoniaDeformis
@@ -256,45 +232,21 @@
     - scinam: Cladonia ecmocyna
       comnam: 
       label: CladoniaEcmocyna
-    - scinam: Cladonia ecmocyna ssp. ecmocyna
-      comnam: 
-      label: CladoniaEcmocynaSspEcmocyna
-    - scinam: Cladonia ecmocyna ssp. intermedia
-      comnam: 
-      label: CladoniaEcmocynaSspIntermedia
     - scinam: Cladonia fimbriata
       comnam: 
       label: CladoniaFimbriata
-    - scinam: Cladonia fimbriata DLH
-      comnam: 
-      label: CladoniaFimbriataDLH
     - scinam: Cladonia furcata
       comnam: 
       label: CladoniaFurcata
     - scinam: Cladonia glauca
       comnam: 
       label: CladoniaGlauca
-    - scinam: Cladonia glauca DLH
-      comnam: 
-      label: CladoniaGlaucaDLH
     - scinam: Cladonia gracilis
       comnam: 
       label: CladoniaGracilis
-    - scinam: Cladonia gracilis ssp. elongata
-      comnam: 
-      label: CladoniaGracilisSspElongata
-    - scinam: Cladonia gracilis ssp. gracilis
-      comnam: 
-      label: CladoniaGracilisSspGracilis
     - scinam: Cladonia gracilis ssp. turbinata
       comnam: 
       label: CladoniaGracilisSspTurbinata
-    - scinam: Cladonia gracilis ssp. vulnerata
-      comnam: 
-      label: CladoniaGracilisSspVulnerata
-    - scinam: Cladonia grayi
-      comnam: 
-      label: CladoniaGrayi
     - scinam: Cladonia imbricarica
       comnam: 
       label: CladoniaImbricarica
@@ -304,12 +256,6 @@
     - scinam: Cladonia macilenta
       comnam: 
       label: CladoniaMacilenta
-    - scinam: Cladonia macilenta DLH
-      comnam: 
-      label: CladoniaMacilentaDLH
-    - scinam: Cladonia macilenta var. bacillaris
-      comnam: 
-      label: CladoniaMacilentaVarBacillaris
     - scinam: Cladonia macroceras
       comnam: 
       label: CladoniaMacroceras
@@ -322,15 +268,9 @@
     - scinam: Cladonia mateocyatha
       comnam: 
       label: CladoniaMateocyatha
-    - scinam: Cladonia merochlorophaea
-      comnam: 
-      label: CladoniaMerochlorophaea
     - scinam: Cladonia multiformis
       comnam: 
       label: CladoniaMultiformis
-    - scinam: Cladonia neofimbriata DLH
-      comnam: 
-      label: CladoniaNeofimbriataDLH
     - scinam: Cladonia norvegica
       comnam: 
       label: CladoniaNorvegica
@@ -346,9 +286,6 @@
     - scinam: Cladonia pocillum
       comnam: 
       label: CladoniaPocillum
-    - scinam: Cladonia pocillum s.l.
-      comnam: 
-      label: CladoniaPocillumSl
     - scinam: Cladonia prolifica
       comnam: 
       label: CladoniaProlifica
@@ -385,9 +322,6 @@
     - scinam: Cladonia stygia
       comnam: 
       label: CladoniaStygia
-    - scinam: Cladonia subsulphurina DLH
-      comnam: 
-      label: CladoniaSubsulphurinaDLH
     - scinam: Cladonia subulata
       comnam: 
       label: CladoniaSubulata
@@ -415,12 +349,15 @@
     - scinam: Cladonia verticillata
       comnam: 
       label: CladoniaVerticillata
+    - scinam: Collema
+      comnam: 
+      label: Collema
     - scinam: Collema coccophorum
       comnam: 
       label: CollemaCoccophorum
-    - scinam: Collema crispum
+    - scinam: Collema crispum s.l.
       comnam: 
-      label: CollemaCrispum
+      label: CollemaCrispumSl
     - scinam: Collema furfuraceum
       comnam: 
       label: CollemaFurfuraceum
@@ -430,15 +367,12 @@
     - scinam: Collema multipartitum
       comnam: 
       label: CollemaMultipartitum
-    - scinam: Collema tenax
-      comnam: 
-      label: CollemaTenax
     - scinam: Collema tenax grp.
       comnam: 
       label: CollemaTenaxGrp
-    - scinam: Collema undulatum
+    - scinam: Cyphelium
       comnam: 
-      label: CollemaUndulatum
+      label: Cyphelium
     - scinam: Cyphelium tigillare
       comnam: 
       label: CypheliumTigillare
@@ -469,69 +403,72 @@
     - scinam: Endocarpon pusillum
       comnam: 
       label: EndocarponPusillum
+    - scinam: Ephebe
+      comnam: 
+      label: Ephebe
+    - scinam: Eurotiomycetes
+      comnam: 
+      label: Eurotiomycetes
+    - scinam: Evernia
+      comnam: 
+      label: Evernia
     - scinam: Evernia mesomorpha
       comnam: 
       label: EverniaMesomorpha
 -
   letter: F
   species:
+    - scinam: Flavocetraria
+      comnam: 
+      label: Flavocetraria
     - scinam: Flavocetraria cucullata
       comnam: 
       label: FlavocetrariaCucullata
     - scinam: Flavocetraria nivalis
       comnam: 
       label: FlavocetrariaNivalis
+    - scinam: Flavopunctelia
+      comnam: 
+      label: Flavopunctelia
     - scinam: Flavopunctelia flaventior
       comnam: 
       label: FlavopuncteliaFlaventior
     - scinam: Flavopunctelia soredica
       comnam: 
       label: FlavopuncteliaSoredica
+    - scinam: Fulgensia
+      comnam: 
+      label: Fulgensia
     - scinam: Fuscopannaria cyanolepra
       comnam: 
       label: FuscopannariaCyanolepra
     - scinam: Fuscopannaria praetermissa
       comnam: 
       label: FuscopannariaPraetermissa
-    - scinam: Fuscopannaria praetermissa s.l.
-      comnam: 
-      label: FuscopannariaPraetermissaSl
 -
   letter: H
   species:
-    - scinam: Heterodermia galactophylla
+    - scinam: Heterodermia
       comnam: 
-      label: HeterodermiaGalactophylla
-    - scinam: Heterodermia japonica
+      label: Heterodermia
+    - scinam: Hygrophoraceae
       comnam: 
-      label: HeterodermiaJaponica
-    - scinam: Heterodermia obscurata
-      comnam: 
-      label: HeterodermiaObscurata
-    - scinam: Heterodermia speciosa
-      comnam: 
-      label: HeterodermiaSpeciosa
+      label: Hygrophoraceae
     - scinam: Hypocenomyce oligospora
       comnam: 
       label: HypocenomyceOligospora
     - scinam: Hypocenomyce scalaris
       comnam: 
       label: HypocenomyceScalaris
-    - scinam: Hypogymnia austerodes
+    - scinam: Hypogymnia
       comnam: 
-      label: HypogymniaAusterodes
-    - scinam: Hypogymnia austerodes f. austerodes
-      comnam: 
-      label: HypogymniaAusterodesFAusterodes
+      label: Hypogymnia
     - scinam: Hypogymnia austerodes grp.
       comnam: 
       label: HypogymniaAusterodesGrp
     - scinam: Hypogymnia bitteri
       comnam: 
       label: HypogymniaBitteri
-    - scinam: Hypogymnia dichroma
-      comnam: 
-      label: HypogymniaDichroma
     - scinam: Hypogymnia enteromorpha
       comnam: 
       label: HypogymniaEnteromorpha
@@ -550,33 +487,18 @@
     - scinam: Hypogymnia protea
       comnam: 
       label: HypogymniaProtea
-    - scinam: Hypogymnia protea f. disjuncta
-      comnam: 
-      label: HypogymniaProteaFDisjuncta
-    - scinam: Hypogymnia protea f. tessellata
-      comnam: 
-      label: HypogymniaProteaFTessellata
     - scinam: Hypogymnia recurva
       comnam: 
       label: HypogymniaRecurva
     - scinam: Hypogymnia rugosa
       comnam: 
       label: HypogymniaRugosa
-    - scinam: Hypogymnia subdichroma TGO
-      comnam: 
-      label: HypogymniaSubdichromaTGO
     - scinam: Hypogymnia subobscura
       comnam: 
       label: HypogymniaSubobscura
-    - scinam: Hypogymnia subphysodes DLH
-      comnam: 
-      label: HypogymniaSubphysodesDLH
     - scinam: Hypogymnia tubulosa
       comnam: 
       label: HypogymniaTubulosa
-    - scinam: Hypogymnia verruculosa
-      comnam: 
-      label: HypogymniaVerruculosa
     - scinam: Hypogymnia vittata
       comnam: 
       label: HypogymniaVittata
@@ -589,6 +511,9 @@
     - scinam: Icmadophila ericetorum
       comnam: 
       label: IcmadophilaEricetorum
+    - scinam: Imshaugia
+      comnam: 
+      label: Imshaugia
     - scinam: Imshaugia aleurites
       comnam: 
       label: ImshaugiaAleurites
@@ -607,18 +532,30 @@
     - scinam: Lasallia pensylvanica
       comnam: 
       label: LasalliaPensylvanica
+    - scinam: Lecanora
+      comnam: 
+      label: Lecanora
     - scinam: Lecanora circumborealis
       comnam: 
       label: LecanoraCircumborealis
     - scinam: Lecanora impudens
       comnam: 
       label: LecanoraImpudens
+    - scinam: Lecanoraceae
+      comnam: 
+      label: Lecanoraceae
+    - scinam: Lecanorales
+      comnam: 
+      label: Lecanorales
+    - scinam: Lecanoromycetes
+      comnam: 
+      label: Lecanoromycetes
     - scinam: Lepraria finkii
       comnam: 
       label: LeprariaFinkii
-    - scinam: Leptogium burnetiae
+    - scinam: Leptogium
       comnam: 
-      label: LeptogiumBurnetiae
+      label: Leptogium
     - scinam: Leptogium intermedium
       comnam: 
       label: LeptogiumIntermedium
@@ -661,6 +598,9 @@
     - scinam: Lobaria scrobiculata
       comnam: 
       label: LobariaScrobiculata
+    - scinam: Lobothallia
+      comnam: 
+      label: Lobothallia
     - scinam: Lobothallia alphoplaca
       comnam: 
       label: LobothalliaAlphoplaca
@@ -670,6 +610,9 @@
     - scinam: Megaspora verrucosa
       comnam: 
       label: MegasporaVerrucosa
+    - scinam: Melanelia
+      comnam: 
+      label: Melanelia
     - scinam: Melanelia disjuncta
       comnam: 
       label: MelaneliaDisjuncta
@@ -688,18 +631,21 @@
     - scinam: Melanelia tominii
       comnam: 
       label: MelaneliaTominii
+    - scinam: Melanelixia
+      comnam: 
+      label: Melanelixia
     - scinam: Melanelixia albertana
       comnam: 
       label: MelanelixiaAlbertana
     - scinam: Melanelixia fuliginosa
       comnam: 
       label: MelanelixiaFuliginosa
-    - scinam: Melanelixia subargentifera
-      comnam: 
-      label: MelanelixiaSubargentifera
     - scinam: Melanelixia subaurifera
       comnam: 
       label: MelanelixiaSubaurifera
+    - scinam: Melanohalea
+      comnam: 
+      label: Melanohalea
     - scinam: Melanohalea elegantula
       comnam: 
       label: MelanohaleaElegantula
@@ -715,39 +661,45 @@
     - scinam: Melanohalea multispora
       comnam: 
       label: MelanohaleaMultispora
-    - scinam: Melanohalea olivacea
-      comnam: 
-      label: MelanohaleaOlivacea
     - scinam: Melanohalea olivaceoides
       comnam: 
       label: MelanohaleaOlivaceoides
-    - scinam: Melanohalea septentrionalis
+    - scinam: Melanohalea septentrionalis/olivacea
       comnam: 
-      label: MelanohaleaSeptentrionalis
+      label: MelanohaleaSeptentrionalisolivacea
     - scinam: Melanohalea subelegantula
       comnam: 
       label: MelanohaleaSubelegantula
-    - scinam: Melanohalea subexasperatula DLH
+    - scinam: Melanohalea subexasperatula
       comnam: 
-      label: MelanohaleaSubexasperatulaDLH
+      label: MelanohaleaSubexasperatula
     - scinam: Melanohalea subolivacea
       comnam: 
       label: MelanohaleaSubolivacea
     - scinam: Melanohalea trabeculata
       comnam: 
       label: MelanohaleaTrabeculata
+    - scinam: Mycobilimbia
+      comnam: 
+      label: Mycobilimbia
     - scinam: Mycobilimbia pilularis
       comnam: 
       label: MycobilimbiaPilularis
     - scinam: Mycoblastus affinis
       comnam: 
       label: MycoblastusAffinis
+    - scinam: Mycocaliciaceae
+      comnam: 
+      label: Mycocaliciaceae
     - scinam: Mycocalicium subtile
       comnam: 
       label: MycocaliciumSubtile
 -
   letter: N
   species:
+    - scinam: Nephroma
+      comnam: 
+      label: Nephroma
     - scinam: Nephroma arcticum
       comnam: 
       label: NephromaArcticum
@@ -781,9 +733,12 @@
 -
   letter: P
   species:
-    - scinam: Parmelia barrenoae
+    - scinam: Pannariaceae
       comnam: 
-      label: ParmeliaBarrenoae
+      label: Pannariaceae
+    - scinam: Parmelia
+      comnam: 
+      label: Parmelia
     - scinam: Parmelia fraudans
       comnam: 
       label: ParmeliaFraudans
@@ -796,12 +751,21 @@
     - scinam: Parmelia sulcata
       comnam: 
       label: ParmeliaSulcata
+    - scinam: Parmeliaceae
+      comnam: 
+      label: Parmeliaceae
+    - scinam: Parmeliopsis
+      comnam: 
+      label: Parmeliopsis
     - scinam: Parmeliopsis ambigua
       comnam: 
       label: ParmeliopsisAmbigua
     - scinam: Parmeliopsis hyperopta
       comnam: 
       label: ParmeliopsisHyperopta
+    - scinam: Peltigera
+      comnam: 
+      label: Peltigera
     - scinam: Peltigera aphthosa
       comnam: 
       label: PeltigeraAphthosa
@@ -820,9 +784,9 @@
     - scinam: Peltigera collina
       comnam: 
       label: PeltigeraCollina
-    - scinam: Peltigera conspersa TGO
+    - scinam: Peltigera conspersa
       comnam: 
-      label: PeltigeraConspersaTGO
+      label: PeltigeraConspersa
     - scinam: Peltigera degenii
       comnam: 
       label: PeltigeraDegenii
@@ -838,9 +802,6 @@
     - scinam: Peltigera extenuata
       comnam: 
       label: PeltigeraExtenuata
-    - scinam: Peltigera extenuata DLH
-      comnam: 
-      label: PeltigeraExtenuataDLH
     - scinam: Peltigera horizontalis
       comnam: 
       label: PeltigeraHorizontalis
@@ -871,9 +832,6 @@
     - scinam: Peltigera neopolydactyla
       comnam: 
       label: PeltigeraNeopolydactyla
-    - scinam: Peltigera occidentalis
-      comnam: 
-      label: PeltigeraOccidentalis
     - scinam: Peltigera polydactylon
       comnam: 
       label: PeltigeraPolydactylon
@@ -895,6 +853,9 @@
     - scinam: Peltigera venosa
       comnam: 
       label: PeltigeraVenosa
+    - scinam: Phaeocalicium
+      comnam: 
+      label: Phaeocalicium
     - scinam: Phaeocalicium compressulum
       comnam: 
       label: PhaeocaliciumCompressulum
@@ -907,6 +868,9 @@
     - scinam: Phaeocalicium praecedens
       comnam: 
       label: PhaeocaliciumPraecedens
+    - scinam: Phaeophyscia
+      comnam: 
+      label: Phaeophyscia
     - scinam: Phaeophyscia adiastola
       comnam: 
       label: PhaeophysciaAdiastola
@@ -937,15 +901,15 @@
     - scinam: Phaeophyscia sciastra
       comnam: 
       label: PhaeophysciaSciastra
+    - scinam: Physcia
+      comnam: 
+      label: Physcia
     - scinam: Physcia adscendens
       comnam: 
       label: PhysciaAdscendens
-    - scinam: Physcia aipolia
+    - scinam: Physcia aipolia s.l.
       comnam: 
-      label: PhysciaAipolia
-    - scinam: Physcia alnophila
-      comnam: 
-      label: PhysciaAlnophila
+      label: PhysciaAipoliaSl
     - scinam: Physcia biziana
       comnam: 
       label: PhysciaBiziana
@@ -961,18 +925,12 @@
     - scinam: Physcia dubia
       comnam: 
       label: PhysciaDubia
-    - scinam: Physcia glebosus DLH
-      comnam: 
-      label: PhysciaGlebosusDLH
     - scinam: Physcia millegrana
       comnam: 
       label: PhysciaMillegrana
     - scinam: Physcia phaea
       comnam: 
       label: PhysciaPhaea
-    - scinam: Physcia pycnidia DLH
-      comnam: 
-      label: PhysciaPycnidiaDLH
     - scinam: Physcia stellaris
       comnam: 
       label: PhysciaStellaris
@@ -982,12 +940,18 @@
     - scinam: Physcia tenella
       comnam: 
       label: PhysciaTenella
+    - scinam: Physciaceae
+      comnam: 
+      label: Physciaceae
     - scinam: Physciella chloantha
       comnam: 
       label: PhysciellaChloantha
     - scinam: Physciella melanchra
       comnam: 
       label: PhysciellaMelanchra
+    - scinam: Physconia
+      comnam: 
+      label: Physconia
     - scinam: Physconia detersa
       comnam: 
       label: PhysconiaDetersa
@@ -1006,6 +970,12 @@
     - scinam: Physconia perisidiosa
       comnam: 
       label: PhysconiaPerisidiosa
+    - scinam: Placidium
+      comnam: 
+      label: Placidium
+    - scinam: Platismatia
+      comnam: 
+      label: Platismatia
     - scinam: Platismatia glauca
       comnam: 
       label: PlatismatiaGlauca
@@ -1033,36 +1003,33 @@
 -
   letter: R
   species:
-    - scinam: Ramalina americana
+    - scinam: Ramalina
       comnam: 
-      label: RamalinaAmericana
+      label: Ramalina
     - scinam: Ramalina dilacerata
       comnam: 
       label: RamalinaDilacerata
-    - scinam: Ramalina farinacea
-      comnam: 
-      label: RamalinaFarinacea
-    - scinam: Ramalina intermedia
-      comnam: 
-      label: RamalinaIntermedia
     - scinam: Ramalina obtusata
       comnam: 
       label: RamalinaObtusata
-    - scinam: Ramalina pollinaria
+    - scinam: Ramalina pollinaria grp.
       comnam: 
-      label: RamalinaPollinaria
+      label: RamalinaPollinariaGrp
     - scinam: Ramalina roesleri
       comnam: 
       label: RamalinaRoesleri
     - scinam: Ramalina sinensis
       comnam: 
       label: RamalinaSinensis
-    - scinam: Ramalina sorediosinensis DLH
+    - scinam: Ramalina sorediosinensis
       comnam: 
-      label: RamalinaSorediosinensisDLH
+      label: RamalinaSorediosinensis
     - scinam: Ramalina thrausta
       comnam: 
       label: RamalinaThrausta
+    - scinam: Rhizoplaca
+      comnam: 
+      label: Rhizoplaca
     - scinam: Rhizoplaca chrysoleuca
       comnam: 
       label: RhizoplacaChrysoleuca
@@ -1081,12 +1048,18 @@
     - scinam: Sphinctrina anglica
       comnam: 
       label: SphinctrinaAnglica
+    - scinam: Stenocybe
+      comnam: 
+      label: Stenocybe
     - scinam: Stenocybe major
       comnam: 
       label: StenocybeMajor
     - scinam: Stenocybe pullatula
       comnam: 
       label: StenocybePullatula
+    - scinam: Stereocaulon
+      comnam: 
+      label: Stereocaulon
     - scinam: Stereocaulon alpinum
       comnam: 
       label: StereocaulonAlpinum
@@ -1102,21 +1075,27 @@
     - scinam: Stereocaulon sasakii
       comnam: 
       label: StereocaulonSasakii
-    - scinam: Stereocaulon subcoralloides DH
-      comnam: 
-      label: StereocaulonSubcoralloidesDH
     - scinam: Stereocaulon tomentosum
       comnam: 
       label: StereocaulonTomentosum
 -
   letter: T
   species:
+    - scinam: Teloschistaceae
+      comnam: 
+      label: Teloschistaceae
     - scinam: Thamnolia subuliformis
       comnam: 
       label: ThamnoliaSubuliformis
     - scinam: Trapeliopsis granulosa
       comnam: 
       label: TrapeliopsisGranulosa
+    - scinam: Tricholomataceae
+      comnam: 
+      label: Tricholomataceae
+    - scinam: Tuckermannopsis
+      comnam: 
+      label: Tuckermannopsis
     - scinam: Tuckermannopsis americana
       comnam: 
       label: TuckermannopsisAmericana
@@ -1159,6 +1138,9 @@
     - scinam: Umbilicaria virginis
       comnam: 
       label: UmbilicariaVirginis
+    - scinam: Usnea
+      comnam: 
+      label: Usnea
     - scinam: Usnea cavernosa
       comnam: 
       label: UsneaCavernosa
@@ -1186,18 +1168,21 @@
     - scinam: Usnea scabrata
       comnam: 
       label: UsneaScabrata
-    - scinam: Usnea subfloridana
+    - scinam: Usnea substerilis/subfloridana
       comnam: 
-      label: UsneaSubfloridana
-    - scinam: Usnea substerilis
-      comnam: 
-      label: UsneaSubsterilis
+      label: UsneaSubsterilissubfloridana
 -
   letter: V
   species:
     - scinam: Varicellaria rhodocarpa
       comnam: 
       label: VaricellariaRhodocarpa
+    - scinam: Verrucariaceae
+      comnam: 
+      label: Verrucariaceae
+    - scinam: Vulpicida
+      comnam: 
+      label: Vulpicida
     - scinam: Vulpicida pinastri
       comnam: 
       label: VulpicidaPinastri
@@ -1207,21 +1192,24 @@
 -
   letter: X
   species:
+    - scinam: Xanthomendoza
+      comnam: 
+      label: Xanthomendoza
     - scinam: Xanthomendoza fallax
       comnam: 
       label: XanthomendozaFallax
     - scinam: Xanthomendoza fulva
       comnam: 
       label: XanthomendozaFulva
-    - scinam: Xanthomendoza hasseana
+    - scinam: Xanthomendoza hasseana/montana
       comnam: 
-      label: XanthomendozaHasseana
-    - scinam: Xanthomendoza montana
+      label: XanthomendozaHasseanamontana
+    - scinam: Xanthomendoza phytoelegans
       comnam: 
-      label: XanthomendozaMontana
-    - scinam: Xanthomendoza phytoelegans DLH
+      label: XanthomendozaPhytoelegans
+    - scinam: Xanthoparmelia
       comnam: 
-      label: XanthomendozaPhytoelegansDLH
+      label: Xanthoparmelia
     - scinam: Xanthoparmelia camtschadalis
       comnam: 
       label: XanthoparmeliaCamtschadalis
@@ -1237,12 +1225,15 @@
     - scinam: Xanthoparmelia subdecipiens
       comnam: 
       label: XanthoparmeliaSubdecipiens
-    - scinam: Xanthoparmelia vagrans DLH
+    - scinam: Xanthoparmelia vagrans
       comnam: 
-      label: XanthoparmeliaVagransDLH
+      label: XanthoparmeliaVagrans
     - scinam: Xanthoparmelia wyomingica
       comnam: 
       label: XanthoparmeliaWyomingica
+    - scinam: Xanthoria
+      comnam: 
+      label: Xanthoria
     - scinam: Xanthoria candelaria
       comnam: 
       label: XanthoriaCandelaria
