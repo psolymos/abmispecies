@@ -13,7 +13,7 @@ listbycomnam: false
   <h2>By Scientific Name</h2>    
     {% for idx in site.data.mites_sci %}
       <h3 id="sci-{{ idx.letter }}">{{ idx.letter }}</h3>
-      <p class="bg-info"><small>{% for lett in site.data.mites_sci %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
+      <p class="bg-info"><small>{% for lett in site.data.mites_sci %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#sci-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
       {% for spp in idx.species %}
       <p><a href="{{ site.url }}/pages/{{ page.taxon }}/{{ spp.label }}.html">
       <em>{{ spp.scinam }}</em>{% if page.listbycomnam %}{% if spp.comnam %} - {% endif %}{{ spp.comnam }}{% endif %}</a></p>
@@ -26,7 +26,7 @@ listbycomnam: false
   <h2>By Common Name</h2>
     {% for idx in site.data.mites_com %}
       <h3 id="com-{{ idx.letter }}">{{ idx.letter }}</h3>
-      <p class="bg-info"><small>{% for lett in site.data.mites_com %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
+      <p class="bg-info"><small>{% for lett in site.data.mites_com %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#com-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
       {% for spp in idx.species %}
       <p><a href="{{ site.url }}/pages/{{ page.taxon }}/{{ spp.label }}.html">
       {{ spp.comnam }} - <em>{{ spp.scinam }}</em></a></p>
