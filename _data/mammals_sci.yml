@@ -76,12 +76,12 @@
     - scinam: Mephitis mephitis
       comnam: Striped Skunk
       label: StripedSkunk
-    - scinam: Muridae
-      comnam: Voles, Mice and Allies
-      label: VolesMiceandAllies
-    - scinam: Mustela
-      comnam: Weasels
-      label: Weasels
+#    - scinam: Muridae
+#      comnam: Voles, Mice and Allies
+#      label: VolesMiceandAllies
+#    - scinam: Mustela
+#      comnam: Weasels
+#      label: Weasels
 -
   letter: N
   species:
@@ -121,9 +121,9 @@
     - scinam: Taxidea taxus
       comnam: Badger
       label: Badger
-    - scinam: Tetraoninae
-      comnam: Grouse, Ptarmigan and allies
-      label: AllGrouse
+#    - scinam: Tetraoninae
+#      comnam: Grouse, Ptarmigan and allies
+#      label: AllGrouse
 -
   letter: V
   species:

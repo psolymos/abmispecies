@@ -52,12 +52,12 @@
     - scinam: Vulpes
       comnam: Foxes
       label: Foxes
--
-  letter: G
-  species:
-    - scinam: Tetraoninae
-      comnam: Grouse, Ptarmigan and allies
-      label: AllGrouse
+#-
+#  letter: G
+#  species:
+#    - scinam: Tetraoninae
+#      comnam: Grouse, Ptarmigan and allies
+#      label: AllGrouse
 -
   letter: H
   species:
@@ -112,18 +112,18 @@
     - scinam: Mephitis mephitis
       comnam: Striped Skunk
       label: StripedSkunk
--
-  letter: V
-  species:
-    - scinam: Muridae
-      comnam: Voles, Mice and Allies
-      label: VolesMiceandAllies
+#-
+#  letter: V
+#  species:
+#    - scinam: Muridae
+#      comnam: Voles, Mice and Allies
+#      label: VolesMiceandAllies
 -
   letter: W
   species:
-    - scinam: Mustela
-      comnam: Weasels
-      label: Weasels
+#    - scinam: Mustela
+#      comnam: Weasels
+#      label: Weasels
     - scinam: Canis lupus
       comnam: Wolf
       label: Wolf
