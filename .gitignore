@@ -1,6 +1,9 @@
 ## gedit temp files
 *~
 
+## R script output
+*.out
+
 ## jekyll built website
 /_site/*
 
