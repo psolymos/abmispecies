@@ -18,17 +18,21 @@
             <!-- <li class="active"><a href="#">Home</a></li> -->
             <li><a href="{{ site.url }}">Home</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Species <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Results <b class="caret"></b></a>
               <ul class="dropdown-menu">
+                <li class="dropdown-header">Species</li>
                 {% for taxon in site.taxa %}
                 <li><a href="{{ site.url }}{{ taxon.url }}">{{ taxon.title }}</a></li>
                 {% endfor %}
+                <li class="dropdown-header">Higher taxa</li>
+                <li><a href="{{ site.url }}/coefficients/index.html">Coefficients</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="{{ site.url }}/methods/index.html">Methods</a></li>
+<!--                <li><a href="{{ site.url }}/collaborations.html">Collaborations</a></li> -->
                 <li class="divider"></li>
                 <li class="dropdown-header">Land cover</li>
                 <li><a href="{{ site.url }}/vegetation/index.html">Vegetation</a></li>

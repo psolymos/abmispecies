@@ -29,3 +29,5 @@
 !/footprint/index.html
 /vegetation/*
 !/vegetation/index.html
+/coefficients/*
+!/coefficients/index.html
