@@ -9,9 +9,9 @@ sidebar: false
 <h2 id="{{ site.url }}{{ page.url }}#{{ taxon.label }}">{{ taxon.title }}</h2>
 <ul>
   <li>Model coefficients for habitat associations in the North: 
-    <a href="{{ site.url }}/coefficients/coef-veg/{{ taxon.label }}.csv">comma seperated text file</a></li>
+    <a href="{{ site.url }}/coefficients/coef-veg-{{ taxon.label }}.csv">comma seperated text file</a>.</li>
   <li>Model coefficients for habitat associations in the South: 
-    <a href="{{ site.url }}/coefficients/coef-soil/{{ taxon.label }}.csv">comma seperated text file</a></li>
+    <a href="{{ site.url }}/coefficients/coef-soil-{{ taxon.label }}.csv">comma seperated text file</a>.</li>
 </ul>
 
 {% endfor %}
