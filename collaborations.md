@@ -1,0 +1,59 @@
+---
+layout: simple
+title: Collaborations
+sidebar: false
+---
+
+This website has been created by the Alberta Biodiversity Monitoring Institute (ABMI) Science Team; the team integrated the information, ran the analyses, created the website content and built the website architecture. Throughout this process, ABMI collaborated with a variety of institutions, organizations and individuals to develop predictive species/habitat modeling in Alberta. These collaborations were essential at all steps of the process of generating the content for this website.
+
+### Conceptualization
+
+We thank many present and past members of the ABMI who helped in building the conceptual foundations of the cumulative effects monitoring framework (Burton et al. 2014) and the dose-response type intactness modeling (Nielsen et al. 2007, Lamb et al. 2009).
+
+### Remotely sensed and geospatial information 
+
+- Human Footprint Base Layer Database: ESRD
+- Cutblock layer: ESRD and Foothills Research Institute (FRI)
+- GoA SPOT imagery (1999-2013): ESRD
+- VALTUS imagery: ESRD 
+- IRS imagery: ESRD
+- Alberta Merged Wetland Inventory: ESRD
+- Primary Land and Vegetation Inventory (PLVI): ESRD
+- Grassland Vegetation Inventory (GVI): ESRD
+- Alberta Vegetation  Inventory (AVI): ESRD
+- Daina Stralberg (University of Alberta) interpolated climate data  to be used in modeling
+- Scott Nielsen provided GIS layers on topography and enduring  features in Alberta
+
+### Bird Point Counts 
+Information from ABMI bird point counts was combined with information from other organizations and individuals:
+
+- Environment Canada through the Joint Oils Sands Monitoring program; 
+- Canadian Wildlife Service's Breeding Bird Survey data.
+- Ecological Monitoring Committee for the Lower Athabasca (EMCLA)
+- Dr. Erin Bayne (University of Alberta)
+
+### Mammal Winter Track Counts 
+
+Information from ABMI winter track counts were combined with information from other individuals:
+
+- Dr. Erin Bayne (University of Alberta)
+- Dr. Stan Boutin (University of Alberta)
+
+### Vascular Plant Plots
+
+Information from ABMI vascular plant plots were used.
+
+### Bryophytes Plots
+
+Information from ABMI bryophyte plots were used.
+
+### Lichen Plots
+
+Information from ABMI lichen plots were used.
+
+### Mite Soil Cores
+
+Information from ABMI mite soil cores were used.
+
+
+
