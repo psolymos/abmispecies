@@ -57,7 +57,7 @@ Information from ABMI mite soil cores were used.
 
 ### References
 
-Burton, C., Huggard, D., Bayne, E., Schieck, J., Solymos, P., Muhly, T., Farr, D. & Boutin, S., 2014. A framework for adaptive monitoring of the cumulative effects of human footprint on biodiversity. Environmental Monitoring and Assessment, 186, 3605–3617.
+Burton, C., Huggard, D., Bayne, E., Schieck, J., S&oacute;lymos, P., Muhly, T., Farr, D. & Boutin, S., 2014. A framework for adaptive monitoring of the cumulative effects of human footprint on biodiversity. Environmental Monitoring and Assessment, 186, 3605-3617.
 
 Lamb, Eric G., Erin Bayne, Gillian Holloway, Jim Schieck, Stan Boutin, Jim Herbers, Diane L. Haughland, Indices for monitoring biodiversity change: Are some more effective than others?, Ecological Indicators, 9, 432-444.
 
