@@ -7,18 +7,18 @@
     - scinam: Accipiter gentilis
       comnam: Northern Goshawk
       label: NorthernGoshawk
-    - scinam: Accipiter striatus
-      comnam: Sharp-shinned Hawk
-      label: SharpshinnedHawk
+#    - scinam: Accipiter striatus
+#      comnam: Sharp-shinned Hawk
+#      label: SharpshinnedHawk
     - scinam: Actitis macularius
       comnam: Spotted Sandpiper
       label: SpottedSandpiper
-    - scinam: Aechmophorus occidentalis
-      comnam: Western Grebe
-      label: WesternGrebe
-    - scinam: Aegolius funereus
-      comnam: Boreal Owl
-      label: BorealOwl
+#    - scinam: Aechmophorus occidentalis
+#      comnam: Western Grebe
+#      label: WesternGrebe
+#    - scinam: Aegolius funereus
+#      comnam: Boreal Owl
+#      label: BorealOwl
     - scinam: Agelaius phoeniceus
       comnam: Red-winged Blackbird
       label: RedwingedBlackbird
@@ -121,15 +121,15 @@
     - scinam: Bubo virginianus
       comnam: Great Horned Owl
       label: GreatHornedOwl
-    - scinam: Bucephala albeola
-      comnam: Bufflehead
-      label: Bufflehead
+#    - scinam: Bucephala albeola
+#      comnam: Bufflehead
+#      label: Bufflehead
     - scinam: Bucephala clangula
       comnam: Common Goldeneye
       label: CommonGoldeneye
-    - scinam: Bucephala islandica
-      comnam: Barrow's Goldeneye
-      label: BarrowsGoldeneye
+#    - scinam: Bucephala islandica
+#      comnam: Barrow's Goldeneye
+#      label: BarrowsGoldeneye
     - scinam: Buteo jamaicensis
       comnam: Red-tailed Hawk
       label: RedtailedHawk
@@ -193,9 +193,9 @@
     - scinam: Chordeiles minor
       comnam: Common Nighthawk
       label: CommonNighthawk
-    - scinam: Chroicocephalus philadelphia
-      comnam: Bonaparte's Gull
-      label: BonapartesGull
+#    - scinam: Chroicocephalus philadelphia
+#      comnam: Bonaparte's Gull
+#      label: BonapartesGull
     - scinam: Circus cyaneus
       comnam: Northern Harrier
       label: NorthernHarrier
@@ -244,9 +244,9 @@
 -
   letter: D
   species:
-    - scinam: Dolichonyx oryzivorus
-      comnam: Bobolink
-      label: Bobolink
+#    - scinam: Dolichonyx oryzivorus
+#      comnam: Bobolink
+#      label: Bobolink
     - scinam: Dryocopus pileatus
       comnam: Pileated Woodpecker
       label: PileatedWoodpecker
@@ -274,9 +274,9 @@
     - scinam: Empidonax occidentalis
       comnam: Cordilleran Flycatcher
       label: CordilleranFlycatcher
-    - scinam: Empidonax traillii
-      comnam: Willow Flycatcher
-      label: WillowFlycatcher
+#    - scinam: Empidonax traillii
+#      comnam: Willow Flycatcher
+#      label: WillowFlycatcher
     - scinam: Eremophila alpestris
       comnam: Horned Lark
       label: HornedLark
@@ -295,9 +295,9 @@
     - scinam: Falco columbarius
       comnam: Merlin
       label: Merlin
-    - scinam: Falco sparverius
-      comnam: American Kestrel
-      label: AmericanKestrel
+#    - scinam: Falco sparverius
+#      comnam: American Kestrel
+#      label: AmericanKestrel
     - scinam: Fulica americana
       comnam: American Coot
       label: AmericanCoot
@@ -313,9 +313,9 @@
     - scinam: Gavia immer
       comnam: Common Loon
       label: CommonLoon
-    - scinam: Geothlypis tolmiei
-      comnam: Macgillivray Warbler
-      label: MacgillivrayWarbler
+#    - scinam: Geothlypis tolmiei
+#      comnam: Macgillivray Warbler
+#      label: MacgillivrayWarbler
     - scinam: Geothlypis trichas
       comnam: Common Yellowthroat
       label: CommonYellowthroat
@@ -331,15 +331,15 @@
 -
   letter: H
   species:
-    - scinam: Haemorhous mexicanus
-      comnam: House Finch
-      label: HouseFinch
+#    - scinam: Haemorhous mexicanus
+#      comnam: House Finch
+#      label: HouseFinch
     - scinam: Haemorhous purpureus
       comnam: Purple Finch
       label: PurpleFinch
-    - scinam: Haliaeetus leucocephalus
-      comnam: Bald Eagle
-      label: BaldEagle
+#    - scinam: Haliaeetus leucocephalus
+#      comnam: Bald Eagle
+#      label: BaldEagle
     - scinam: Himantopus mexicanus
       comnam: Black-necked Stilt
       label: BlackneckedStilt
@@ -367,15 +367,15 @@
     - scinam: Larus argentatus
       comnam: Herring Gull
       label: HerringGull
-    - scinam: Larus californicus
-      comnam: California Gull
-      label: CaliforniaGull
+#    - scinam: Larus californicus
+#      comnam: California Gull
+#      label: CaliforniaGull
     - scinam: Larus canus
       comnam: Mew Gull
       label: MewGull
-    - scinam: Larus delawarensis
-      comnam: Ring-billed Gull
-      label: RingbilledGull
+#    - scinam: Larus delawarensis
+#      comnam: Ring-billed Gull
+#      label: RingbilledGull
     - scinam: Leucophaeus pipixcan
       comnam: Franklin's Gull
       label: FranklinsGull
@@ -400,9 +400,9 @@
 -
   letter: M
   species:
-    - scinam: Megaceryle alcyon
-      comnam: Belted Kingfisher
-      label: BeltedKingfisher
+#    - scinam: Megaceryle alcyon
+#      comnam: Belted Kingfisher
+#      label: BeltedKingfisher
     - scinam: Melanitta perspicillata
       comnam: Surf Scoter
       label: SurfScoter
@@ -415,27 +415,27 @@
     - scinam: Melospiza melodia
       comnam: Song Sparrow
       label: SongSparrow
-    - scinam: Mergus merganser
-      comnam: Common Merganser
-      label: CommonMerganser
+#    - scinam: Mergus merganser
+#      comnam: Common Merganser
+#      label: CommonMerganser
     - scinam: Mniotilta varia
       comnam: Black and White Warbler
       label: BlackAndWhiteWarbler
     - scinam: Molothrus ater
       comnam: Brown-headed Cowbird
       label: BrownheadedCowbird
-    - scinam: Myadestes townsendi
-      comnam: Townsend's Solitaire
-      label: TownsendsSolitaire
+#    - scinam: Myadestes townsendi
+#      comnam: Townsend's Solitaire
+#      label: TownsendsSolitaire
 -
   letter: N
   species:
     - scinam: Numenius americanus
       comnam: Long-billed Curlew
       label: LongbilledCurlew
-    - scinam: Nycticorax nycticorax
-      comnam: Black-crowned Night Heron
-      label: BlackcrownedNightHeron
+#    - scinam: Nycticorax nycticorax
+#      comnam: Black-crowned Night Heron
+#      label: BlackcrownedNightHeron
 -
   letter: O
   species:
@@ -487,9 +487,9 @@
     - scinam: Petrochelidon pyrrhonota
       comnam: Cliff Swallow
       label: CliffSwallow
-    - scinam: Phalacrocorax auritus
-      comnam: Double-crested Cormorant
-      label: DoublecrestedCormorant
+#    - scinam: Phalacrocorax auritus
+#      comnam: Double-crested Cormorant
+#      label: DoublecrestedCormorant
     - scinam: Phalaropus fulicarius
       comnam: Red Phalarope
       label: RedPhalarope
@@ -505,9 +505,9 @@
     - scinam: Pheucticus ludovicianus
       comnam: Rose-breasted Grosbeak
       label: RosebreastedGrosbeak
-    - scinam: Pheucticus melanocephalus
-      comnam: Black-headed Grosbeak
-      label: BlackheadedGrosbeak
+#    - scinam: Pheucticus melanocephalus
+#      comnam: Black-headed Grosbeak
+#      label: BlackheadedGrosbeak
     - scinam: Pica hudsonia
       comnam: Black-billed Magpie
       label: BlackbilledMagpie
@@ -526,9 +526,9 @@
     - scinam: Pinicola enucleator
       comnam: Pine Grosbeak
       label: PineGrosbeak
-    - scinam: Pipilo maculatus
-      comnam: Spotted Towhee
-      label: SpottedTowhee
+#    - scinam: Pipilo maculatus
+#      comnam: Spotted Towhee
+#      label: SpottedTowhee
     - scinam: Piranga ludoviciana
       comnam: Western Tanager
       label: WesternTanager
@@ -544,9 +544,9 @@
     - scinam: Podiceps grisegena
       comnam: Red-necked Grebe
       label: RedneckedGrebe
-    - scinam: Podiceps nigricollis
-      comnam: Eared Grebe
-      label: EaredGrebe
+#    - scinam: Podiceps nigricollis
+#      comnam: Eared Grebe
+#      label: EaredGrebe
     - scinam: Podilymbus podiceps
       comnam: Pied-billed Grebe
       label: PiedbilledGrebe
@@ -592,9 +592,9 @@
     - scinam: Rhynchophanes mccownii
       comnam: McCown's Longspur
       label: McCownsLongspur
-    - scinam: Riparia riparia
-      comnam: Bank Swallow
-      label: BankSwallow
+#    - scinam: Riparia riparia
+#      comnam: Bank Swallow
+#      label: BankSwallow
 -
   letter: S
   species:
@@ -655,9 +655,9 @@
     - scinam: Sitta carolinensis
       comnam: White-breasted Nuthatch
       label: WhitebreastedNuthatch
-    - scinam: Sphyrapicus nuchalis
-      comnam: Red-naped Sapsucker
-      label: RednapedSapsucker
+#    - scinam: Sphyrapicus nuchalis
+#      comnam: Red-naped Sapsucker
+#      label: RednapedSapsucker
     - scinam: Sphyrapicus varius
       comnam: Yellow-bellied Sapsucker
       label: YellowbelliedSapsucker
@@ -679,9 +679,9 @@
     - scinam: Spizella passerina
       comnam: Chipping Sparrow
       label: ChippingSparrow
-    - scinam: Stelgidopteryx serripennis
-      comnam: Northern Rough-winged Swallow
-      label: NorthernRoughwingedSwallow
+#    - scinam: Stelgidopteryx serripennis
+#      comnam: Northern Rough-winged Swallow
+#      label: NorthernRoughwingedSwallow
     - scinam: Sterna forsteri
       comnam: Forster's Tern
       label: ForstersTern
@@ -712,9 +712,9 @@
     - scinam: Tachycineta bicolor
       comnam: Tree Swallow
       label: TreeSwallow
-    - scinam: Tachycineta thalassina
-      comnam: Violet-green Swallow
-      label: VioletgreenSwallow
+#    - scinam: Tachycineta thalassina
+#      comnam: Violet-green Swallow
+#      label: VioletgreenSwallow
     - scinam: Toxostoma rufum
       comnam: Brown Thrasher
       label: BrownThrasher
