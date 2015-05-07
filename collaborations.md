@@ -27,9 +27,8 @@ We thank many present and past members of the ABMI who helped in building the co
 ### Bird Point Counts 
 Information from ABMI bird point counts was combined with information from other organizations and individuals:
 
-- Environment Canada through the Joint Oils Sands Monitoring program; 
-- Canadian Wildlife Service's Breeding Bird Survey data.
-- Ecological Monitoring Committee for the Lower Athabasca (EMCLA)
+- Environment Canada ([North American Breeding Bird Survey](https://ec.gc.ca/reom-mbs/) and [Joint Oil Sands Monitoring programs](http://www.jointoilsandsmonitoring.ca))
+- Ecological Monitoring Committee for the Lower Athabasca ([EMCLA](http://www.emcla.ca/))
 - Dr. Erin Bayne (University of Alberta)
 
 ### Mammal Winter Track Counts 
