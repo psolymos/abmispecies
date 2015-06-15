@@ -13,6 +13,6 @@ We provide maps of native vegetation, maps of human footprint types, temporal ch
 
 ## Todo list
 
-[ ] - Include FontAwesome ?
-[ ] - remove 'Home' from top navbar
-[ ] - Search to pull right
+- [ ] Include FontAwesome ?
+- [ ] remove 'Home' from top navbar
+- [ ] Search to pull right
