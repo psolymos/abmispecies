@@ -1,18 +1,18 @@
 title: ABMI Species
 version: 3.0
 description: Information on species and habitats monitored by the Alberta Biodiversity Monitoring Institute.
-#url:              http://localhost:4000
+
+url: http://142.244.198.153
+#url: http://localhost:4000
+#url: http://species.abmi.ca
 #url: http://species.abmi.ca/development
-url: http://species.abmi.ca
-#url: c:/Dropbox/www/species.abmi.ca/_site
-#url: https://dl.dropboxusercontent.com/u/18096698/www
 
 #permalink:   /:categories/:title.html
 category: news
 
 include: [".htaccess"]
-exclude: ["rscripts","README.md","LICENSE.md","_scripts"]
-timezone:    America/Edmonton
+exclude: ["rscripts","README.md","LICENSE.md","_scripts","NOTES.md"]
+timezone: America/Edmonton
 
 taxa:
   - title: Mammals
