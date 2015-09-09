@@ -4,6 +4,14 @@
 ## R script output
 *.out
 
+## R script output
+*.jpg
+*.tif
+*.bmp
+*.png
+!abmi-logo-notext.png
+!favicon.png
+
 ## jekyll built website
 /_site/*
 
