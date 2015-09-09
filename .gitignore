@@ -39,13 +39,3 @@
 /pages/species/birds/*
 /pages/species/mammals/*
 
-/pages/geospatial/footprint/*
-!/pages/geospatial/footprint/index.html
-/pages/geospatial/vegetation/*
-!/pages/geospatial/vegetation/index.html
-/pages/geospatial/climate/*
-!/pages/geospatial/climate/index.html
-/pages/geospatial/soil/*
-!/pages/geospatial/soil/index.html
-/pages/geospatial/topography/*
-!/pages/geospatial/topography/index.html
