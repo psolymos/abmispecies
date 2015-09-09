@@ -4,7 +4,7 @@
 ## R script output
 *.out
 
-## R script output
+## no graphics
 *.jpg
 *.tif
 *.bmp
@@ -20,6 +20,16 @@
 
 ## static content for species pages
 /content/*
+/images/*
+
+## data are generated and not stored
+/_data/*
+!/_data/birds.csv
+!/_data/mammals.csv
+!/_data/mosses.csv
+!/_data/lichens.csv
+!/_data/vplants.csv
+!/_data/mites.csv
 
 ## species pages
 /pages/species/mites/*
