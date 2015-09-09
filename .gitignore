@@ -39,10 +39,6 @@
 /pages/species/birds/*
 /pages/species/mammals/*
 
-## figures from other dirs
-/methods/*
-!/methods/index.html
-
 /pages/geospatial/footprint/*
 !/pages/geospatial/footprint/index.html
 /pages/geospatial/vegetation/*
