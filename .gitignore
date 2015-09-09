@@ -14,20 +14,24 @@
 /content/*
 
 ## species pages
-## note: TOC is in /pages/
-/pages/mites/*
-/pages/mosses/*
-/pages/mammals/*
-/pages/birds/*
-/pages/lichens/*
-/pages/vplants/*
+/pages/species/mites/*
+/pages/species/mosses/*
+/pages/species/lichens/*
+/pages/species/vplants/*
+/pages/species/birds/*
+/pages/species/mammals/*
 
 ## figures from other dirs
 /methods/*
 !/methods/index.html
-/footprint/*
-!/footprint/index.html
-/vegetation/*
-!/vegetation/index.html
-/coefficients/*
-!/coefficients/index.html
+
+/pages/geospatial/footprint/*
+!/pages/geospatial/footprint/index.html
+/pages/geospatial/vegetation/*
+!/pages/geospatial/vegetation/index.html
+/pages/geospatial/climate/*
+!/pages/geospatial/climate/index.html
+/pages/geospatial/soil/*
+!/pages/geospatial/soil/index.html
+/pages/geospatial/topography/*
+!/pages/geospatial/topography/index.html
