@@ -32,12 +32,6 @@ layout: plain
  species in Alberta.</p>
 </div>
 
-
-<div class="col-lg-6 col-sm-6">
-<h3><i class="fa fa-paw"></i> Higher taxa and guilds</h3>
-<p>Some text here.</p>
-</div>
-
 <div class="col-lg-6 col-sm-6">
 <h3><i class="fa fa-map-marker"></i> Geospatial information</h3>
 <p>We provide maps of
@@ -48,6 +42,13 @@ native vegetation, soils, climate, topography, and human footprint types
 <a href="{{ site.baseurl }}/pages/geospatial/climate.html">climate</a>, and
 <a href="{{ site.baseurl }}/pages/geospatial/topography.html">topography</a>
 in Alberta.</p>
+</div>
+
+<div class="col-lg-6 col-sm-6">
+<h3><i class="fa fa-paw"></i> Higher taxa and guilds</h3>
+<p>Results on individual species are combined to highlight
+how groups of similar species &mdsh; guilds &mdash; respond to
+environmental variation. </p>
 </div>
 
 <div class="col-lg-6 col-sm-6">
