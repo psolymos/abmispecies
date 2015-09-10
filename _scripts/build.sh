@@ -14,6 +14,7 @@ git pull
 git checkout v2015
 
 ## run R script
+echo 'running R script'
 cd ~/repos/abmispecies/_scripts
 Rscript --vanilla website_script.R
 
@@ -22,9 +23,10 @@ cd ~/repos/abmispecies/
 jekyll build --destination /var/www/html
 
 ## package everything
-#cd /var/www/html
-#zip -r sppweb.zip .
-#mv sppweb.zip ~/repos/abmispecies/_site/
+echo 'packing up'
+cd /var/www/html
+zip -r -q sppweb.zip .
+mv sppweb.zip ~/repos/abmispecies/_site/
 
 ## return to home folder
 #cd ~
