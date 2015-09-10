@@ -178,10 +178,29 @@
           </div>
           {% endif %}
 
-<!-- 
-"sector-north", "veghf.north",
-"sector-south", "soilhf.south",
--->
+          {% if page.toclabels.sector-north %}
+          <div class="row">
+            <h2 id="sector-north">Sector effects in northern Alberta</h2>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/sector-north/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <p>The x axis represents the extent of the footprint within sectors, the y axis shows the 'unit effect'. As a result, the areas of the rectangles corresponding to the different sectors are proportional to the sector specific population effect (numbers on the top/bottom of the bars) for a species in a given region. Absolute values close to 1 on the y axis indicate expected abundance changes in proportion to changes in a particular footprint type, absolute values higher than 1 indicate disproportionate effects.</p>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if page.toclabels.sector-south %}
+          <div class="row">
+            <h2 id="sector-south">Sector effects in southern Alberta</h2>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/sector-south/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <p>The x axis represents the extent of the footprint within sectors, the y axis shows the 'unit effect'. As a result, the areas of the rectangles corresponding to the different sectors are proportional to the sector specific population effect (numbers on the top/bottom of the bars) for a species in a given region. Absolute values close to 1 on the y axis indicate expected abundance changes in proportion to changes in a particular footprint type, absolute values higher than 1 indicate disproportionate effects.</p>
+            </div>
+          </div>
+          {% endif %}
 
           <div class="row">
             <h4 id="pw">Recommended citation</h4>
@@ -192,9 +211,6 @@
 
         </div><!--/span-->
 
-
-
-<!-- content ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
         </div>
     </div>
 </div>
