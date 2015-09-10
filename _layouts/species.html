@@ -6,13 +6,13 @@
 <body>
 {% include _navigation.html %}
 <div class="container">
+
     <div class="row">
         <div class="col-md-10">
           <h1>{{ page.title }} &mdash; {{ page.taxonname }}{% if page.taxon == "mammals" %}, winter tracking{% endif %}</h1>
-<!-- content starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+        </div>
+      </div>
 
-
-<!-- presence/absence map goes for all spp -->
           {% if page.toclabels.map-det %}
           <div class="row">
             <h2 id="map-det">Map of records at surveyed locations</h2>
@@ -25,7 +25,6 @@
           </div>
           {% endif %}
 
-<!-- for un-modelled spp only -->
           {% if page.toclabels.useavail-north %}
           <div class="row">
             <h2 id="useavail-north">Habitat associations for species with few detections, North</h2>
@@ -202,17 +201,14 @@
           </div>
           {% endif %}
 
-          <div class="row">
-            <h4 id="pw">Recommended citation</h4>
+    <div class="row">
+        <div class="col-md-10">
+            <h2 id="citation">Recommended citation</h2>
             <p>ABMI ({{ site.time | date: "%Y" }}). {{ page.title }}.
             ABMI Species Website, version {{ site.version }}.
             URL: <a href="{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ page.spplabel}}.html">{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ page.spplabel}}.html</a>.</p>
           </div><!--/row-->
 
-        </div><!--/span-->
-
-        </div>
-    </div>
 </div>
 {% include _footer.html %}
 </body>
