@@ -64,7 +64,7 @@ ROOT <- "~/repos/abmispecies/_data"
 #TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants")
 TAXON <- c("mites", "mosses", "lichens","mammals", "vplants")
 OUT <- if (interactive())
-    "e:/peter/sppweb-pages/species" else "~/repos/abmispecies/pages"
+    "e:/peter/sppweb-pages/species" else "~/repos/abmispecies/pages/species"
 OUT2 <- if (interactive())
     "e:/peter/sppweb-pages/species" else "~/repos/abmispecies/_data"
 
