@@ -2,7 +2,7 @@ title: ABMI Species
 version: 3.0
 description: Information on species and habitats monitored by the Alberta Biodiversity Monitoring Institute.
 
-url: http://sc-dev.abmi.ca
+baseurl: http://sc-dev.abmi.ca
 contents: http://species.abmi.ca/contents
 ftproot: ftp://web|anonymous:anonymous@ftp.public.abmi.ca/species.abmi.ca
 

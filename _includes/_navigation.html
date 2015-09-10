@@ -1,56 +1,70 @@
-<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}<img src="{{ site.url }}/abmi-logo-notext.png" class="img-circle" alt="ABMI logo" height="32" width="auto"></a>
-    </div>
-    
-
-    <div class="navbar-collapse collapse">
-
+{% capture navbar %}{% if page.navbar %}{{ page.navbar }}{% else %}{{ site.navbar }}{% endif %}{% endcapture %}
+    <div class="navbar navbar-default navbar-fixed-top navbar-{{ navbar }}">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{{ site.baseurl }}">{{ site.title }}</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
-            <!-- <li><a href="{{ site.url }}">Home</a></li> -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Results <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">Species</li>
-                {% for taxon in site.taxa %}
-                <li><a href="{{ site.url }}{{ taxon.url }}">{{ taxon.title }}</a></li>
-                {% endfor %}
-                <li class="dropdown-header">Higher taxa</li>
-                <li><a href="{{ site.url }}/coefficients/index.html">Coefficients</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="{{ site.url }}/methods/index.html">Methods</a></li>
-                <li><a href="{{ site.url }}/collaborations.html">Collaborations</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Land cover</li>
-                <li><a href="{{ site.url }}/vegetation/index.html">Vegetation</a></li>
-                <li><a href="{{ site.url }}/footprint/index.html">Footprint</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Other</li>
-                <!-- <li><a href="{{ site.url }}/glossary.html">Glossary</a></li> -->
-                <li><a href="{{ site.url }}/versions.html">Versions</a></li>
-              </ul>
-            </li>
-            <li><a href="{{ site.url }}/news.html">News</a></li>
 
-            <li><a href="{{ site.url }}/search.html">Search</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="resources">Species <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="{{ site.baseurl }}/pages/species/mammals.html">Mammals</a></li>
+                <li><a href="{{ site.baseurl }}/pages/species/birds.html">Birds</a></li>
+                <li><a href="{{ site.baseurl }}/pages/species/mites.html">Soil mites</a></li>
+                <li><a href="{{ site.baseurl }}/pages/species/vplants.html">Vascular plants</a></li>
+                <li><a href="{{ site.baseurl }}/pages/species/mosses.html">Bryophytes</a></li>
+                <li><a href="{{ site.baseurl }}/pages/species/lichens.html">Lichens</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="results">Guilds <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li class="divider"></li>
+                <li class="dropdown-header">Birds</li>
+                <li><a href="{{ site.baseurl }}/pages/guilds/guild1.html">Guild 1</a></li>
+                <li><a href="{{ site.baseurl }}/pages/guilds/guild2.html">Guild 2</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Vascular plants</li>
+                <li><a href="{{ site.baseurl }}/pages/guilds/guild3.html">Guild 3</a></li>
+                <li><a href="{{ site.baseurl }}/pages/guilds/guild4.html">Guild 4</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Lichens</li>
+                <li><a href="{{ site.baseurl }}/pages/guilds/guild5.html">Guild 5</a></li>
+                <li><a href="{{ site.baseurl }}/pages/guilds/guild6.html">Guild 6</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="resources">Geospatial <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="{{ site.baseurl }}/pages/geospatial/vegetation.html">Vegetation</a></li>
+                <li><a href="{{ site.baseurl }}/pages/geospatial/soil.html">Soil</a></li>
+                <li><a href="{{ site.baseurl }}/pages/geospatial/footprint.html">Human footprint</a></li>
+                <li><a href="{{ site.baseurl }}/pages/geospatial/climate.html">Climate</a></li>
+                <li><a href="{{ site.baseurl }}/pages/geospatial/topography.html">Topography</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="resources">Resources <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="{{ site.baseurl }}/methods.html">Methods</a></li>
+                <li><a href="{{ site.baseurl }}/collaborations.html">Collaborations</a></li>
+              </ul>
+            </li>
+
           </ul>
-<!--          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="{{ site.baseurl }}/search.html">Search</a></li>
-          </ul> -->
-
-    </div><!--/.navbar-collapse -->
-
-  </div>
-</div>
+          </ul>
+        </div>
+      </div>
+    </div>
