@@ -13,6 +13,20 @@ include: [".htaccess"]
 exclude: ["rscripts","README.md","LICENSE.md","_scripts","NOTES.md"]
 timezone: America/Edmonton
 
+encoding: UTF-8
+markdown: kramdown
+kramdown:
+  input:          GFM
+  hard_wrap:      false
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,Rmd"
+
+# Bootswatch theme
+theme: sandstone
+# fancy fonts on/off
+fancyfonts: false
+# navbar style: inverse, transparent
+navbar: transparent
+
 taxa:
   - title: Mammals
     url: /pages/species/mammals.html
@@ -32,4 +46,3 @@ taxa:
   - title: Lichens
     url: /pages/species/lichens.html
     label: lichens
-
