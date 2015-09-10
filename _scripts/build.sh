@@ -1,17 +1,11 @@
 ## clear old stuff
 rm -f ~/repos/abmispecies/_data/*.yml
-rm -f ~/repos/abmispecies/pages/species/mammals/*
-rm -f ~/repos/abmispecies/pages/species/vplants/*
-rm -f ~/repos/abmispecies/pages/species/mosses/*
-rm -f ~/repos/abmispecies/pages/species/lichens/*
-#rm -f ~/repos/abmispecies/pages/species/birds/*
-rm -f ~/repos/abmispecies/pages/species/mites/*
-rmdir ~/repos/abmispecies/pages/species/mammals
-rmdir ~/repos/abmispecies/pages/species/vplants
-rmdir ~/repos/abmispecies/pages/species/mosses
-rmdir ~/repos/abmispecies/pages/species/lichens
-#rmdir ~/repos/abmispecies/pages/species/birds
-rmdir ~/repos/abmispecies/pages/species/mites
+rm -r -f ~/repos/abmispecies/pages/species/mammals
+rm -r -f ~/repos/abmispecies/pages/species/vplants
+rm -r -f ~/repos/abmispecies/pages/species/mosses
+rm -r -f ~/repos/abmispecies/pages/species/lichens
+#rm -r -f ~/repos/abmispecies/pages/species/birds
+rm -r -f ~/repos/abmispecies/pages/species/mites
 
 ## status update
 cd ~/repos/abmispecies
