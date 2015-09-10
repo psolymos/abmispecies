@@ -54,6 +54,8 @@ if (taxon == "lichens") {
 }
 
 lt <- droplevels(lt[lt$map.det,])
+lt$useavail.north[lt$veghf.north] <- FALSE
+lt$useavail.south[lt$soilhf.south] <- FALSE
 stopifnot(all(!is.na(lt)))
 write.csv(lt, paste0("~/repos/abmispecies/_data/", taxon, ".csv"), row.names=FALSE)
 }
