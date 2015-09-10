@@ -1,11 +1,11 @@
 ## clear old stuff
-rm ~/repos/abmispecies/_data/*.yml -f
-rm ~/repos/abmispecies/pages/species/mammals/* -f
-rm ~/repos/abmispecies/pages/species/vplants/* -f
-rm ~/repos/abmispecies/pages/species/mosses/* -f
-rm ~/repos/abmispecies/pages/species/lichens/* -f
-#rm ~/repos/abmispecies/pages/species/birds/* -f
-rm ~/repos/abmispecies/pages/species/mites/* -f
+rm -f ~/repos/abmispecies/_data/*.yml
+rm -f ~/repos/abmispecies/pages/species/mammals/*
+rm -f ~/repos/abmispecies/pages/species/vplants/*
+rm -f ~/repos/abmispecies/pages/species/mosses/*
+rm -f ~/repos/abmispecies/pages/species/lichens/*
+#rm -f ~/repos/abmispecies/pages/species/birds/*
+rm -f ~/repos/abmispecies/pages/species/mites/*
 rmdir ~/repos/abmispecies/pages/species/mammals
 rmdir ~/repos/abmispecies/pages/species/vplants
 rmdir ~/repos/abmispecies/pages/species/mosses
@@ -27,3 +27,10 @@ Rscript --vanilla website_script.R
 cd ~/repos/abmispecies/
 jekyll build --destination /var/www/html
 
+## package everything
+cd /var/www/html
+zip -r sppweb.zip .
+mv sppweb.zip ~/repos/abmispecies/_site/
+
+## return to home folder
+#cd ~
