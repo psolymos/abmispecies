@@ -21,7 +21,7 @@ kramdown:
 markdown_ext: "markdown,mkdown,mkdn,mkd,md,Rmd"
 
 # Bootswatch theme
-theme: sandstone
+theme: yeti
 # fancy fonts on/off
 fancyfonts: false
 # navbar style: inverse, transparent
