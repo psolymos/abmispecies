@@ -38,23 +38,23 @@ Information from ABMI winter track counts were combined with information from ot
 * Dr. Erin Bayne (University of Alberta)
 * Dr. Stan Boutin (University of Alberta)
 
-### Vascular Plant Plots
+## Vascular Plant Plots
 
 Information from ABMI vascular plant plots were used.
 
-### Bryophytes Plots
+## Bryophytes Plots
 
 Information from ABMI bryophyte plots were used.
 
-### Lichen Plots
+## Lichen Plots
 
 Information from ABMI lichen plots were used.
 
-### Mite Soil Cores
+## Mite Soil Cores
 
 Information from ABMI mite soil cores were used.
 
-### References
+## References
 
 Burton, C., Huggard, D., Bayne, E., Schieck, J., S&oacute;lymos, P., Muhly, T., Farr, D. & Boutin, S., 2014. A framework for adaptive monitoring of the cumulative effects of human footprint on biodiversity. *Environmental Monitoring and Assessment*, 186, 3605-3617.
 

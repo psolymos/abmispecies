@@ -5,7 +5,7 @@ layout: plain
 <div class="jumbotron">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-10 col-md-offset-1">
 
 <h2 class="title">Alberta Biodiversity Monitoring Institute (ABMI)</h2>
 <p>monitors species and their habitats to understand distribution of biodiversity and to inform sustainable resource development and biological conservation in Alberta.</p>
