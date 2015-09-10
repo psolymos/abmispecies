@@ -7,7 +7,7 @@ contents: http://species.abmi.ca/contents
 ftproot: ftp://web|anonymous:anonymous@ftp.public.abmi.ca/species.abmi.ca
 
 #permalink:   /:categories/:title.html
-category: news
+#category: news
 
 include: [".htaccess"]
 exclude: ["rscripts","README.md","LICENSE.md","_scripts","NOTES.md"]
