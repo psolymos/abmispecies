@@ -44,11 +44,14 @@ native vegetation, soils, climate, topography, and human footprint types
 in Alberta.</p>
 </div>
 
+      </div>
+      <div class="row">
+
 <div class="col-lg-6 col-sm-6">
 <h3><i class="fa fa-paw"></i> Higher taxa and guilds</h3>
 <p>Results on individual species are combined to highlight
-how groups of similar species &mdsh; guilds &mdash; respond to
-environmental variation. </p>
+how groups of similar species &mdash; guilds &mdash; respond to
+environmental variation.</p>
 </div>
 
 <div class="col-lg-6 col-sm-6">
