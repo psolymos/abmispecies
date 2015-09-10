@@ -22,9 +22,9 @@ cd ~/repos/abmispecies/
 jekyll build --destination /var/www/html
 
 ## package everything
-cd /var/www/html
-zip -r sppweb.zip .
-mv sppweb.zip ~/repos/abmispecies/_site/
+#cd /var/www/html
+#zip -r sppweb.zip .
+#mv sppweb.zip ~/repos/abmispecies/_site/
 
 ## return to home folder
 #cd ~
