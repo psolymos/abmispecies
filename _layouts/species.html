@@ -16,7 +16,7 @@
 <!-- presence/absence map goes for all spp -->
           {% if page.toclabels.map-det %}
           <div class="row">
-            <h2 id="map-pa">Map of records at surveyed locations</h2>
+            <h2 id="map-det">Map of records at surveyed locations</h2>
             <div class="col-6 col-sm-6 col-lg-6">
               <img src="{{ site.contents }}/species/{{ page.taxon }}/map-det/{{ page.spplabel}}.png" class="img-responsive" alt="Map of detections">
             </div>
@@ -29,7 +29,7 @@
 <!-- for un-modelled spp only -->
           {% if page.toclabels.useavail-north %}
           <div class="row">
-            <h2 id="coef-pw">Habitat associations for species with few detections, North</h2>
+            <h2 id="useavail-north">Habitat associations for species with few detections, North</h2>
             <img src="{{ site.contents }}/species/{{ page.taxon }}/useavail-north/{{ page.spplabel}}.png" class="img-responsive" alt="Use-availability, North">
           <p>It was not possible to create complex habitat association models for species detected fewer than 20 times in northern Alberta. For these species, a coarse index of habitat use was determined as the proportion of detections in each native vegetation and human footprint type in comparison to the proportional availability of the habitat types (see <a href="{{ site.baseurl }}/methods.html">methods</a>). An index value &lt;1 indicates lower than expected proportion of detections in that habitat type; and index value &gt;1 indicates a higher than expected proportion. Due to the coarseness of the analyses, maps of predicted habitat abundance were not created for these species.</p>
           </div>
@@ -37,152 +37,127 @@
 
           {% if page.toclabels.useavail-south %}
           <div class="row">
-            <h2 id="coef-pw">Habitat associations for species with few detections, South</h2>
+            <h2 id="useavail-south">Habitat associations for species with few detections, South</h2>
             <img src="{{ site.contents }}/species/{{ page.taxon }}/useavail-south/{{ page.spplabel}}.png" class="img-responsive" alt="Use-availability, South">
           <p>It was not possible to create complex habitat association models for species detected fewer than 20 times in southern Alberta. For these species, a coarse index of habitat use was determined as the proportion of detections in each native vegetation and human footprint type in comparison to the proportional availability of the habitat types (see <a href="{{ site.baseurl }}/methods.html">methods</a>). An index value &lt;1 indicates lower than expected proportion of detections in that habitat type; and index value &gt;1 indicates a higher than expected proportion. Due to the coarseness of the analyses, maps of predicted habitat abundance were not created for these species.</p>
           </div>
           {% endif %}
 
-<!--
-"linear-north", "veghf.north",
-"linear-south", "soilhf.south",
-"map-cov-cr", "map.pred",
-"map-cr", "map.pred",
-"map-det", "map.det",
-"map-df", "map.pred",
-"map-rf", "map.pred",
-#"map-si", "map.pred",
-"sector-north", "veghf.north",
-"sector-south", "soilhf.south",
-"soilhf-nontreed-south", "soilhf.south",
-"soilhf-treed-south", "soilhf.south",
-"useavail-north", "useavail.north",
-"useavail-south", "useavail.south",
-"veghf-north", "veghf.north"),
- -->
-
-<!-- birds, where modeling is slightly different -->
-          {% if page.toclabels.coef-veg-plus %}
+{% if page.toclabels.veghf-north %}
           <div class="row">
-            <h2 id="coef-veg-plus">Species&ndash;habitat associations in northern Alberta</h2>
+            <h2 id="veghf-north">Species&ndash;habitat associations in northern Alberta</h2>
               <img src="{{ site.contents }}/species/{{ page.taxon }}/veghf-north/{{ page.spplabel}}.png" class="img-responsive" alt="Habitats, North">
 {% if page.taxon == "birds" %}
-              <p>Models were used to show how species' relative abundance differed among vegetation and human footprint types in the Boreal and Foothills regions of Alberta (see <a href="{{ site.baseurl }}/methods/index.html">methods</a>). Models were only created for species that had at least 100 detections using data from ABMI, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab. Predicted species abundance in each habitat type is shown with bars. Vertical lines indicate 90% confidence intervals. Dots within the forested habitat types show predicted species abundance in cutblocks of various ages. For linear footprint, the pairs of points show the change expected from the average habitat with no linear footprint (left point) when 10% linear footprint is added (right point).</p>
+              <p>Models were used to show how species' relative abundance differed among vegetation and human footprint types in the Boreal and Foothills regions of Alberta (see <a href="{{ site.baseurl }}/methods.html">methods</a>). Models were only created for species that had at least 100 detections using data from ABMI, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab (see <a href="{{ site.baseurl }}/collaborations.html">collaborations</a>). Predicted species abundance in each habitat type is shown with bars. Vertical lines indicate 90% confidence intervals. Dots within the forested habitat types show predicted species abundance in cutblocks of various ages. </p>
 {% else %}
-              <p>Models were used to show how species' relative abundance differed among vegetation and human footprint types in the Boreal and Foothills regions of Alberta (see <a href="{{ site.baseurl }}/methods/index.html">methods</a>). Models were only created for species that had at least 20 detections using data from ABMI. Predicted species abundance in each habitat type is shown with bars. Vertical lines indicate 90% confidence intervals. Dots within the forested habitat types show predicted species abundance in cutblocks of various ages. For linear footprint, the pairs of points show the change expected from the average habitat with no linear footprint (left point) when 10% linear footprint is added (right point).</p>
+              <p>Models were used to show how species' relative abundance differed among vegetation and human footprint types in the Boreal and Foothills regions of Alberta (see <a href="{{ site.baseurl }}/methods.html">methods</a>). Models were only created for species that had at least 20 detections using data from ABMI. Predicted species abundance in each habitat type is shown with bars. Vertical lines indicate 90% confidence intervals. Dots within the forested habitat types show predicted species abundance in cutblocks of various ages.</p>
+{% endif %}
+          </div>
+{% endif %}
+
+{% if page.toclabels.soilhf-nontreed-south %}
+          <div class="row">
+            <h2 id="soilhf-nontreed-south">Species&ndash;habitat associations in southern Alberta</h2>
+            <h3>Non-treed sites</h3>
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/soilhf-nontreed-south/{{ page.spplabel}}.png" class="img-responsive" alt="Soils, non-treed, South">
+{% if page.taxon == "birds" %}
+              <p>Models were used to show how species, relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods/index.html">methods</a>). Models were only created for species that had at least 100 detections using data from ABMI, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab (see <a href="{{ site.baseurl }}/collaborations.html">collaborations</a>). Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be presentce on each soil type; the presence/absence of trees greatly affects the presence and abundance of many other biota. Predicted species abundance in each soil/human footprint type is shown with bars. Vertical lines indicate 90% confidence intervals.</p>
+{% else %}
+              <p>Models were used to show how species, relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods/index.html">methods</a>). Models were only created for species that had at least 20 detections using data from ABMI. Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be presentce on each soil type; the presence/absence of trees greatly affects the presence and abundance of many other biota. Predicted species abundance in each soil/human footprint type is shown with bars. Vertical lines indicate 90% confidence intervals.</p>
 {% endif %}
           </div>
           {% endif %}
 
-<!-- non-birds -->
-          {% if page.toclabels.coef-soil %}
+{% if page.toclabels.soilhf-treed-south %}
           <div class="row">
-            <h2 id="coef-soil">Species&ndash;habitat associations in the Prairies and Parkland of Alberta</h2>
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/coef-soil/{{ page.spplabel}}.{{ page.ext.coef-soil}}" class="img-responsive" alt="Map">
-              <p>Models were used to show how species, relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods/index.html">methods</a>). Models were only created for species that had at least 20 detections using data from ABMI. Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be presentce on each soil type; the presence/absence of trees greatly affects the presence and abundance of many other biota. Predicted species abundance in each soil/human footprint type when trees were absent is shown with bars. Predicted abundance when trees were present is shown using diamonds either above or below the top of the bar. Vertical lines indicate 90% confidence intervals.</p>
+            <h2 id="soilhf-treed-south">Species&ndash;habitat associations in southern Alberta</h2>
+            <h3>Non-treed sites</h3>
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/soilhf-treed-south/{{ page.spplabel}}.png" class="img-responsive" alt="Soils, treed, South">
+{% if page.taxon == "birds" %}
+              <p>Models were used to show how species, relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods/index.html">methods</a>). Models were only created for species that had at least 100 detections using data from ABMI, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab (see <a href="{{ site.baseurl }}/collaborations.html">collaborations</a>). Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be presentce on each soil type; the presence/absence of trees greatly affects the presence and abundance of many other biota. Predicted species abundance in each soil/human footprint type is shown with bars. Vertical lines indicate 90% confidence intervals.</p>
+{% else %}
+              <p>Models were used to show how species, relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods/index.html">methods</a>). Models were only created for species that had at least 20 detections using data from ABMI. Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be presentce on each soil type; the presence/absence of trees greatly affects the presence and abundance of many other biota. Predicted species abundance in each soil/human footprint type is shown with bars. Vertical lines indicate 90% confidence intervals.</p>
+{% endif %}
           </div>
           {% endif %}
 
-<!-- birds (switch is -plus ) -->
-          {% if page.toclabels.coef-soil-plus %}
+          {% if page.toclabels.linear-north %}
           <div class="row">
-            <h2 id="coef-soil-plus">Species&ndash;habitat associations in the Prairies and Parkland of Alberta</h2>
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/coef-soil-plus/{{ page.spplabel}}.{{ page.ext.coef-soil-plus }}" class="img-responsive" alt="Map">
-              <p>Models were used to show how species, relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods/index.html">methods</a>). Models were only created for species that had at least 100 detections using data from ABMI, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab. Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be presentce on each soil type; the presence/absence of trees greatly affects the presence and abundance of many other biota. Predicted species abundance in each soil/human footprint type when trees were absent is shown with bars. Predicted abundance when trees were present is shown using diamonds either above or below the top of the bar. Vertical lines indicate 90% confidence intervals.</p>
+            <h2 id="linear-north">Habitat associations for species with few detections, North</h2>
+            <img src="{{ site.contents }}/species/{{ page.taxon }}/linear-north/{{ page.spplabel}}.png" class="img-responsive" alt="Linear footprint relationship, North">
+          <p>For linear footprint in northern Alberta, the pairs of points show the change expected from the average habitat with no linear footprint (left point) when 10% linear footprint is added (right point).</p>
           </div>
           {% endif %}
 
-
-<!-- this part is commented out -->
+          {% if page.toclabels.linear-south %}
+          <div class="row">
+            <h2 id="linear-south">Habitat associations for species with few detections, South</h2>
+            <img src="{{ site.contents }}/species/{{ page.taxon }}/linear-south/{{ page.spplabel}}.png" class="img-responsive" alt="Linear footprint relationship, South">
+          <p>For linear footprint in southern Alberta, the pairs of points show the change expected from the average habitat with no linear footprint (left point) when 10% linear footprint is added (right point).</p>
+          </div>
+          {% endif %}
 <!--
-          {% if page.toclabels.resid-veg %}
-          <div class="row">
-            <h2 id="resid-veg">Habitat associations: human footprint types in the North</h2>
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/resid-veg/{{ page.spplabel}}.{{ page.ext.resid-veg }}" class="img-responsive" alt="Map">
-              <p>Legend: green = successional, orange = agriculture,
-red = non-agricultural alienating, blue = linear.
-If a line is missing, it is because the species did not occur
-often enough near that footprint type to estimate the relationship.
-Shades indicate 90% confidence intervals. Model is based on data from the Boreal, Shield, and Foothills natural regions.</p>
-          </div>
-          {% endif %}
+"map-cr", "map.pred",
+"map-df", "map.pred",
+"map-rf", "map.pred",
+"map-cov-cr", "map.pred",
+ -->
 
-          {% if page.toclabels.resid-soil %}
-          <div class="row">
-            <h2 id="resid-soil">Habitat associations: human footprint types in the South</h2>
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/resid-soil/{{ page.spplabel}}.{{ page.ext.resid-soil }}" class="img-responsive" alt="Map">
-              <p>Legend: green = successional, orange = agriculture,
-red = non-agricultural alienating, blue = linear.
-If a line is missing, it is because the species did not occur
-often enough near that footprint type to estimate the relationship.
-Shades indicate 90% confidence intervals. Model is based on data from the Grassland and Parkland natural regions, and Dry Mixedwood subregion of the Boreal.</p>
-          </div>
-          {% endif %}
--->
 
 <!-- combo maps -->
-          {% if page.toclabels.map-rf-all %}
+          {% if page.toclabels.map-rf %}
           <div class="row">
-            <h2 id="map-rf-all">Predicted relative abundance throughout Alberta under reference conditions </h2>
+            <h2 id="map-rf">Predicted relative abundance throughout Alberta under reference conditions </h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-rf-all/{{ page.spplabel}}.{{ page.ext.map-rf-all }}" class="img-responsive" alt="Map">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-rf/{{ page.spplabel}}.png" class="img-responsive" alt="Map, reference">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
-              <p>Habitat association models, plus models describing how species varied spatially (taking into account the effect of surrounding human footprint) were used to predict species abundance in each quarter section (800 m x 800 m) under reference conditions (see <a href="{{ site.baseurl }}/methods/index.html">methods</a>). Predictions of relative abundance of species in each quarter section were made after all human footprint in the quarter section had been 'backfilled' based on native vegetation in the surrounding area. Quarter sections depicted in red were predicted to have the highest abundance for the species, grading through light tan to dark blue where the species was predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map (see <a href="{{ site.baseurl }}{{ page.url }}#map-rf-cv">uncertainty map</a> below). </p>
+              <p>Habitat association models, plus models describing how species varied spatially (taking into account the effect of surrounding human footprint) were used to predict species abundance in 1 km<sup>2</sup> spatial units under reference conditions (see <a href="{{ site.baseurl }}/methods.html">methods</a>). Predictions of relative abundance of species in each 1 km<sup>2</sup> unit were made after all human footprint in the 1 km<sup>2</sup> unit had been 'backfilled' based on native vegetation in the surrounding area. Pixels depicted in red were predicted to have the highest abundance for the species, grading through light tan to dark blue where the species was predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map. </p>
             </div>
           </div>
           {% endif %}
 
 
-          {% if page.toclabels.map-cr-all %}
+          {% if page.toclabels.map-cr %}
           <div class="row">
-            <h2 id="map-cr-all">Predicted relative abundance throughout Alberta under current conditions</h2>
+            <h2 id="map-cr">Predicted relative abundance throughout Alberta under current conditions</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-cr-all/{{ page.spplabel}}.{{ page.ext.map-cr-all }}" class="img-responsive" alt="Map">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
-              <p>Habitat association models, plus models describing how species varied spatially (taking into account the effect of surrounding human footprint) were used to predict species abundance in each quarter section under current conditions. Predictions of relative species abundance in each quarter section were made based on the vegetation and human footprint present in the quarter section in 2010. Quarter sections depicted in red were predicted to have the highest abundance for the species, grading through light tan to dark blue where the species was predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.</p>
+              <p>Habitat association models, plus models describing how species varied spatially (taking into account the effect of surrounding human footprint) were used to predict species abundance in 1 km<sup>2</sup> spatial units under current conditions. Predictions of relative species abundance in each 1 km<sup>2</sup> unit were made based on the vegetation and human footprint present in the 1 km<sup>2</sup> unit in 2012. Pixels depicted in red were predicted to have the highest abundance for the species, grading through light tan to dark blue where the species was predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map (see <a href="{{ site.baseurl }}{{ page.url }}#map-cov-cr">uncertainty map</a> below).</p>
             </div>
           </div>
           {% endif %}
 
 
-          {% if page.toclabels.map-df-all %}
+          {% if page.toclabels.map-df %}
           <div class="row">
-            <h2 id="map-df-all">Difference in relative abundance between current and reference conditions</h2>
+            <h2 id="map-df">Difference in relative abundance between current and reference conditions</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-df-all/{{ page.spplabel}}.{{ page.ext.map-df-all }}" class="img-responsive" alt="Map">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-df/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
-              <p>For each quarter section the difference between predicted current and reference conditions was determined. In quarter sections depicted in green the species was predicted to have higher abundance under present conditions than under reference conditions, with the opposite true for quarter sections depicted in red. The intensity of green and red depict the relative magnitude of increase or decrease for the species between reference and current conditions. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.</p>
+              <p>For each 1 km<sup>2</sup> unit the difference between predicted current and reference conditions was determined. In 1 km<sup>2</sup> units depicted in green the species was predicted to have higher abundance under present conditions than under reference conditions, with the opposite true for 1 km<sup>2</sup> units depicted in red. The intensity of green and red depict the relative magnitude of increase or decrease for the species between reference and current conditions. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.</p>
             </div>
           </div>
           {% endif %}
 
-          {% if page.toclabels.map-rf-cv %}
+          {% if page.toclabels.map-cov-cr %}
           <div class="row">
-            <h2 id="map-rf-cv">Uncertainty in predicted reference conditions</h2>
+            <h2 id="map-cov-cr">Uncertainty in predicted current conditions</h2>
             <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-rf-cv/{{ page.spplabel}}.{{ page.ext.map-rf-cv }}" class="img-responsive" alt="Map">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-cov-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-6 col-sm-6 col-lg-6">
-              <p>To highlight the degree of uncertainty in the models, we estimated the coefficient of variation for each township based on bootstrap predictions of reference abundance. Townships depicted in red have the highest coefficient of variation, while townships in dark green have the lowest.</p>
+              <p>To highlight the degree of uncertainty in the models, we estimated the coefficient of variation for each township based on bootstrap predictions of current abundance. 10 km x 10 km units depicted in red have the highest coefficient of variation, while 10 km x 10 km units in dark green have the lowest.</p>
             </div>
           </div>
           {% endif %}
 
-<!-- use only Rf
-          {% if page.toclabels.map-cr-cv %}
-          <div class="row">
-            <h2 id="map-cr-cv">Coefficient of variation in current conditions</h2>
-            <div class="col-6 col-sm-6 col-lg-6">
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-cr-cv/{{ page.spplabel}}.{{ page.ext.map-cr-cv }}" class="img-responsive" alt="Map">
-            </div>
-            <div class="col-6 col-sm-6 col-lg-6">
-              <p>The coefficient of variation reflects the standard deviation of bootstrap current prediction values standardized by the mean. The mapping unit is a township.</p>
-            </div>
-          </div>
-          {% endif %}
+<!-- 
+"sector-north", "veghf.north",
+"sector-south", "soilhf.south",
 -->
 
           <div class="row">
