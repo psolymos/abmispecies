@@ -1,5 +1,5 @@
-#TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants")
-TAXON <- c("mites", "mosses", "lichens","mammals", "vplants")
+TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants")
+#TAXON <- c("mites", "mosses", "lichens","mammals", "vplants")
 
 ## 1st we tidy up the species lookup tables
 if (FALSE) {
