@@ -1,232 +1,232 @@
-"sppid","species","scinam","ndet","modelN","modelS","ndet_n","ndet_s","ndet_ns","map.det","map.pred","useavail.north","useavail.south","veghf.north","soilhf.south"
-"AlderFlycatcher","Alder Flycatcher","Empidonax alnorum",6929,TRUE,TRUE,6198,2191,6198,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"AmericanAvocet","American Avocet","Recurvirostra americana",407,TRUE,TRUE,94,378,378,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"AmericanBittern","American Bittern","Botaurus lentiginosus",351,TRUE,TRUE,231,176,231,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"AmericanCoot","American Coot","Fulica americana",2164,TRUE,TRUE,1146,1696,1696,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"AmericanCrow","American Crow","Corvus brachyrhynchos",20225,TRUE,TRUE,14163,17253,17253,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"AmericanGoldfinch","American Goldfinch","Spinus tristis",3298,TRUE,TRUE,2480,2823,2823,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
+"sppid","species","scinam","ndet","modelN","modelS","ndet_n","ndet_s","ndet_ns","map.det","veghf.north","soilhf.south","map.pred","useavail.north","useavail.south"
+"AlderFlycatcher","Alder Flycatcher","Empidonax alnorum",6929,TRUE,TRUE,6198,2191,6198,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"AmericanAvocet","American Avocet","Recurvirostra americana",407,TRUE,TRUE,94,378,378,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"AmericanBittern","American Bittern","Botaurus lentiginosus",351,TRUE,TRUE,231,176,231,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"AmericanCoot","American Coot","Fulica americana",2164,TRUE,TRUE,1146,1696,1696,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"AmericanCrow","American Crow","Corvus brachyrhynchos",20225,TRUE,TRUE,14163,17253,17253,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"AmericanGoldfinch","American Goldfinch","Spinus tristis",3298,TRUE,TRUE,2480,2823,2823,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
 "AmericanGoldenPlover","American Golden-Plover","Pluvialis dominica",1,FALSE,FALSE,1,0,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-"AmericanKestrel","American Kestrel","Falco sparverius",617,TRUE,TRUE,531,467,531,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"AmericanPipit","American Pipit","Anthus rubescens",14,FALSE,FALSE,5,5,5,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-"AmericanRedstart","American Redstart","Setophaga ruticilla",3269,TRUE,TRUE,2405,206,2405,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"AmericanRobin","American Robin","Turdus migratorius",22881,TRUE,TRUE,18966,12486,18966,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"AmericanWigeon","American Wigeon","Anas americana",1305,TRUE,TRUE,521,1004,1004,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"AmericanTreeSparrow","American Tree Sparrow","Spizella arborea",21,FALSE,FALSE,19,5,19,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-"AmericanThreetoedWoodpecker","American Three-toed Woodpecker","Picoides dorsalis",200,TRUE,FALSE,165,1,165,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"AmericanWhitePelican","American White Pelican","Pelecanus erythrorhynchos",192,TRUE,TRUE,96,153,153,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BarredOwl","Barred Owl","Strix varia",124,TRUE,FALSE,67,2,67,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"BaldEagle","Bald Eagle","Haliaeetus leucocephalus",40,TRUE,FALSE,36,9,36,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"BarrowsGoldeneye","Barrow's Goldeneye","Bucephala islandica",38,TRUE,FALSE,38,1,38,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"BairdsSparrow","Baird's Sparrow","Ammodramus bairdii",2196,TRUE,TRUE,43,1902,1902,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BankSwallow","Bank Swallow","Riparia riparia",355,TRUE,TRUE,186,242,242,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BaltimoreOriole","Baltimore Oriole","Icterus galbula",2282,TRUE,TRUE,1906,2112,2112,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BarnSwallow","Barn Swallow","Hirundo rustica",3470,TRUE,TRUE,1976,2987,2987,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BlackandwhiteWarbler","Black-and-white Warbler","Mniotilta varia",2184,TRUE,TRUE,1752,105,1752,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BlackbilledMagpie","Black-billed Magpie","Pica hudsonia",12342,TRUE,TRUE,7975,11345,11345,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BaybreastedWarbler","Bay-breasted Warbler","Setophaga castanea",1237,TRUE,FALSE,1055,10,1055,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"BlackbackedWoodpecker","Black-backed Woodpecker","Picoides arcticus",117,TRUE,FALSE,112,0,112,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"BlackcappedChickadee","Black-capped Chickadee","Poecile atricapillus",4211,TRUE,TRUE,3703,1748,3703,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BeltedKingfisher","Belted Kingfisher","Megaceryle alcyon",90,TRUE,FALSE,83,10,83,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"BrownheadedCowbird","Brown-headed Cowbird","Molothrus ater",12442,TRUE,TRUE,5079,10240,10240,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BlackheadedGrosbeak","Black-headed Grosbeak","Pheucticus melanocephalus",34,TRUE,FALSE,31,3,31,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"BlueheadedVireo","Blue-headed Vireo","Vireo solitarius",2574,TRUE,TRUE,2081,329,2081,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BlackburnianWarbler","Blackburnian Warbler","Setophaga fusca",42,FALSE,FALSE,23,0,23,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-"BlueJay","Blue Jay","Cyanocitta cristata",773,TRUE,TRUE,675,276,675,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BlackpollWarbler","Blackpoll Warbler","Setophaga striata",346,TRUE,FALSE,337,9,337,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"BlackTern","Black Tern","Chlidonias niger",1502,TRUE,TRUE,1062,1179,1179,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BlackneckedStilt","Black-necked Stilt","Himantopus mexicanus",26,FALSE,FALSE,0,21,21,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
-"Bobolink","Bobolink","Dolichonyx oryzivorus",54,FALSE,TRUE,19,43,43,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"BorealChickadee","Boreal Chickadee","Poecile hudsonicus",1425,TRUE,TRUE,1160,58,1160,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BonapartesGull","Bonaparte's Gull","Chroicocephalus philadelphia",381,TRUE,TRUE,266,85,266,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BorealOwl","Boreal Owl","Aegolius funereus",295,TRUE,FALSE,102,1,102,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"BohemianWaxwing","Bohemian Waxwing","Bombycilla garrulus",26,FALSE,FALSE,21,5,21,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-"BrewersBlackbird","Brewer's Blackbird","Euphagus cyanocephalus",7910,TRUE,TRUE,2775,7422,7422,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BrownCreeper","Brown Creeper","Certhia americana",1331,TRUE,FALSE,763,11,763,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"BrewersSparrow","Brewer's Sparrow","Spizella breweri",180,FALSE,TRUE,16,167,167,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"BrownThrasher","Brown Thrasher","Toxostoma rufum",261,FALSE,TRUE,11,255,255,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"BlackthroatedGreenWarbler","Black-throated Green Warbler","Setophaga virens",1872,TRUE,FALSE,968,7,968,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"Bufflehead","Bufflehead","Bucephala albeola",497,TRUE,TRUE,400,341,400,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"BroadwingedHawk","Broad-winged Hawk","Buteo platypterus",66,TRUE,FALSE,54,7,54,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"BluewingedTeal","Blue-winged Teal","Anas discors",2538,TRUE,TRUE,1311,2323,2323,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CaliforniaGull","California Gull","Larus californicus",970,TRUE,TRUE,194,898,898,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CanadaGoose","Canada Goose","Branta canadensis",5200,TRUE,TRUE,3095,3191,3191,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"Canvasback","Canvasback","Aythya valisineria",230,TRUE,TRUE,104,211,211,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CaliforniaQuail","California Quail","Callipepla californica",8,FALSE,FALSE,4,6,6,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-"CanadaWarbler","Canada Warbler","Cardellina canadensis",1163,TRUE,TRUE,773,25,773,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"ChestnutcollaredLongspur","Chestnut-collared Longspur","Calcarius ornatus",2780,FALSE,TRUE,1,2535,2535,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
-"ClaycoloredSparrow","Clay-colored Sparrow","Spizella pallida",24601,TRUE,TRUE,17001,20280,20280,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CedarWaxwing","Cedar Waxwing","Bombycilla cedrorum",2333,TRUE,TRUE,2077,1118,2077,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"ChippingSparrow","Chipping Sparrow","Spizella passerina",18172,TRUE,TRUE,15657,2594,15657,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CinnamonTeal","Cinnamon Teal","Anas cyanoptera",152,TRUE,TRUE,27,137,137,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CliffSwallow","Cliff Swallow","Petrochelidon pyrrhonota",1048,TRUE,TRUE,397,824,824,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CapeMayWarbler","Cape May Warbler","Setophaga tigrina",1178,TRUE,FALSE,1111,16,1111,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"CordilleranFlycatcher","Cordilleran Flycatcher","Empidonax occidentalis",9,FALSE,FALSE,9,0,9,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-"CommonGoldeneye","Common Goldeneye","Bucephala clangula",289,TRUE,TRUE,263,190,263,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CommonGrackle","Common Grackle","Quiscalus quiscula",411,TRUE,TRUE,193,311,311,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CommonLoon","Common Loon","Gavia immer",1615,TRUE,TRUE,1101,117,1101,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CommonMerganser","Common Merganser","Mergus merganser",96,TRUE,FALSE,90,14,90,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"CommonNighthawk","Common Nighthawk","Chordeiles minor",511,TRUE,TRUE,136,126,136,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"ConnecticutWarbler","Connecticut Warbler","Oporornis agilis",2475,TRUE,TRUE,1487,91,1487,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CommonRaven","Common Raven","Corvus corax",7444,TRUE,TRUE,6147,2530,6147,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CommonRedpoll","Common Redpoll","Acanthis flammea",8,FALSE,FALSE,5,0,5,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-"CommonTern","Common Tern","Sterna hirundo",126,TRUE,TRUE,66,85,85,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"CommonYellowthroat","Common Yellowthroat","Geothlypis trichas",4558,TRUE,TRUE,3631,1496,3631,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"ChestnutsidedWarbler","Chestnut-sided Warbler","Setophaga pensylvanica",76,TRUE,FALSE,57,0,57,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"DoublecrestedCormorant","Double-crested Cormorant","Phalacrocorax auritus",254,TRUE,TRUE,111,223,223,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"DarkeyedJunco","Dark-eyed Junco","Junco hyemalis",4066,TRUE,TRUE,2709,54,2709,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"DownyWoodpecker","Downy Woodpecker","Picoides pubescens",408,TRUE,TRUE,368,205,368,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"DuskyFlycatcher","Dusky Flycatcher","Empidonax oberholseri",216,TRUE,FALSE,215,1,215,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"AmericanKestrel","American Kestrel","Falco sparverius",617,TRUE,TRUE,531,467,531,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"AmericanPipit","American Pipit","Anthus rubescens",14,FALSE,FALSE,5,5,5,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"AmericanRedstart","American Redstart","Setophaga ruticilla",3269,TRUE,TRUE,2405,206,2405,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"AmericanRobin","American Robin","Turdus migratorius",22881,TRUE,TRUE,18966,12486,18966,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"AmericanWigeon","American Wigeon","Anas americana",1305,TRUE,TRUE,521,1004,1004,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"AmericanTreeSparrow","American Tree Sparrow","Spizella arborea",21,FALSE,FALSE,19,5,19,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"AmericanThreetoedWoodpecker","American Three-toed Woodpecker","Picoides dorsalis",200,TRUE,FALSE,165,1,165,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"AmericanWhitePelican","American White Pelican","Pelecanus erythrorhynchos",192,TRUE,TRUE,96,153,153,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"BarredOwl","Barred Owl","Strix varia",124,TRUE,FALSE,67,2,67,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"BaldEagle","Bald Eagle","Haliaeetus leucocephalus",40,TRUE,FALSE,36,9,36,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"BarrowsGoldeneye","Barrow's Goldeneye","Bucephala islandica",38,TRUE,FALSE,38,1,38,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"BairdsSparrow","Baird's Sparrow","Ammodramus bairdii",2196,TRUE,TRUE,43,1902,1902,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"BankSwallow","Bank Swallow","Riparia riparia",355,TRUE,TRUE,186,242,242,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BaltimoreOriole","Baltimore Oriole","Icterus galbula",2282,TRUE,TRUE,1906,2112,2112,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BarnSwallow","Barn Swallow","Hirundo rustica",3470,TRUE,TRUE,1976,2987,2987,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BlackandwhiteWarbler","Black-and-white Warbler","Mniotilta varia",2184,TRUE,TRUE,1752,105,1752,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BlackbilledMagpie","Black-billed Magpie","Pica hudsonia",12342,TRUE,TRUE,7975,11345,11345,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BaybreastedWarbler","Bay-breasted Warbler","Setophaga castanea",1237,TRUE,FALSE,1055,10,1055,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"BlackbackedWoodpecker","Black-backed Woodpecker","Picoides arcticus",117,TRUE,FALSE,112,0,112,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"BlackcappedChickadee","Black-capped Chickadee","Poecile atricapillus",4211,TRUE,TRUE,3703,1748,3703,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BeltedKingfisher","Belted Kingfisher","Megaceryle alcyon",90,TRUE,FALSE,83,10,83,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"BrownheadedCowbird","Brown-headed Cowbird","Molothrus ater",12442,TRUE,TRUE,5079,10240,10240,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BlackheadedGrosbeak","Black-headed Grosbeak","Pheucticus melanocephalus",34,TRUE,FALSE,31,3,31,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"BlueheadedVireo","Blue-headed Vireo","Vireo solitarius",2574,TRUE,TRUE,2081,329,2081,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BlackburnianWarbler","Blackburnian Warbler","Setophaga fusca",42,FALSE,FALSE,23,0,23,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"BlueJay","Blue Jay","Cyanocitta cristata",773,TRUE,TRUE,675,276,675,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BlackpollWarbler","Blackpoll Warbler","Setophaga striata",346,TRUE,FALSE,337,9,337,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"BlackTern","Black Tern","Chlidonias niger",1502,TRUE,TRUE,1062,1179,1179,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BlackneckedStilt","Black-necked Stilt","Himantopus mexicanus",26,FALSE,FALSE,0,21,21,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
+"Bobolink","Bobolink","Dolichonyx oryzivorus",54,FALSE,TRUE,19,43,43,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"BorealChickadee","Boreal Chickadee","Poecile hudsonicus",1425,TRUE,TRUE,1160,58,1160,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"BonapartesGull","Bonaparte's Gull","Chroicocephalus philadelphia",381,TRUE,TRUE,266,85,266,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"BorealOwl","Boreal Owl","Aegolius funereus",295,TRUE,FALSE,102,1,102,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"BohemianWaxwing","Bohemian Waxwing","Bombycilla garrulus",26,FALSE,FALSE,21,5,21,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"BrewersBlackbird","Brewer's Blackbird","Euphagus cyanocephalus",7910,TRUE,TRUE,2775,7422,7422,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BrownCreeper","Brown Creeper","Certhia americana",1331,TRUE,FALSE,763,11,763,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"BrewersSparrow","Brewer's Sparrow","Spizella breweri",180,FALSE,TRUE,16,167,167,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"BrownThrasher","Brown Thrasher","Toxostoma rufum",261,FALSE,TRUE,11,255,255,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"BlackthroatedGreenWarbler","Black-throated Green Warbler","Setophaga virens",1872,TRUE,FALSE,968,7,968,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"Bufflehead","Bufflehead","Bucephala albeola",497,TRUE,TRUE,400,341,400,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"BroadwingedHawk","Broad-winged Hawk","Buteo platypterus",66,TRUE,FALSE,54,7,54,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"BluewingedTeal","Blue-winged Teal","Anas discors",2538,TRUE,TRUE,1311,2323,2323,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"CaliforniaGull","California Gull","Larus californicus",970,TRUE,TRUE,194,898,898,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"CanadaGoose","Canada Goose","Branta canadensis",5200,TRUE,TRUE,3095,3191,3191,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"Canvasback","Canvasback","Aythya valisineria",230,TRUE,TRUE,104,211,211,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"CaliforniaQuail","California Quail","Callipepla californica",8,FALSE,FALSE,4,6,6,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"CanadaWarbler","Canada Warbler","Cardellina canadensis",1163,TRUE,TRUE,773,25,773,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"ChestnutcollaredLongspur","Chestnut-collared Longspur","Calcarius ornatus",2780,FALSE,TRUE,1,2535,2535,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"ClaycoloredSparrow","Clay-colored Sparrow","Spizella pallida",24601,TRUE,TRUE,17001,20280,20280,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"CedarWaxwing","Cedar Waxwing","Bombycilla cedrorum",2333,TRUE,TRUE,2077,1118,2077,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"ChippingSparrow","Chipping Sparrow","Spizella passerina",18172,TRUE,TRUE,15657,2594,15657,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"CinnamonTeal","Cinnamon Teal","Anas cyanoptera",152,TRUE,TRUE,27,137,137,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"CliffSwallow","Cliff Swallow","Petrochelidon pyrrhonota",1048,TRUE,TRUE,397,824,824,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"CapeMayWarbler","Cape May Warbler","Setophaga tigrina",1178,TRUE,FALSE,1111,16,1111,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"CordilleranFlycatcher","Cordilleran Flycatcher","Empidonax occidentalis",9,FALSE,FALSE,9,0,9,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"CommonGoldeneye","Common Goldeneye","Bucephala clangula",289,TRUE,TRUE,263,190,263,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"CommonGrackle","Common Grackle","Quiscalus quiscula",411,TRUE,TRUE,193,311,311,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"CommonLoon","Common Loon","Gavia immer",1615,TRUE,TRUE,1101,117,1101,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"CommonMerganser","Common Merganser","Mergus merganser",96,TRUE,FALSE,90,14,90,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"CommonNighthawk","Common Nighthawk","Chordeiles minor",511,TRUE,TRUE,136,126,136,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"ConnecticutWarbler","Connecticut Warbler","Oporornis agilis",2475,TRUE,TRUE,1487,91,1487,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"CommonRaven","Common Raven","Corvus corax",7444,TRUE,TRUE,6147,2530,6147,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"CommonRedpoll","Common Redpoll","Acanthis flammea",8,FALSE,FALSE,5,0,5,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"CommonTern","Common Tern","Sterna hirundo",126,TRUE,TRUE,66,85,85,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"CommonYellowthroat","Common Yellowthroat","Geothlypis trichas",4558,TRUE,TRUE,3631,1496,3631,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"ChestnutsidedWarbler","Chestnut-sided Warbler","Setophaga pensylvanica",76,TRUE,FALSE,57,0,57,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"DoublecrestedCormorant","Double-crested Cormorant","Phalacrocorax auritus",254,TRUE,TRUE,111,223,223,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"DarkeyedJunco","Dark-eyed Junco","Junco hyemalis",4066,TRUE,TRUE,2709,54,2709,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"DownyWoodpecker","Downy Woodpecker","Picoides pubescens",408,TRUE,TRUE,368,205,368,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"DuskyFlycatcher","Dusky Flycatcher","Empidonax oberholseri",216,TRUE,FALSE,215,1,215,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
 "EasternBluebird","Eastern Bluebird","Sialia sialis",2,FALSE,FALSE,2,1,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-"EaredGrebe","Eared Grebe","Podiceps nigricollis",179,TRUE,TRUE,58,155,155,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"EasternKingbird","Eastern Kingbird","Tyrannus tyrannus",2407,TRUE,TRUE,681,2247,2247,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"EasternPhoebe","Eastern Phoebe","Sayornis phoebe",640,TRUE,TRUE,612,422,612,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
+"EaredGrebe","Eared Grebe","Podiceps nigricollis",179,TRUE,TRUE,58,155,155,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"EasternKingbird","Eastern Kingbird","Tyrannus tyrannus",2407,TRUE,TRUE,681,2247,2247,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"EasternPhoebe","Eastern Phoebe","Sayornis phoebe",640,TRUE,TRUE,612,422,612,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
 "EasternWoodPewee","Eastern Wood-Pewee","Contopus virens",1,FALSE,FALSE,1,0,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-"EuropeanStarling","European Starling","Sturnus vulgaris",6412,TRUE,TRUE,3982,5885,5885,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"EveningGrosbeak","Evening Grosbeak","Coccothraustes vespertinus",283,TRUE,FALSE,257,22,257,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"FerruginousHawk","Ferruginous Hawk","Buteo regalis",331,FALSE,TRUE,3,330,330,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
-"FoxSparrow","Fox Sparrow","Passerella iliaca",586,TRUE,TRUE,573,28,573,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"ForstersTern","Forster's Tern","Sterna forsteri",197,TRUE,TRUE,42,53,53,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"FranklinsGull","Franklin's Gull","Leucophaeus pipixcan",2262,TRUE,TRUE,1268,2048,2048,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"Gadwall","Gadwall","Anas strepera",2322,TRUE,TRUE,747,2164,2164,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"GreatBlueHeron","Great Blue Heron","Ardea herodias",311,TRUE,TRUE,226,256,256,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"GoldencrownedKinglet","Golden-crowned Kinglet","Regulus satrapa",1417,TRUE,FALSE,1189,14,1189,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"GreatGrayOwl","Great Gray Owl","Strix nebulosa",53,TRUE,FALSE,41,10,41,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"GreatHornedOwl","Great Horned Owl","Bubo virginianus",430,TRUE,TRUE,203,221,221,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"GrayJay","Gray Jay","Perisoreus canadensis",6933,TRUE,TRUE,5833,129,5833,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"GrayPartridge","Gray Partridge","Perdix perdix",514,TRUE,TRUE,60,510,510,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"GrayCatbird","Gray Catbird","Dumetella carolinensis",543,TRUE,TRUE,401,447,447,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
+"EuropeanStarling","European Starling","Sturnus vulgaris",6412,TRUE,TRUE,3982,5885,5885,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"EveningGrosbeak","Evening Grosbeak","Coccothraustes vespertinus",283,TRUE,FALSE,257,22,257,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"FerruginousHawk","Ferruginous Hawk","Buteo regalis",331,FALSE,TRUE,3,330,330,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"FoxSparrow","Fox Sparrow","Passerella iliaca",586,TRUE,TRUE,573,28,573,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"ForstersTern","Forster's Tern","Sterna forsteri",197,TRUE,TRUE,42,53,53,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"FranklinsGull","Franklin's Gull","Leucophaeus pipixcan",2262,TRUE,TRUE,1268,2048,2048,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"Gadwall","Gadwall","Anas strepera",2322,TRUE,TRUE,747,2164,2164,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"GreatBlueHeron","Great Blue Heron","Ardea herodias",311,TRUE,TRUE,226,256,256,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"GoldencrownedKinglet","Golden-crowned Kinglet","Regulus satrapa",1417,TRUE,FALSE,1189,14,1189,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"GreatGrayOwl","Great Gray Owl","Strix nebulosa",53,TRUE,FALSE,41,10,41,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"GreatHornedOwl","Great Horned Owl","Bubo virginianus",430,TRUE,TRUE,203,221,221,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"GrayJay","Gray Jay","Perisoreus canadensis",6933,TRUE,TRUE,5833,129,5833,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"GrayPartridge","Gray Partridge","Perdix perdix",514,TRUE,TRUE,60,510,510,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"GrayCatbird","Gray Catbird","Dumetella carolinensis",543,TRUE,TRUE,401,447,447,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
 "GreaterScaup","Greater Scaup","Aythya marila",3,FALSE,FALSE,3,1,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-"GrasshopperSparrow","Grasshopper Sparrow","Ammodramus savannarum",564,FALSE,TRUE,7,526,526,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"GreaterYellowlegs","Greater Yellowlegs","Tringa melanoleuca",1100,TRUE,TRUE,797,26,797,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"GreenwingedTeal","Green-winged Teal","Anas crecca",708,TRUE,TRUE,450,597,597,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"HammondsFlycatcher","Hammond's Flycatcher","Empidonax hammondii",102,TRUE,FALSE,101,1,101,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"HairyWoodpecker","Hairy Woodpecker","Picoides villosus",1009,TRUE,TRUE,827,283,827,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"HerringGull","Herring Gull","Larus argentatus",51,TRUE,TRUE,25,33,33,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"HermitThrush","Hermit Thrush","Catharus guttatus",8664,TRUE,TRUE,7535,761,7535,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"HouseFinch","House Finch","Carpodacus mexicanus",30,FALSE,TRUE,22,29,29,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"HornedGrebe","Horned Grebe","Podiceps auritus",175,TRUE,TRUE,117,144,144,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"HornedLark","Horned Lark","Eremophila alpestris",11812,TRUE,TRUE,496,11350,11350,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"HoodedMerganser","Hooded Merganser","Lophodytes cucullatus",9,FALSE,FALSE,8,5,8,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-"HouseSparrow","House Sparrow","Passer domesticus",4766,TRUE,TRUE,1859,4628,4628,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"HouseWren","House Wren","Troglodytes aedon",12424,TRUE,TRUE,10380,10912,10912,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"Killdeer","Killdeer","Charadrius vociferus",4131,TRUE,TRUE,1595,3671,3671,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"LarkBunting","Lark Bunting","Calamospiza melanocorys",448,FALSE,TRUE,3,441,441,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
-"LarkSparrow","Lark Sparrow","Chondestes grammacus",135,FALSE,TRUE,13,129,129,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"LongbilledCurlew","Long-billed Curlew","Numenius americanus",2425,FALSE,TRUE,22,2321,2321,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"LeContesSparrow","Le Conte's Sparrow","Ammodramus leconteii",3505,TRUE,TRUE,2025,1310,2025,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"LeastFlycatcher","Least Flycatcher","Empidonax minimus",9875,TRUE,TRUE,8320,4820,8320,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"LongearedOwl","Long-eared Owl","Asio otus",13,FALSE,FALSE,8,4,8,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-"LesserScaup","Lesser Scaup","Aythya affinis",1145,TRUE,TRUE,598,1026,1026,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"LesserYellowlegs","Lesser Yellowlegs","Tringa flavipes",598,TRUE,TRUE,482,131,482,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"LincolnsSparrow","Lincoln's Sparrow","Melospiza lincolnii",9107,TRUE,TRUE,7921,2285,7921,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"MarbledGodwit","Marbled Godwit","Limosa fedoa",4021,TRUE,TRUE,316,3843,3843,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"Mallard","Mallard","Anas platyrhynchos",6561,TRUE,TRUE,3081,5833,5833,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"MagnoliaWarbler","Magnolia Warbler","Setophaga magnolia",2735,TRUE,TRUE,2404,110,2404,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"MarshWren","Marsh Wren","Cistothorus palustris",461,TRUE,TRUE,212,177,212,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"McCownsLongspur","McCown's Longspur","Rhynchophanes mccownii",647,FALSE,TRUE,2,599,599,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+"GrasshopperSparrow","Grasshopper Sparrow","Ammodramus savannarum",564,FALSE,TRUE,7,526,526,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"GreaterYellowlegs","Greater Yellowlegs","Tringa melanoleuca",1100,TRUE,TRUE,797,26,797,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"GreenwingedTeal","Green-winged Teal","Anas crecca",708,TRUE,TRUE,450,597,597,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"HammondsFlycatcher","Hammond's Flycatcher","Empidonax hammondii",102,TRUE,FALSE,101,1,101,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"HairyWoodpecker","Hairy Woodpecker","Picoides villosus",1009,TRUE,TRUE,827,283,827,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"HerringGull","Herring Gull","Larus argentatus",51,TRUE,TRUE,25,33,33,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"HermitThrush","Hermit Thrush","Catharus guttatus",8664,TRUE,TRUE,7535,761,7535,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"HouseFinch","House Finch","Carpodacus mexicanus",30,FALSE,TRUE,22,29,29,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"HornedGrebe","Horned Grebe","Podiceps auritus",175,TRUE,TRUE,117,144,144,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"HornedLark","Horned Lark","Eremophila alpestris",11812,TRUE,TRUE,496,11350,11350,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"HoodedMerganser","Hooded Merganser","Lophodytes cucullatus",9,FALSE,FALSE,8,5,8,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"HouseSparrow","House Sparrow","Passer domesticus",4766,TRUE,TRUE,1859,4628,4628,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"HouseWren","House Wren","Troglodytes aedon",12424,TRUE,TRUE,10380,10912,10912,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"Killdeer","Killdeer","Charadrius vociferus",4131,TRUE,TRUE,1595,3671,3671,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"LarkBunting","Lark Bunting","Calamospiza melanocorys",448,FALSE,TRUE,3,441,441,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"LarkSparrow","Lark Sparrow","Chondestes grammacus",135,FALSE,TRUE,13,129,129,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"LongbilledCurlew","Long-billed Curlew","Numenius americanus",2425,FALSE,TRUE,22,2321,2321,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"LeContesSparrow","Le Conte's Sparrow","Ammodramus leconteii",3505,TRUE,TRUE,2025,1310,2025,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"LeastFlycatcher","Least Flycatcher","Empidonax minimus",9875,TRUE,TRUE,8320,4820,8320,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"LongearedOwl","Long-eared Owl","Asio otus",13,FALSE,FALSE,8,4,8,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"LesserScaup","Lesser Scaup","Aythya affinis",1145,TRUE,TRUE,598,1026,1026,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"LesserYellowlegs","Lesser Yellowlegs","Tringa flavipes",598,TRUE,TRUE,482,131,482,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"LincolnsSparrow","Lincoln's Sparrow","Melospiza lincolnii",9107,TRUE,TRUE,7921,2285,7921,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"MarbledGodwit","Marbled Godwit","Limosa fedoa",4021,TRUE,TRUE,316,3843,3843,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"Mallard","Mallard","Anas platyrhynchos",6561,TRUE,TRUE,3081,5833,5833,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"MagnoliaWarbler","Magnolia Warbler","Setophaga magnolia",2735,TRUE,TRUE,2404,110,2404,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"MarshWren","Marsh Wren","Cistothorus palustris",461,TRUE,TRUE,212,177,212,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"McCownsLongspur","McCown's Longspur","Rhynchophanes mccownii",647,FALSE,TRUE,2,599,599,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
 "MewGull","Mew Gull","Larus canus",3,FALSE,FALSE,3,0,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-"Merlin","Merlin","Falco columbarius",206,TRUE,TRUE,123,172,172,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"MountainBluebird","Mountain Bluebird","Sialia currucoides",882,TRUE,TRUE,694,599,694,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"MountainChickadee","Mountain Chickadee","Poecile gambeli",212,TRUE,FALSE,208,5,208,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"MourningDove","Mourning Dove","Zenaida macroura",2066,TRUE,TRUE,537,1908,1908,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"MourningWarbler","Mourning Warbler","Geothlypis philadelphia",3778,TRUE,TRUE,2222,166,2222,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"NashvilleWarbler","Nashville Warbler","Oreothlypis ruficapilla",25,TRUE,FALSE,25,1,25,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"NelsonsSparrow","Nelson's Sparrow","Ammodramus nelsoni",358,TRUE,TRUE,234,229,234,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"NorthernHawkOwl","Northern Hawk Owl","Surnia ulula",15,FALSE,FALSE,10,1,10,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Merlin","Merlin","Falco columbarius",206,TRUE,TRUE,123,172,172,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"MountainBluebird","Mountain Bluebird","Sialia currucoides",882,TRUE,TRUE,694,599,694,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"MountainChickadee","Mountain Chickadee","Poecile gambeli",212,TRUE,FALSE,208,5,208,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"MourningDove","Mourning Dove","Zenaida macroura",2066,TRUE,TRUE,537,1908,1908,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"MourningWarbler","Mourning Warbler","Geothlypis philadelphia",3778,TRUE,TRUE,2222,166,2222,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"NashvilleWarbler","Nashville Warbler","Oreothlypis ruficapilla",25,TRUE,FALSE,25,1,25,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"NelsonsSparrow","Nelson's Sparrow","Ammodramus nelsoni",358,TRUE,TRUE,234,229,234,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"NorthernHawkOwl","Northern Hawk Owl","Surnia ulula",15,FALSE,FALSE,10,1,10,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 "NorthernCardinal","Northern Cardinal","Cardinalis cardinalis",1,FALSE,FALSE,1,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-"NorthernFlicker","Northern Flicker","Colaptes auratus",1066,TRUE,TRUE,876,135,876,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"NorthernGoshawk","Northern Goshawk","Accipiter gentilis",39,TRUE,FALSE,36,12,36,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"NorthernHarrier","Northern Harrier","Circus cyaneus",820,TRUE,TRUE,228,778,778,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"NorthernPintail","Northern Pintail","Anas acuta",1362,TRUE,TRUE,271,1294,1294,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"NorthernPygmyOwl","Northern Pygmy-Owl","Glaucidium gnoma",23,FALSE,FALSE,18,1,18,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-"NorthernWaterthrush","Northern Waterthrush","Parkesia noveboracensis",1640,TRUE,TRUE,1399,59,1399,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"NorthernRoughwingedSwallow","Northern Rough-winged Swallow","Stelgidopteryx serripennis",73,TRUE,TRUE,32,39,39,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"NorthernShoveler","Northern Shoveler","Anas clypeata",2049,TRUE,TRUE,712,1913,1913,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"OrangecrownedWarbler","Orange-crowned Warbler","Oreothlypis celata",2092,TRUE,TRUE,1970,143,1970,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"OlivesidedFlycatcher","Olive-sided Flycatcher","Contopus cooperi",800,TRUE,TRUE,684,57,684,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"Osprey","Osprey","Pandion haliaetus",111,TRUE,TRUE,108,25,108,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"Ovenbird","Ovenbird","Seiurus aurocapilla",15284,TRUE,TRUE,11271,545,11271,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"PalmWarbler","Palm Warbler","Setophaga palmarum",2225,TRUE,TRUE,2035,45,2035,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"PiedbilledGrebe","Pied-billed Grebe","Podilymbus podiceps",563,TRUE,TRUE,336,266,336,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"PhiladelphiaVireo","Philadelphia Vireo","Vireo philadelphicus",1624,TRUE,TRUE,1070,164,1070,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"PineGrosbeak","Pine Grosbeak","Pinicola enucleator",96,TRUE,FALSE,70,0,70,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"PineSiskin","Pine Siskin","Spinus pinus",5440,TRUE,TRUE,4734,369,4734,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"PileatedWoodpecker","Pileated Woodpecker","Dryocopus pileatus",928,TRUE,TRUE,773,129,773,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"PurpleFinch","Purple Finch","Carpodacus purpureus",461,TRUE,TRUE,339,109,339,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"PurpleMartin","Purple Martin","Progne subis",135,TRUE,TRUE,129,122,129,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RosebreastedGrosbeak","Rose-breasted Grosbeak","Pheucticus ludovicianus",6152,TRUE,TRUE,4755,940,4755,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RingbilledGull","Ring-billed Gull","Larus delawarensis",3269,TRUE,TRUE,1295,2942,2942,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RedbreastedNuthatch","Red-breasted Nuthatch","Sitta canadensis",4341,TRUE,TRUE,3526,320,3526,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RubycrownedKinglet","Ruby-crowned Kinglet","Regulus calendula",11447,TRUE,TRUE,9602,406,9602,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RedCrossbill","Red Crossbill","Loxia curvirostra",159,TRUE,FALSE,141,2,141,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"Redhead","Redhead","Aythya americana",520,TRUE,TRUE,316,459,459,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RedeyedVireo","Red-eyed Vireo","Vireo olivaceus",16182,TRUE,TRUE,12985,4028,12985,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RingneckedDuck","Ring-necked Duck","Aythya collaris",209,TRUE,TRUE,157,110,157,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RingneckedPheasant","Ring-necked Pheasant","Phasianus colchicus",1158,TRUE,TRUE,51,1122,1122,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RedneckedGrebe","Red-necked Grebe","Podiceps grisegena",1116,TRUE,TRUE,723,434,723,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RedneckedPhalarope","Red-necked Phalarope","Phalaropus lobatus",25,FALSE,FALSE,2,24,24,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
-"RednapedSapsucker","Red-naped Sapsucker","Sphyrapicus nuchalis",42,TRUE,FALSE,38,5,38,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"RockPigeon","Rock Pigeon","Columba livia",2164,TRUE,TRUE,1029,2130,2130,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RockWren","Rock Wren","Salpinctes obsoletus",65,FALSE,TRUE,22,50,50,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"RedtailedHawk","Red-tailed Hawk","Buteo jamaicensis",3457,TRUE,TRUE,2511,3016,3016,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RubythroatedHummingbird","Ruby-throated Hummingbird","Archilochus colubris",44,TRUE,TRUE,40,36,40,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RustyBlackbird","Rusty Blackbird","Euphagus carolinus",278,TRUE,TRUE,182,74,182,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RuddyDuck","Ruddy Duck","Oxyura jamaicensis",476,TRUE,TRUE,323,441,441,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RuffedGrouse","Ruffed Grouse","Bonasa umbellus",1739,TRUE,TRUE,1222,172,1222,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"RedwingedBlackbird","Red-winged Blackbird","Agelaius phoeniceus",19507,TRUE,TRUE,10832,15865,15865,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"SandhillCrane","Sandhill Crane","Grus canadensis",854,TRUE,TRUE,702,86,702,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"SaysPhoebe","Say's Phoebe","Sayornis saya",98,FALSE,TRUE,14,93,93,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"SavannahSparrow","Savannah Sparrow","Passerculus sandwichensis",25845,TRUE,TRUE,13203,23164,23164,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"ShortbilledDowitcher","Short-billed Dowitcher","Limnodromus griseus",38,FALSE,FALSE,7,0,7,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-"ShortearedOwl","Short-eared Owl","Asio flammeus",180,TRUE,TRUE,41,175,175,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
+"NorthernFlicker","Northern Flicker","Colaptes auratus",1066,TRUE,TRUE,876,135,876,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"NorthernGoshawk","Northern Goshawk","Accipiter gentilis",39,TRUE,FALSE,36,12,36,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"NorthernHarrier","Northern Harrier","Circus cyaneus",820,TRUE,TRUE,228,778,778,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"NorthernPintail","Northern Pintail","Anas acuta",1362,TRUE,TRUE,271,1294,1294,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"NorthernPygmyOwl","Northern Pygmy-Owl","Glaucidium gnoma",23,FALSE,FALSE,18,1,18,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"NorthernWaterthrush","Northern Waterthrush","Parkesia noveboracensis",1640,TRUE,TRUE,1399,59,1399,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"NorthernRoughwingedSwallow","Northern Rough-winged Swallow","Stelgidopteryx serripennis",73,TRUE,TRUE,32,39,39,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"NorthernShoveler","Northern Shoveler","Anas clypeata",2049,TRUE,TRUE,712,1913,1913,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"OrangecrownedWarbler","Orange-crowned Warbler","Oreothlypis celata",2092,TRUE,TRUE,1970,143,1970,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"OlivesidedFlycatcher","Olive-sided Flycatcher","Contopus cooperi",800,TRUE,TRUE,684,57,684,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"Osprey","Osprey","Pandion haliaetus",111,TRUE,TRUE,108,25,108,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"Ovenbird","Ovenbird","Seiurus aurocapilla",15284,TRUE,TRUE,11271,545,11271,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"PalmWarbler","Palm Warbler","Setophaga palmarum",2225,TRUE,TRUE,2035,45,2035,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"PiedbilledGrebe","Pied-billed Grebe","Podilymbus podiceps",563,TRUE,TRUE,336,266,336,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"PhiladelphiaVireo","Philadelphia Vireo","Vireo philadelphicus",1624,TRUE,TRUE,1070,164,1070,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"PineGrosbeak","Pine Grosbeak","Pinicola enucleator",96,TRUE,FALSE,70,0,70,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"PineSiskin","Pine Siskin","Spinus pinus",5440,TRUE,TRUE,4734,369,4734,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"PileatedWoodpecker","Pileated Woodpecker","Dryocopus pileatus",928,TRUE,TRUE,773,129,773,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"PurpleFinch","Purple Finch","Carpodacus purpureus",461,TRUE,TRUE,339,109,339,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"PurpleMartin","Purple Martin","Progne subis",135,TRUE,TRUE,129,122,129,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RosebreastedGrosbeak","Rose-breasted Grosbeak","Pheucticus ludovicianus",6152,TRUE,TRUE,4755,940,4755,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RingbilledGull","Ring-billed Gull","Larus delawarensis",3269,TRUE,TRUE,1295,2942,2942,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RedbreastedNuthatch","Red-breasted Nuthatch","Sitta canadensis",4341,TRUE,TRUE,3526,320,3526,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RubycrownedKinglet","Ruby-crowned Kinglet","Regulus calendula",11447,TRUE,TRUE,9602,406,9602,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RedCrossbill","Red Crossbill","Loxia curvirostra",159,TRUE,FALSE,141,2,141,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"Redhead","Redhead","Aythya americana",520,TRUE,TRUE,316,459,459,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RedeyedVireo","Red-eyed Vireo","Vireo olivaceus",16182,TRUE,TRUE,12985,4028,12985,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RingneckedDuck","Ring-necked Duck","Aythya collaris",209,TRUE,TRUE,157,110,157,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RingneckedPheasant","Ring-necked Pheasant","Phasianus colchicus",1158,TRUE,TRUE,51,1122,1122,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"RedneckedGrebe","Red-necked Grebe","Podiceps grisegena",1116,TRUE,TRUE,723,434,723,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RedneckedPhalarope","Red-necked Phalarope","Phalaropus lobatus",25,FALSE,FALSE,2,24,24,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
+"RednapedSapsucker","Red-naped Sapsucker","Sphyrapicus nuchalis",42,TRUE,FALSE,38,5,38,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"RockPigeon","Rock Pigeon","Columba livia",2164,TRUE,TRUE,1029,2130,2130,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RockWren","Rock Wren","Salpinctes obsoletus",65,FALSE,TRUE,22,50,50,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"RedtailedHawk","Red-tailed Hawk","Buteo jamaicensis",3457,TRUE,TRUE,2511,3016,3016,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RubythroatedHummingbird","Ruby-throated Hummingbird","Archilochus colubris",44,TRUE,TRUE,40,36,40,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"RustyBlackbird","Rusty Blackbird","Euphagus carolinus",278,TRUE,TRUE,182,74,182,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"RuddyDuck","Ruddy Duck","Oxyura jamaicensis",476,TRUE,TRUE,323,441,441,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RuffedGrouse","Ruffed Grouse","Bonasa umbellus",1739,TRUE,TRUE,1222,172,1222,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"RedwingedBlackbird","Red-winged Blackbird","Agelaius phoeniceus",19507,TRUE,TRUE,10832,15865,15865,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"SandhillCrane","Sandhill Crane","Grus canadensis",854,TRUE,TRUE,702,86,702,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"SaysPhoebe","Say's Phoebe","Sayornis saya",98,FALSE,TRUE,14,93,93,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"SavannahSparrow","Savannah Sparrow","Passerculus sandwichensis",25845,TRUE,TRUE,13203,23164,23164,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"ShortbilledDowitcher","Short-billed Dowitcher","Limnodromus griseus",38,FALSE,FALSE,7,0,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"ShortearedOwl","Short-eared Owl","Asio flammeus",180,TRUE,TRUE,41,175,175,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
 "SemipalmatedPlover","Semipalmated Plover","Charadrius semipalmatus",1,FALSE,FALSE,0,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-"SedgeWren","Sedge Wren","Cistothorus platensis",238,TRUE,FALSE,46,12,46,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
+"SedgeWren","Sedge Wren","Cistothorus platensis",238,TRUE,FALSE,46,12,46,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 "SnowBunting","Snow Bunting","Plectrophenax nivalis",1,FALSE,FALSE,1,0,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 "SnowGoose","Snow Goose","Chen caerulescens",12,FALSE,FALSE,3,0,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-"Sora","Sora","Porzana carolina",4359,TRUE,TRUE,2653,3004,3004,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"SolitarySandpiper","Solitary Sandpiper","Tringa solitaria",624,TRUE,TRUE,511,81,511,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"SongSparrow","Song Sparrow","Melospiza melodia",9461,TRUE,TRUE,8692,7850,8692,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"SpruceGrouse","Spruce Grouse","Falcipennis canadensis",39,FALSE,FALSE,15,0,15,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-"SpraguesPipit","Sprague's Pipit","Anthus spragueii",4348,TRUE,TRUE,348,3879,3879,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"SpottedSandpiper","Spotted Sandpiper","Actitis macularius",1289,TRUE,TRUE,867,550,867,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"SpottedTowhee","Spotted Towhee","Pipilo maculatus",36,FALSE,TRUE,12,36,36,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"SharpshinnedHawk","Sharp-shinned Hawk","Accipiter striatus",62,TRUE,TRUE,47,34,47,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"SharptailedGrouse","Sharp-tailed Grouse","Tympanuchus phasianellus",256,FALSE,TRUE,20,221,221,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"SwainsonsHawk","Swainson's Hawk","Buteo swainsoni",1871,TRUE,TRUE,317,1850,1850,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"SwampSparrow","Swamp Sparrow","Melospiza georgiana",1789,TRUE,TRUE,1242,325,1242,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"SwainsonsThrush","Swainson's Thrush","Catharus ustulatus",17208,TRUE,TRUE,13656,470,13656,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"TennesseeWarbler","Tennessee Warbler","Oreothlypis peregrina",18271,TRUE,TRUE,13989,450,13989,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"TownsendsSolitaire","Townsend's Solitaire","Myadestes townsendi",141,TRUE,FALSE,141,0,141,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"TreeSwallow","Tree Swallow","Tachycineta bicolor",6485,TRUE,TRUE,5378,4715,5378,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"TrumpeterSwan","Trumpeter Swan","Cygnus buccinator",12,FALSE,FALSE,11,3,11,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-"TundraSwan","Tundra Swan","Cygnus columbianus",45,FALSE,FALSE,5,0,5,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
-"TurkeyVulture","Turkey Vulture","Cathartes aura",6,FALSE,FALSE,6,4,6,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-"UplandSandpiper","Upland Sandpiper","Bartramia longicauda",692,TRUE,TRUE,60,596,596,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"VariedThrush","Varied Thrush","Ixoreus naevius",2034,TRUE,FALSE,1526,1,1526,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-"Veery","Veery","Catharus fuscescens",169,TRUE,TRUE,167,56,167,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"VesperSparrow","Vesper Sparrow","Pooecetes gramineus",18264,TRUE,TRUE,5472,17085,17085,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"VioletgreenSwallow","Violet-green Swallow","Tachycineta thalassina",40,FALSE,FALSE,24,20,24,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
-"VirginiaRail","Virginia Rail","Rallus limicola",11,FALSE,FALSE,3,6,6,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
-"WarblingVireo","Warbling Vireo","Vireo gilvus",5964,TRUE,TRUE,5531,1991,5531,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WhitebreastedNuthatch","White-breasted Nuthatch","Sitta carolinensis",232,TRUE,TRUE,205,72,205,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WhitecrownedSparrow","White-crowned Sparrow","Zonotrichia leucophrys",1350,TRUE,TRUE,1253,146,1253,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WesternGrebe","Western Grebe","Aechmophorus occidentalis",48,TRUE,TRUE,32,35,35,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WesternKingbird","Western Kingbird","Tyrannus verticalis",826,FALSE,TRUE,19,822,822,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
-"WesternMeadowlark","Western Meadowlark","Sturnella neglecta",20584,TRUE,TRUE,2439,19414,19414,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WesternTanager","Western Tanager","Piranga ludoviciana",3112,TRUE,TRUE,2450,125,2450,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WesternWoodPewee","Western Wood-Pewee","Contopus sordidulus",2152,TRUE,TRUE,1812,983,1812,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WillowFlycatcher","Willow Flycatcher","Empidonax traillii",117,TRUE,TRUE,110,29,110,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"Willet","Willet","Tringa semipalmata",3020,TRUE,TRUE,384,2761,2761,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WilsonsPhalarope","Wilson's Phalarope","Phalaropus tricolor",601,TRUE,TRUE,87,563,563,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WilsonsSnipe","Wilson's Snipe","Gallinago delicata",12172,TRUE,TRUE,8842,6511,8842,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WilsonsWarbler","Wilson's Warbler","Cardellina pusilla",1142,TRUE,FALSE,1090,24,1090,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"WinterWren","Winter Wren","Troglodytes hiemalis",3585,TRUE,FALSE,2265,6,2265,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"WoodDuck","Wood Duck","Aix sponsa",4,FALSE,FALSE,0,4,4,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
-"WhitethroatedSparrow","White-throated Sparrow","Zonotrichia albicollis",23366,TRUE,TRUE,18611,3725,18611,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"WhitewingedCrossbill","White-winged Crossbill","Loxia leucoptera",1426,TRUE,TRUE,1257,30,1257,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"YellowbelliedFlycatcher","Yellow-bellied Flycatcher","Empidonax flaviventris",749,TRUE,FALSE,719,18,719,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
-"YellowbelliedSapsucker","Yellow-bellied Sapsucker","Sphyrapicus varius",4280,TRUE,TRUE,3216,591,3216,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"YellowRail","Yellow Rail","Coturnicops noveboracensis",241,TRUE,TRUE,59,25,59,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"YellowWarbler","Yellow Warbler","Setophaga petechia",3357,TRUE,TRUE,2142,846,2142,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"YellowheadedBlackbird","Yellow-headed Blackbird","Xanthocephalus xanthocephalus",1992,TRUE,TRUE,680,1800,1800,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
-"YellowrumpedWarbler","Yellow-rumped Warbler","Setophaga coronata",14559,TRUE,TRUE,10109,184,10109,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
+"Sora","Sora","Porzana carolina",4359,TRUE,TRUE,2653,3004,3004,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"SolitarySandpiper","Solitary Sandpiper","Tringa solitaria",624,TRUE,TRUE,511,81,511,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"SongSparrow","Song Sparrow","Melospiza melodia",9461,TRUE,TRUE,8692,7850,8692,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"SpruceGrouse","Spruce Grouse","Falcipennis canadensis",39,FALSE,FALSE,15,0,15,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"SpraguesPipit","Sprague's Pipit","Anthus spragueii",4348,TRUE,TRUE,348,3879,3879,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"SpottedSandpiper","Spotted Sandpiper","Actitis macularius",1289,TRUE,TRUE,867,550,867,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"SpottedTowhee","Spotted Towhee","Pipilo maculatus",36,FALSE,TRUE,12,36,36,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"SharpshinnedHawk","Sharp-shinned Hawk","Accipiter striatus",62,TRUE,TRUE,47,34,47,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"SharptailedGrouse","Sharp-tailed Grouse","Tympanuchus phasianellus",256,FALSE,TRUE,20,221,221,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"SwainsonsHawk","Swainson's Hawk","Buteo swainsoni",1871,TRUE,TRUE,317,1850,1850,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"SwampSparrow","Swamp Sparrow","Melospiza georgiana",1789,TRUE,TRUE,1242,325,1242,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"SwainsonsThrush","Swainson's Thrush","Catharus ustulatus",17208,TRUE,TRUE,13656,470,13656,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"TennesseeWarbler","Tennessee Warbler","Oreothlypis peregrina",18271,TRUE,TRUE,13989,450,13989,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"TownsendsSolitaire","Townsend's Solitaire","Myadestes townsendi",141,TRUE,FALSE,141,0,141,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"TreeSwallow","Tree Swallow","Tachycineta bicolor",6485,TRUE,TRUE,5378,4715,5378,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"TrumpeterSwan","Trumpeter Swan","Cygnus buccinator",12,FALSE,FALSE,11,3,11,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"TundraSwan","Tundra Swan","Cygnus columbianus",45,FALSE,FALSE,5,0,5,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"TurkeyVulture","Turkey Vulture","Cathartes aura",6,FALSE,FALSE,6,4,6,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"UplandSandpiper","Upland Sandpiper","Bartramia longicauda",692,TRUE,TRUE,60,596,596,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"VariedThrush","Varied Thrush","Ixoreus naevius",2034,TRUE,FALSE,1526,1,1526,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"Veery","Veery","Catharus fuscescens",169,TRUE,TRUE,167,56,167,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"VesperSparrow","Vesper Sparrow","Pooecetes gramineus",18264,TRUE,TRUE,5472,17085,17085,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"VioletgreenSwallow","Violet-green Swallow","Tachycineta thalassina",40,FALSE,FALSE,24,20,24,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"VirginiaRail","Virginia Rail","Rallus limicola",11,FALSE,FALSE,3,6,6,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
+"WarblingVireo","Warbling Vireo","Vireo gilvus",5964,TRUE,TRUE,5531,1991,5531,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"WhitebreastedNuthatch","White-breasted Nuthatch","Sitta carolinensis",232,TRUE,TRUE,205,72,205,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"WhitecrownedSparrow","White-crowned Sparrow","Zonotrichia leucophrys",1350,TRUE,TRUE,1253,146,1253,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"WesternGrebe","Western Grebe","Aechmophorus occidentalis",48,TRUE,TRUE,32,35,35,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"WesternKingbird","Western Kingbird","Tyrannus verticalis",826,FALSE,TRUE,19,822,822,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"WesternMeadowlark","Western Meadowlark","Sturnella neglecta",20584,TRUE,TRUE,2439,19414,19414,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"WesternTanager","Western Tanager","Piranga ludoviciana",3112,TRUE,TRUE,2450,125,2450,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"WesternWoodPewee","Western Wood-Pewee","Contopus sordidulus",2152,TRUE,TRUE,1812,983,1812,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"WillowFlycatcher","Willow Flycatcher","Empidonax traillii",117,TRUE,TRUE,110,29,110,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"Willet","Willet","Tringa semipalmata",3020,TRUE,TRUE,384,2761,2761,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"WilsonsPhalarope","Wilson's Phalarope","Phalaropus tricolor",601,TRUE,TRUE,87,563,563,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"WilsonsSnipe","Wilson's Snipe","Gallinago delicata",12172,TRUE,TRUE,8842,6511,8842,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"WilsonsWarbler","Wilson's Warbler","Cardellina pusilla",1142,TRUE,FALSE,1090,24,1090,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"WinterWren","Winter Wren","Troglodytes hiemalis",3585,TRUE,FALSE,2265,6,2265,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"WoodDuck","Wood Duck","Aix sponsa",4,FALSE,FALSE,0,4,4,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
+"WhitethroatedSparrow","White-throated Sparrow","Zonotrichia albicollis",23366,TRUE,TRUE,18611,3725,18611,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"WhitewingedCrossbill","White-winged Crossbill","Loxia leucoptera",1426,TRUE,TRUE,1257,30,1257,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"YellowbelliedFlycatcher","Yellow-bellied Flycatcher","Empidonax flaviventris",749,TRUE,FALSE,719,18,719,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE
+"YellowbelliedSapsucker","Yellow-bellied Sapsucker","Sphyrapicus varius",4280,TRUE,TRUE,3216,591,3216,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"YellowRail","Yellow Rail","Coturnicops noveboracensis",241,TRUE,TRUE,59,25,59,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+"YellowWarbler","Yellow Warbler","Setophaga petechia",3357,TRUE,TRUE,2142,846,2142,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"YellowheadedBlackbird","Yellow-headed Blackbird","Xanthocephalus xanthocephalus",1992,TRUE,TRUE,680,1800,1800,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
+"YellowrumpedWarbler","Yellow-rumped Warbler","Setophaga coronata",14559,TRUE,TRUE,10109,184,10109,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE
