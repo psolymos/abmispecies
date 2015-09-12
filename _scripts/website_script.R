@@ -63,8 +63,6 @@ write.csv(lt, paste0("~/repos/abmispecies/_data/", taxon, ".csv"), row.names=FAL
 }
 
 ROOT <- "~/repos/abmispecies/_data"
-#TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants")
-TAXON <- c("mites", "mosses", "lichens","mammals", "vplants")
 OUT <- if (interactive())
     "e:/peter/sppweb-pages/species" else "~/repos/abmispecies/pages/species"
 OUT2 <- if (interactive())
@@ -90,7 +88,7 @@ graph_labels <- matrix(c(
 colnames(graph_labels) <- c("dir", "check")
 
 ## YAML front matter variables
-yaml_directives <- 
+yaml_directives <-
 function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species")
 {
         i <- M[spplabel,]
@@ -134,7 +132,7 @@ for (taxon in TAXON) {
     lt$species <- as.character(lt$species)
     lt$species[is.na(lt$species)] <- ""
 
-    M <- array(0L, dim=c(nrow(lt), nrow(graph_labels)), 
+    M <- array(0L, dim=c(nrow(lt), nrow(graph_labels)),
         dimnames=list(rownames(lt), graph_labels[,"dir"]))
     for (i in 1:ncol(M))
         M[lt[[graph_labels[i,"check"]]],i] <- 1L
