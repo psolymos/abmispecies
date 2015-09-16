@@ -6,10 +6,10 @@ description: "Soil: spatial distribution."
 
 ## Raw data
 
-* [Raw soil layers]({{ site.ftproot }}/geospatial/soil/ABMI_soilTypes_LayerJan2014.gdb.zip)
-* [metadata]({{ site.ftproot }}/geospatial/soil/soillayersfortheabmisppwebsite.zip)
+* <a href="{{ site.ftproot }}/geospatial/soil/ABMI_soilTypes_LayerJan2014.gdb.zip">Raw soil layers</a>
+* <a href="{{ site.ftproot }}/geospatial/soil/soillayersfortheabmisppwebsite.zip">Metedata</a>
 
-## Distribution of land cover types used in modeling
+## Distribution of soil types used in modeling
 
 The maps show percent cover by soil types within 1 km<sup>2</sup> grid cells.
 
