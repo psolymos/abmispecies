@@ -1,74 +1,44 @@
 ---
 layout: default
-title: Vegetation
-description: "Vegetation: spatial distribution."
+title: Topography
+description: "Topography: spatial distribution."
 ---
 
 ## Raw data
 
-* [Alberta wall-to-wall land cover map](http://abmi.ca/home/data/gis-data/land-cover-download.html?scroll=true)
-* [Alberta backfilled wall-to-wall vegetation layer](http://abmi.ca/home/publications/251-300/259.html?mode=detail&documenttype=Protocols)
+* <a href="{{ site.ftproot }}/geospatial/climate/climate_grid.zip">Raw climate raster layers</a> (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.baseurl }}/collaborations.html">collaborations</a> for an explanation and data sources)
+
+## Distribution of bioclimatic variables used in modeling
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Land cover</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2000v21_NALCMScolorsHD.png" class="img-responsive" alt="Land cover"/>
+<h3>Annual heat-moisture index</h3>
+<img src="{{ site.contents }}/geospatial/climate/AHM.png" class="img-responsive" alt="AHM"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Native vegetation and human footprint</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/VegMap_in_AB_with_Legend3.jpg" class="img-responsive" alt="Native vegetation and human footprint"/>
-</div>
-
-## Distribution of land cover types used in modeling
-
-The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cells.
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Deciduous forest</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Decid.png" class="img-responsive" alt="Deciduous forest"/>
+<h3>Frost free period</h3>
+<img src="{{ site.contents }}/geospatial/climate/FFP.png" class="img-responsive" alt="FFP"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Mixedwood</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Mixwood.png" class="img-responsive" alt="Mixedwood"/>
+<h3>Mean annual precipitation</h3>
+<img src="{{ site.contents }}/geospatial/climate/MAP.png" class="img-responsive" alt="MAP"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Upland coniferous (non-pine)</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Conif.png" class="img-responsive" alt="Upland coniferous (non-pine)"/>
+<h3>Mean annual temperature</h3>
+<img src="{{ site.contents }}/geospatial/climate/MAT.png" class="img-responsive" alt="MAT"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Pine forest</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Pine.png" class="img-responsive" alt="Pine forest"/>
+<h3>Mean cold month (January) temperature</h3>
+<img src="{{ site.contents }}/geospatial/climate/MCMT.png" class="img-responsive" alt="MCMT"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Black spruce dominated wetlands</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/BSpr.png" class="img-responsive" alt="Lowland coniferous, Black spruce"/>
+<h3>Mean warm month (July) temperature</h3>
+<img src="{{ site.contents }}/geospatial/climate/MWMT.png" class="img-responsive" alt="MWMT"/>
 </div>
 
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Larch dominated wetlands</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Larch.png" class="img-responsive" alt="Lowland coniferous, Larch"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Non-treed shrubby wetlands</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/WetShrub.png" class="img-responsive" alt="Non-treed shrubby wetlands"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Non-treed open wetlands</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/WetGrassHerb.png" class="img-responsive" alt="Non-treed open wetlands"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Shrubs</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Shrub.png" class="img-responsive" alt="Shrubs"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Grass</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/GrassHerb.png" class="img-responsive" alt="Grass"/>
-</div>
+<h3>Potential evapotranspiration</h3>
+<img src="{{ site.contents }}/geospatial/climate/PET.png" class="img-responsive" alt="PET"/>
