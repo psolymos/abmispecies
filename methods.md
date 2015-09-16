@@ -9,8 +9,8 @@ description: "Methods for the ABMI Species Website."
 We use a set of statistical models to relate the relative abundance of each species measured at ABMI sites to three sets of variables: vegetation types, human footprint and geographic location.  The analyses are done separately for three regions: boreal (including Canadian shield), foothills and south (parkland+grassland).
 
 * Relative abundance for vascular plants, bryophytes and mites is the probability that the species will occur in a 50 m x 50 m ABMI quadrat or a soil sample for mites.  For birds, relative abundance is the number of birds detected at a point count, adjusted for the species' detection distance.
-* <a href="{{ site.url }}/vegetation/index.html">Vegetation types</a> in the boreal and foothills regions are based on several province-wide GIS layers of vegetation variables, and include main forest stand types by broad age classes and several categories of open vegetation (grass, shrub, open wetland, open water, barren).  For the vegetation figures, the broad age classes are interpolated to 20-yr age classes.  In the south, 'vegetation types' are actually mapped soil types, such as loamy, sandy, etc.
-* Several categories of <a href="{{ site.url }}/footprint/index.html">human footprint</a> are distinguished in the models, including 'successional' (forestry, temporary linear features), 'alienating' (agriculture, industrial, urban area, roads), as well as linear versus non-linear features.  A flexible curve is used for the footprint relationships so that the models can show different responses when there is partial footprint at a site compared to 100% footprint.  This allows the models to represent edge effects. The scale of the footprint information used in the intactness models is 64 ha for birds and 1 ha for other taxa.
+* <a href="{{ site.baseurl }}/pages/geospatial/vegetation.html">Vegetation types</a> in the boreal and foothills regions are based on several province-wide GIS layers of vegetation variables, and include main forest stand types by broad age classes and several categories of open vegetation (grass, shrub, open wetland, open water, barren).  For the vegetation figures, the broad age classes are interpolated to 20-yr age classes.  In the south, 'vegetation types' are actually mapped <a href="{{ site.baseurl }}/pages/geospatial/soil.html">soil types</a>, such as loamy, sandy, etc.
+* Several categories of <a href="{{ site.cbaseurl }}/pages/geospatial/footprint.html">human footprint</a> are distinguished in the models, including 'successional' (forestry, temporary linear features), 'alienating' (agriculture, industrial, urban area, roads), as well as linear versus non-linear features.  A flexible curve is used for the footprint relationships so that the models can show different responses when there is partial footprint at a site compared to 100% footprint.  This allows the models to represent edge effects. The scale of the footprint information used in the intactness models is 64 ha for birds and 1 ha for other taxa.
 * Flexible relationships with latitude and longitude are also included in the models to represent the geographic distribution of the species.
 
 The analysis is conducted in a 'model selection framework', which means that the models for each species are only as complex as the data for that species support.  For example, the models for a rarer species with few records may not be able to separate different age classes or even broad stand types.  All age classes or several stand types will therefore all have the same average value in the vegetation figures.  This does not mean that there are truly no differences between these types for that species.  It just means that we do not yet have enough data to estimate abundances in all those individual vegetation types.
@@ -22,11 +22,11 @@ This modeling requires moderate sample sizes, so we can only do the analyses for
 Figures show mean relative abundances, with 90% confidence intervals.
 
 The bird modeling differed from other taxa from some aspects because
-the data set is more extensive (see <a href="{{ site.url }}/collaborations.html">Collaborations</a>).
+the data set is more extensive (see <a href="{{ site.baseurl }}/collaborations.html">Collaborations</a>).
 The combined data set needed to be standardized due to the differences
 in survey protocol among the data sets. Algorithms to deal with different protocols in bird surveys and methods for estimating predictive uncertainty were developed in collaboration with the <a href="http://www.borealbirds.ca/">Boreal Avian Modelling Project (BAM)</a> team (S&oacute;lymos et al. 2013). BAM also provided data management help for organizing bird point count data. The minimum number of detections required for model building for birds was 25.
 
-The bioclimatic variables used in the modeling were calculated at a 4-km resolution using monthly climate normals of temperature and precipitation averaged over 1961-1990. The monthly climate normals are based on instrument-measured climate data that were interpolated by PRISM (Daly et al., 2002) and WorldClim (Hijmans et al., 2005). The western North American portion of these data are described by (Wang et al., 2011).
+The <a href="{{ site.baseurl }}/pages/geospatial/climate.html">bioclimatic variables</a> used in the modeling were calculated at a 4-km resolution using monthly climate normals of temperature and precipitation averaged over 1961-1990. The monthly climate normals are based on instrument-measured climate data that were interpolated by PRISM (Daly et al., 2002) and WorldClim (Hijmans et al., 2005). The western North American portion of these data are described by (Wang et al., 2011).
 
 ## Predictive maps
 
@@ -40,14 +40,14 @@ There are two main limitations to ABMI species maps:
 
 Remember also that the reference maps only show the effects of statistically removing the effects of human footprint.  They do not show how the species would have been distributed under 'pristine', 'natural' or 'pre-historic' conditions.
 
-Please see <a href="{{ site.url }}/methods/map_limitations.pdf" target="_blank">limitations</a> for more explanation and additional caveats.
+Please see <a href="{{ site.contents }}/methods/map_limitations.pdf" target="_blank">limitations</a> for more explanation and additional caveats.
 
 ## Additional resources
 
-* <a href="http://abmi.ca/abmi/reports/reports.jsp?categoryId=61" target="_blank">Intactness manual</a>
-* <a href="http://abmi.ca/abmi/reports/reports.jsp?categoryId=0" target="_blank">Field protocols</a>
-* <a href="http://abmi.ca/abmi/rawdata/rawdataselection.jsp" target="_blank">Raw data</a>
-* <a href="{{ site.url }}/collaborations.html">Collaborations</a>
+* <a href="http://abmi.ca/home/publications/1-50/47.html?mode=detail&documenttype=Protocols" target="_blank">Intactness manual</a>
+* <a href="http://abmi.ca/home/publications/1-50/46.html?mode=detail&documenttype=Protocols" target="_blank">Field protocols</a>
+* <a href="http://abmi.ca/home/data/welcome-data-portal.html" target="_blank">Raw data</a>
+* <a href="{{ site.baseurl }}/collaborations.html">Collaborations</a>
 
 ## References
 
@@ -58,4 +58,3 @@ Hijmans, R. J., S. E. Cameron, J. L. Parra, P. G. Jones, and A. Jarvis. 2005. Ve
 S&oacute;lymos, P., Matsuoka, S. M., Bayne, E. M., Lele, S. R., Fontaine, P., Cumming, S. G., Stralberg, D., Schmiegelow, F. K. A., and Song, S. J., 2013. Calibrating indices of avian density from non-standardized survey data: making the most of a messy situation. *Methods in Ecology and Evolution*, 4, 1047-1058.
 
 Wang, T., A. Hamann, D. L. Spittlehouse, and T. Q. Murdock. 2011. ClimateWNA - high-resolution spatial climate data for western North America. *Meteorology and Climatology*, 51, 16-29.
-
