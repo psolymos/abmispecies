@@ -40,9 +40,5 @@ description: "Bioclimatic variables."
 <img src="{{ site.contents }}/geospatial/climate/MWMT.png" class="img-responsive" alt="MWMT"/>
 </div>
 
-<div class="row">
-<div class="col-6 col-sm-6 col-lg-6">
 <h3>Potential evapotranspiration</h3>
 <img src="{{ site.contents }}/geospatial/climate/PET.png" class="img-responsive" alt="PET"/>
-</div>
-</div>
