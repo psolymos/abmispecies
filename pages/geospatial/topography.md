@@ -6,39 +6,46 @@ description: "Topography: spatial distribution."
 
 ## Raw data
 
-* <a href="{{ site.ftproot }}/geospatial/climate/climate_grid.zip">Raw climate raster layers</a> (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.baseurl }}/collaborations.html">collaborations</a> for an explanation and data sources)
+* <a href="{{ site.ftproot }}/geospatial/topography/topo_grid.zip">Raw topographic raster layers</a> are from <a href="http://www.ace-lab.org/">Dr. Scott Nielsen's lab</a>.
 
-## Distribution of bioclimatic variables used in modeling
+## Distribution of topographic variables
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Annual heat-moisture index</h3>
-<img src="{{ site.contents }}/geospatial/climate/AHM.png" class="img-responsive" alt="AHM"/>
+<h3>Slope</h3>
+<img src="{{ site.contents }}/geospatial/topography/slope.png" class="img-responsive" alt="Slope"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Frost free period</h3>
-<img src="{{ site.contents }}/geospatial/climate/FFP.png" class="img-responsive" alt="FFP"/>
+<h3>Slope / aspect solar radiation index</h3>
+<img src="{{ site.contents }}/geospatial/topography/slpasp.png" class="img-responsive" alt="Slope / aspect solar radiation index"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Mean annual precipitation</h3>
-<img src="{{ site.contents }}/geospatial/climate/MAP.png" class="img-responsive" alt="MAP"/>
+<h3>Topographic position index (2-km radius)</h3>
+<img src="{{ site.contents }}/geospatial/topography/tpi2km.png" class="img-responsive" alt="Topographic position index (2-km radius)"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Mean annual temperature</h3>
-<img src="{{ site.contents }}/geospatial/climate/MAT.png" class="img-responsive" alt="MAT"/>
+<h3>Topographic position index (300-m radius)</h3>
+<img src="{{ site.contents }}/geospatial/topography/tpi300m.png" class="img-responsive" alt="Topographic position index (300-m radius)"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Mean cold month (January) temperature</h3>
-<img src="{{ site.contents }}/geospatial/climate/MCMT.png" class="img-responsive" alt="MCMT"/>
+<h3>Topographic ruggedness index</h3>
+<img src="{{ site.contents }}/geospatial/topography/tri.png" class="img-responsive" alt="Topographic ruggedness index"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Mean warm month (July) temperature</h3>
-<img src="{{ site.contents }}/geospatial/climate/MWMT.png" class="img-responsive" alt="MWMT"/>
+<h3>Compound topographic index (wetness)</h3>
+<img src="{{ site.contents }}/geospatial/topography/cti.png" class="img-responsive" alt="Compound topographic index (wetness)"/>
 </div>
 
-<h3>Potential evapotranspiration</h3>
-<img src="{{ site.contents }}/geospatial/climate/PET.png" class="img-responsive" alt="PET"/>
+<div class="col-6 col-sm-6 col-lg-6">
+<h3>Vector ruggedness measure (5 x 5 cells)</h3>
+<img src="{{ site.contents }}/geospatial/topography/vrm5x5.png" class="img-responsive" alt="Vector ruggedness measure (5 x 5 cells)"/>
+</div>
+
+<div class="col-6 col-sm-6 col-lg-6">
+<h3>Vector ruggedness measure (11 x 11 cells)</h3>
+<img src="{{ site.contents }}/geospatial/topography/vrm11x11.png" class="img-responsive" alt="Vector ruggedness measure (11 x 11 cells)"/>
+</div>
