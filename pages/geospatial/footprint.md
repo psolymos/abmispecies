@@ -14,7 +14,7 @@ Human footprint layers can be downloaded from the
 The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cells.
 
 * 'Alienating' disturbance types affect the soil and vegetation:
-  - Cultivation</li>
+  - Cultivation
   - Urban-Industrial development
   - Hard linear features (roads, rails)
   - Human created wetlands and water bodies
@@ -23,6 +23,8 @@ The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cel
   - Soft linear features (cutlines)
 
 ## Spatial distribution of footprint types
+
+<div class="row">
 
 <div class="col-6 col-sm-6 col-lg-6">
 <h3>Cultivation</h3>
@@ -41,7 +43,7 @@ The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cel
 
 <div class="col-6 col-sm-6 col-lg-6">
 <h3>Human created water bodies</h3>
-<img src="{{ site.contents }}/geospatial/footprint/HWet.png" class="img-responsive" alt="Human created water bodies">
+<img src="{{ site.contents }}/geospatial/footprint/HWater.png" class="img-responsive" alt="Human created water bodies">
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
@@ -54,7 +56,11 @@ The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cel
 <img src="{{ site.contents }}/geospatial/footprint/SoftLin.png" class="img-responsive" alt="Soft linear features">
 </div>
 
+</div>
+
 ## Change in human footprint over time in Alberta
+
+<div class="row">
 
 <div class="col-6 col-sm-6 col-lg-6">
 <img src="{{ site.contents }}/geospatial/footprint/ABMI_HF3x7_yearly_changes_1999-2012.jpg" class="img-responsive" alt="Land cover">
@@ -63,4 +69,6 @@ The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cel
 <p>Graphs are based on 3 km x 7 km photo plots along the ABMI grid (20 km x 20 km)
 which represents 5% systematic sample of Alberta.
 Line colors correspond to natural regions, black line: all natural regions combined.</p>
+</div>
+
 </div>
