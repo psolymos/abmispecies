@@ -8,6 +8,8 @@ description: "Topography: spatial distribution."
 
 * <a href="{{ site.ftproot }}/geospatial/topography/topo_grid.zip">Raw topographic raster layers</a> are from <a href="http://www.ace-lab.org/">Dr. Scott Nielsen's lab</a>.
 
+w:/geospatial/topgraphy/topo_grid.zip
+
 ## Distribution of topographic variables
 
 <div class="col-6 col-sm-6 col-lg-6">
@@ -26,11 +28,6 @@ description: "Topography: spatial distribution."
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Topographic position index (300-m radius)</h3>
-<img src="{{ site.contents }}/geospatial/topography/tpi300m.png" class="img-responsive" alt="Topographic position index (300-m radius)"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
 <h3>Topographic ruggedness index</h3>
 <img src="{{ site.contents }}/geospatial/topography/tri.png" class="img-responsive" alt="Topographic ruggedness index"/>
 </div>
@@ -41,11 +38,6 @@ description: "Topography: spatial distribution."
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Vector ruggedness measure (5 x 5 cells)</h3>
-<img src="{{ site.contents }}/geospatial/topography/vrm5x5.png" class="img-responsive" alt="Vector ruggedness measure (5 x 5 cells)"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Vector ruggedness measure (11 x 11 cells)</h3>
-<img src="{{ site.contents }}/geospatial/topography/vrm11x11.png" class="img-responsive" alt="Vector ruggedness measure (11 x 11 cells)"/>
+<h3>Vector ruggedness measure</h3>
+<img src="{{ site.contents }}/geospatial/topography/vrm5x5.png" class="img-responsive" alt="Vector ruggedness measure"/>
 </div>
