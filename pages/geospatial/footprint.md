@@ -25,33 +25,33 @@ The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cel
 ## Spatial distribution of footprint types
 
 <div class="col-6 col-sm-6 col-lg-6">
-### Cultivation
-<img src="{{ site.contents }}/geospatial/footprint/Cult.jpg" class="img-responsive" alt="Cultivation">
+<h3>Cultivation</h3>
+<img src="{{ site.contents }}/geospatial/footprint/Cult.png" class="img-responsive" alt="Cultivation">
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-### Urban-Industrial
-<img src="{{ site.contents }}/geospatial/footprint/UrbInd.jpg" class="img-responsive" alt="Urban-Industrial">
+<h3>Urban-Industrial</h3>
+<img src="{{ site.contents }}/geospatial/footprint/UrbInd.png" class="img-responsive" alt="Urban-Industrial">
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-### Hard linear features
-<img src="{{ site.contents }}/geospatial/footprint/HardLin.jpg" class="img-responsive" alt="Hard linear features">
+<h3>Hard linear features</h3>
+<img src="{{ site.contents }}/geospatial/footprint/HardLin.png" class="img-responsive" alt="Hard linear features">
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-            <h3>Human created water bodies</h3>
-<img src="{{ site.contents }}/geospatial/footprint/HWet.jpg" class="img-responsive" alt="Human created water bodies">
+<h3>Human created water bodies</h3>
+<img src="{{ site.contents }}/geospatial/footprint/HWet.png" class="img-responsive" alt="Human created water bodies">
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
             <h3>Forestry</h3>
-<img src="{{ site.contents }}/geospatial/footprint/HFor.jpg" class="img-responsive" alt="Forestry">
+<img src="{{ site.contents }}/geospatial/footprint/HFor.png" class="img-responsive" alt="Forestry">
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
             <h3>Soft linear features</h3>
-<img src="{{ site.contents }}/geospatial/footprint/SoftLin.jpg" class="img-responsive" alt="Soft linear features">
+<img src="{{ site.contents }}/geospatial/footprint/SoftLin.png" class="img-responsive" alt="Soft linear features">
 </div>
 
 ## Change in human footprint over time in Alberta
@@ -60,8 +60,7 @@ The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cel
 <img src="{{ site.contents }}/geospatial/footprint/ABMI_HF3x7_yearly_changes_1999-2012.jpg" class="img-responsive" alt="Land cover">
 </div>
 <div class="col-6 col-sm-6 col-lg-6">
-Graphs are based on 3 km x 7 km photo plots along the ABMI grid (20 km x 20 km)
+<p>Graphs are based on 3 km x 7 km photo plots along the ABMI grid (20 km x 20 km)
 which represents 5% systematic sample of Alberta.
-Line colors correspond to natural regions, black line: all natural regions combined.
-</div>
+Line colors correspond to natural regions, black line: all natural regions combined.</p>
 </div>
