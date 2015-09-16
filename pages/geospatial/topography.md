@@ -23,8 +23,8 @@ w:/geospatial/topgraphy/topo_grid.zip
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Topographic position index (2-km radius)</h3>
-<img src="{{ site.contents }}/geospatial/topography/tpi2km.png" class="img-responsive" alt="Topographic position index (2-km radius)"/>
+<h3>Topographic position index</h3>
+<img src="{{ site.contents }}/geospatial/topography/tpi2km.png" class="img-responsive" alt="Topographic position index"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
