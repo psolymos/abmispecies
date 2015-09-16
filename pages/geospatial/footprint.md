@@ -4,6 +4,8 @@ title: Human footprint
 description: "Human footprint: spatial distribution and temporal changes."
 ---
 
+## Raw data
+
 Human footprint layers can be downloaded from the
 [ABMI website](http://abmi.ca/home/data/gis-data/human-footprint-download.html?scroll=true).
 

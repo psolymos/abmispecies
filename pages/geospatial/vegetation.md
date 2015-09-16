@@ -9,13 +9,15 @@ description: "Vegetation: spatial distribution."
 * [Alberta wall-to-wall land cover map](http://abmi.ca/home/data/gis-data/land-cover-download.html?scroll=true)
 * [Alberta backfilled wall-to-wall vegetation layer](http://abmi.ca/home/publications/251-300/259.html?mode=detail&documenttype=Protocols)
 
-## Land cover
-
+<div class="col-6 col-sm-6 col-lg-6">
+<h3>Land cover</h3>
 <img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2000v21_NALCMScolorsHD.png" class="img-responsive" alt="Land cover"/>
+</div>
 
-## Native vegetation and human footprint
-
+<div class="col-6 col-sm-6 col-lg-6">
+<h3>Native vegetation and human footprint</h3>
 <img src="{{ site.contents }}/geospatial/vegetation/VegMap_in_AB_with_Legend3.jpg" class="img-responsive" alt="Native vegetation and human footprint"/>
+</div>
 
 ## Distribution of land cover types used in modeling
 
