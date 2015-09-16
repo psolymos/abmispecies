@@ -2,24 +2,12 @@
 layout: default
 title: Human footprint
 description: "Human footprint: spatial distribution and temporal changes."
-sidebar: true
 ---
 
-    <div class="container">
+# Human footprint
 
-      <div class="row row-offcanvas row-offcanvas-right">
+## Footprint types used in modeling
 
-        <div class="col-xs-12 col-sm-9">
-
-          <!-- toggle nav button -->
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
-
-          <h1>{{ page.title }}</h1>
-
-          <div class="row">
-            <h2 id="types">Footprint types used in modeling</h2>
             <p>The maps show percent cover by land cover types within quarter sections (64 ha).</p>
 
             <p>'Alienating' disturbance types affect the soil and vegetation:</p>
