@@ -6,7 +6,8 @@ description: "Soil: spatial distribution."
 
 ## Raw data
 
-[Raw soil layers]({{ site.ftproot}}/geospatial/soil/ABMI_soilTypes_LayerJan2014.gdb.zip.zip) and [metadata]({{ site.ftproot}}/geospatial/soil/soillayersfortheabmisppwebsite.zip.zip).
+* [Raw soil layers]({{ site.ftproot }}/geospatial/soil/ABMI_soilTypes_LayerJan2014.gdb.zip)
+* [metadata]({{ site.ftproot }}/geospatial/soil/soillayersfortheabmisppwebsite.zip)
 
 ## Distribution of land cover types used in modeling
 
