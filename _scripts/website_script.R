@@ -195,6 +195,7 @@ rownames(nums) <- TAXON
 nums <- rbind(nums, all=colSums(nums))
 nums <- data.frame(names=rownames(nums), nums)
 colnames(nums) <- gsub("\\.", "", colnames(nums))
+nums$mapdetonly <- nums$mapdet - nums$mappred
 write.csv(nums, paste0(ROOT, "/summary.csv"), row.names=FALSE)
 
 q('no')
