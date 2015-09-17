@@ -22,14 +22,13 @@ layout: plain
 
 <div class="col-lg-6 col-sm-6">
 <h3><i class="fa fa-leaf"></i> Species</h3>
-<p>We provide informaion on spatial distribution, habitat associations, responses to human footprint, and predicted relative abundance distributions for many
-<a href="{{ site.baseurl }}/pages/species/mammals.html">mammal</a>,
-<a href="{{ site.baseurl }}/pages/species/birds.html">bird</a>,
-<a href="{{ site.baseurl }}/pages/species/mites.html">soil mite</a>,
-<a href="{{ site.baseurl }}/pages/species/vplants.html">vascular plant</a>,
-<a href="{{ site.baseurl }}/pages/species/mosses.html">bryophyte</a>, and
-<a href="{{ site.baseurl }}/pages/species/lichens.html">lichen</a>
- species in Alberta.</p>
+<p>We provide informaion on spatial distribution, habitat associations, responses to human footprint, and predicted relative abundance distributions for {% for item in site.data.summary %}{% if item.names == "total" %}{{ item.mappred }}{% endif %}{% endfor %} species in Alberta, including
+<a href="{{ site.baseurl }}/pages/species/mammals.html">mammals</a>,
+<a href="{{ site.baseurl }}/pages/species/birds.html">birds</a>,
+<a href="{{ site.baseurl }}/pages/species/mites.html">soil mites</a>,
+<a href="{{ site.baseurl }}/pages/species/vplants.html">vascular plants</a>,
+<a href="{{ site.baseurl }}/pages/species/mosses.html">bryophytes</a>, and
+<a href="{{ site.baseurl }}/pages/species/lichens.html">lichens</a>.</p>
 </div>
 
 <div class="col-lg-6 col-sm-6">
