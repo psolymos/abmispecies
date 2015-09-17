@@ -26,7 +26,7 @@ the data set is more extensive (see <a href="{{ site.baseurl }}/collaborations.h
 The combined data set needed to be standardized due to the differences
 in survey protocol among the data sets. Algorithms to deal with different protocols in bird surveys and methods for estimating predictive uncertainty were developed in collaboration with the <a href="http://www.borealbirds.ca/">Boreal Avian Modelling Project (BAM)</a> team (S&oacute;lymos et al. 2013). BAM also provided data management help for organizing bird point count data. The minimum number of detections required for model building for birds was 25.
 
-The <a href="{{ site.baseurl }}/pages/geospatial/climate.html">bioclimatic variables</a> used in the modeling were calculated at a 4-km resolution using monthly climate normals of temperature and precipitation averaged over 1961-1990. The monthly climate normals are based on instrument-measured climate data that were interpolated by PRISM (Daly et al., 2002) and WorldClim (Hijmans et al., 2005). The western North American portion of these data are described by (Wang et al., 2011).
+The <a href="{{ site.baseurl }}/pages/geospatial/climate.html">bioclimatic variables</a> used in the modeling were calculated at a 4-km resolution using monthly climate normals of temperature and precipitation averaged over 1961-1990. The monthly climate normals are based on instrument-measured climate data that were interpolated by PRISM (Daly et al., 2002) and WorldClim (Hijmans et al., 2005). The western North American portion of these data are described by Wang et al. (2011).
 
 ## Predictive maps
 

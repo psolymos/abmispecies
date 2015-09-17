@@ -139,6 +139,8 @@ for (taxon in TAXON) {
 
     spptab <- lt[,c("scinam","species")]
     colnames(spptab) <- c("scinam","comnam")
+    FULL <- lt$map.pred
+    names(FULL) <- rownames(spptab)
 
     if (!dir.exists(file.path(OUT, taxon)))
         dir.create(file.path(OUT, taxon))
@@ -167,7 +169,8 @@ for (taxon in TAXON) {
         sppfun <- function(i, tmp) {
             c(paste0("    - scinam: ", tmp$scinam[i]),
               paste0("      comnam: ", tmp$comnam[i]),
-              paste0("      label: ", rownames(tmp)[i]))
+              paste0("      label: ", rownames(tmp)[i]),
+              paste0("      model: ", ifelse(FULL[i], "true", "false")))
         }
         res <- list()
         for (a in ulead) {
@@ -180,5 +183,18 @@ for (taxon in TAXON) {
         writeLines(res, file.path(OUT2, paste0(taxon, "_", substr(lead_var, 1, 3), ".yml")))
     }
 }
+
+## updating summary file
+tabs <- list()
+cols <- c("map.det", "useavail.north", "useavail.south", 
+    "map.pred", "veghf.north", "soilhf.south")
+for (i in paste0(ROOT, "/", TAXON, ".csv"))
+    tabs[[i]] <- read.csv(i)
+nums <- t(sapply(tabs, function(z) colSums(z[,cols])))
+rownames(nums) <- TAXON
+nums <- rbind(nums, all=colSums(nums))
+nums <- data.frame(names=rownames(nums), nums)
+colnames(nums) <- gsub("\\.", "", colnames(nums))
+write.csv(nums, paste0(ROOT, "/summary.csv"), row.names=FALSE)
 
 q('no')
