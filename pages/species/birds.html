@@ -6,7 +6,7 @@ listbycomnam: true
 ---
 
 {% for item in site.data.summary %}
-  {% if item.name == "birds" %}<p>Number of species: {{ item.mapdet }} (<i class="fa fa-circle" style="color:orange"></i> basic summaries for {{ item.mapdetonly }}, <i class="fa fa-circle" style="color:green"></i> full model summaries for {{ item.mappred }} species)</p>{% endif %}
+  {% if item.names == "birds" %}<p>Number of species: {{ item.mapdet }} (<i class="fa fa-circle" style="color:orange"></i> basic summaries for {{ item.mapdetonly }}, <i class="fa fa-circle" style="color:green"></i> full model summaries for {{ item.mappred }} species)</p>{% endif %}
 {% endfor %}
 
 {% if page.listbycomnam %}
@@ -20,7 +20,7 @@ listbycomnam: true
       <p class="bg-info"><small>{% for lett in site.data.birds_sci %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#sci-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
       {% for spp in idx.species %}
       <p><a href="{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ spp.label }}.html">
-      <em>{{ spp.scinam }}</em>{% if page.listbycomnam %}{% if spp.comnam %} - {% endif %}{{ spp.comnam }}{% endif %}</a>{% if spp.model %}<i class="fa fa-circle" style="color:green"></i>{% else %}<i class="fa fa-circle" style="color:orange"></i>{% endif %}</p>
+      <em>{{ spp.scinam }}</em>{% if page.listbycomnam %}{% if spp.comnam %} - {% endif %}{{ spp.comnam }}{% endif %}</a>{% if spp.model %}<i class="fa fa-circle" style="color:green"></i>{% else %}<i class="fa fa-circle" style="color:orange"></i>{% endif %} zz<i class="fa fa-circle" style="color:orange"></i><i class="fa fa-circle" style="color:green"></i></p>
       {% endfor %}
     {% endfor %}
   </div>
@@ -33,7 +33,7 @@ listbycomnam: true
       <p class="bg-info"><small>{% for lett in site.data.birds_com %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#com-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
       {% for spp in idx.species %}
       <p><a href="{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ spp.label }}.html">
-      {{ spp.comnam }} - <em>{{ spp.scinam }}</em></a>{% if spp.model %}<i class="fa fa-circle" style="color:green"></i>{% else %}<i class="fa fa-circle" style="color:orange"></i>{% endif %}</p>
+      {{ spp.comnam }} - <em>{{ spp.scinam }}</em></a>{% if spp.model %}<i class="fa fa-circle" style="color:green"></i>{% else %}<i class="fa fa-circle" style="color:orange"></i>{% endif %}zz<i class="fa fa-circle" style="color:orange"></i><i class="fa fa-circle" style="color:green"></i></p>
       {% endfor %}
     {% endfor %}
   </div>
