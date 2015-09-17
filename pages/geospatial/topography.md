@@ -8,8 +8,6 @@ description: "Topography: spatial distribution."
 
 * <a href="{{ site.ftproot }}/geospatial/topography/topo_grid.zip">Raw topographic raster layers</a> are from <a href="http://www.ace-lab.org/">Dr. Scott Nielsen's lab</a>.
 
-w:/geospatial/topgraphy/topo_grid.zip
-
 ## Distribution of topographic variables
 
 <div class="col-6 col-sm-6 col-lg-6">
