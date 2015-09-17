@@ -139,8 +139,7 @@ for (taxon in TAXON) {
 
     spptab <- lt[,c("scinam","species")]
     colnames(spptab) <- c("scinam","comnam")
-    FULL <- lt$map.pred
-    names(FULL) <- rownames(spptab)
+    spptab$FULL <- lt$map.pred
 
     if (!dir.exists(file.path(OUT, taxon)))
         dir.create(file.path(OUT, taxon))
@@ -170,7 +169,7 @@ for (taxon in TAXON) {
             c(paste0("    - scinam: ", tmp$scinam[i]),
               paste0("      comnam: ", tmp$comnam[i]),
               paste0("      label: ", rownames(tmp)[i]),
-              paste0("      model: ", ifelse(FULL[i], "true", "false")))
+              paste0("      model: ", ifelse(tmp$FULL[i], "true", "false")))
         }
         res <- list()
         for (a in ulead) {
