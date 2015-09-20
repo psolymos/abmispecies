@@ -11,19 +11,3 @@ We provide maps of native vegetation, maps of human footprint types, temporal ch
 * Production server: http://species.abmi.ca/
 * Development server: http://sc-dev.abmi.ca/
 
-<<<<<<< HEAD
-## Structure
-
-* `/pages/` directory holds html content under version control
-  but without images and associated files.
-* Images corresponding to `pages` are stored in the `/contents/`
-  directory that is ignored by git. Under development,
-  `contents` is suppsed to change rather infrequently, as opposed to `pages`.
-* Big files are stored at an ftp server, as noted in the config file.
-=======
-## Todo list
-
-- [ ] Include FontAwesome ?
-- [ ] remove 'Home' from top navbar
-- [ ] Search to pull right
->>>>>>> master
