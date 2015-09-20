@@ -1,31 +1,30 @@
-label,comnam,scinam,model
-AllGrouse,"Grouse, Ptarmigan and allies",Tetraoninae,1
-Lynx,Lynx,Lynx canadensis,1
-Caribou,Caribou,Rangifer tarandus caribou,1
-Coyote,Coyote,Canis latrans,1
-Deer,Deer,Odocoileus,1
-DomesticDog,Domestic Dog,Canis lupus familiaris,1
-Elk,Elk,Cervus elaphus,1
-Foxes,Foxes,Vulpes,1
-Wolf,Wolf,Canis lupus,1
-MartenFisher,Marten and Fisher,Martes americana and M. pennanti,1
-Mink,Mink,Neovison vison,1
-Moose,Moose,Alces alces,1
-RedSquirrel,Red Squirrel,Tamiasciurus hudsonicus,1
-RiverOtter,River Otter,Lontra canadensis,1
-HaresandRabbits,Hares and Rabbits,Lagomorpha,1
-VolesMiceandAllies,"Voles, Mice and Allies",Muridae,1
-Weasels,Weasels,Mustela,1
-Beaver,Beaver,Castor canadensis,0
-Muskrat,Muskrat,Ondatra zibethicus,0
-Porcupine,Porcupine,Erethizon dorsatum,0
-Wolverine,Wolverine,Gulo gulo,0
-StripedSkunk,Striped Skunk,Mephitis mephitis,0
-Badger,Badger,Taxidea taxus,0
-Raccoon,Raccoon,Procyon lotor,0
-DomesticatedHorse,Domesticated Horse,Equus caballus,0
-Bison,Bison,Bison bison,0
-Pronghorn,Pronghorn,Antilocapra americana,0
-DomesticCathouseCat,Domestic Cat (House Cat),Felis catus,0
-DomesticCow,Domestic Cow,Bos taurus,0
-Cougar,Cougar,Puma concolor,0
+"sppid","species","rank","ndet","nsite","useavail.north","useavail.south","veghf.north","soilhf.south","map.det","map.pred","scinam"
+"RedSquirrel","Red Squirrel","Species",3965,3965,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Tamiasciurus hudsonicus"
+"Beaver","Beaver","Species",14,14,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Castor canadensis"
+"Muskrat","Muskrat","Species",28,28,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Ondatra zibethicus"
+"VolesMiceAndAllies","Voles, Mice and Allies","Family",4495,4495,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Muridae"
+"Porcupine","Porcupine","Species",111,111,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Erethizon dorsatum"
+"RiverOtter","River Otter","Species",104,104,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Lontra canadensis"
+"Wolverine","Wolverine","Species",29,29,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Gulo gulo"
+"WeaselsAndErmine","Weasels and Ermine","Genus",3952,3952,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Mustela"
+"StripedSkunk","Striped Skunk","Species",22,22,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Mephitis mephitis"
+"Badger","Badger","Species",38,38,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Taxidea taxus"
+"CanadaLynx","Canada Lynx","Species",1805,1805,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"Lynx canadensis"
+"GrayWolf","Gray Wolf","Species",684,684,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"Canis lupus"
+"Coyote","Coyote","Species",4280,4280,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Canis latrans"
+"Foxes","Foxes","Genus",490,490,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Vulpes"
+"DomesticatedHorse","Domesticated Horse","Species",45,45,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Equus caballus"
+"ElkWapiti","Elk (wapiti)","Species",139,139,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"Cervus elaphus"
+"Deer","Deer","Genus",4030,4030,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Odocoileus"
+"Moose","Moose","Species",2426,2426,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Alces alces"
+"Bison","Bison","Species",43,43,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Bison bison"
+"DomesticCatHouseCat","Domestic Cat (house Cat)","Species",29,29,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Felis catus"
+"DomesticCow","Domestic Cow","Species",20,20,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Bos taurus"
+"Caribou","Woodland Caribou","Species",107,107,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Rangifer tarandus caribou"
+"Cougar","Cougar","Species",16,16,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Puma concolor"
+"GrousePtarmiganAndAllies","Grouse, Ptarmigan and allies","Family",2299,2299,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Tetraoninae"
+"Mink","Mink","Species",133,133,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"Neovison vison"
+"DomesticDog","Domestic Dog","Species",566,566,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"Canis lupus familiaris"
+"MartenFisher","Marten and Fisher","Genus",2459,2291,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"Martes"
+"AllLeporids","Hares and Rabbits","Family",6239,6234,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Leporidae"
+"Pronghorn","Pronghorn","Species",15,15,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"Antilocapra americana"

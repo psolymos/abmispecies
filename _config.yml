@@ -1,41 +1,48 @@
-title:            ABMI Species Website
-version: 2.0
-description:      Information on individual species monitored by the Alberta Biodiversity Monitoring Institute.
-#url:              http://localhost:4000
-#url: http://species.abmi.ca/development
-url: http://species.abmi.ca
-#url: c:/Dropbox/www/species.abmi.ca/_site
-#url: https://dl.dropboxusercontent.com/u/18096698/www
-#permalink:   /:categories/:title.html
-category: news
+title: ABMI Species
+version: 3.0
+description: Information on species and habitats monitored by the Alberta Biodiversity Monitoring Institute.
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:
+baseurl: http://sc-dev.abmi.ca
+contents: http://species.abmi.ca/contents
+ftproot: ftp://web|anonymous:anonymous@ftp.public.abmi.ca/species.abmi.ca
+
+#permalink:   /:categories/:title.html
+#category: news
 
 include: [".htaccess"]
-exclude: ["rscripts","README.md","LICENSE.md"]
-timezone:    America/Edmonton
+exclude: ["rscripts","README.md","LICENSE.md","_scripts","NOTES.md"]
+timezone: America/Edmonton
+
+encoding: UTF-8
+markdown: kramdown
+kramdown:
+  input:          GFM
+  hard_wrap:      false
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,Rmd"
+
+# Bootswatch theme
+theme: yeti
+# fancy fonts on/off
+fancyfonts: false
+# navbar style: inverse, transparent
+navbar: transparent
 
 taxa:
   - title: Mammals
-    url: /pages/mammals.html
+    url: /pages/species/mammals.html
     label: mammals
   - title: Birds
-    url: /pages/birds.html
+    url: /pages/species/birds.html
     label: birds
   - title: Soil mites
-    url: /pages/mites.html
+    url: /pages/species/mites.html
     label: mites
   - title: Vascular plants
-    url: /pages/vplants.html
+    url: /pages/species/vplants.html
     label: vplants
   - title: Bryophytes
-    url: /pages/mosses.html
+    url: /pages/species/mosses.html
     label: mosses
   - title: Lichens
-    url: /pages/lichens.html
+    url: /pages/species/lichens.html
     label: lichens
-
-highlighter: pygments
-
-markdown: kramdown

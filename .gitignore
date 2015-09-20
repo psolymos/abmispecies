@@ -4,6 +4,14 @@
 ## R script output
 *.out
 
+## no graphics
+*.jpg
+*.tif
+*.bmp
+*.png
+!abmi-logo-notext.png
+!favicon.png
+
 ## jekyll built website
 /_site/*
 
@@ -12,22 +20,22 @@
 
 ## static content for species pages
 /content/*
+/images/*
+
+## data are generated and not stored
+/_data/*
+!/_data/birds.csv
+!/_data/mammals.csv
+!/_data/mosses.csv
+!/_data/lichens.csv
+!/_data/vplants.csv
+!/_data/mites.csv
 
 ## species pages
-## note: TOC is in /pages/
-/pages/mites/*
-/pages/mosses/*
-/pages/mammals/*
-/pages/birds/*
-/pages/lichens/*
-/pages/vplants/*
+/pages/species/mites/*
+/pages/species/mosses/*
+/pages/species/lichens/*
+/pages/species/vplants/*
+/pages/species/birds/*
+/pages/species/mammals/*
 
-## figures from other dirs
-/methods/*
-!/methods/index.html
-/footprint/*
-!/footprint/index.html
-/vegetation/*
-!/vegetation/index.html
-/coefficients/*
-!/coefficients/index.html

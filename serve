@@ -1,4 +1,0 @@
-rm -r /home/peter/www/
-mkdir /home/peter/www/
-cp -a /home/peter/Dropbox/www/species.abmi.ca/. /home/peter/www/
-jekyll serve

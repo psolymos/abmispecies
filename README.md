@@ -8,11 +8,6 @@ We provide maps of native vegetation, maps of human footprint types, temporal ch
 
 ## Versions
 
-* Current version: http://species.abmi.ca/
-* Development version: http://species.abmi.ca/development/
+* Production server: http://species.abmi.ca/
+* Development server: http://sc-dev.abmi.ca/
 
-## Todo list
-
-- [ ] Include FontAwesome ?
-- [ ] remove 'Home' from top navbar
-- [ ] Search to pull right
