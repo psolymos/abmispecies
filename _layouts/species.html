@@ -43,26 +43,6 @@
           </div>
           {% endif %}
 
-          {% if page.toclabels.useavail-south %}
-          <div class="row">
-            <h2 id="useavail-south">Habitat associations for species with few detections, South</h2>
-            <div class="col-5 col-sm-5 col-lg-5">
-            <img src="{{ site.contents }}/species/{{ page.taxon }}/useavail-south/{{ page.spplabel}}.png" class="img-responsive" alt="Use-availability, South">
-            </div>
-            <div class="col-5 col-sm-5 col-lg-5">
-          <p>It was not possible to create complex habitat association models for species detected fewer than {% if page.taxon == "birds" %}100{% else %}20{% endif %} times in southern Alberta study area. For these species, a coarse index of habitat use was determined as the proportion of detections in each native vegetation and human footprint type in comparison to the proportional availability of the habitat types (see <a href="{{ site.baseurl }}/methods.html">methods</a>). An index value &lt;0 indicates lower than expected proportion of detections in that habitat type; and index value &gt;0 indicates a higher than expected proportion. Due to the coarseness of the analyses, maps of predicted habitat abundance were not created for these species.</p>
-<span class="pull-right">
-<div class="btn-group">
-  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/species/{{ page.taxon }}/{{ page.taxon }}-useavail-south.csv" download>Use-availability coefficients (south)</a></li>
-  </ul>
-</div>
-</span>
-            </div>
-          </div>
-          {% endif %}
-
 {% if page.toclabels.veghf-north %}
           <div class="row">
             <h2 id="veghf-north">Species&ndash;habitat associations in northern Alberta</h2>
@@ -83,6 +63,26 @@
 </span>
             </div>
           </div>
+{% endif %}
+
+{% if page.toclabels.useavail-south %}
+<div class="row">
+  <h2 id="useavail-south">Habitat associations for species with few detections, South</h2>
+  <div class="col-5 col-sm-5 col-lg-5">
+  <img src="{{ site.contents }}/species/{{ page.taxon }}/useavail-south/{{ page.spplabel}}.png" class="img-responsive" alt="Use-availability, South">
+  </div>
+  <div class="col-5 col-sm-5 col-lg-5">
+<p>It was not possible to create complex habitat association models for species detected fewer than {% if page.taxon == "birds" %}100{% else %}20{% endif %} times in southern Alberta study area. For these species, a coarse index of habitat use was determined as the proportion of detections in each native vegetation and human footprint type in comparison to the proportional availability of the habitat types (see <a href="{{ site.baseurl }}/methods.html">methods</a>). An index value &lt;0 indicates lower than expected proportion of detections in that habitat type; and index value &gt;0 indicates a higher than expected proportion. Due to the coarseness of the analyses, maps of predicted habitat abundance were not created for these species.</p>
+<span class="pull-right">
+<div class="btn-group">
+<a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
+<ul class="dropdown-menu">
+<li><a href="{{ site.contents }}/species/{{ page.taxon }}/{{ page.taxon }}-useavail-south.csv" download>Use-availability coefficients (south)</a></li>
+</ul>
+</div>
+</span>
+  </div>
+</div>
 {% endif %}
 
 {% if page.toclabels.soilhf-nontreed-south %}
@@ -176,6 +176,46 @@
           {% endif %}
 
 
+          {% if page.toclabels.sector-north %}
+          <div class="row">
+            <h2 id="sector-north">Sector effects in northern Alberta</h2>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/sector-north/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <p>The x axis represents the extent of the footprint within sectors, the y axis shows the 'unit effect'. As a result, the areas of the rectangles corresponding to the different sectors are proportional to the sector specific population effect (numbers on the top/bottom of the bars) for a species in a given region. Absolute values close to 1 on the y axis indicate expected abundance changes in proportion to changes in a particular footprint type, absolute values higher than 1 indicate disproportionate effects.</p>
+<span class="pull-right">
+<div class="btn-group">
+  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
+  <ul class="dropdown-menu">
+    <li><a href="{{ site.contents }}/species/{{ page.taxon }}/{{ page.taxon }}-sector-effects.zip" download>Regional sector effect estimates</a></li>
+  </ul>
+</div>
+</span>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if page.toclabels.sector-south %}
+          <div class="row">
+            <h2 id="sector-south">Sector effects in southern Alberta</h2>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/sector-south/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <p>The x axis represents the extent of the footprint within sectors, the y axis shows the 'unit effect'. As a result, the areas of the rectangles corresponding to the different sectors are proportional to the sector specific population effect (numbers on the top/bottom of the bars) for a species in a given region. Absolute values close to 1 on the y axis indicate expected abundance changes in proportion to changes in a particular footprint type, absolute values higher than 1 indicate disproportionate effects.</p>
+<span class="pull-right">
+<div class="btn-group">
+  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
+  <ul class="dropdown-menu">
+    <li><a href="{{ site.contents }}/species/{{ page.taxon }}/{{ page.taxon }}-sector-effects.zip" download>Regional sector effect estimates</a></li>
+  </ul>
+</div>
+</span>
+            </div>
+          </div>
+          {% endif %}
+
           {% if page.toclabels.map-rf %}
           <div class="row">
             <h2 id="map-rf">Predicted relative abundance throughout Alberta under reference conditions </h2>
@@ -249,46 +289,6 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
               <p>To highlight the degree of uncertainty in the models, we estimated the coefficient of variation for each township based on bootstrap predictions of current abundance. 10 km x 10 km units depicted in red have the highest coefficient of variation, while 10 km x 10 km units in dark green have the lowest.</p>
-            </div>
-          </div>
-          {% endif %}
-
-          {% if page.toclabels.sector-north %}
-          <div class="row">
-            <h2 id="sector-north">Sector effects in northern Alberta</h2>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/sector-north/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
-            </div>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <p>The x axis represents the extent of the footprint within sectors, the y axis shows the 'unit effect'. As a result, the areas of the rectangles corresponding to the different sectors are proportional to the sector specific population effect (numbers on the top/bottom of the bars) for a species in a given region. Absolute values close to 1 on the y axis indicate expected abundance changes in proportion to changes in a particular footprint type, absolute values higher than 1 indicate disproportionate effects.</p>
-<span class="pull-right">
-<div class="btn-group">
-  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/species/{{ page.taxon }}/{{ page.taxon }}-sector-effects.zip" download>Regional sector effect estimates</a></li>
-  </ul>
-</div>
-</span>
-            </div>
-          </div>
-          {% endif %}
-
-          {% if page.toclabels.sector-south %}
-          <div class="row">
-            <h2 id="sector-south">Sector effects in southern Alberta</h2>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/sector-south/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
-            </div>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <p>The x axis represents the extent of the footprint within sectors, the y axis shows the 'unit effect'. As a result, the areas of the rectangles corresponding to the different sectors are proportional to the sector specific population effect (numbers on the top/bottom of the bars) for a species in a given region. Absolute values close to 1 on the y axis indicate expected abundance changes in proportion to changes in a particular footprint type, absolute values higher than 1 indicate disproportionate effects.</p>
-<span class="pull-right">
-<div class="btn-group">
-  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/species/{{ page.taxon }}/{{ page.taxon }}-sector-effects.zip" download>Regional sector effect estimates</a></li>
-  </ul>
-</div>
-</span>
             </div>
           </div>
           {% endif %}
