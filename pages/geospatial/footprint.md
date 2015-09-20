@@ -9,19 +9,6 @@ description: "Human footprint: spatial distribution and temporal changes."
 Human footprint layers can be downloaded from the
 [ABMI website](http://abmi.ca/home/data/gis-data/human-footprint-download.html?scroll=true).
 
-## Footprint types used in modeling
-
-The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cells.
-
-* 'Alienating' disturbance types affect the soil and vegetation:
-  - Cultivation
-  - Urban-Industrial development
-  - Hard linear features (roads, rails)
-  - Human created wetlands and water bodies
-* 'Successional' disturbance types do not disturb the soil directly, and vegetation can regenerate:
-  - Forestry
-  - Soft linear features (cutlines)
-
 ## Spatial distribution of footprint types
 
 <div class="row">

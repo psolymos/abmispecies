@@ -23,6 +23,8 @@ description: "Vegetation: spatial distribution."
 
 The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cells.
 
+This information was created using information obtained under data-sharing agreements and ABMI does not have permission to share the resulting GIS layer.
+
 <div class="col-6 col-sm-6 col-lg-6">
 <h3>Deciduous forest</h3>
 <img src="{{ site.contents }}/geospatial/vegetation/Decid.png" class="img-responsive" alt="Deciduous forest"/>
