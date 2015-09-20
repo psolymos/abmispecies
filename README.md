@@ -11,3 +11,27 @@ We provide maps of native vegetation, maps of human footprint types, temporal ch
 * Production server: http://species.abmi.ca/
 * Development server: http://sc-dev.abmi.ca/
 
+## Back-end
+
+* figures and small tables are hosted on a Windows Server:
+  production server, folder `/contents` as in `site.contents`
+* large files are hosted on an ftp server: see `site.ftproot`
+* html pages are hosted on production server
+
+## Directory structure
+
+* `/geospatial`
+  - `/climate`
+  - `/soil`
+  - `/topography`
+  - `/vegetation`
+  - `/footprint`
+* `/guilds`
+  - TBD
+* `/species`
+  -`/birds`
+  -`/mammals`
+  -`/mites`
+  -`/vplants`
+  -`/mosses`
+  -`/lichens`
