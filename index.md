@@ -21,7 +21,7 @@ layout: plain
         <div class="row">
 
 <div class="col-lg-6 col-sm-6">
-<h3><i class="fa fa-leaf"></i> Species</h3>
+<h3><a href="{{ site.baseurl }}/pages/species.html"><i class="fa fa-leaf"></i> Species</a></h3>
 <p>We provide informaion on spatial distribution, habitat associations, responses to human footprint, and predicted relative abundance distributions for {% for item in site.data.summary %}{% if item.names == "all" %}{{ item.mapdet }}{% endif %}{% endfor %} species in Alberta, including
 <a href="{{ site.baseurl }}/pages/species/mammals.html">mammals</a>,
 <a href="{{ site.baseurl }}/pages/species/birds.html">birds</a>,
@@ -32,7 +32,7 @@ layout: plain
 </div>
 
 <div class="col-lg-6 col-sm-6">
-<h3><i class="fa fa-map-marker"></i> Geospatial information</h3>
+<h3><a href="{{ site.baseurl }}/pages/geospatial.html"><i class="fa fa-map-marker"></i> Geospatial information</a></h3>
 <p>We provide maps of
 <a href="{{ site.baseurl }}/pages/geospatial/vegetation.html">native vegetation</a>,
 <a href="{{ site.baseurl }}/pages/geospatial/soil.html">soils</a>,
@@ -46,14 +46,14 @@ in Alberta.</p>
       <div class="row">
 
 <div class="col-lg-6 col-sm-6">
-<h3><i class="fa fa-paw"></i> Higher taxa and guilds</h3>
+<h3><a href="{{ site.baseurl }}/pages/guilds.html"><i class="fa fa-paw"></i> Higher taxa and guilds</a></h3>
 <p>Results on individual species are combined to highlight
 how groups of similar species &mdash; guilds &mdash; respond to
 environmental variation.</p>
 </div>
 
 <div class="col-lg-6 col-sm-6">
-<h3><i class="fa fa-group"></i> Collaborations</h3>
+<h3><a href="{{ site.baseurl }}/collaborations.html"><i class="fa fa-group"></i> Collaborations</a></h3>
 <p>ABMI collaborated with a variety of institutions, organizations and individuals to develop predictive species/habitat modeling in Alberta. <a href="{{ site.baseurl }}/collaborations.html">These collaborations</a> were essential at all steps of the process of generating the content for this website.</p>
 </div>
 
