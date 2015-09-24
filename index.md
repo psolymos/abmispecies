@@ -34,7 +34,6 @@ layout: plain
 <div class="col-lg-6 col-sm-6">
 <h3><i class="fa fa-map-marker"></i> Geospatial information</h3>
 <p>We provide maps of
-native vegetation, soils, climate, topography, and human footprint types
 <a href="{{ site.baseurl }}/pages/geospatial/vegetation.html">native vegetation</a>,
 <a href="{{ site.baseurl }}/pages/geospatial/soil.html">soils</a>,
 <a href="{{ site.baseurl }}/pages/geospatial/footprint.html">human footprint</a>,
