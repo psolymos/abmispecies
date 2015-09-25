@@ -164,7 +164,7 @@
           {% endif %}
 
 
-          {% if page.toclabels.sector-north and page.nonnative == "false" %}
+          {% if page.toclabels.sector-north and page.status == "native" %}
           <div class="row">
             <h2 id="sector-north">Sector effects in northern Alberta</h2>
             <div class="col-5 col-sm-5 col-lg-5">
@@ -184,7 +184,7 @@
           </div>
           {% endif %}
 
-          {% if page.toclabels.sector-south and page.nonnative == "false" %}
+          {% if page.toclabels.sector-south and page.status == "native" %}
           <div class="row">
             <h2 id="sector-south">Sector effects in southern Alberta</h2>
             <div class="col-5 col-sm-5 col-lg-5">
@@ -204,7 +204,7 @@
           </div>
           {% endif %}
 
-          {% if page.toclabels.map-rf and page.nonnative == "false" %}
+          {% if page.toclabels.map-rf and page.status == "native" %}
           <div class="row">
             <h2 id="map-rf">Predicted relative abundance throughout Alberta under reference conditions </h2>
             <div class="col-5 col-sm-5 col-lg-5">
@@ -247,7 +247,7 @@
           </div>
           {% endif %}
 
-          {% if page.toclabels.map-df and page.nonnative == "false" %}
+          {% if page.toclabels.map-df and page.status == "native" %}
           <div class="row">
             <h2 id="map-df">Difference in relative abundance between current and reference conditions</h2>
             <div class="col-5 col-sm-5 col-lg-5">
@@ -280,7 +280,7 @@
           </div>
           {% endif %}
 
-{% if page.nonnative %}
+{% if page.status == "nonnative" %}
 <p>Sector effects figures, reference and difference maps are not provided for non-native vascular plant species.</p>
 {% endif %}
 

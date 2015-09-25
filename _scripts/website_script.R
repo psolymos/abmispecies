@@ -94,7 +94,7 @@ function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species")
         i <- M[spplabel,]
         scinam <- as.character(spptab[spplabel, "scinam"])
         comnam <- as.character(spptab[spplabel, "comnam"])
-        NN <- ifelse(spptab[spplabel, "NN"], "true", "false")
+        nnstatus <- ifelse(spptab[spplabel, "NN"], "nonnative", "native")
         title <- title_format
         title <- sub("scinam", scinam, title)
         title <- sub("comnam", comnam, title)
@@ -118,7 +118,7 @@ function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species")
             #"sidebar: true",
             paste0("taxon: ", taxon),
             paste0("taxonname: ", taxonname),
-            paste0("nonnative: ", NN),
+            paste0("status: ", nnstatus),
             "toclabels:",
             switches,
             "---")
