@@ -94,6 +94,7 @@ function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species")
         i <- M[spplabel,]
         scinam <- as.character(spptab[spplabel, "scinam"])
         comnam <- as.character(spptab[spplabel, "comnam"])
+        NN <- ifelse(spptab[spplabel, "NN"], "true", "false")
         title <- title_format
         title <- sub("scinam", scinam, title)
         title <- sub("comnam", comnam, title)
@@ -114,9 +115,10 @@ function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species")
             paste0("title: ", title),
             paste0("spplabel: ", spplabel),
             paste0("description: \"ABMI species summary for ", scinam, "\""),
-            "sidebar: true",
+            #"sidebar: true",
             paste0("taxon: ", taxon),
             paste0("taxonname: ", taxonname),
+            paste0("nonnative: ", NN),
             "toclabels:",
             switches,
             "---")
@@ -140,6 +142,8 @@ for (taxon in TAXON) {
     spptab <- lt[,c("scinam","species")]
     colnames(spptab) <- c("scinam","comnam")
     spptab$FULL <- lt$map.pred
+    spptab$NN <- if ("nonnative" %in% colnames(lt))
+        lt$nonnative else FALSE
 
     if (!dir.exists(file.path(OUT, taxon)))
         dir.create(file.path(OUT, taxon))
