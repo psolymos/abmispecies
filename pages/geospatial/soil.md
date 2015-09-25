@@ -7,7 +7,7 @@ description: "Soil: spatial distribution."
 ## Raw data
 
 * <a href="{{ site.ftproot }}/geospatial/soil/ABMI_soilTypes_LayerJan2014.gdb.zip">Raw soil layers</a>
-* <a href="{{ site.ftproot }}/geospatial/soil/soillayersfortheabmisppwebsite.zip">Metedata</a>
+* <a href="{{ site.ftproot }}/geospatial/soil/soillayersfortheabmisppwebsite.zip">Metadata</a>
 
 ## Distribution of soil types used in modeling
 
