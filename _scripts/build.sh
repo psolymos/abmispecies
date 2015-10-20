@@ -10,7 +10,7 @@ rm -r -f ~/repos/abmispecies/pages/species/mites
 
 ## status update
 cd ~/repos/abmispecies
-echo 'Updateing git repo'
+echo 'Updating git repo'
 git pull
 #git checkout --track -b origin/v2015
 #git checkout v2015
