@@ -24,7 +24,8 @@ Rscript --vanilla website_script.R
 ## run Jekyll
 echo 'Running jekyll'
 cd ~/repos/abmispecies/
-jekyll build --destination /var/www/html
+mkdir /var/www/html/development
+jekyll build --destination /var/www/html/development
 
 ## package everything
 echo 'Packing up site content'
@@ -34,4 +35,9 @@ mv sppweb.zip ~/repos/abmispecies/_site/
 
 ## return to home folder
 #cd ~
+
+## redirect
+echo 'Redirect overwrite'
+cp ~/repos/abmispecies/_scripts/index.html /var/www/html/index.html
+
 echo 'Done'
