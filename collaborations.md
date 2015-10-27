@@ -21,8 +21,8 @@ We thank many present and past members of the ABMI who helped in building the co
 * Primary Land and Vegetation Inventory (PLVI): ESRD
 * Grassland Vegetation Inventory (GVI): ESRD
 * Alberta Vegetation  Inventory (AVI): ESRD
-* Daina Stralberg (University of Alberta) interpolated climate data  to be used in modeling
-* Scott Nielsen provided GIS layers on topography and enduring  features in Alberta
+* Diana Stralberg (University of Alberta) interpolated climate data  to be used in modeling
+* Scott Nielsen (University of Alberta) provided GIS layers on topography and enduring  features in Alberta
 
 ## Bird Point Counts 
 Information from ABMI bird point counts was combined with information from other organizations and individuals:
