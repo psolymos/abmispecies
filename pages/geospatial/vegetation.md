@@ -58,7 +58,7 @@ This information was created using information obtained under data-sharing agree
         <h4 class="modal-title" id="modal-lichens-label">Vegetation map: {{ item.long }} (% cover)</h4>
       </div>
       <div class="modal-body">
-        <img src="{{ site.contents }}/geospatial/topography/{{ item.short }}.png" class="img-responsive" alt="Vegetation map: {{ item.long }} (% cover)"/>
+        <img src="{{ site.contents }}/geospatial/vegetation/{{ item.short }}.png" class="img-responsive" alt="Vegetation map: {{ item.long }} (% cover)"/>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
