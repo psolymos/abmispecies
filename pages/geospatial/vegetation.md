@@ -2,6 +2,27 @@
 layout: default
 title: Vegetation
 description: "Vegetation: spatial distribution."
+data:
+- short: Decid
+  long: 'Deciduous forest'
+- short: Mixwood
+  long: 'Mixedwood'
+- short: Conif
+  long: 'Upland coniferous (non-pine)'
+- short: Pine
+  long: 'Pine forest'
+- short: BSpr
+  long: 'Lowland coniferous, Black spruce'
+- short: Larch
+  long: 'Lowland coniferous, Larch'
+- short: WetShrub
+  long: 'Non-treed shrubby wetlands'
+- short: WetGrassHerb
+  long: 'Non-treed open wetlands'
+- short: Shrub
+  long: 'Shrubs'
+- short: GrassHerb
+  long: 'Grass'
 ---
 
 ## Raw data
@@ -25,52 +46,25 @@ The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cel
 
 This information was created using information obtained under data-sharing agreements and ABMI does not have permission to share the resulting GIS layer.
 
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Deciduous forest</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Decid.png" class="img-responsive" alt="Deciduous forest"/>
+{% for item in page.data %}
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button>
+
+<div class="modal fade" id="modal-{{ item.short }}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ item.short }}-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modal-lichens-label">Vegetation map: {{ item.long }} (% cover)</h4>
+      </div>
+      <div class="modal-body">
+        <img src="{{ site.contents }}/geospatial/topography/{{ item.short }}.png" class="img-responsive" alt="Vegetation map: {{ item.long }} (% cover)"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Mixedwood</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Mixwood.png" class="img-responsive" alt="Mixedwood"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Upland coniferous (non-pine)</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Conif.png" class="img-responsive" alt="Upland coniferous (non-pine)"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Pine forest</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Pine.png" class="img-responsive" alt="Pine forest"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Black spruce dominated wetlands</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/BSpr.png" class="img-responsive" alt="Lowland coniferous, Black spruce"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Larch dominated wetlands</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Larch.png" class="img-responsive" alt="Lowland coniferous, Larch"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Non-treed shrubby wetlands</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/WetShrub.png" class="img-responsive" alt="Non-treed shrubby wetlands"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Non-treed open wetlands</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/WetGrassHerb.png" class="img-responsive" alt="Non-treed open wetlands"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Shrubs</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/Shrub.png" class="img-responsive" alt="Shrubs"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Grass</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/GrassHerb.png" class="img-responsive" alt="Grass"/>
-</div>
+{% endfor %}
