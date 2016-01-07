@@ -5,6 +5,6 @@ title: "Multi species"
 
 The following results on multiple species are available:
 
-* [Intactness]({{ site.baseurl }}/pages/multispeies/intactness.html)
-* [Richness]({{ site.baseurl }}/pages/multispeies/richness.html)
-* [Guilds]({{ site.baseurl }}/pages/multispeies/guilds.html)
+* [Intactness]({{ site.baseurl }}/pages/multispecies/intactness.html)
+* [Richness]({{ site.baseurl }}/pages/multispecies/richness.html)
+* [Guilds]({{ site.baseurl }}/pages/multispecies/guilds.html)
