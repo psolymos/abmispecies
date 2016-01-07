@@ -19,6 +19,16 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
               <p>The map shows survey locations (+) and detections (dots). Natural regions are shown as different background colors. {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+
+<span class="pull-right">
+<div class="btn-group">
+  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
+  <ul class="dropdown-menu">
+    <li><a href="http://abmi.ca/home/data/welcome-data-portal.html" target="_blank">Link to ABMI data portal</a></li>
+  </ul>
+</div>
+</span>
+
             </div>
           </div>
           {% endif %}
@@ -275,6 +285,16 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
               <p>To highlight the degree of uncertainty in the models, we estimated the coefficient of variation for each township based on bootstrap predictions of current abundance. 10 km x 10 km units depicted in red have the highest coefficient of variation, while 10 km x 10 km units in dark green have the lowest.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+
+<span class="pull-right">
+<div class="btn-group">
+  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
+  <ul class="dropdown-menu">
+    <li><a href="{{ site.ftproot }}/species/{{ page.taxon }}-provincial-10x10km-summary.Rdata" download>Provicial 10 x 10 km summaries (large Rdata file)</a></li>
+  </ul>
+</div>
+</span>
+
             </div>
           </div>
           {% endif %}
