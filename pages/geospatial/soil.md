@@ -2,6 +2,15 @@
 layout: default
 title: Soil
 description: "Soil: spatial distribution."
+data:
+- short: Productive
+  long: 'Productive'
+- short: RapidDrain
+  long: 'Rapid drain'
+- short: Saline
+  long: 'Saline'
+- short: Clay
+  long: 'Clay'
 ---
 
 ## Raw data
@@ -13,22 +22,27 @@ description: "Soil: spatial distribution."
 
 The maps show percent cover by soil types within 1 km<sup>2</sup> grid cells.
 
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Productive</h3>
-<img src="{{ site.contents }}/geospatial/soil/Productive.png" class="img-responsive" alt="Productive"/>
+{% for item in page.data %}
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button>
+
+<div class="modal fade" id="modal-{{ item.short }}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ item.short }}-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modal-lichens-label">Soil map: {{ item.long }} (% cover)</h4>
+      </div>
+      <div class="modal-body">
+        <img src="{{ site.contents }}/geospatial/soil/{{ item.short }}.png" class="img-responsive" alt="Soil map: {{ item.long }} (% cover)"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Rapid drain</h3>
-<img src="{{ site.contents }}/geospatial/soil/RapidDrain.png" class="img-responsive" alt="Rapid drain"/>
-</div>
+{% endfor %}
 
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Saline</h3>
-<img src="{{ site.contents }}/geospatial/soil/Saline.png" class="img-responsive" alt="Saline"/>
-</div>
 
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Clay</h3>
-<img src="{{ site.contents }}/geospatial/soil/Clay.png" class="img-responsive" alt="Clay"/>
-</div>
