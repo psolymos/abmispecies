@@ -163,7 +163,7 @@
           </div>
           {% endif %}
 
-          {% if page.toclabels.sector-north and page.status == "native" %}
+          {% if site.show_sector and page.toclabels.sector-north and page.status == "native" %}
           <div class="row">
             <h2 id="sector-north">Sector effects in northern Alberta</h2>
             <div class="col-5 col-sm-5 col-lg-5">
@@ -183,7 +183,7 @@
           </div>
           {% endif %}
 
-          {% if page.toclabels.sector-south and page.status == "native" %}
+          {% if site.show_sector and page.toclabels.sector-south and page.status == "native" %}
           <div class="row">
             <h2 id="sector-south">Sector effects in southern Alberta</h2>
             <div class="col-5 col-sm-5 col-lg-5">
