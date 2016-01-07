@@ -32,13 +32,13 @@ layout: plain
 </div>
 
 <div class="col-lg-6 col-sm-6">
-<h3><a href="{{ site.baseurl }}/pages/guilds.html"><i class="fa fa-paw"></i> Higher taxa and guilds</a></h3>
+<h3><a href="{{ site.baseurl }}/pages/multispecies.html"><i class="fa fa-paw"></i> Higher taxa and guilds</a></h3>
 <p>Results on individual species are combined to highlight
 how groups of similar species respond to
 environmental variation. We provide information on
-<a href="{{ site.baseurl }}/pages/multitaxa/intactness.html">intactness</a>,
-<a href="{{ site.baseurl }}/pages/multitaxa/richness.html">richness</a>,
-<a href="{{ site.baseurl }}/pages/multitaxa/guilds.html">guilds</a>.
+<a href="{{ site.baseurl }}/pages/multispecies/intactness.html">intactness</a>,
+<a href="{{ site.baseurl }}/pages/multispecies/richness.html">richness</a>,
+<a href="{{ site.baseurl }}/pages/multispecies/guilds.html">guilds</a>.
 </p>
 </div>
 
