@@ -17,4 +17,13 @@ which represents 5% systematic sample of Alberta.
 Line colors correspond to natural regions, black line: all natural regions combined.</p>
 </div>
 
+<span class="pull-right">
+<div class="btn-group">
+  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
+  <ul class="dropdown-menu">
+    <li><a href="{{ site.ftproot }}/habitat/footprint-change/veghf3x7.zip" download>Footprint change</a></li>
+  </ul>
+</div>
+</span>
+
 </div>
