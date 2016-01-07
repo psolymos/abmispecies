@@ -24,6 +24,8 @@ Human footprint layers can be downloaded from the
 
 ## Spatial distribution of footprint types
 
+The maps show percent cover by footprint types within 1 km<sup>2</sup> grid cells.
+
 {% for item in page.data %}
 
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button>
@@ -33,10 +35,10 @@ Human footprint layers can be downloaded from the
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modal-lichens-label">{{ item.long }} human footprint map</h4>
+        <h4 class="modal-title" id="modal-lichens-label">Human footprint map: {{ item.long }}</h4>
       </div>
       <div class="modal-body">
-        <img src="{{ site.contents }}/geospatial/footprint/{{ item.short }}.png" class="img-responsive" alt="{{ item.long }} human footprint map"/>
+        <img src="{{ site.contents }}/geospatial/footprint/{{ item.short }}.png" class="img-responsive" alt="Human footprint map: {{ item.long }}"/>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
