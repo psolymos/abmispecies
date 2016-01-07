@@ -3,24 +3,18 @@ layout: default
 title: Human footprint
 description: "Human footprint: spatial distribution."
 data:
-- Cult:
-  - short: Cult
-  - long: 'Cultivation'
-- UrbInd:
-  - short: UrbInd
-  - long: 'Urban-Industrial'
-- HardLin:
-  - short: HardLin
-  - long: 'Hard linear features'
-- HWater:
-  - short: HWater
-  - long: 'Human created water bodies'
-- HFor:
-  - short: HFor
-  - long: 'Forestry'
-- SoftLin:
-  - short: SoftLin
-  - long: 'Soft linear features'
+- short: Cult
+  long: 'Cultivation'
+- short: UrbInd
+  long: 'Urban-Industrial'
+- short: HardLin
+  long: 'Hard linear features'
+- short: HWater
+  long: 'Human created water bodies'
+- short: HFor
+  long: 'Forestry'
+- short: SoftLin
+  long: 'Soft linear features'
 ---
 
 ## Raw data
