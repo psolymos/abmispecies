@@ -7,3 +7,4 @@ The following results on multiple species are available:
 
 * [Intactness]({{ site.baseurl }}/pages/multispeies/intactness.html)
 * [Richness]({{ site.baseurl }}/pages/multispeies/richness.html)
+* [Guilds]({{ site.baseurl }}/pages/multispeies/guilds.html)
