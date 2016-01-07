@@ -25,6 +25,8 @@ data:
 
 ## Distribution of bioclimatic variables used in modeling
 
+{% for item in page.data %}
+
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button>
 
 <div class="modal fade" id="modal-{{ item.short }}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ item.short }}-label">
