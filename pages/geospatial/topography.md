@@ -2,6 +2,19 @@
 layout: default
 title: Topography
 description: "Topography: spatial distribution."
+data:
+- short: slope
+  long: 'Slope'
+- short: slpasp
+  long: 'Slope / aspect solar radiation index'
+- short: tpi2km
+  long: 'Topographic position index'
+- short: tri
+  long: 'Topographic ruggedness index'
+- short: cti
+  long: 'Compound topographic index (wetness)'
+- short: vrm5x5
+  long: 'Vector ruggedness measure'
 ---
 
 ## Raw data
@@ -10,32 +23,25 @@ description: "Topography: spatial distribution."
 
 ## Distribution of topographic variables
 
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Slope</h3>
-<img src="{{ site.contents }}/geospatial/topography/slope.png" class="img-responsive" alt="Slope"/>
+{% for item in page.data %}
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button>
+
+<div class="modal fade" id="modal-{{ item.short }}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ item.short }}-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modal-lichens-label">Topogarphy: {{ item.long }} map</h4>
+      </div>
+      <div class="modal-body">
+        <img src="{{ site.contents }}/geospatial/topography/{{ item.short }}.png" class="img-responsive" alt="Topogarphy: {{ item.long }} map"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Slope / aspect solar radiation index</h3>
-<img src="{{ site.contents }}/geospatial/topography/slpasp.png" class="img-responsive" alt="Slope / aspect solar radiation index"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Topographic position index</h3>
-<img src="{{ site.contents }}/geospatial/topography/tpi2km.png" class="img-responsive" alt="Topographic position index"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Topographic ruggedness index</h3>
-<img src="{{ site.contents }}/geospatial/topography/tri.png" class="img-responsive" alt="Topographic ruggedness index"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Compound topographic index (wetness)</h3>
-<img src="{{ site.contents }}/geospatial/topography/cti.png" class="img-responsive" alt="Compound topographic index (wetness)"/>
-</div>
-
-<div class="col-6 col-sm-6 col-lg-6">
-<h3>Vector ruggedness measure</h3>
-<img src="{{ site.contents }}/geospatial/topography/vrm5x5.png" class="img-responsive" alt="Vector ruggedness measure"/>
-</div>
+{% endfor %}
