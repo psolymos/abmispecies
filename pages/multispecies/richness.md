@@ -17,10 +17,15 @@ Species richness for each taxon was modelled by stacking predictions from indivi
 Species richness maps are available for these taxa:
 
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-mammals">Mammals</button>
+
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-birds">Birds</button>
+
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-mites">Mites</button>
+
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-vplants">Vascular plants</button>
+
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-mosses">Bryophytes</button>
+
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-lichens">Lichens</button>
 
 ## Interpretation Caveats
