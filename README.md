@@ -9,7 +9,7 @@ We provide maps of native vegetation, maps of human footprint types, temporal ch
 ## Versions
 
 * Production server: http://species.abmi.ca/
-* Development server: http://sc-dev.abmi.ca/
+* Development server: http://sc-dev.abmi.ca/development/
 
 ## Back-end
 
