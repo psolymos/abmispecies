@@ -17,10 +17,6 @@ data:
   long: 'Vector ruggedness measure'
 ---
 
-## Raw data
-
-* <a href="{{ site.ftproot }}/geospatial/topography/topo_grid.zip">Raw topographic raster layers</a> are from <a href="http://www.ace-lab.org/">Dr. Scott Nielsen's lab</a>.
-
 ## Distribution of topographic variables
 
 {% for item in page.data %}
@@ -39,9 +35,14 @@ data:
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a class="btn btn-primary" href="{{ site.ftproot }}/geospatial/topography/topo_grid.zip">Download <i class="fa fa-download"></i></a>
       </div>
     </div>
   </div>
 </div>
 
 {% endfor %}
+
+## Raw data
+
+* <a href="{{ site.ftproot }}/geospatial/topography/topo_grid.zip">Raw topographic raster layers</a> are from <a href="http://www.ace-lab.org/">Dr. Scott Nielsen's lab</a>.

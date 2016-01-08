@@ -25,20 +25,21 @@ data:
   long: 'Grass'
 ---
 
-## Raw data
+The ABMI Wall-to-Wall Land Cover Map is a comprehensive representation of the types and extent of land cover in Alberta. The map is a seamless full-coverage baseline land cover map that offers provincial scale information.
 
-* [Alberta wall-to-wall land cover map](http://abmi.ca/home/data/gis-data/land-cover-download.html?scroll=true)
-* [Alberta backfilled wall-to-wall vegetation layer](http://abmi.ca/home/publications/251-300/259.html?mode=detail&documenttype=Protocols)
+## Land cover
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Land cover</h3>
-<img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2000v21_NALCMScolorsHD.png" class="img-responsive" alt="Land cover"/>
+<img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2000v2_web_LARGE.jpg" class="img-responsive" alt="Land cover, 2000"/>
 </div>
 
 <div class="col-6 col-sm-6 col-lg-6">
-<h3>Native vegetation and human footprint</h3>
+<img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2010v10_LD_LARGE.jpg" class="img-responsive" alt="Land cover, 2010"/>
+</div>
+
+## Native vegetation and human footprint
+
 <img src="{{ site.contents }}/geospatial/vegetation/VegMap_in_AB_with_Legend3.jpg" class="img-responsive" alt="Native vegetation and human footprint"/>
-</div>
 
 ## Distribution of land cover types used in modeling
 
@@ -62,9 +63,16 @@ This information was created using information obtained under data-sharing agree
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a class="btn btn-primary" href="http://abmi.ca/home/data/gis-data/land-cover-download.html?scroll=true" target="_blank">Download <i class="fa fa-download"></i></a>
       </div>
     </div>
   </div>
 </div>
 
 {% endfor %}
+
+## Raw data
+
+* [Alberta wall-to-wall land cover map](http://abmi.ca/home/data/gis-data/land-cover-download.html?scroll=true)
+* [Alberta backfilled wall-to-wall vegetation layer](http://abmi.ca/home/publications/251-300/259.html?mode=detail&documenttype=Protocols)
+
