@@ -98,7 +98,7 @@ information from the surrounding area to assign natural soil types.
   </div>
 
   <div class="col-6 col-sm-6 col-lg-6">
-  <p><img src="{{ site.contents }}/geospatial/soil/SLC_AB_200dpi.png" class="img-responsive" alt="Soil order"/></p> class="img-responsive" alt="Land cover, 2010"/></p>
+  <p><img src="{{ site.contents }}/geospatial/soil/SLC_AB_200dpi.png" class="img-responsive" alt="Soil order"/></p>
   </div>
 </div>
 
