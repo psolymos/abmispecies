@@ -300,7 +300,26 @@
           {% endif %}
 
 {% if page.status == "nonnative" %}
-<p>Sector effects figures, reference and difference maps are not provided for non-native vascular plant species.</p>
+<p>Reference and difference maps are not provided for non-native vascular plant species.</p>
+{% endif %}
+
+{% if page.taxon == "mammals" %}
+<h2 id="data-sources">Data sources</h2>
+<p>Information from ABMI winter track counts were combined with information from other individuals:</p>
+<ul>
+<li>Dr. Erin Bayne (University of Alberta)</li>
+<li>Dr. Stan Boutin (University of Alberta)</li>
+</ul>
+{% endif %}
+
+{% if page.taxon == "birds" %}
+<h2 id="data-sources">Data sources</h2>
+<p>Information from ABMI bird point counts was combined with information from other organizations and individuals:</p>
+<ul>
+<li>Environment Canada (<a href="https://ec.gc.ca/reom-mbs/">North American Breeding Bird Survey</a> and <a href="http://www.jointoilsandsmonitoring.ca">Joint Oil Sands Monitoring programs</a>)</li>
+<li>Ecological Monitoring Committee for the Lower Athabasca (<a href="http://www.emcla.ca/">EMCLA</a>)</li>
+<li>Dr. Erin Bayne (University of Alberta)</li>
+</ul>
 {% endif %}
 
             <h2 id="citation">Recommended citation</h2>
