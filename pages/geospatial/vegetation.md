@@ -31,19 +31,18 @@ The ABMI Wall-to-Wall Land Cover Map is a comprehensive representation of the ty
 ## Land cover
 
   <div class="col-6 col-sm-6 col-lg-6">
-  <img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2000v2_web_LARGE.jpg" class="img-responsive" alt="Land cover, 2000"/>
+  <p><img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2000v2_web_LARGE.jpg" class="img-responsive" alt="Land cover, 2000"/></p>
   </div>
 
   <div class="col-6 col-sm-6 col-lg-6">
-  <img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2010v10_LD_LARGE.jpg" class="img-responsive" alt="Land cover, 2010"/>
+  <p><img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2010v10_LD_LARGE.jpg" class="img-responsive" alt="Land cover, 2010"/></p>
   </div>
 </div>
 
 <div class="row">
-## Native vegetation and human footprint
-
+<h2>Native vegetation and human footprint</h2>
   <div class="col-6 col-sm-6 col-lg-6">
-  <img src="{{ site.contents }}/geospatial/vegetation/VegMap_in_AB_with_Legend3.jpg" class="img-responsive" alt="Native vegetation and human footprint"/>
+  <p><img src="{{ site.contents }}/geospatial/vegetation/VegMap_in_AB_with_Legend3.jpg" class="img-responsive" alt="Native vegetation and human footprint"/></p>
   </div>
 </div>
 

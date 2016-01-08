@@ -21,7 +21,7 @@ The ABMI Wall-to-Wall Human Footprint (HF) Inventory (scale 1:15,000) is a compl
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
-  <img src="{{ site.contents }}/geospatial/footprint/HF_w2w_dark_300DPI_legend_v6_small.jpg" class="img-responsive" alt="Human footprint"/>
+  <p><img src="{{ site.contents }}/geospatial/footprint/HF_w2w_dark_300DPI_legend_v6_small.jpg" class="img-responsive" alt="Human footprint"/></p>
   </div>
 </div>
 
