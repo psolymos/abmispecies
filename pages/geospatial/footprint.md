@@ -17,14 +17,17 @@ data:
   long: 'Soft linear features'
 ---
 
-## Raw data
+The ABMI Wall-to-Wall Human Footprint (HF) Inventory (scale 1:15,000) is a complete representation of provincial scale anthropogenic footprint information for the province of Alberta. This comprehensive layer includes all the HF information related to the energy, forestry, and agriculture industries, as well as urban development. HF layers are available from the following years: 2007, 2010, 2012.
 
-Human footprint layers can be downloaded from the
-[ABMI website](http://abmi.ca/home/data/gis-data/human-footprint-download.html?scroll=true).
+<div class="row">
+  <div class="col-6 col-sm-6 col-lg-6">
+  <img src="{{ site.contents }}/geospatial/footprint/HF_w2w_dark_300DPI_legend_v6_small.jpg" class="img-responsive" alt="Human footprint"/>
+  </div>
+</div>
 
 ## Spatial distribution of footprint types
 
-The maps show percent cover by footprint types within 1 km<sup>2</sup> grid cells.
+The maps show percent cover by footprint types (2012 HF) within 1 km<sup>2</sup> grid cells.
 
 {% for item in page.data %}
 
@@ -42,6 +45,7 @@ The maps show percent cover by footprint types within 1 km<sup>2</sup> grid cell
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a class="btn btn-primary" href="http://abmi.ca/home/data/gis-data/human-footprint-download.html?scroll=true" target="_blank">Download <i class="fa fa-external-link-square"></i></a>
       </div>
     </div>
   </div>
@@ -49,4 +53,7 @@ The maps show percent cover by footprint types within 1 km<sup>2</sup> grid cell
 
 {% endfor %}
 
+## Raw data
 
+Human footprint layers can be downloaded from the
+[ABMI website](http://abmi.ca/home/data/gis-data/human-footprint-download.html?scroll=true).

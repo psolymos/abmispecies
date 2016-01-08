@@ -69,7 +69,7 @@ This information was created using information obtained under data-sharing agree
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="http://abmi.ca/home/data/gis-data/land-cover-download.html?scroll=true" target="_blank">Download <i class="fa fa-download"></i></a>
+        <a class="btn btn-primary" href="http://abmi.ca/home/data/gis-data/land-cover-download.html?scroll=true" target="_blank">Download <i class="fa fa-external-link-square"></i></a>
       </div>
     </div>
   </div>
