@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Soil
+title: 'Soil layers'
 description: "Soil: spatial distribution."
 data:
 - short: Productive
@@ -13,12 +13,53 @@ data:
   long: 'Clay'
 ---
 
-## Raw data
+Habitat use for many species is directly affected by the type of soil and the vegetation that grows on that soil. As a result, soil information was used by ABMI when modeling variation in species abundance throughout Alberta. In addition, soil characteristics were used in gap analyses to priorize management actions. A variety of soil layers were used by ABMI.
 
-* <a href="{{ site.ftproot }}/geospatial/soil/ABMI_soilTypes_LayerJan2014.gdb.zip">Raw soil layers</a>
-* <a href="{{ site.ftproot }}/geospatial/soil/soillayersfortheabmisppwebsite.zip">Metadata</a>
+## Surficial Geology of Alberta
 
-## Distribution of soil types used in modeling
+This GIS layer is a generalized compilation of the surficial geology of Alberta using published Alberta Geological Survey, Geological Survey of Canada, and Environment Canada information, as well as university theses data. Boundary discrepancies between information sources were largely resolved during the process of reclassifying the input data to a common legend with only limited remapping. This GIS layer was created at a scale of 1:1,000,000 and can be accessed at http://www.ags.gov.ab.ca/publications/abstracts/Map_601.html.
+
+<div class="row">
+  <div class="col-6 col-sm-6 col-lg-6">
+  <p><img src="{{ site.contents }}/geospatial/soil/surfaceGeologyDPanForWeb200dpi.png" class="img-responsive" alt="Surface geology"/></p>
+  </div>
+</div>
+
+## Bedrock Geology of Alberta
+
+This GIS layer is a generalized compilation of existing geological maps and original geological mapping by Alberta Geological Survey staff. Mapping included field observations and creating three-dimensional models of subsurface stratigraphy based on the interpretation of geophysical logs from oil and gas wells. Each three-dimensional formation surface was projected to a model of the bedrock surface and the intersection formed the first approximation of the position of the geological contact at the base of the surficial deposits. These preliminary contacts were then adjusted to honour outcrop data and the interpretation of the bedrock unit immediately below surficial deposits in individual wells. This GIS layer was created at a scale of 1:1,000,000 and can be accessed [here](http://www.ags.gov.ab.ca/publications/abstracts/MAP_600.html).
+
+<div class="row">
+  <div class="col-6 col-sm-6 col-lg-6">
+  <p><img src="{{ site.contents }}/geospatial/soil/bedRockGeology200dpi.png" class="img-responsive" alt="Bed rock geology"/></p>
+  </div>
+</div>
+
+## Soil Landscapes of Canada
+
+Soil Landscapes of Canada version 3.2 was developed by Agriculture and Agri-Food Canada to provide information about the country's agricultural soils at the provincial and national levels. This GIS layer was created at a scale of 1:1,000,000 and can be accessed [here](http://sis.agr.gc.ca/cansis/nsdb/slc/v3.2/index.html). 
+
+## ABMI Soil Layer 
+
+The Agricultural Region of Alberta Soil Inventory Database (AGRASID) was created by a collaboration involving the Alberta Research Council, Alberta Agriculture Food and Rural Development, Agriculture and Agri-Food Canada - Land Resource Unit, and private sector consulting firms. AGRASID consists of seamless GIS coverages and relational data files that describes the soil landscapes for the agricultural area of Alberta. The AGRASID soil landscape polygons and attribute data were compiled at a scale of 1:100,000 and can be accessed [here](http://www1.agric.gov.ab.ca/$Department/deptdocs.nsf/All/sag14653).
+
+To enhance AGRASID for some counties in southern Alberta, the Government of Alberta created  a soil polygon layer that has less detail, but higher spatial resolution (scale 1:50,000 for GOA higher resolution layer (unpublished information) versus 1:100,000 for AGRASID). The higher resolution information was interpreted based from remote sensed images with little or no ground truthing. 
+
+ABMI created a simplified GIS polygon layer to describe general soil characteristics throughout the Grassland, Parkland and Dry Mixedwood regions of Alberta. Based on soil name and soil correlation area from AGRASID, ABMI classified polygons to the 24 natural soil types used by GVI (see table in [this document]({{ site.contents }}/geospatial/soil/native-soil-classes.docx)). The crosswalks used to convert AGRASID information to GVI soil type are described in Excel tables ([Grassland]({{ site.contents }}/geospatial/soil/AGRASID30_SLM-andGVI-conv-ALL-Parkland-CP-FP-PR-final-Jan-2012.xls), [Parkland]({{ site.contents }}/geospatial/soil/AGRASID-to-GVI-conversion-for-missing-Grassland-codes-January-2012.xlsx), [Dry Mixedwood]({{ site.contents }}/geospatial/soil/AGRASID-Dry-Mixedwood-SLMs-converted-to-ERS-series-groups-October-2013.xlsx) ). For the counties with higher resolution information, that information rather than ARGASID information, was used to create the ABMI soil layer. 
+
+Only natural soil types were included In the ABMI’s soil layer. For polygons where natural soil type was missing, ABMI used historical information where possible ([McNeil 2014]({{ site.contents }}/geospatial/soil/LandWise-Undiffer-Poly-Conv-for-ABMI-January-2014.docx)). When historical information was not available ABMI used topography soil information from the surrounding area to assign natural soil types.
+
+<div class="row">
+  <div class="col-6 col-sm-6 col-lg-6">
+  <p><img src="{{ site.contents }}/geospatial/soil/abmiSoil200dpi.png" class="img-responsive" alt="Soil types"/></p>
+  </div>
+
+  <div class="col-6 col-sm-6 col-lg-6">
+  <p><img src="{{ site.contents }}/geospatial/soil/SLC_AB_200dpi.png" class="img-responsive" alt="Soil order"/></p> class="img-responsive" alt="Land cover, 2010"/></p>
+  </div>
+</div>
+
+## Summarized soil information used in modeling
 
 The maps show percent cover by soil types within 1 km<sup>2</sup> grid cells.
 
@@ -45,4 +86,7 @@ The maps show percent cover by soil types within 1 km<sup>2</sup> grid cells.
 
 {% endfor %}
 
+## Raw data
 
+* <a href="{{ site.ftproot }}/geospatial/soil/ABMI_soilTypes_LayerJan2014.gdb.zip">Raw soil layers</a>
+* <a href="{{ site.ftproot }}/geospatial/soil/soillayersfortheabmisppwebsite.zip">Metadata</a>
