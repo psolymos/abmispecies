@@ -17,7 +17,7 @@ listbycomnam: false
   <h2>By Scientific Name</h2>    
     {% for idx in site.data.lichens_sci %}
       <h3 id="sci-{{ idx.letter }}">{{ idx.letter }}</h3>
-      <p class="bg-info"><small>{% for lett in site.data.lichens_sci %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#sci-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
+      <p class="bg-info"><small>{% for lett in site.data.lichens_sci %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.baseurl }}{{ page.url }}#sci-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
       {% for spp in idx.species %}
       <p><a href="{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ spp.label }}.html">
       {% if spp.model %}<i class="fa fa-circle" style="color:green"></i>{% else %}<i class="fa fa-circle" style="color:orange"></i>{% endif %} <em>{{ spp.scinam }}</em>{% if page.listbycomnam %}{% if spp.comnam %} - {% endif %}{{ spp.comnam }}{% endif %}</a></p>
@@ -30,7 +30,7 @@ listbycomnam: false
   <h2>By Common Name</h2>
     {% for idx in site.data.lichens_com %}
       <h3 id="com-{{ idx.letter }}">{{ idx.letter }}</h3>
-      <p class="bg-info"><small>{% for lett in site.data.lichens_com %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.url }}{{ page.url }}#com-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
+      <p class="bg-info"><small>{% for lett in site.data.lichens_com %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.baseurl }}{{ page.url }}#com-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
       {% for spp in idx.species %}
       <p><a href="{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ spp.label }}.html">
       {% if spp.model %}<i class="fa fa-circle" style="color:green"></i>{% else %}<i class="fa fa-circle" style="color:orange"></i>{% endif %} {{ spp.comnam }} - <em>{{ spp.scinam }}</em></a></p>
