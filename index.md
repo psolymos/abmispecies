@@ -48,10 +48,8 @@ environmental variation. We provide information on
 <div class="col-lg-6 col-sm-6">
 <h3><a href="{{ site.baseurl }}/pages/habitat.html"><i class="fa fa-tree"></i> Habitats</a></h3>
 <p>We provide information on
-<a href="{{ site.baseurl }}/pages/habitat/edges.html">edges</a>,
-<a href="{{ site.baseurl }}/pages/habitat/connectivity.html">native vegetation</a>,
 <a href="{{ site.baseurl }}/pages/habitat/footprint-change.html">human footprint changes</a>
-in Alberta.</p>
+in Alberta. More information coming soon.</p>
 </div>
 
 <div class="col-lg-6 col-sm-6">
