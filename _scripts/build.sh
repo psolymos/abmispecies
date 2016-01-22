@@ -29,7 +29,7 @@ jekyll build --destination /var/www/html/development
 
 ## package everything
 echo 'Packing up site content'
-cd /var/www/html
+cd /var/www/html/development
 zip -r -q sppweb.zip .
 mv sppweb.zip ~/repos/abmispecies/_site/
 
