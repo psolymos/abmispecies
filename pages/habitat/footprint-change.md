@@ -27,3 +27,9 @@ Line colors correspond to natural regions, black line: all natural regions combi
 </span>
 
 </div>
+
+<div class="row">
+  <h2>Explore the data set</h2>
+  <iframe class="embed-responsive-item" src="http://sc-dev.abmi.ca/ocpu/library/footprintchange/www/"></iframe>
+
+</div>
