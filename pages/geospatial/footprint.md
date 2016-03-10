@@ -53,7 +53,3 @@ The maps show percent cover by footprint types (2012 HF) within 1 km<sup>2</sup>
 
 {% endfor %}
 
-## Raw data
-
-Human footprint layers can be downloaded from the
-[ABMI website](http://abmi.ca/home/data/gis-data/human-footprint-download.html?scroll=true).

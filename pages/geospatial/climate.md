@@ -21,6 +21,12 @@ data:
 
 The bioclimatic variables were calculated at a 4-km resolution using monthly climate normals of temperature and precipitation averaged over 1961-1990. The monthly climate normals are based on instrument-measured climate data that were interpolated by PRISM (Daly et al., 2002) and WorldClim (Hijmans et al., 2005). The western North American portion of these data are described by Wang et al. (2011). Diana Stralberg (University of Alberta) interpolated climate data.
 
+<div class="row">
+  <div class="col-6 col-sm-6 col-lg-6">
+  <p><img src="{{ site.contents }}/geospatial/climate/SubRegions.png" class="img-responsive" alt="Natural Subregions in Alberta"/></p>
+  </div>
+</div>
+
 {% for item in page.data %}
 
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button>
@@ -45,9 +51,6 @@ The bioclimatic variables were calculated at a 4-km resolution using monthly cli
 
 {% endfor %}
 
-## Raw data
-
-* <a href="{{ site.ftproot }}/geospatial/climate/climate_grid.zip">Raw climate raster layers</a> 
 
 ## References
 
