@@ -10,13 +10,13 @@ The ABMI Wall-to-Wall Land Cover Map is a comprehensive representation of the ty
 <div class="col-6 col-sm-6 col-lg-6">
 <ul class="list-group">
   <li class="list-group-item">
-    <a href="{{ site.baseurl }}/pages/geospatial/vegetation-2000.html">Vegetation 2000</a>
+    <h4><a href="{{ site.baseurl }}/pages/geospatial/vegetation-2000.html">Vegetation 2000</a></h4>
   </li>
   <li class="list-group-item">
-    <a href="{{ site.baseurl }}/pages/geospatial/vegetation-2010.html">Vegetation 2010</a>
+    <h4><a href="{{ site.baseurl }}/pages/geospatial/vegetation-2010.html">Vegetation 2010</a></h4>
   </li>
   <li class="list-group-item">
-    <a href="{{ site.baseurl }}/pages/geospatial/vegetation-detailed.html">Detailed vegetation</a>
+    <h4><a href="{{ site.baseurl }}/pages/geospatial/vegetation-detailed.html">Detailed vegetation</a></h4>
   </li>
 </ul>
 </div>
