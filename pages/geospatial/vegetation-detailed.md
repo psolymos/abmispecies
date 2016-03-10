@@ -28,23 +28,17 @@ data:
 The ABMI Wall-to-Wall Land Cover Map is a comprehensive representation of the types and extent of land cover in Alberta. The map is a seamless full-coverage baseline land cover map that offers provincial scale information.
 
 <div class="row">
-## Land cover
 
   <div class="col-6 col-sm-6 col-lg-6">
-  <p><img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2000v2_web_LARGE.jpg" class="img-responsive" alt="Land cover, 2000"/></p>
+  <p><img src="{{ site.contents }}/geospatial/vegetation/DetailedVeg.png" class="img-responsive" alt="Land cover, 2010"/></p>
   </div>
 
-  <div class="col-6 col-sm-6 col-lg-6">
-  <p><img src="{{ site.contents }}/geospatial/vegetation/ABMIw2wLCV2010v10_LD_LARGE.jpg" class="img-responsive" alt="Land cover, 2010"/></p>
-  </div>
+<span class="pull-right">
+<a href="http://abmi.ca/home/publications/251-300/259.html?mode=detail&documenttype=Protocols" class="btn btn-primary" target="_blank">Download metadata <i class="fa fa-external-link-square"></i></a>
+</span>
+
 </div>
 
-<div class="row">
-<h2>Native vegetation and human footprint</h2>
-  <div class="col-6 col-sm-6 col-lg-6">
-  <p><img src="{{ site.contents }}/geospatial/vegetation/VegMap_in_AB_with_Legend3.jpg" class="img-responsive" alt="Native vegetation and human footprint"/></p>
-  </div>
-</div>
 
 ## Distribution of land cover types used in modeling
 
@@ -75,9 +69,3 @@ This information was created using information obtained under data-sharing agree
 </div>
 
 {% endfor %}
-
-## Raw data
-
-* [Alberta wall-to-wall land cover map](http://abmi.ca/home/data/gis-data/land-cover-download.html?scroll=true)
-* [Alberta backfilled wall-to-wall vegetation layer](http://abmi.ca/home/publications/251-300/259.html?mode=detail&documenttype=Protocols)
-
