@@ -48,4 +48,4 @@ taxa:
     url: /pages/species/lichens.html
     label: lichens
 
-show_sector: false
+show_sector: true
