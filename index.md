@@ -38,7 +38,8 @@ how groups of similar species respond to
 environmental variation. We provide information on
 <a href="{{ site.baseurl }}/pages/multispecies/intactness.html">intactness</a>,
 <a href="{{ site.baseurl }}/pages/multispecies/richness.html">richness</a>,
-<a href="{{ site.baseurl }}/pages/multispecies/guilds.html">guilds</a>.
+<a href="{{ site.baseurl }}/pages/multispecies/uniqueness.html">uniqueness</a>
+<a href="{{ site.baseurl }}/pages/multispecies.html">guilds</a>.
 </p>
 </div>
 
@@ -48,9 +49,13 @@ environmental variation. We provide information on
 <div class="col-lg-6 col-sm-6">
 <h3><a href="{{ site.baseurl }}/pages/habitat.html"><i class="fa fa-tree"></i> Habitats</a></h3>
 <p>We provide information on
-<a href="{{ site.baseurl }}/pages/habitat/footprint-change.html">human footprint changes</a>
-in Alberta. More information coming soon.</p>
+native vegetation <a href="{{ site.baseurl }}/pages/habitat/edges.html">edge</a>, 
+<a href="{{ site.baseurl }}/pages/habitat/mesh-size.html">mesh size</a>, and
+<a href="{{ site.baseurl }}/pages/habitat/footprint-change.html">human footprint change</a>
+in Alberta.</p>
 </div>
+
+
 
 <div class="col-lg-6 col-sm-6">
 <h3><a href="{{ site.baseurl }}/pages/geospatial.html"><i class="fa fa-map-marker"></i> Geospatial inputs</a></h3>
