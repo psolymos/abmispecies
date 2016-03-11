@@ -16,8 +16,8 @@ accessed at http://www.ags.gov.ab.ca/publications/abstracts/Map_601.html.
   <div class="col-6 col-sm-6 col-lg-6">
   <p><img src="{{ site.contents }}/geospatial/soil/surfaceGeologyDPanForWeb200dpi.png" class="img-responsive" alt="Surface geology"/></p>
   </div>
-</div>
 
+<div class="col-6 col-sm-6 col-lg-6">
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -27,4 +27,6 @@ accessed at http://www.ags.gov.ab.ca/publications/abstracts/Map_601.html.
   </ul>
 </div>
 </span>
+</div>
 
+</div>
