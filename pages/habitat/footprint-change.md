@@ -29,7 +29,7 @@ are changing.
 <div class="row">
 
 <div class="col-6 col-sm-6 col-lg-6">
-<img src="{{ site.contents }}/habitat/footprint-change/ABMI_HF3x7_yearly_changes_1999-2012.jpg" class="img-responsive" alt="Human footprint change">
+<img src="{{ site.contents }}/habitat/footprint-change/HFchange.png" class="img-responsive" alt="Human footprint change">
 </div>
 <div class="col-6 col-sm-6 col-lg-6">
 <p>Graphs are based on 3 km x 7 km photo plots along the ABMI grid (20 km x 20 km)
