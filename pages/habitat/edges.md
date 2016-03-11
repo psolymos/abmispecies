@@ -9,9 +9,6 @@ ABMI created  the 2015 Edge Buffer Layer (Version 1.0).
 
 The primary source of data when creating the edge buffer layers was the 2012 Human Footprint Inventory (Version 3.0), a GIS polygon layer that describes human footprint in Alberta as of December 31, 2012. Polygons in that layer map the location and geographic extent of areas under human use that either have either lost their natural cover (e.g., cities, roads, agricultural land, industrial areas), or whose natural cover is periodically or temporarily replaced by resource extraction activities (e.g., forestry, seismic lines). 
 
-* [Edge distance: all human footprint included]({{ site.baseurl }}/pages/habitat/edges-all-hf.html)
-* [Edge distance: all human footprint except seismic lines included]({{ site.baseurl }}/pages/habitat/edges-no-seismic.html)
-* [Edge distance: based on the Alberta Biodiversity Management Framework criteria]({{ site.baseurl }}/pages/habitat/edges-bmf.html)
 
 <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-edges-all-hf">Edge distance: all human footprint included</button></p>
 
@@ -27,7 +24,7 @@ The primary source of data when creating the edge buffer layers was the 2012 Hum
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="{{ site.ftproot }}/habitat/edges/W2W_Edge_Buffer_Metadata_16Dec2015final.doc" target="_blank">Metadata <i class="fa fa-download"></i></a>
+        <a class="btn btn-primary" href="{{ site.ftproot }}/habitat/edges/W2W_Edge_Buffer_Metadata_16Dec2015final.doc" target="_blank">Download metadata <i class="fa fa-download"></i></a>
       </div>
     </div>
   </div>
@@ -47,7 +44,7 @@ The primary source of data when creating the edge buffer layers was the 2012 Hum
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="{{ site.ftproot }}/habitat/edges/W2W_Edge_Buffer_Metadata_16Dec2015final.doc" target="_blank">Metadata <i class="fa fa-download"></i></a>
+        <a class="btn btn-primary" href="{{ site.ftproot }}/habitat/edges/W2W_Edge_Buffer_Metadata_16Dec2015final.doc" target="_blank">Download metadata <i class="fa fa-download"></i></a>
       </div>
     </div>
   </div>
@@ -67,7 +64,7 @@ The primary source of data when creating the edge buffer layers was the 2012 Hum
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="{{ site.ftproot }}/habitat/edges/W2W_Edge_Buffer_Metadata_16Dec2015final.doc" target="_blank">Metadata <i class="fa fa-download"></i></a>
+        <a class="btn btn-primary" href="{{ site.ftproot }}/habitat/edges/W2W_Edge_Buffer_Metadata_16Dec2015final.doc" target="_blank">Download metadata <i class="fa fa-download"></i></a>
       </div>
     </div>
   </div>
@@ -77,9 +74,6 @@ The primary source of data when creating the edge buffer layers was the 2012 Hum
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
   <p><img src="{{ site.contents }}/habitat/edges/NativeVegetation.png" class="img-responsive" alt="Native vegetation"/></p>
-  </div>
-
-  <div class="col-6 col-sm-6 col-lg-6">
 
 <span class="pull-right">
 <div class="btn-group">
@@ -92,6 +86,5 @@ The primary source of data when creating the edge buffer layers was the 2012 Hum
 </span>
 
   </div>
-
 </div>
 
