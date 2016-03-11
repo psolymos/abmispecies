@@ -45,11 +45,10 @@ information from the surrounding area to assign natural soil types.
   <div class="col-6 col-sm-6 col-lg-6">
   <p><img src="{{ site.contents }}/geospatial/soil/abmiSoil200dpi.png" class="img-responsive" alt="Soil types"/></p>
   </div>
-</div>
 
-## Summarized soil information used in modeling
-
-The maps show percent cover by soil types within 1 km<sup>2</sup> grid cells.
+  <div class="col-6 col-sm-6 col-lg-6">
+Summarized soil information used in modeling: 
+percent cover by soil types within 1 km<sup>2</sup> grid cells:
 
 {% for item in page.data %}
 
@@ -74,3 +73,5 @@ The maps show percent cover by soil types within 1 km<sup>2</sup> grid cells.
 
 {% endfor %}
 
+  </div>
+</div>
