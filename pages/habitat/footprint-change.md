@@ -31,7 +31,7 @@ are changing.
 </div>
 <div class="col-6 col-sm-6 col-lg-6">
 
-<p><span class="pull-right">
+<p>
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
   <ul class="dropdown-menu">
@@ -39,10 +39,11 @@ are changing.
     <li><a href="http://abmi.ca/home/data/gis-data/3X7-Photoplot-Land-Cover-Dataset.html?scroll=true" download>Geodatabase and metadata</a></li>
   </ul>
 </div>
-</span></p>
+</p>
 
-<p><span class="pull-right">
+<p>
 <a href="http://sc-dev.abmi.ca/ocpu/library/footprintchange/www/" class="btn btn-primary" target="_blank">Explore the data set <i class="fa fa-external-link-square"></i></a>
-</span></p>
+</p>
 
+</div>
 </div>
