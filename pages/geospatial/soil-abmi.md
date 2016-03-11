@@ -47,12 +47,12 @@ information from the surrounding area to assign natural soil types.
   </div>
 
   <div class="col-6 col-sm-6 col-lg-6">
-Summarized soil information used in modeling: 
-percent cover by soil types within 1 km<sup>2</sup> grid cells:
+<p>Summarized soil information used in modeling: 
+percent cover by soil types within 1 km<sup>2</sup> grid cells:</p>
 
 {% for item in page.data %}
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button>
+<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button></p>
 
 <div class="modal fade" id="modal-{{ item.short }}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ item.short }}-label">
   <div class="modal-dialog" role="document">
