@@ -3,18 +3,18 @@ layout: default
 title: Intactness for groups of species
 description: "Intactness for groups of species."
 data:
-- long: 'Birds'
-  short: birds
 - long: 'Mammals'
   short: mammals
+- long: 'Birds'
+  short: birds
 - long: 'Mites'
   short: mites
+- long: 'Native vascular plants'
+  short: vplants
 - long: 'Bryophytes'
   short: mosses
 - long: 'Lichens'
   short: lichens
-- long: 'Native vascular plants'
-  short: vplants
 ---
 
 Intactness for groups of species within a taxon is the average intactness of species in the group. 
