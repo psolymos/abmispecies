@@ -2,13 +2,43 @@
 layout: default
 title: Richness
 description: "Richness."
+data:
+- long: 'Mammals'
+  short: mammals
+- long: 'Birds'
+  short: birds
+- long: 'Mites'
+  short: mites
+- long: 'Native vascular plants'
+  short: vplants
+- long: 'Bryophytes'
+  short: mosses
+- long: 'Lichens'
+  short: lichens
 ---
 
 ## Average species richness across taxa
 
 The richness index across all taxa was derived by taking a simple average of richness index for each 1 km<sup>2</sup> grid cell across the six taxa: mammals, birds, vascular plants, bryophytes, lichens and mites.
 
-<img src="{{ site.contents }}/multispecies/richness/allspecies.jpg" class="img-responsive" alt="Richness map: all species"/>
+<div class="row">
+  <div class="col-6 col-sm-6 col-lg-6">
+  <p><img src="{{ site.contents }}/multispecies/richness/allspecies.jpg" class="img-responsive" alt="Richness map: all species"/></p>
+
+  </div>
+  <div class="col-6 col-sm-6 col-lg-6">
+
+<span class="pull-right">
+<div class="btn-group">
+  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
+  <ul class="dropdown-menu">
+    <li><a href="{{ site.ftproot }}/multispecies/richness/richness-all.asc" download>Map (raster file)</a></li>
+  </ul>
+</div>
+</span>
+
+  </div>
+</div>
 
 ## Species richness for each taxa
 
@@ -16,17 +46,27 @@ Species richness for each taxon was modelled by stacking predictions from indivi
 
 Species richness maps are available for these taxa:
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-mammals">Mammals</button>
+{% for item in page.data %}
+<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button></p>
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-birds">Birds</button>
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-mites">Mites</button>
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-vplants">Vascular plants</button>
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-mosses">Bryophytes</button>
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-lichens">Lichens</button>
+<div class="modal fade" id="modal-{{ item.short }}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ item.short }}-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modal-{{ item.short }}-label">Species richness map for {{ item.long }}</h4>
+      </div>
+      <div class="modal-body">
+        <img src="{{ site.contents }}/multispecies/richness/{{ item.short }}.jpg" class="img-responsive" alt="Richness map: {{ item.long }}"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a class="btn btn-primary" href="{{ site.ftproot }}/multispecies/richness/richness-{{ item.short }}.asc" download>Download raster file <i class="fa fa-download"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
 
 ## Interpretation Caveats
 
@@ -34,104 +74,3 @@ Species richness maps are available for these taxa:
 2. Rare species were not included when determining the index of richness. ABMI only models species habitat associations for species that have sufficient data to create robust models. Since the index of richness was created from the species models, the index only includes species with more than the minimum number of detections. However, this may not be a large issue because many rare species occur in every habitat type and thus ignoring the less common species may have little influence on the index of richness since it is standardized to a maximum of 1. On the other hand, it is possible that there are some habitat types may have a disproportionate number of rare species (e.g., possibly some wetland types) and an index of richness that does not incorporate rare species would not capture this.
 3.	Spatial irregularities in sampling intensity influence the index of richness. In regions with higher intensity of ABMI surveys, more species will have reached the minimum number of detections required for modeling, and thus more species will have been included in the index of richness. ABMI sampling intensity has been relatively low in the Rocky Mountain natural region, and in northwestern Alberta.  Thus, species that are most commonly found in these regions will be less likely to have been included in the index of richness and 1 km<sup>2</sup> grid cell in these regions may have artificially low indices of richness.
 
-<div class="modal fade" id="modal-mammals" tabindex="-1" role="dialog" aria-labelledby="modal-mammals-label">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modal-mammals-label">Species richness map for mammals</h4>
-      </div>
-      <div class="modal-body">
-        <img src="{{ site.contents }}/multispecies/richness/mammals.jpg" class="img-responsive" alt="Richness map: mammals"/>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal-birds" tabindex="-1" role="dialog" aria-labelledby="modal-birds-label">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modal-birds-label">Species richness map for birds</h4>
-      </div>
-      <div class="modal-body">
-        <img src="{{ site.contents }}/multispecies/richness/birds.jpg" class="img-responsive" alt="Richness map: birds"/>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal-mites" tabindex="-1" role="dialog" aria-labelledby="modal-mites-label">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modal-mites-label">Species richness map for mites</h4>
-      </div>
-      <div class="modal-body">
-        <img src="{{ site.contents }}/multispecies/richness/mites.jpg" class="img-responsive" alt="Richness map: mites"/>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal-vplants" tabindex="-1" role="dialog" aria-labelledby="modal-vplants-label">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modal-vplants-label">Species richness map for vascular plants</h4>
-      </div>
-      <div class="modal-body">
-        <img src="{{ site.contents }}/multispecies/richness/vplants.jpg" class="img-responsive" alt="Richness map: vascular plants"/>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal-mosses" tabindex="-1" role="dialog" aria-labelledby="modal-mosses-label">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modal-mosses-label">Species richness map for bryophytes</h4>
-      </div>
-      <div class="modal-body">
-        <img src="{{ site.contents }}/multispecies/richness/mosses.jpg" class="img-responsive" alt="Richness map: bryophytes"/>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal-lichens" tabindex="-1" role="dialog" aria-labelledby="modal-lichens-label">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modal-lichens-label">Species richness map for lichens</h4>
-      </div>
-      <div class="modal-body">
-        <img src="{{ site.contents }}/multispecies/richness/lichens.jpg" class="img-responsive" alt="Richness map: lichens"/>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>

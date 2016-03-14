@@ -17,6 +17,8 @@ data:
   short: lichens
 ---
 
+## All taxa combined
+
 Description comes here
 
 <div class="row">
