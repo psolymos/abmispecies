@@ -32,7 +32,7 @@ layout: plain
 </div>
 
 <div class="col-lg-6 col-sm-6">
-<h3><a href="{{ site.baseurl }}/pages/multispecies.html"><i class="fa fa-paw"></i> Higher taxa and guilds</a></h3>
+<h3><a href="{{ site.baseurl }}/pages/multispecies.html"><i class="fa fa-paw"></i> Multiple species</a></h3>
 <p>Results on individual species are combined to highlight
 how groups of similar species respond to
 environmental variation. We provide information on
