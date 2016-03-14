@@ -23,7 +23,7 @@ The richness index across all taxa was derived by taking a simple average of ric
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
-  <p><img src="{{ site.contents }}/multispecies/richness/allspecies.jpg" class="img-responsive" alt="Richness map: all species"/></p>
+  <p><img src="{{ site.contents }}/multispecies/richness/richness-allspecies.jpg" class="img-responsive" alt="Richness map: all species"/></p>
 
   </div>
   <div class="col-6 col-sm-6 col-lg-6">
@@ -57,7 +57,7 @@ Species richness maps are available for these taxa:
         <h4 class="modal-title" id="modal-{{ item.short }}-label">Species richness map for {{ item.long }}</h4>
       </div>
       <div class="modal-body">
-        <img src="{{ site.contents }}/multispecies/richness/{{ item.short }}.jpg" class="img-responsive" alt="Richness map: {{ item.long }}"/>
+        <img src="{{ site.contents }}/multispecies/richness/richness-{{ item.short }}.jpg" class="img-responsive" alt="Richness map: {{ item.long }}"/>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
