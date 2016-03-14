@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Intactness
-description: "Intactness."
+title: Intactness for groups of species
+description: "Intactness for groups of species."
 data:
 - long: 'Birds'
   short: birds
@@ -9,7 +9,7 @@ data:
   short: mammals
 - long: 'Mites'
   short: mites
-- long: 'Bryophites'
+- long: 'Bryophytes'
   short: mosses
 - long: 'Lichens'
   short: lichens
@@ -54,14 +54,14 @@ and in the [intactness manual]({{ site.contents }}/multispecies/intactness/47_AB
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
-  <p><img src="{{ site.contents }}/multispecies/intactness/NativeVegetation.png" class="img-responsive" alt="Native vegetation"/></p>
+  <p><img src="{{ site.contents }}/multispecies/intactness/intactness-all.png" class="img-responsive" alt="Overall biodiversity intactness"/></p>
 
   </div>
   <div class="col-6 col-sm-6 col-lg-6">
 
-Overall biodiversity intactness is the average of the intactness for each of the included taxa
+<p>Overall biodiversity intactness is the average of the intactness for each of the included taxa
 (birds, mammals, mites, native vascular plants, bryophytes, lichens). 
-Each taxon is weighted equally, regardless of how many species it contains.
+Each taxon is weighted equally, regardless of how many species it contains.</p>
 
 <span class="pull-right">
 <div class="btn-group">
