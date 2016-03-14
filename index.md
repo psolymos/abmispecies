@@ -38,7 +38,7 @@ how groups of similar species respond to
 environmental variation. We provide information on
 <a href="{{ site.baseurl }}/pages/multispecies/intactness.html">intactness</a>,
 <a href="{{ site.baseurl }}/pages/multispecies/richness.html">richness</a>,
-<a href="{{ site.baseurl }}/pages/multispecies/uniqueness.html">uniqueness</a>
+<a href="{{ site.baseurl }}/pages/multispecies/uniqueness.html">uniqueness</a>, and
 <a href="{{ site.baseurl }}/pages/multispecies.html">guilds</a>.
 </p>
 </div>
