@@ -17,6 +17,8 @@ data:
   short: lichens
 ---
 
+The uniqueness of species composition in space is a relative measure and values estimated for specific sites are partly dependent on the scale of study. For example, a given area might be regarded less unique in a relatively homogeneous subset area where it is found but that particular subset area could have high uniqueness compared to a larger scale of study. 
+
 ## All taxa combined
 
 Description comes here
