@@ -70,7 +70,7 @@ and in the [intactness manual]({{ site.contents }}/multispecies/intactness/47_AB
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="{{ site.ftproot }}/multispecies/intactness/intactness-{{ item.short }}.asc" download>Download <i class="fa fa-download"></i></a>
+        <a class="btn btn-primary" href="{{ site.ftproot }}/multispecies/intactness/intactness-{{ item.short }}.asc" download>Download raster file <i class="fa fa-download"></i></a>
       </div>
     </div>
   </div>
