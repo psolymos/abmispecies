@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Intactness for groups of species
-description: "Intactness for groups of species."
+title: Intactness
+description: "Intactness."
 data:
 - long: 'Mammals'
   short: mammals
@@ -16,6 +16,31 @@ data:
 - long: 'Lichens'
   short: lichens
 ---
+
+## Overall biodiversity intactness
+
+Overall biodiversity intactness is the average of the intactness for each of the included taxa
+(birds, mammals, mites, native vascular plants, bryophytes, lichens). 
+Each taxon is weighted equally, regardless of how many species it contains.
+
+<div class="row">
+  <div class="col-6 col-sm-6 col-lg-6">
+  <p><img src="{{ site.contents }}/multispecies/intactness/intactness-all.png" class="img-responsive" alt="Overall biodiversity intactness"/></p>
+
+<span class="pull-right">
+<div class="btn-group">
+  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
+  <ul class="dropdown-menu">
+    <li><a href="{{ site.ftproot }}/multispecies/intactness/intactness-all.asc" download>Map (raster file)</a></li>
+    <li><a href="{{ site.contents }}/multispecies/intactness/47_ABMI_2014-09-25_SpeciesModelingAndIntactnessManual_ABMI.pdf" download>Intactness manual (pdf file)</a></li>
+  </ul>
+</div>
+</span>
+
+  </div>
+</div>
+
+## Intactness for groups of species
 
 Intactness for groups of species within a taxon is the average intactness of species in the group. 
 The species intactness index compares the predicted relative abundance of each species across
@@ -35,44 +60,18 @@ and in the [intactness manual]({{ site.contents }}/multispecies/intactness/47_AB
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modal-lichens-label">Climate map: {{ item.long }}</h4>
+        <h4 class="modal-title" id="modal-lichens-label">Intactness map: {{ item.long }}</h4>
       </div>
       <div class="modal-body">
         <img src="{{ site.contents }}/multispecies/intactness/intactness-{{ item.short }}.png" class="img-responsive" alt="Intactness map: {{ item.long }}"/>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="{{ site.ftproot }}/multispecies/intactness/intactness-{{ item.short }}.asc">Download <i class="fa fa-download"></i></a>
+        <a class="btn btn-primary" href="{{ site.ftproot }}/multispecies/intactness/intactness-{{ item.short }}.asc" download>Download <i class="fa fa-download"></i></a>
       </div>
     </div>
   </div>
 </div>
 
 {% endfor %}
-
-## Overall biodiversity intactness
-
-<div class="row">
-  <div class="col-6 col-sm-6 col-lg-6">
-  <p><img src="{{ site.contents }}/multispecies/intactness/intactness-all.png" class="img-responsive" alt="Overall biodiversity intactness"/></p>
-
-  </div>
-  <div class="col-6 col-sm-6 col-lg-6">
-
-<p>Overall biodiversity intactness is the average of the intactness for each of the included taxa
-(birds, mammals, mites, native vascular plants, bryophytes, lichens). 
-Each taxon is weighted equally, regardless of how many species it contains.</p>
-
-<span class="pull-right">
-<div class="btn-group">
-  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.ftproot }}/multispecies/intactness/intactness-all.asc" download>Map (raster file)</a></li>
-    <li><a href="{{ site.contents }}/multispecies/intactness/47_ABMI_2014-09-25_SpeciesModelingAndIntactnessManual_ABMI.pdf" download>Intactness manual (pdf file)</a></li>
-  </ul>
-</div>
-</span>
-
-  </div>
-</div>
 
