@@ -19,7 +19,7 @@ data:
 
 ## Average species richness across taxa
 
-The richness index across all taxa was derived by taking a simple average of richness index for each 1 km<sup>2</sup> grid cell across the six taxa: mammals, birds, vascular plants, bryophytes, lichens and mites.
+The richness index across all taxa was derived by taking a simple average of standardized richness index (see below for explanation) for each 1 km<sup>2</sup> grid cell across the six taxa: mammals, birds, vascular plants, bryophytes, lichens and mites.
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
