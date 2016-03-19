@@ -50,26 +50,6 @@ The primary source of data when creating the edge buffer layers was the 2012 Hum
   </div>
 </div>
 
-<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-edges-bmf">Edge distance: based on the Alberta Biodiversity Management Framework criteria</button></p>
-
-<div class="modal fade" id="modal-edges-bmf" tabindex="-1" role="dialog" aria-labelledby="modal-edges-bmf-label">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="modal-edges-bmf-label">Edge distance: based on the Alberta Biodiversity Management Framework criteria</h4>
-      </div>
-      <div class="modal-body">
-        <img src="{{ site.contents }}/habitat/edges/EdgeBMF.png" class="img-responsive" alt="Edge distance: based on the Alberta Biodiversity Management Framework criteria"/>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="{{ site.ftproot }}/habitat/edges/W2W_Edge_Buffer_Metadata_16Dec2015final.doc" target="_blank">Download metadata <i class="fa fa-download"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
