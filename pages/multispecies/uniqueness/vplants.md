@@ -36,13 +36,13 @@ The uniqueness of species composition in space is a relative measure and values 
 The relative uniqueness measure shows the degree to which species composition in each pixel was distinct compared to all other pixels within the Natural Region.  The uniqueness analysis was conducted separately for each Natural Region because the regional species pool and their predicted relative abundances differ between these. Relative abundance of each species in each pixel was predicted using habitat association models that relate species relative abundance to native habitat types (read [methods and caveats]({{ site.contents }}/multispecies/uniqueness/uniqueness-methods.pdf)).
 
 <div class="row">
-  <div class="col-6 col-sm-6 col-lg-6">
+  <div class="col-12 col-sm-12 col-lg-12">
 
   <h3>Boreal</h3>
   <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/uniqueness-habitat-boreal-{{ page.short }}.png" class="img-responsive" alt="Uniqueness, habitat associations: {{ page.long }}, Boreal"/></p>
 
   </div>
-  <div class="col-6 col-sm-6 col-lg-6">
+  <div class="col-12 col-sm-12 col-lg-12">
 
   <h3>Foothills</h3>
   <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/uniqueness-habitat-foothills-{{ page.short }}.png" class="img-responsive" alt="Uniqueness, habitat associations: {{ page.long }}, Foothills"/></p>
