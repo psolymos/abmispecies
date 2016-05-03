@@ -1,5 +1,5 @@
 ---
-layout: species
+layout: default
 title: 'Non-native vascular plants'
 spplabel: NNplants
 description: "Non-native vascular plants"
@@ -22,18 +22,6 @@ toclabels:
   useavail-south: false
   veghf-north: true
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-{% include _head.html %}
-</head>
-<body>
-{% include _navigation.html %}
-<div class="container">
-  <div class="row">
-    <div class="col-md-10">
-
-          <h1>{{ page.title }} &mdash; {{ page.taxonname }}{% if page.taxon == "mammals" %}, winter tracking{% endif %}</h1>
 
 {% if page.toclabels.veghf-north %}
           <div class="row">
@@ -239,14 +227,3 @@ toclabels:
           </div>
           {% endif %}
 
-{% if page.status == "nonnative" %}
-<p>Reference and difference maps are not provided for non-native vascular plant species.</p>
-{% endif %}
-
-
-    </div>
-  </div>
-</div>
-{% include _footer.html %}
-</body>
-</html>
