@@ -35,43 +35,6 @@ toclabels:
 
           <h1>{{ page.title }} &mdash; {{ page.taxonname }}{% if page.taxon == "mammals" %}, winter tracking{% endif %}</h1>
 
-          {% if page.toclabels.map-det %}
-          <div class="row">
-            <h2 id="map-det">Map of records at surveyed locations</h2>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/multispecies/{{ page.taxon }}/map-det/{{ page.spplabel}}.png" class="img-responsive" alt="Map of detections">
-            </div>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <p>The map shows survey locations (+) and detections (dots). Natural regions are shown as different background colors. {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-
-<span class="pull-right">
-<a href="http://abmi.ca/home/data/welcome-data-portal.html" class="btn btn-primary" target="_blank">Download <i class="fa fa-external-link-square"></i></a>
-</span>
-
-            </div>
-          </div>
-          {% endif %}
-
-          {% if page.toclabels.useavail-north %}
-          <div class="row">
-            <h2 id="useavail-north">Habitat associations for species with few detections, North</h2>
-            <div class="col-5 col-sm-5 col-lg-5">
-            <img src="{{ site.contents }}/multispecies/{{ page.taxon }}/useavail-north/{{ page.spplabel}}.png" class="img-responsive" alt="Use-availability, North">
-            </div>
-            <div class="col-5 col-sm-5 col-lg-5">
-          <p>It was not possible to create complex habitat association models for species detected fewer than {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} times in northern Alberta study area. For these species, a coarse index of habitat use was determined as the proportion of detections in each native vegetation and human footprint type in comparison to the proportional availability of the habitat types (see <a href="{{ site.baseurl }}/methods.html">methods</a>). An index value &lt;0 indicates lower than expected proportion of detections in that habitat type; and index value &gt;0 indicates a higher than expected proportion. Due to the coarseness of the analyses, maps of predicted habitat abundance were not created for these species.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-<span class="pull-right">
-<div class="btn-group">
-  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-useavail-north.csv" download>Use-availability coefficients (north)</a></li>
-  </ul>
-</div>
-</span>
-            </div>
-          </div>
-          {% endif %}
-
 {% if page.toclabels.veghf-north %}
           <div class="row">
             <h2 id="veghf-north">Species&ndash;habitat associations in northern Alberta</h2>
@@ -88,26 +51,6 @@ toclabels:
 </span>
             </div>
           </div>
-{% endif %}
-
-{% if page.toclabels.useavail-south %}
-<div class="row">
-  <h2 id="useavail-south">Habitat associations for species with few detections, South</h2>
-  <div class="col-5 col-sm-5 col-lg-5">
-  <img src="{{ site.contents }}/multispecies/{{ page.taxon }}/useavail-south/{{ page.spplabel}}.png" class="img-responsive" alt="Use-availability, South">
-  </div>
-  <div class="col-5 col-sm-5 col-lg-5">
-<p>It was not possible to create complex habitat association models for species detected fewer than {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} times in southern Alberta study area. For these species, a coarse index of habitat use was determined as the proportion of detections in each native vegetation and human footprint type in comparison to the proportional availability of the habitat types (see <a href="{{ site.baseurl }}/methods.html">methods</a>). An index value &lt;0 indicates lower than expected proportion of detections in that habitat type; and index value &gt;0 indicates a higher than expected proportion. Due to the coarseness of the analyses, maps of predicted habitat abundance were not created for these species.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-<span class="pull-right">
-<div class="btn-group">
-<a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-<ul class="dropdown-menu">
-<li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-useavail-south.csv" download>Use-availability coefficients (south)</a></li>
-</ul>
-</div>
-</span>
-  </div>
-</div>
 {% endif %}
 
 {% if page.toclabels.soilhf-nontreed-south %}
@@ -296,55 +239,10 @@ toclabels:
           </div>
           {% endif %}
 
-          {% if page.toclabels.map-cov-cr %}
-          <div class="row">
-            <h2 id="map-cov-cr">Uncertainty in predicted current conditions</h2>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/multispecies/{{ page.taxon }}/map-cov-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
-            </div>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <p>To highlight the degree of uncertainty in the models, we estimated the coefficient of variation for each township based on bootstrap predictions of current abundance. 10 km x 10 km units depicted in red have the highest coefficient of variation, while 10 km x 10 km units in dark green have the lowest.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-
-<span class="pull-right">
-<div class="btn-group">
-  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.ftproot }}/species/{{ page.taxon }}-provincial-10x10km-summary.Rdata" download>Provicial 10 x 10 km summaries (large Rdata file)</a></li>
-  </ul>
-</div>
-</span>
-
-            </div>
-          </div>
-          {% endif %}
-
 {% if page.status == "nonnative" %}
 <p>Reference and difference maps are not provided for non-native vascular plant species.</p>
 {% endif %}
 
-{% if page.taxon == "mammals" %}
-<h2 id="data-sources">Data sources</h2>
-<p>Information from ABMI winter track counts were combined with information from other individuals:</p>
-<ul>
-<li>Dr. Erin Bayne (University of Alberta)</li>
-<li>Dr. Stan Boutin (University of Alberta)</li>
-</ul>
-{% endif %}
-
-{% if page.taxon == "birds" %}
-<h2 id="data-sources">Data sources</h2>
-<p>Information from ABMI bird point counts was combined with information from other organizations and individuals:</p>
-<ul>
-<li>Environment Canada (<a href="https://ec.gc.ca/reom-mbs/">North American Breeding Bird Survey</a> and <a href="http://www.jointoilsandsmonitoring.ca">Joint Oil Sands Monitoring programs</a>)</li>
-<li>Ecological Monitoring Committee for the Lower Athabasca (<a href="http://www.emcla.ca/">EMCLA</a>)</li>
-<li>Dr. Erin Bayne (University of Alberta)</li>
-</ul>
-{% endif %}
-
-            <h2 id="citation">Recommended citation</h2>
-            <p>ABMI ({{ site.time | date: "%Y" }}). {{ page.title }}.
-            ABMI Species Website, version {{ site.version }}.
-            URL: <a href="{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ page.spplabel}}.html">{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ page.spplabel}}.html</a>.</p>
 
     </div>
   </div>
