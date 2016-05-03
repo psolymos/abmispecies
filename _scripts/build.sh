@@ -24,6 +24,7 @@ Rscript --vanilla website_script.R
 ## run Jekyll
 echo 'Running jekyll'
 cd ~/repos/abmispecies/
+rm -r -f /var/www/html/development
 mkdir /var/www/html/development
 jekyll build --destination /var/www/html/development
 
