@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Uniqueness: All Species"
-description: "Uniqueness: All Species"
-long: 'All Species'
-short: all
+title: "Uniqueness: Bryophytes"
+description: "Uniqueness: Bryophytes"
+long: 'Bryophytes'
+short: mosses
 ---
 
 The uniqueness of species composition in space is a relative measure and values estimated for specific sites are partly dependent on the scale of study. For example, a given area might be regarded less unique in a relatively homogeneous subset area where it is found but that particular subset area could have high uniqueness compared to a larger scale of study. 
