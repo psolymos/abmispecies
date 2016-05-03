@@ -44,7 +44,8 @@ Please see <a href="{{ site.contents }}/methods/map_limitations.pdf" target="_bl
 
 ## Additional resources
 
-* <a href="http://abmi.ca/home/publications/1-50/47.html?mode=detail&documenttype=Protocols" target="_blank">Intactness manual</a>
+* <a href="{{ site.contents }}/methods/ABMI_Species_Modeling_and_Intactness_Manual_Apr_14_2016.pdf">Intactness manual</a>
+* <a href="{{ site.contents }}/methods/Explanation_of_coefficient_tables.pdf">Explanation of coefficient tables</a>
 * <a href="http://abmi.ca/home/publications/1-50/46.html?mode=detail&documenttype=Protocols" target="_blank">Field protocols</a>
 * <a href="http://abmi.ca/home/data/welcome-data-portal.html" target="_blank">Raw data</a>
 * <a href="{{ site.baseurl }}/collaborations.html">Collaborations</a>
