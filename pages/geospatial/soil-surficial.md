@@ -10,7 +10,7 @@ Environment Canada information, as well as university theses data. Boundary
 discrepancies between information sources were largely resolved during the 
 process of reclassifying the input data to a common legend with only limited 
 remapping. This GIS layer was created at a scale of 1:1,000,000 and can be 
-accessed at http://www.ags.gov.ab.ca/publications/abstracts/Map_601.html.
+accessed [here](http://www.ags.gov.ab.ca/publications/abstracts/Map_601.html).
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
