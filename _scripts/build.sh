@@ -7,6 +7,7 @@ rm -r -f ~/repos/abmispecies/pages/species/mosses
 rm -r -f ~/repos/abmispecies/pages/species/lichens
 rm -r -f ~/repos/abmispecies/pages/species/birds
 rm -r -f ~/repos/abmispecies/pages/species/mites
+rm -r -f ~/repos/abmispecies/pages/testspecies/birds
 
 ## status update
 cd ~/repos/abmispecies

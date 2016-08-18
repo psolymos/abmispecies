@@ -34,7 +34,8 @@ Prev=NA, Next=NA)
             "---")
         out
 }
-yaml_directives(rownames(spptab)[1])
+if (interactive())
+    yaml_directives(rownames(spptab)[1])
 
 for (i in 1:nrow(spptab)) {
     spp <- rownames(spptab)[i]
