@@ -43,7 +43,7 @@ for (i in 1:nrow(spptab)) {
     Next <- if (i == nrow(spptab))
         NA else as.character(spptab$species[i+1])
     yaml <- yaml_directives(spp, Prev=Prev, Next=Next)
-    writeLines(yaml, file.path(OUT, taxon, paste0(spp, ".html")))
+    writeLines(yaml, file.path(OUT, "birds", paste0(spp, ".html")))
 }
 
 ## generating index
@@ -68,5 +68,5 @@ for (lead_var in lead_vars) {
         res[[a]] <- c(lev1, lev2)
     }
     res <- unname(unlist(res))
-    writeLines(res, file.path(OUT2, paste0(taxon, "2_", substr(lead_var, 1, 3), ".yml")))
+    writeLines(res, file.path(OUT2, paste0("birds2_", substr(lead_var, 1, 3), ".yml")))
 }
