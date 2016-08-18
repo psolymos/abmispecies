@@ -47,7 +47,7 @@ for (i in 1:nrow(spptab)) {
 
 ## generating index
 spptab0 <- spptab
-lead_vars <- c("comnam", "scinam")
+lead_vars <- c("species", "scinam")
 for (lead_var in lead_vars) {
     spptab <- spptab0
     tmp <- spptab[order(spptab[[lead_var]]),]
@@ -55,7 +55,7 @@ for (lead_var in lead_vars) {
     ulead <- unique(lead)
     sppfun <- function(i, tmp) {
         c(paste0("    - scinam: ", tmp$scinam[i]),
-        paste0("      comnam: ", tmp$comnam[i]),
+        paste0("      comnam: ", tmp$species[i]),
         paste0("      label: ", rownames(tmp)[i]),
         paste0("      model: ", ifelse(tmp$FULL[i], "true", "false")))
     }
