@@ -20,6 +20,7 @@ git checkout master
 echo 'Running R script'
 cd ~/repos/abmispecies/_scripts
 Rscript --vanilla website_script.R
+Rscript --vanilla test.R
 
 ## run Jekyll
 echo 'Running jekyll'
