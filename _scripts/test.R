@@ -38,9 +38,9 @@ if (!dir.exists(file.path(DIR2, "birds")))
 for (i in 1:nrow(spptab)) {
     spp <- rownames(spptab)[i]
     Prev <- if (i == 1)
-        NA else as.character(spptab$species[i-1])
+        NA else as.character(spptab$sppid[i-1])
     Next <- if (i == nrow(spptab))
-        NA else as.character(spptab$species[i+1])
+        NA else as.character(spptab$sppid[i+1])
     yaml <- yaml_directives(spp, Prev=Prev, Next=Next)
     writeLines(yaml, file.path(DIR2, "birds", paste0(spp, ".html")))
 }
