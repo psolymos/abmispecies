@@ -14,12 +14,12 @@
 
             <ul class="pager">
               {% if page.previous %}
-              <li class="previous"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ spp.previous }}.html"><i class="fa fa-arrow-left"></i> Previous species</a></li>
+              <li class="previous"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ page.previous }}.html"><i class="fa fa-arrow-left"></i> Previous species</a></li>
               {% else %}
               <li class="previous disabled"><a href="#"><i class="fa fa-arrow-left"></i> Previous species</a></li>
               {% endif %}
               {% if page.next %}
-              <li class="next"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ spp.next }}.html">Next species <i class="fa fa-arrow-right"></i></a></li>
+              <li class="next"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ page.next }}.html">Next species <i class="fa fa-arrow-right"></i></a></li>
               {% else %}
               <li class="next disabled"><a href="#">Next species <i class="fa fa-arrow-right"></i></a></li>
               {% endif %}
@@ -31,9 +31,7 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
 
-            <p>ABMI ({{ site.time | date: "%Y" }}). {{ page.title }}.
-            ABMI Species Website, test version (>{{ site.version }}).
-            URL: <a href="{{ site.baseurl }}/testpages/species/{{ page.taxon }}/{{ page.spplabel}}.html">{{ site.baseurl }}/testpages/species/{{ page.taxon }}/{{ page.spplabel }}.html</a>.</p>
+            <p>ABMI Species Website, test version.</p>
             </div>
           </div>
 
@@ -106,12 +104,12 @@
 
             <ul class="pager">
               {% if page.previous %}
-              <li class="previous"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ spp.previous }}.html"><i class="fa fa-arrow-left"></i> Previous species</a></li>
+              <li class="previous"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ page.previous }}.html"><i class="fa fa-arrow-left"></i> Previous species</a></li>
               {% else %}
               <li class="previous disabled"><a href="#"><i class="fa fa-arrow-left"></i> Previous species</a></li>
               {% endif %}
               {% if page.next %}
-              <li class="next"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ spp.next }}.html">Next species <i class="fa fa-arrow-right"></i></a></li>
+              <li class="next"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ page.next }}.html">Next species <i class="fa fa-arrow-right"></i></a></li>
               {% else %}
               <li class="next disabled"><a href="#">Next species <i class="fa fa-arrow-right"></i></a></li>
               {% endif %}
