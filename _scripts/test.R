@@ -5,9 +5,6 @@ spptab <- read.csv(file.path(DIR1, "birds2.csv"))
 rownames(spptab) <- spptab$sppid
 spptab <- spptab[order(spptab$family, spptab$species),]
 
-cat("read tab\n")
-warnings()
-
 ## YAML front matter variables
 yaml_directives <-
 function(spplabel, title_format="comnam (<em>scinam</em>)", layout="testspecies",
@@ -36,6 +33,8 @@ Prev=NA, Next=NA)
 if (interactive())
     yaml_directives(rownames(spptab)[1])
 
+if (!dir.exists(file.path(DIR2, "birds")))
+    dir.create(file.path(DIR2, "birds"))
 for (i in 1:nrow(spptab)) {
     spp <- rownames(spptab)[i]
     Prev <- if (i == 1)
@@ -45,9 +44,6 @@ for (i in 1:nrow(spptab)) {
     yaml <- yaml_directives(spp, Prev=Prev, Next=Next)
     writeLines(yaml, file.path(DIR2, "birds", paste0(spp, ".html")))
 }
-
-cat("write headers\n")
-warnings()
 
 ## generating index
 spptab0 <- spptab
@@ -73,6 +69,3 @@ for (lead_var in lead_vars) {
     res <- unname(unlist(res))
     writeLines(res, file.path(DIR1, paste0("birds2_", substr(lead_var, 1, 3), ".yml")))
 }
-
-cat("write toc\n")
-warnings()
