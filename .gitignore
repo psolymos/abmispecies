@@ -25,6 +25,7 @@
 ## data are generated and not stored
 /_data/*
 !/_data/birds.csv
+!/_data/birds2.csv
 !/_data/mammals.csv
 !/_data/mosses.csv
 !/_data/lichens.csv
@@ -38,4 +39,5 @@
 /pages/species/vplants/*
 /pages/species/birds/*
 /pages/species/mammals/*
-
+## test pages
+/pages/testspecies/birds/*
