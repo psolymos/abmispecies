@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include _head.html %}
+</head>
+<body>
+{% include _navigation.html %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-10">
+
+          <h1>{{ page.title }} &mdash; {{ page.taxonname }}</h1>
+          <h3>{{ page.family }} &mdash; {% if page.singing %}Singing species{% else %}Not singing species{% endif %}</h3>
+
+            <ul class="pager">
+              {% if page.previous %}
+              <li class="previous"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ page.previous }}.html"><i class="fa fa-arrow-left"></i> Previous species</a></li>
+              {% else %}
+              <li class="previous disabled"><a href="#"><i class="fa fa-arrow-left"></i> Previous species</a></li>
+              {% endif %}
+              {% if page.next %}
+              <li class="next"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ page.next }}.html">Next species <i class="fa fa-arrow-right"></i></a></li>
+              {% else %}
+              <li class="next disabled"><a href="#">Next species <i class="fa fa-arrow-right"></i></a></li>
+              {% endif %}
+            </ul>
+
+          <div class="row">
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/map-det/{{ page.spplabel}}.png" class="img-responsive" alt="Map of detections">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+
+            <p>ABMI Species Website, test version.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/map-rf/{{ page.spplabel}}.png" class="img-responsive" alt="Map, reference">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/map-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map, current">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/map-df/{{ page.spplabel}}.png" class="img-responsive" alt="Map, difference">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/map-si/{{ page.spplabel}}.png" class="img-responsive" alt="Map, intactness">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/map-sd-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map, SD">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/map-cov-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map, CoV">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5 col-sm-5 col-lg-5">
+            <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/useavail-north/{{ page.spplabel}}.png" class="img-responsive" alt="Use-availability, North">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+            <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/useavail-south/{{ page.spplabel}}.png" class="img-responsive" alt="Use-availability, South">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-10 col-sm-5 col-lg-10">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/veghf-north/{{ page.spplabel}}.png" class="img-responsive" alt="Habitats, North">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/soilhf-nontreed-south/{{ page.spplabel}}.png" class="img-responsive" alt="Soils, non-treed, South">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/soilhf-treed-south/{{ page.spplabel}}.png" class="img-responsive" alt="Soils, treed, South">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5 col-sm-5 col-lg-5">
+            <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/linear-north/{{ page.spplabel}}.png" class="img-responsive" alt="Linear footprint relationship, North">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+            <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/linear-south/{{ page.spplabel}}.png" class="img-responsive" alt="Linear footprint relationship, South">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/sector-north/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+            </div>
+            <div class="col-5 col-sm-5 col-lg-5">
+              <img src="{{ site.contents }}/testspecies/{{ page.taxon }}/sector-south/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+            </div>
+          </div>
+
+            <ul class="pager">
+              {% if page.previous %}
+              <li class="previous"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ page.previous }}.html"><i class="fa fa-arrow-left"></i> Previous species</a></li>
+              {% else %}
+              <li class="previous disabled"><a href="#"><i class="fa fa-arrow-left"></i> Previous species</a></li>
+              {% endif %}
+              {% if page.next %}
+              <li class="next"><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ page.next }}.html">Next species <i class="fa fa-arrow-right"></i></a></li>
+              {% else %}
+              <li class="next disabled"><a href="#">Next species <i class="fa fa-arrow-right"></i></a></li>
+              {% endif %}
+            </ul>
+
+    </div>
+  </div>
+</div>
+{% include _footer.html %}
+</body>
+</html>

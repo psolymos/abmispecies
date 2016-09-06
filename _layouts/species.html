@@ -21,7 +21,7 @@
               <p>The map shows survey locations (+) and detections (dots). Natural regions are shown as different background colors. {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 
 <span class="pull-right">
-<a href="http://abmi.ca/home/data/welcome-data-portal.html" class="btn btn-primary" target="_blank">Download <i class="fa fa-external-link-square"></i></a>
+<a href="http://abmi.ca/home/data/welcome-data-portal.html" class="btn btn-primary" target="_blank">Download raw data <i class="fa fa-external-link-square"></i></a>
 </span>
 
             </div>
@@ -155,7 +155,7 @@
             <img src="{{ site.contents }}/species/{{ page.taxon }}/linear-south/{{ page.spplabel}}.png" class="img-responsive" alt="Linear footprint relationship, South">
           </div>
           <div class="col-5 col-sm-5 col-lg-5">
-          <p>For linear footprint in southern Alberta, the pairs of points show the change expected from the average habitat with no linear footprint (left point) when 10% linear footprint is added (right point). {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+          <p>For linear footprint in southern Alberta, the pairs of points show the change expected from the average (non-treed sites) habitat with no linear footprint (left point) when 10% linear footprint is added (right point). {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -320,7 +320,7 @@
             <h2 id="citation">Recommended citation</h2>
             <p>ABMI ({{ site.time | date: "%Y" }}). {{ page.title }}.
             ABMI Species Website, version {{ site.version }}.
-            URL: <a href="{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ page.spplabel}}.html">{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ page.spplabel}}.html</a>.</p>
+            URL: <a href="{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ page.spplabel}}.html">{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ page.spplabel }}.html</a>.</p>
 
     </div>
   </div>

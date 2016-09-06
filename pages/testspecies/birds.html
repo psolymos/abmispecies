@@ -1,0 +1,34 @@
+---
+layout: default
+title: "Species Index: Birds (test)"
+taxon: birds
+listbycomnam: true
+---
+
+{% if page.listbycomnam %}
+  <div class="col-md-6">
+{% else %}
+  <div class="col-md-8">
+{% endif %}
+  <h2>By Scientific Name</h2>
+    {% for idx in site.data.birds2_sci %}
+      <h3 id="sci-{{ idx.letter }}">{{ idx.letter }}</h3>
+      <p class="bg-info"><small>{% for lett in site.data.birds_sci %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.baseurl }}{{ page.url }}#sci-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
+      {% for spp in idx.species %}
+      <p><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ spp.label }}.html"><em>{{ spp.scinam }}</em>{% if page.listbycomnam %}{% if spp.comnam %} - {% endif %}{{ spp.comnam }}{% endif %}</a></p>
+      {% endfor %}
+    {% endfor %}
+  </div>
+
+{% if page.listbycomnam %}
+  <div class="col-md-6">
+  <h2>By Common Name</h2>
+    {% for idx in site.data.birds2_spe %}
+      <h3 id="com-{{ idx.letter }}">{{ idx.letter }}</h3>
+      <p class="bg-info"><small>{% for lett in site.data.birds_com %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.baseurl }}{{ page.url }}#com-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
+      {% for spp in idx.species %}
+      <p><a href="{{ site.baseurl }}/pages/testspecies/{{ page.taxon }}/{{ spp.label }}.html">{{ spp.comnam }} - <em>{{ spp.scinam }}</em></a></p>
+      {% endfor %}
+    {% endfor %}
+  </div>
+{% endif %}
