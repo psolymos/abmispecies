@@ -1,5 +1,5 @@
-#TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants")
-TAXON <- c("mites", "mosses", "lichens","mammals","birds")
+TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants")
+#TAXON <- c("mites", "mosses", "lichens","mammals","birds")
 #TAXON <- c("mites", "mosses", "lichens","mammals", "vplants")
 
 ## 1st we tidy up the species lookup tables
@@ -17,6 +17,15 @@ rownames(lt) <- lt$sppid
 lt <- droplevels(lt[lt$map.det,])
 lt$useavail.north[lt$veghf.north] <- FALSE
 lt$useavail.south[lt$soilhf.south] <- FALSE
+if (taxon == "vplants") {
+    lt$nonnative <- FALSE
+    lt$nonnative[!is.na(lt$origin) & lt$origin == "Exotic"] <- TRUE
+    tmp <- read.csv(file.path(ROOT, paste0(taxon, "_taxon.csv")))
+    lt$species <- tmp$COMMON_NAME[match(rownames(lt), tmp$Analysis_Name)]
+    lt$tsnid <- tmp$TSN_ID[match(rownames(lt), tmp$Analysis_Name)]
+    lt$species[lt$species == "VNA"] <- NA
+    lt <- droplevels(lt)
+}
 stopifnot(all(!is.na(lt[-which(colnames(lt)=="species")])))
 write.csv(lt, paste0("~/repos/abmispecies/_data/", taxon, ".csv"), row.names=FALSE)
 }
