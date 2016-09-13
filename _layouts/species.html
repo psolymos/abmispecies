@@ -237,7 +237,7 @@
               <img src="{{ site.contents }}/species/{{ page.taxon }}/map-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
-              <p>Habitat association models, plus models describing how species varied spatially and with climate gradients were used to predict species abundance in 1 km<sup>2</sup> spatial units under current conditions. Predictions of relative species abundance in each 1 km<sup>2</sup> unit were made based on the vegetation and human footprint present in the 1 km<sup>2</sup> unit in 2012. Pixels depicted in red were predicted to have the highest abundance for the species, grading through light tan to dark blue where the species was predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map (see <a href="{{ site.baseurl }}{{ page.url }}#map-cov-cr">uncertainty map</a> below).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+              <p>Habitat association models, plus models describing how species varied spatially and with climate gradients were used to predict species abundance in 1 km<sup>2</sup> spatial units under current conditions. Predictions of relative species abundance in each 1 km<sup>2</sup> unit were made based on the vegetation and human footprint present in the 1 km<sup>2</sup> unit in 2012. Pixels depicted in red were predicted to have the highest abundance for the species, grading through light tan to dark blue where the species was predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map (see <a href="{{ site.baseurl }}{{ page.url }}#map-sd-cr">uncertainty map</a> below).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -272,11 +272,11 @@
           </div>
           {% endif %}
 
-          {% if page.toclabels.map-cov-cr %}
+          {% if page.toclabels.map-sd-cr %}
           <div class="row">
-            <h2 id="map-cov-cr">Uncertainty in predicted current conditions</h2>
+            <h2 id="map-sd-cr">Uncertainty in predicted current conditions</h2>
             <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-cov-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/map-sd-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
               <p>To highlight the degree of uncertainty in the models, we estimated the coefficient of variation for each township based on bootstrap predictions of current abundance. 10 km x 10 km units depicted in red have the highest coefficient of variation, while 10 km x 10 km units in dark green have the lowest.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>

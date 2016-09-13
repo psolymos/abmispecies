@@ -1,3 +1,6 @@
+## run like:
+## sudo bash ~/repos/abmispecies/_scripts/build.sh
+
 ## clear old stuff
 echo 'Cleaning up old stuff'
 rm -f ~/repos/abmispecies/_data/*.yml
