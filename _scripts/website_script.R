@@ -1,62 +1,23 @@
-TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants")
+#TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants")
+TAXON <- c("mites", "mosses", "lichens","mammals","birds")
 #TAXON <- c("mites", "mosses", "lichens","mammals", "vplants")
 
 ## 1st we tidy up the species lookup tables
 if (FALSE) {
 
-ROOT <- "e:/peter/sppweb-html-content/species"
-OUT <- "e:/peter/sppweb-pages/species"
+ROOT <- "e:/peter/AB_data_v2016/out/birds/tables/lookup"
+OUT <- "e:/peter/AB_data_v2016/out/birds/tables/lookup/pages"
 
 #taxon <- "lichens"
 for (taxon in TAXON) {
 
-lt <- read.csv(file.path(ROOT, taxon, paste0(taxon, "-lookup.csv")))
+lt <- read.csv(file.path(ROOT, paste0(taxon, ".csv")))
 rownames(lt) <- lt$sppid
-f_TAX <- switch(taxon,
-    "birds"="c:/p/AB_data_v2015/out/species/OUT_Birds_Species_Taxa_2015-05-22.csv",
-    "lichens"="c:/p/AB_data_v2015/out/species/OUT_Lichens_Species_Taxa_2015-09-09.csv",
-    "mammals"="c:/p/AB_data_v2015/out/species/OUT_Mammals_Species_Taxa_2015-06-01.csv",
-    "mites"="c:/p/AB_data_v2015/out/species/OUT_Mites_Species_Taxa_2015-05-22.csv",
-    "mosses"="c:/p/AB_data_v2015/out/species/OUT_Mosses_Species_Taxa_2015-06-09.csv",
-    "vplants"="c:/p/AB_data_v2015/out/species/OUT_VPlants_Species_Taxa_2015-07-13.csv")
-TAX <- read.csv(f_TAX)
-rownames(TAX) <- TAX[,1]
-
-if (taxon == "mammals") {
-    lt$scinam <- as.character(TAX$SCIENTIFIC_NAME[match(rownames(lt), rownames(TAX))])
-    lt$scinam[lt$sppid == "MartenFisher"] <- "Martes"
-    lt$scinam[lt$sppid == "AllLeporids"] <- "Leporidae"
-}
-if (taxon == "mites") {
-    lt$scinam <- as.character(TAX$SPECIES_OLD[match(rownames(lt), rownames(TAX))])
-    lt$species <- as.character(lt$species)
-    lt$species[] <- ""
-}
-if (taxon == "vplants") {
-    lt$scinam <- as.character(TAX$SPECIES_OLD[match(rownames(lt), rownames(TAX))])
-    lt$species <- as.character(TAX$COMMON_NAME[match(rownames(lt), rownames(TAX))])
-}
-if (taxon == "mosses") {
-    lt$scinam <- as.character(lt$species)
-    TAX$EA <- as.character(TAX$SCIENTIFIC_NAME)
-    TAX$EA <- gsub(" ", "\\.", TAX$EA)
-    lt$species <- as.character(TAX$COMMON_NAME[match(rownames(lt), TAX$EA)])
-    lt$species[is.na(lt$species)] <- ""
-    lt$species[lt$species == "VNA"] <- ""
-}
-if (taxon == "lichens") {
-    lt$scinam <- as.character(lt$species)
-    TAX$EA <- as.character(TAX$SCIENTIFIC_NAME)
-    TAX$EA <- gsub(" ", "\\.", TAX$EA)
-    lt$species <- as.character(TAX$COMMON_NAME[match(rownames(lt), TAX$EA)])
-    lt$species[is.na(lt$species)] <- ""
-    lt$species[lt$species == "VNA"] <- ""
-}
 
 lt <- droplevels(lt[lt$map.det,])
 lt$useavail.north[lt$veghf.north] <- FALSE
 lt$useavail.south[lt$soilhf.south] <- FALSE
-stopifnot(all(!is.na(lt)))
+stopifnot(all(!is.na(lt[-which(colnames(lt)=="species")])))
 write.csv(lt, paste0("~/repos/abmispecies/_data/", taxon, ".csv"), row.names=FALSE)
 }
 
@@ -64,14 +25,15 @@ write.csv(lt, paste0("~/repos/abmispecies/_data/", taxon, ".csv"), row.names=FAL
 
 ROOT <- "~/repos/abmispecies/_data"
 OUT <- if (interactive())
-    "e:/peter/sppweb-pages/species" else "~/repos/abmispecies/pages/species"
+    "e:/peter/sppweb2016/pages/species" else "~/repos/abmispecies/pages/species"
 OUT2 <- if (interactive())
-    "e:/peter/sppweb-pages/species" else "~/repos/abmispecies/_data"
+    "e:/peter/sppweb2016/pages/species" else "~/repos/abmispecies/_data"
 
 graph_labels <- matrix(c(
     "linear-north", "veghf.north",
     "linear-south", "soilhf.south",
-    "map-cov-cr", "map.pred",
+    #"map-cov-cr", "map.pred",
+    "map-sd-cr", "map.pred",
     "map-cr", "map.pred",
     "map-det", "map.det",
     "map-df", "map.pred",
@@ -89,7 +51,7 @@ colnames(graph_labels) <- c("dir", "check")
 
 ## YAML front matter variables
 yaml_directives <-
-function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species")
+function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species", Prev=NA, Next=NA)
 {
         i <- M[spplabel,]
         scinam <- as.character(spptab[spplabel, "scinam"])
@@ -119,11 +81,16 @@ function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species")
             paste0("taxon: ", taxon),
             paste0("taxonname: ", taxonname),
             paste0("status: ", nnstatus),
+            paste0("previous: ", ifelse(is.na(Prev), "", Prev)),
+            paste0("next: ", ifelse(is.na(Next), "", Next)),
             "toclabels:",
             switches,
             "---")
         out
 }
+
+#if (interactive())
+#    yaml_directives(rownames(spptab)[1])
 
 
 #taxon <- "mosses"
@@ -131,6 +98,7 @@ for (taxon in TAXON) {
 
     lt <- read.csv(file.path(ROOT, paste0(taxon, ".csv")))
     rownames(lt) <- lt$sppid
+    lt <- lt[order(lt$sppid),]
     lt$species <- as.character(lt$species)
     lt$species[is.na(lt$species)] <- ""
 
@@ -139,8 +107,8 @@ for (taxon in TAXON) {
     for (i in 1:ncol(M))
         M[lt[[graph_labels[i,"check"]]],i] <- 1L
 
-    spptab <- lt[,c("scinam","species")]
-    colnames(spptab) <- c("scinam","comnam")
+    spptab <- lt[,c("sppid","scinam","species")]
+    colnames(spptab) <- c("sppid","scinam","comnam")
     spptab$FULL <- lt$map.pred
     spptab$NN <- if ("nonnative" %in% colnames(lt))
         lt$nonnative else FALSE
@@ -148,10 +116,17 @@ for (taxon in TAXON) {
     if (!dir.exists(file.path(OUT, taxon)))
         dir.create(file.path(OUT, taxon))
 
-    for (spp in rownames(spptab)) {
+    for (i in 1:nrow(spptab)) {
+
+        spp <- rownames(spptab)[i]
+        Prev <- if (i == 1)
+            NA else as.character(spptab$sppid[i-1])
+        Next <- if (i == nrow(spptab))
+            NA else as.character(spptab$sppid[i+1])
+
         FORMAT <- if (spptab[spp, "comnam"] == "")
             "scinam" else "comnam (scinam)"
-        yaml <- yaml_directives(spp, FORMAT)
+        yaml <- yaml_directives(spp, FORMAT, Prev=Prev, Next=Next)
         writeLines(yaml, file.path(OUT, taxon, paste0(spp, ".html")))
     }
 
@@ -189,7 +164,7 @@ for (taxon in TAXON) {
 
 ## updating summary file
 tabs <- list()
-cols <- c("map.det", "useavail.north", "useavail.south", 
+cols <- c("map.det", "useavail.north", "useavail.south",
     "map.pred", "veghf.north", "soilhf.south")
 for (i in paste0(ROOT, "/", TAXON, ".csv"))
     tabs[[i]] <- read.csv(i)
