@@ -45,5 +45,6 @@ mv sppweb.zip ~/repos/abmispecies/_site/
 ## redirect
 echo 'Redirect overwrite'
 cp ~/repos/abmispecies/_scripts/index.html /var/www/html/index.html
+cp ~/repos/abmispecies/_scripts/robots.txt /var/www/html/robots.txt
 
 echo 'Done'
