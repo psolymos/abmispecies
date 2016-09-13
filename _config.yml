@@ -2,6 +2,9 @@ title: ABMI Species
 version: '4.0 (2016-09-12)'
 description: Information on species and habitats monitored by the Alberta Biodiversity Monitoring Institute.
 
+show_sector: true
+include_pager: true
+
 baseurl: http://sc-dev.abmi.ca/development
 #baseurl: http://species.abmi.ca
 #contents: http://species.abmi.ca/contents
@@ -50,4 +53,3 @@ taxa:
     url: /pages/species/lichens.html
     label: lichens
 
-show_sector: true
