@@ -5,8 +5,8 @@ description: Information on species and habitats monitored by the Alberta Biodiv
 show_sector: true
 include_pager: true
 # Bootswatch theme
-bw_theme: cosmo
-bw_bg_col: warning
+bw_theme: lumen
+bw_bg_col: default
 
 baseurl: http://sc-dev.abmi.ca/development
 #baseurl: http://species.abmi.ca
