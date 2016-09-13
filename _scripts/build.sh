@@ -12,10 +12,10 @@ rm -r -f ~/repos/abmispecies/pages/testspecies/birds
 ## status update
 cd ~/repos/abmispecies
 echo 'Updating git repo'
-git pull
 #git checkout --track -b origin/v2015
 #git checkout v2015
-git checkout master
+git checkout v2016
+git pull
 
 ## run R script
 echo 'Running R script'
