@@ -16,6 +16,17 @@ layout: plain
     </div>
 </div>
 
+<div class="alert alert-dismissible alert-info">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <h4>What's new in this version?</h4>
+  <p>
+    Species models were updated including more data.
+    Model summaries for habitat elements are added.
+    Listed species highlighted.
+    Improved documentation.
+  </p>
+</div>
+
 <div class="section-tout">
     <div class="container">
         <div class="row">
