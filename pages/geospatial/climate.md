@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bioclimatic variables
+title: Bioclimatic Variables
 description: "Bioclimatic variables."
 data:
 - long: 'Annual heat-moisture index'
@@ -25,7 +25,12 @@ data:
   </div>
 </div>
 
-The bioclimatic variables were calculated at a 4-km resolution using monthly climate normals of temperature and precipitation averaged over 1961-1990. The monthly climate normals are based on instrument-measured climate data that were interpolated by PRISM (Daly et al., 2002) and WorldClim (Hijmans et al., 2005). The western North American portion of these data are described by Wang et al. (2011). Diana Stralberg (University of Alberta) interpolated climate data.
+Habitat use for many species is directly affected by the climate. Thus climate information was used by ABMI when modeling variation in species abundance throughout Alberta.
+
+Dr. Diana Stralberg (University of Alberta) interpolated existing bioclimate data for Alberta. The bioclimatic variables were calculated at a 4-km resolution using monthly climate normals of temperature and precipitation averaged over 1961-1990. The monthly climate normals are based on instrument-measured climate data that were interpolated by PRISM (Daly et al., 2002) and WorldClim (Hijmans et al., 2005). The western North American portion of these data are described by Wang et al. (2011).
+The [GIS climate layers]({{ site.ftproot }}/geospatial/climate/climate_grid.zip) can be downloaded.
+
+A variety of climate layers are used by ABMI:
 
 {% for item in page.data %}
 

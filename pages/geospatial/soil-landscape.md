@@ -4,10 +4,10 @@ title: 'Soil Landscapes of Canada'
 description: "Soil: Soil Landscapes of Canada."
 ---
 
-Soil Landscapes of Canada version 3.2 was developed by Agriculture and Agri-Food 
-Canada to provide information about the country's agricultural soils at the 
-provincial and national levels. This GIS layer was created at a scale of 
-1:1,000,000 and can be accessed [here](http://sis.agr.gc.ca/cansis/nsdb/slc/v3.2/index.html). 
+Soil Landscapes of Canada version 3.2 was developed by Agriculture and Agri-Food
+Canada to provide information about the country's agricultural soils at the
+provincial and national levels ([http://sis.agr.gc.ca/cansis/nsdb/slc/v3.2/index.html](http://sis.agr.gc.ca/cansis/nsdb/slc/v3.2/index.html)). This GIS layer was created at a scale of 
+1:1,000,000.
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">

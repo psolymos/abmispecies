@@ -17,6 +17,11 @@ data:
   long: 'Vector ruggedness measure'
 ---
 
+Habitat use for many species is directly affected by topography. Thus topographic information was used by ABMI when modeling variation in species abundance throughout Alberta.
+
+[Dr. Scott Nielsen (University of Alberta)](http://www.ace-lab.org/)
+created the raster layers based on various sources.
+
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
   <p><img src="{{ site.contents }}/geospatial/topography/GeneralTopo.png" class="img-responsive" alt="General topography in Alberta"/></p>
@@ -24,6 +29,8 @@ data:
 </div>
 
 ## Distribution of topographic variables
+
+A variety of topographic layers are used by ABMI:
 
 {% for item in page.data %}
 
@@ -49,4 +56,3 @@ data:
 </div>
 
 {% endfor %}
-
