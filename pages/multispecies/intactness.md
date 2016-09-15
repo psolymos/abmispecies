@@ -19,8 +19,9 @@ data:
 
 ## Overall biodiversity intactness
 
+Species intactness index compares the predicted relative abundance of each species across the reporting region to the predicted abundance for that species under zero human footprint in the same region. This measure of intactness is scaled between 0 and 100, with 100 representing current abundance equal to that expected under reference conditions, and 0 representing species abundance as far from reference condition as possible. See more detailed description of the analyses and limitations in the methods section and in the intactness manual.
 Overall biodiversity intactness is the average of the intactness for each of the included taxa
-(birds, mammals, mites, native vascular plants, bryophytes, lichens). 
+(birds, mammals, mites, native vascular plants, bryophytes, lichens).
 Each taxon is weighted equally, regardless of how many species it contains.
 
 <div class="row">
@@ -45,15 +46,6 @@ Each taxon is weighted equally, regardless of how many species it contains.
 
 ## Intactness for groups of species
 
-Intactness for groups of species within a taxon is the average intactness of species in the group. 
-The species intactness index compares the predicted relative abundance of each species across
-the reporting region to the predicted abundance for that species under zero human footprint in the
-same region. This measure of intactness is scaled between 0 and 100, with 100 representing
-current abundance equal to that expected under reference conditions, and 0 representing species
-abundance as far from reference condition as possible. See more detailed description of
-the analyses and limitations in the [methods section]({{ site.baseurl }}/methods.html) 
-and in the [intactness manual]({{ site.contents }}/multispecies/intactness/47_ABMI_2014-09-25_SpeciesModelingAndIntactnessManual_ABMI.pdf).
-
 {% for item in page.data %}
 
 <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button></p>
@@ -67,6 +59,7 @@ and in the [intactness manual]({{ site.contents }}/multispecies/intactness/47_AB
       </div>
       <div class="modal-body">
         <img src="{{ site.contents }}/multispecies/intactness/intactness-{{ item.short }}.png" class="img-responsive" alt="Intactness map: {{ item.long }}"/>
+        <p>Intactness for groups of species within a taxon is the average intactness of all the species in the group. The species intactness index compares the predicted relative abundance of each species across the reporting region to the predicted abundance for that species under zero human footprint in the same region. This measure of intactness is scaled between 0 and 100, with 100 representing current abundance equal to that expected under reference conditions, and 0 representing species abundance as far from reference condition as possible. See more detailed description of the analyses and limitations in the [methods section]({{ site.baseurl }}/methods.html)  and in the [intactness manual]({{ site.contents }}/multispecies/intactness/47_ABMI_2014-09-25_SpeciesModelingAndIntactnessManual_ABMI.pdf).</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -77,4 +70,3 @@ and in the [intactness manual]({{ site.contents }}/multispecies/intactness/47_AB
 </div>
 
 {% endfor %}
-

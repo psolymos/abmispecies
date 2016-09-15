@@ -103,15 +103,15 @@
 </div>
 {% endif %}
 
-{% if page.toclabels.soilhf-nontreed-south %}
+{% if page.toclabels.soilhf-treed-south %}
           <div class="row">
-            <h2 id="soilhf-nontreed-south">Habitat associations in southern Alberta</h2>
-            <h3>Non-treed sites</h3>
+            <h2 id="soilhf-treed-south">Habitat associations in southern Alberta</h2>
+            <h3>Treed sites</h3>
             <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/soilhf-nontreed-south/{{ page.spplabel}}.png" class="img-responsive" alt="Soils, non-treed, South">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/soilhf-treed-south/{{ page.spplabel}}.png" class="img-responsive" alt="Soils, treed, South">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
-              <p>Models were used to show how {{ sppword }}' relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods.html">methods</a>). Models were only created for {{ sppword }} that had at least {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} detections using data from ABMI{% if page.taxon == "birds" %}, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab (see <a href="{{ site.baseurl }}/collaborations.html">collaborations</a>){% endif %}. Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be present on each soil type; the presence/absence of trees greatly affects the presence and abundance of many other biota. Predicted {{ sppword }} abundance in each soil/human footprint type is shown with bars. Vertical lines indicate 90% confidence intervals.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+              <p>Models were used to show how {{ sppword }}, relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods.html">methods</a>). Models were only created for {{ sppword }} that had at least {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} detections using data from ABMI{% if page.taxon == "birds" %}, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab (see <a href="{{ site.baseurl }}/collaborations.html">collaborations</a>){% endif %}. Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be present on each soil type; the presence/absence of trees greatly affects the presence and abundance of many biota. As such, information is presented twice for southern Alberta: once for sites with trees present, and onec for sites without trees present. Predicted {{ sppword }} abundance in each soil/human footprint type is shown with bars. Vertical lines indicate 90% confidence intervals.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -124,15 +124,15 @@
           </div>
           {% endif %}
 
-{% if page.toclabels.soilhf-treed-south %}
+{% if page.toclabels.soilhf-nontreed-south %}
           <div class="row">
-            <h2 id="soilhf-treed-south">Habitat associations in southern Alberta</h2>
-            <h3>Treed sites</h3>
+<!--            <h2 id="soilhf-nontreed-south">Habitat associations in southern Alberta</h2> -->
+            <h3>Non-treed sites</h3>
             <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/species/{{ page.taxon }}/soilhf-treed-south/{{ page.spplabel}}.png" class="img-responsive" alt="Soils, treed, South">
+              <img src="{{ site.contents }}/species/{{ page.taxon }}/soilhf-nontreed-south/{{ page.spplabel}}.png" class="img-responsive" alt="Soils, non-treed, South">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
-              <p>Models were used to show how {{ sppword }}, relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods.html">methods</a>). Models were only created for {{ sppword }} that had at least {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} detections using data from ABMI{% if page.taxon == "birds" %}, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab (see <a href="{{ site.baseurl }}/collaborations.html">collaborations</a>){% endif %}. Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be present on each soil type; the presence/absence of trees greatly affects the presence and abundance of many other biota. Predicted {{ sppword }} abundance in each soil/human footprint type is shown with bars. Vertical lines indicate 90% confidence intervals.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+              <p>Models were used to show how {{ sppword }}' relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods.html">methods</a>). Models were only created for {{ sppword }} that had at least {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} detections using data from ABMI{% if page.taxon == "birds" %}, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab (see <a href="{{ site.baseurl }}/collaborations.html">collaborations</a>){% endif %}. Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be present on each soil type; the presence/absence of trees greatly affects the presence and abundance of many biota. As such, information is presented twice for southern Alberta: once for sites with trees present, and onec for sites without trees present. Predicted {{ sppword }} abundance in each soil/human footprint type is shown with bars. Vertical lines indicate 90% confidence intervals.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -152,7 +152,7 @@
             <img src="{{ site.contents }}/species/{{ page.taxon }}/linear-north/{{ page.spplabel}}.png" class="img-responsive" alt="Linear footprint relationship, North">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
-          <p>For linear footprint in northern Alberta, the pairs of points show the change expected from the average habitat with no linear footprint (left point) when 10% linear footprint is added (right point). {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+          <p>For linear footprint in northern Alberta. The pairs of points show the change in relative abundance expected between the average habitat with no linear footprint (left point) and average habitat when 10% linear footprint is present (right point). {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -172,7 +172,7 @@
             <img src="{{ site.contents }}/species/{{ page.taxon }}/linear-south/{{ page.spplabel}}.png" class="img-responsive" alt="Linear footprint relationship, South">
           </div>
           <div class="col-5 col-sm-5 col-lg-5">
-          <p>For linear footprint in southern Alberta, the pairs of points show the change expected from the average (non-treed sites) habitat with no linear footprint (left point) when 10% linear footprint is added (right point). {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+          <p>For linear footprint in southern Alberta. The pairs of points show the change in relative abundance expected between the average habitat with no linear footprint (left point) and average habitat when 10% linear footprint is present (right point). {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -193,7 +193,7 @@
               <img src="{{ site.contents }}/species/{{ page.taxon }}/sector-north/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
-              <p>The effect of a sector on a {{ sppword }} is the product of the area of the sector's footprint (width of the bars), and the average "per unit area" effect of that sector's footprint on the {{ sppword }} (height of the bars). The area of footprint for a sector is the sum of the footprint belonging to it. The average effect is the difference between the predicted current and reference abundances in that sector's footprint type based on the {{ sppword }}' model. The sector effect is higher when: 1) The sector's footprint occupies more area, 2) The {{ sppword }} is strongly affected by that sector's footprint, and 3) The footprint is created in high quality habitat for the {{ sppword }}. Note that soft linear footprint types are classified based on the sector to which they belong (Energy: seismic lines, pipelines, power lines; Transportation: road verges). The sector effects are based on empirical models for the {{ sppword }}, and so have uncertainty, especially for less common {{ sppword }}.  Sector effects only include direct effects of footprint, not indirect effects (e.g., pollution, noise, access effects) or possible cumulative effects where two or more sectors interact. Where two or more footprint types are overlaid, the calculation only includes the footprint type that is "on top" (e.g., a wellsite in a cultivated field, or a road in a forestry harvest area).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+              <p>The effect of each type of human development (herein called a sector) on a {{ sppword }} relative abundance is the product of the area of the sector's footprint (width of the bars), and the average "per unit area" effect of that sector's footprint on the {{ sppword }} relative abundance (height of the bars). The area of footprint for a sector is the sum of the footprint belonging to it. The average effect is the difference between the predicted current and reference abundances in that sector's footprint type based on the {{ sppword }}' model. The sector effect is higher when: 1) The sector's footprint occupies more area, 2) The {{ sppword }} is strongly affected by that sector's footprint, and 3) The footprint is created in high quality habitat for the {{ sppword }}. Note that soft linear footprint types are classified based on the sector to which they belong (Energy: seismic lines, pipelines, power lines; Transportation: road verges). The sector effects are based on empirical models for the {{ sppword }}, and have uncertainty, especially for less common {{ sppword }}.  Sector effects only include direct effects of footprint, not indirect effects (e.g., pollution, noise, access effects) or possible cumulative effects where two or more sectors interact. Where two or more footprint types are overlaid, the calculation only includes the footprint type that is "on top" (e.g., a wellsite in a cultivated field, or a road in a forestry harvest area).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -215,7 +215,7 @@
               <img src="{{ site.contents }}/species/{{ page.taxon }}/sector-south/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
-              <p>The effect of a sector on a {{ sppword }} is the product of the area of the sector's footprint (width of the bars), and the average "per unit area" effect of that sector's footprint on the {{ sppword }} (height of the bars). The area of footprint for a sector is the sum of the footprint belonging to it. The average effect is the difference between the predicted current and reference abundances in that sector's footprint type based on the {{ sppword }}' model. The sector effect is higher when: 1) The sector's footprint occupies more area, 2) The {{ sppword }} is strongly affected by that sector's footprint, and 3) The footprint is created in high quality habitat for the {{ sppword }}. Note that soft linear footprint types are classified based on the sector to which they belong (Energy: seismic lines, pipelines, power lines; Transportation: road verges). The sector effects are based on empirical models for the {{ sppword }}, and so have uncertainty, especially for less common {{ sppword }}.  Sector effects only include direct effects of footprint, not indirect effects (e.g., pollution, noise, access effects) or possible cumulative effects where two or more sectors interact. Where two or more footprint types are overlaid, the calculation only includes the footprint type that is "on top" (e.g., a wellsite in a cultivated field, or a road in a forestry harvest area).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+              <p>The effect of each type of human development (herein called a sector) on a {{ sppword }} relative abundance is the product of the area of the sector's footprint (width of the bars), and the average "per unit area" effect of that sector's footprint on the {{ sppword }} relative abundance (height of the bars). The average effect is the difference between the predicted current and reference abundances in that sector's footprint type based on the {{ sppword }}' model. The sector effect is higher when: 1) The sector's footprint occupies more area, 2) The {{ sppword }} is strongly affected by that sector's footprint, and 3) The footprint is created in high quality habitat for the {{ sppword }}. Note that soft linear footprint types are classified based on the sector to which they belong (Energy: seismic lines, pipelines, power lines; Transportation: road verges). The sector effects are based on empirical models for the {{ sppword }}, and have uncertainty, especially for less common {{ sppword }}.  Sector effects only include direct effects of footprint, not indirect effects (e.g., pollution, noise, access effects) or possible cumulative effects where two or more sectors interact. Where two or more footprint types are overlaid, the calculation only includes the footprint type that is "on top" (e.g., a wellsite in a cultivated field, or a road in a forestry harvest area).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -236,7 +236,7 @@
               <img src="{{ site.contents }}/species/{{ page.taxon }}/map-rf/{{ page.spplabel}}.png" class="img-responsive" alt="Map, reference">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
-              <p>Habitat association models, plus models describing how {{ sppword }} varied spatially and with climate gradients were used to predict {{ sppword }} abundance in 1 km<sup>2</sup> spatial units under reference conditions (see <a href="{{ site.baseurl }}/methods.html">methods</a>). Predictions of relative abundance of {{ sppword }} in each 1 km<sup>2</sup> unit were made after all human footprint in the 1 km<sup>2</sup> unit had been 'backfilled' based on native vegetation in the surrounding area. Pixels depicted in red were predicted to have the highest abundance for the {{ sppword }}, grading through light tan to dark blue where the {{ sppword }} was predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+              <p>Habitat association models, plus models describing how {{ sppword }} varied spatially and with climate gradients were used to predict {{ sppword }} abundance in 1 km<sup>2</sup> spatial units under reference conditions (see <a href="{{ site.baseurl }}/methods.html">methods</a>). Predictions of relative abundance of the {{ sppword }} in each 1 km<sup>2</sup> unit were made after all human footprint in the 1 km<sup>2</sup> unit had been 'backfilled' based on native vegetation in the surrounding area. Pixels depicted in red are predicted to have the highest abundance for the {{ sppword }}, grading through light tan to dark blue where the {{ sppword }} is predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -258,7 +258,7 @@
               <img src="{{ site.contents }}/species/{{ page.taxon }}/map-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
-              <p>Habitat association models, plus models describing how {{ sppword }} varied spatially and with climate gradients were used to predict {{ sppword }} abundance in 1 km<sup>2</sup> spatial units under current conditions. Predictions of relative {{ sppword }} abundance in each 1 km<sup>2</sup> unit were made based on the vegetation and human footprint present in the 1 km<sup>2</sup> unit in 2012. Pixels depicted in red were predicted to have the highest abundance for the {{ sppword }}, grading through light tan to dark blue where the {{ sppword }} was predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map (see <a href="{{ site.baseurl }}{{ page.url }}#map-sd-cr">uncertainty map</a> below).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+              <p>Habitat association models, plus models describing how {{ sppword }} varied spatially and with climate gradients were used to predict {{ sppword }} abundance in 1 km<sup>2</sup> spatial units under current conditions. Predictions of relative abundance of the {{ sppword }} in each 1 km<sup>2</sup> unit were made based on the vegetation and human footprint present in the 1 km<sup>2</sup> unit in 2012. Pixels depicted in red are predicted to have the highest abundance for the {{ sppword }}, grading through light tan to dark blue where the {{ sppword }} is predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map (see <a href="{{ site.baseurl }}{{ page.url }}#map-sd-cr">uncertainty map</a> below).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -279,7 +279,7 @@
               <img src="{{ site.contents }}/species/{{ page.taxon }}/map-df/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
-              <p>For each 1 km<sup>2</sup> unit the difference between predicted current and reference conditions was determined. In 1 km<sup>2</sup> units depicted in green the {{ sppword }} was predicted to have higher abundance under present conditions than under reference conditions, with the opposite true for 1 km<sup>2</sup> units depicted in red. The intensity of green and red depict the relative magnitude of increase or decrease for the {{ sppword }} between reference and current conditions. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+              <p>For each 1 km<sup>2</sup> unit the difference between predicted current and reference conditions was determined. In 1 km<sup>2</sup> units depicted in green the {{ sppword }} was predicted to have higher abundance under present conditions than under reference conditions, with the opposite true for 1 km<sup>2</sup> units depicted in pink. The intensity of green and pink depict the relative magnitude of increase or decrease for the {{ sppword }} between reference and current conditions. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -300,7 +300,7 @@
               <img src="{{ site.contents }}/species/{{ page.taxon }}/map-sd-cr/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
-              <p>To highlight the degree of uncertainty in the models, we estimated the coefficient of variation for each township based on bootstrap predictions of current abundance. 10 km x 10 km units depicted in red have the highest coefficient of variation, while 10 km x 10 km units in dark green have the lowest.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
+              <p>To highlight the degree of uncertainty in the models, we estimated the prediction standard error for each township based on bootstrap predictions of current abundance. 10 km x 10 km units depicted in red have the higheststandard error, while 10 km x 10 km units in dark green have the lowest.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
 
 <span class="pull-right">
 <div class="btn-group">
@@ -319,23 +319,27 @@
 <p>Reference and difference maps are not provided for non-native vascular plant {{ sppword }}.</p>
 {% endif %}
 
-{% if page.taxon == "mammals" %}
 <h2 id="data-sources">Data sources</h2>
-<p>Information from ABMI winter track counts were combined with information from other individuals:</p>
+{% if page.taxon == "mammals" %}
+<p>Winter track count information was used from a variety of sources to conduct the modeling described in this website:</p>
 <ul>
+<li>Alberta Biodiversity Monitoring Institute (ABMI)</li>
 <li>Dr. Erin Bayne (University of Alberta)</li>
 <li>Dr. Stan Boutin (University of Alberta)</li>
 </ul>
-{% endif %}
-
-{% if page.taxon == "birds" %}
-<h2 id="data-sources">Data sources</h2>
-<p>Information from ABMI bird point counts was combined with information from other organizations and individuals:</p>
-<ul>
-<li>Environment Canada (<a href="https://ec.gc.ca/reom-mbs/">North American Breeding Bird Survey</a> and <a href="http://www.jointoilsandsmonitoring.ca">Joint Oil Sands Monitoring programs</a>)</li>
-<li>Ecological Monitoring Committee for the Lower Athabasca (<a href="http://www.emcla.ca/">EMCLA</a>)</li>
-<li>Dr. Erin Bayne (University of Alberta)</li>
-</ul>
+{% ese %}
+  {% if page.taxon == "birds" %}
+  <h2 id="data-sources">Data sources</h2>
+  <p>Bird point count information was used from a variety of sources to conduct the modeling described in this website: </p>
+  <ul>
+  <li>Alberta Biodiversity Monitoring Institute (ABMI)</li>
+  <li>Environment Canada (<a href="https://ec.gc.ca/reom-mbs/">North American Breeding Bird Survey</a> and <a href="http://www.jointoilsandsmonitoring.ca">Joint Oil Sands Monitoring programs</a>)</li>
+  <li>Ecological Monitoring Committee for the Lower Athabasca (<a href="http://www.emcla.ca/">EMCLA</a>)</li>
+  <li>Dr. Erin Bayne (University of Alberta)</li>
+  </ul>
+  {% else %}
+  <p>Information from Alberta Biodiversity Monitoring Institute (ABMI) plots was used to conduct the modeling described in this website.</p>
+  {% endif %}
 {% endif %}
 
             <h2 id="citation">Recommended citation</h2>

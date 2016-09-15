@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Habitats"
+title: "Landscape conditions"
 ---
 
 The following results on habitats are available:
