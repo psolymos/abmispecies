@@ -59,7 +59,7 @@ Each taxon is weighted equally, regardless of how many species it contains.
       </div>
       <div class="modal-body">
         <img src="{{ site.contents }}/multispecies/intactness/intactness-{{ item.short }}.png" class="img-responsive" alt="Intactness map: {{ item.long }}"/>
-        <p>Intactness for groups of species within a taxon is the average intactness of all the species in the group. The species intactness index compares the predicted relative abundance of each species across the reporting region to the predicted abundance for that species under zero human footprint in the same region. This measure of intactness is scaled between 0 and 100, with 100 representing current abundance equal to that expected under reference conditions, and 0 representing species abundance as far from reference condition as possible. See more detailed description of the analyses and limitations in the [methods section]({{ site.baseurl }}/methods.html)  and in the [intactness manual]({{ site.contents }}/multispecies/intactness/47_ABMI_2014-09-25_SpeciesModelingAndIntactnessManual_ABMI.pdf).</p>
+        <p>Intactness for groups of species within a taxon is the average intactness of all the species in the group. The species intactness index compares the predicted relative abundance of each species across the reporting region to the predicted abundance for that species under zero human footprint in the same region. This measure of intactness is scaled between 0 and 100, with 100 representing current abundance equal to that expected under reference conditions, and 0 representing species abundance as far from reference condition as possible.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -70,3 +70,5 @@ Each taxon is weighted equally, regardless of how many species it contains.
 </div>
 
 {% endfor %}
+
+See more detailed description of the analyses and limitations in the [methods section]({{ site.baseurl }}/methods.html)  and in the [intactness manual]({{ site.contents }}/multispecies/intactness/47_ABMI_2014-09-25_SpeciesModelingAndIntactnessManual_ABMI.pdf).
