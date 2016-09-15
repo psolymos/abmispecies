@@ -4,7 +4,7 @@ title: Vegetation
 description: "Vegetation: spatial distribution."
 ---
 
-The ABMI Wall-to-Wall Land Cover Map is a comprehensive representation of the types and extent of land cover in Alberta. The map is a seamless full-coverage baseline land cover map that offers provincial scale information.
+The ABMI has created and/or compiled a variety of vegetation GIS layers for Alberta. 
 
 <div class="row">
 <div class="col-5 col-sm-5 col-lg-5">

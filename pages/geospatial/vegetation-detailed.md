@@ -25,7 +25,7 @@ data:
   long: 'Grass'
 ---
 
-The ABMI Wall-to-Wall Land Cover Map is a comprehensive representation of the types and extent of land cover in Alberta. The map is a seamless full-coverage baseline land cover map that offers provincial scale information.
+The ABMI Detailed Wall-to-Wall Land Cover Map is a comprehensive representation of the types and extent of land cover in Alberta. The map is a seamless full-coverage  map that offers detailed upland and lowland vegetation types throughout Alberta. Due to data-sharing agreements, we cannot share this GIS layer outside of the ABMI.
 
 <div class="row">
 
@@ -42,9 +42,7 @@ The ABMI Wall-to-Wall Land Cover Map is a comprehensive representation of the ty
 
 ## Distribution of land cover types used in modeling
 
-The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cells.
-
-This information was created using information obtained under data-sharing agreements and ABMI does not have permission to share the resulting GIS layer.
+The following maps show percent cover of each land cover type within 1 km<sup>2</sup> grid cells throughout Alberta. Due to data-sharing agreements, we cannot share this GIS layer outside of the ABMI.
 
 {% for item in page.data %}
 
