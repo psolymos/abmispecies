@@ -183,6 +183,7 @@
           </div>
           {% endif %}
 
+          {% unless page.taxon == "habitatelements" %}
           {% if site.show_sector and page.toclabels.sector-north and page.status == "native" %}
           <div class="row">
             <h2 id="sector-north">Sector effects in northern Alberta</h2>
@@ -202,7 +203,9 @@
             </div>
           </div>
           {% endif %}
+          {% endunless %}
 
+          {% unless page.taxon == "habitatelements" %}
           {% if site.show_sector and page.toclabels.sector-south and page.status == "native" %}
           <div class="row">
             <h2 id="sector-south">Sector effects in southern Alberta</h2>
@@ -222,6 +225,7 @@
             </div>
           </div>
           {% endif %}
+          {% endunless %}
 
           {% if page.toclabels.map-rf and page.status == "native" %}
           <div class="row">
@@ -287,7 +291,7 @@
           </div>
           {% endif %}
 
-          {% if page.toclabels.map-sd-cr %}
+          {% unless page.taxon == "habitatelements" %}{% if page.toclabels.map-sd-cr %}
           <div class="row">
             <h2 id="map-sd-cr">Uncertainty in predicted current conditions</h2>
             <div class="col-5 col-sm-5 col-lg-5">
@@ -307,7 +311,7 @@
 
             </div>
           </div>
-          {% endif %}
+          {% endif %}{% endunless %}
 
 {% if page.status == "nonnative" %}
 <p>Reference and difference maps are not provided for non-native vascular plant species.</p>
