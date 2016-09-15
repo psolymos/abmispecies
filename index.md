@@ -48,8 +48,9 @@ environmental variation. We provide information on
 
 <div class="col-lg-6 col-sm-6">
 <h3><a href="{{ site.baseurl }}/pages/habitat.html"><i class="fa fa-tree"></i> Habitats</a></h3>
-<p>We provide information on
-native vegetation <a href="{{ site.baseurl }}/pages/habitat/edges.html">edge</a>, 
+<p>We model abundance and distribution of <a href="{{ site.baseurl }}/pages/habitat/habitatelements.html">habitat elements</a> based field sampling.
+We provide information on
+native vegetation <a href="{{ site.baseurl }}/pages/habitat/edges.html">edge</a>,
 <a href="{{ site.baseurl }}/pages/habitat/mesh-size.html">mesh size</a>, and
 <a href="{{ site.baseurl }}/pages/habitat/footprint-change.html">human footprint change</a>
 in Alberta.</p>

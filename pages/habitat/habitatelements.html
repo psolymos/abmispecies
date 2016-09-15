@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Habitat elements"
+taxon: habitatelements
+---
+
+  <div class="col-md-8">
+  <h2>By Common Name</h2>
+    {% for idx in site.data.habitatelements_com %}
+      <h3 id="com-{{ idx.letter }}">{{ idx.letter }}</h3>
+      <p class="bg-{{ site.bw_bg_col }}"><small>{% for lett in site.data.birds_com %}{% if lett.letter == idx.letter %}{{ lett.letter }}{% else %}<a href="{{ site.baseurl }}{{ page.url }}#com-{{ lett.letter }}">{{ lett.letter }}</a>{% endif %}{% endfor %}</small></p>
+      {% for spp in idx.species %}
+      <p><a href="{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ spp.label }}.html">
+      {{ spp.comnam }}</a></p>
+      {% endfor %}
+    {% endfor %}
+  </div>

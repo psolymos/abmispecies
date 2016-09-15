@@ -1,4 +1,4 @@
-TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants")
+TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants","habitatelements")
 #TAXON <- c("mites", "mosses", "lichens","mammals","birds")
 #TAXON <- c("mites", "mosses", "lichens","mammals", "vplants")
 
@@ -121,6 +121,8 @@ for (taxon in TAXON) {
     spptab$FULL <- lt$map.pred
     spptab$NN <- if ("nonnative" %in% colnames(lt))
         lt$nonnative else FALSE
+    if (taxon == "habitatelements")
+        spptab$scinam <- spptab$comnam
 
     if (!dir.exists(file.path(OUT, taxon)))
         dir.create(file.path(OUT, taxon))
@@ -135,6 +137,8 @@ for (taxon in TAXON) {
 
         FORMAT <- if (spptab[spp, "comnam"] == "")
             "scinam" else "comnam (scinam)"
+        if (taxon == "habitatelements")
+            FORMAT <- "comnam"
         yaml <- yaml_directives(spp, FORMAT, Prev=Prev, Next=Next)
         writeLines(yaml, file.path(OUT, taxon, paste0(spp, ".html")))
     }
@@ -143,6 +147,8 @@ for (taxon in TAXON) {
     spptab0 <- spptab
     lead_vars <- if (taxon %in% c("mammals","birds","vplants"))
         c("comnam", "scinam") else "scinam"
+    if (taxon == "habitatelements")
+        lead_vars <- "comnam"
     for (lead_var in lead_vars) {
 
         spptab <- spptab0
@@ -172,6 +178,7 @@ for (taxon in TAXON) {
 }
 
 ## updating summary file
+TAXON <- TAXON[TAXON != "habitatelements"]
 tabs <- list()
 cols <- c("map.det", "useavail.north", "useavail.south",
     "map.pred", "veghf.north", "soilhf.south")
