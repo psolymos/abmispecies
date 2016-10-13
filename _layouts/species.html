@@ -13,6 +13,13 @@
 
           <h1>{{ page.title }}{% unless page.taxon == "habitatelements" %} &mdash; {{ page.taxonname }}{% if page.taxon == "mammals" %}, winter tracking{% endif %}{% endunless %}</h1>
 
+{% if page.comments %}
+<div class="alert alert-dismissible alert-warning">
+<button type="button" class="close" data-dismiss="alert">&times;</button>
+<p>{{ page.comments }}</p>
+</div>
+{% endif %}
+
     {% if site.include_pager %}
             <ul class="pager">
               {% if page.previous %}
