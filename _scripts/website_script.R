@@ -118,8 +118,8 @@ for (taxon in TAXON) {
     for (i in 1:ncol(M))
         M[lt[[graph_labels[i,"check"]]],i] <- 1L
 
-    spptab <- lt[,c("sppid","scinam","species")]
-    colnames(spptab) <- c("sppid","scinam","comnam")
+    spptab <- lt[,c("sppid","scinam","species","comments")]
+    colnames(spptab) <- c("sppid","scinam","comnam","comments")
     spptab$FULL <- lt$map.pred
     spptab$NN <- if ("nonnative" %in% colnames(lt))
         lt$nonnative else FALSE
