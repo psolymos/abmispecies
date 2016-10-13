@@ -66,6 +66,8 @@ function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species", Pr
         scinam <- as.character(spptab[spplabel, "scinam"])
         comnam <- as.character(spptab[spplabel, "comnam"])
         comments <- as.character(spptab[spplabel, "comments"])
+        if (comments != "")
+            comments <- paste0("\"", comments, "\"")
         nnstatus <- ifelse(spptab[spplabel, "NN"], "nonnative", "native")
         title <- title_format
         title <- sub("scinam", scinam, title)
@@ -93,7 +95,7 @@ function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species", Pr
             paste0("status: ", nnstatus),
             paste0("previous: ", ifelse(is.na(Prev), "", Prev)),
             paste0("next: ", ifelse(is.na(Next), "", Next)),
-            paste0("comments: \"", comments, "\""),
+            paste0("comments: ", comments),
             "toclabels:",
             switches,
             "---")
