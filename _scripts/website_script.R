@@ -66,6 +66,8 @@ function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species", Pr
         scinam <- as.character(spptab[spplabel, "scinam"])
         comnam <- as.character(spptab[spplabel, "comnam"])
         comments <- as.character(spptab[spplabel, "comments"])
+        if (is.na(comments))
+            comments <- ""
         if (comments != "")
             comments <- paste0("\"", comments, "\"")
         nnstatus <- ifelse(spptab[spplabel, "NN"], "nonnative", "native")

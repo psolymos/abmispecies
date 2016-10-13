@@ -8,7 +8,7 @@ RedtailedHawk,Red-tailed Hawk,Buteo jamaicensis,99003414,RTHA,Accipitridae,2126,
 SharpshinnedHawk,Sharp-shinned Hawk,Accipiter striatus,99003406,SSHA,Accipitridae,61,FALSE,FALSE,51,34,61,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,1,FALSE,Raptor species with large home ranges are inadequately sampled by point counts and ARUs.
 SwainsonsHawk,Swainson's Hawk,Buteo swainsoni,99003411,SWHA,Accipitridae,1110,FALSE,FALSE,313,1861,1110,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Raptor species with large home ranges are inadequately sampled by point counts and ARUs.
 HornedLark,Horned Lark,Eremophila alpestris,554256,HOLA,Alaudidae,3988,FALSE,TRUE,516,11905,3988,,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,0,TRUE,
-BeltedKingfisher,Belted Kingfisher,Megaceryle alcyon,178106,BEKI,Alcedinidae,91,FALSE,FALSE,92,0,91,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,
+BeltedKingfisher,Belted Kingfisher,Megaceryle alcyon,178106,BEKI,Alcedinidae,91,FALSE,FALSE,92,0,91,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 AmericanWigeon,American Wigeon,Anas americana,175094,AMWI,Anatidae,1016,FALSE,FALSE,612,1121,1016,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Waterfowl species are inadequately sampled by terrestrial point counts and ARUs.
 BarrowsGoldeneye,Barrow's Goldeneye,Bucephala islandica,175144,BAGO,Anatidae,27,FALSE,FALSE,0,0,27,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,FALSE,Waterfowl species are inadequately sampled by terrestrial point counts and ARUs.
 Bufflehead,Bufflehead,Bucephala albeola,175145,BUFF,Anatidae,280,FALSE,FALSE,399,344,280,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Waterfowl species are inadequately sampled by terrestrial point counts and ARUs.
@@ -37,21 +37,21 @@ WoodDuck,Wood Duck,Aix sponsa,175122,WODU,Anatidae,4,FALSE,FALSE,0,0,4,,TRUE,FAL
 AmericanBittern,American Bittern,Botaurus lentiginosus,99003057,AMBI,Ardeidae,298,FALSE,FALSE,295,198,298,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Waterfowl species are inadequately sampled by terrestrial point counts and ARUs.
 BlackcrownedNightHeron,Black-crowned Night-Heron,Nycticorax nycticorax,99003082,BCNH,Ardeidae,33,FALSE,FALSE,0,33,33,,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,0,FALSE,Waterfowl species are inadequately sampled by terrestrial point counts and ARUs.
 GreatBlueHeron,Great Blue Heron,Ardea herodias,99003080,GBHE,Ardeidae,271,FALSE,FALSE,226,260,271,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Waterfowl species are inadequately sampled by terrestrial point counts and ARUs.
-BohemianWaxwing,Bohemian Waxwing,Bombycilla garrulus,178529,BOWA,Bombycillidae,28,FALSE,FALSE,28,0,28,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,
+BohemianWaxwing,Bohemian Waxwing,Bombycilla garrulus,178529,BOWA,Bombycillidae,28,FALSE,FALSE,28,0,28,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 CedarWaxwing,Cedar Waxwing,Bombycilla cedrorum,178532,CEDW,Bombycillidae,2084,TRUE,TRUE,2404,1289,2084,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 ChestnutcollaredLongspur,Chestnut-collared Longspur,Calcarius ornatus,99002582,CCLO,Calcariidae,1098,FALSE,TRUE,0,2748,1098,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 McCownsLongspur,McCown's Longspur,Rhynchophanes mccownii,99001411,MCLO,Calcariidae,384,FALSE,TRUE,0,653,384,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-SnowBunting,Snow Bunting,Plectrophenax nivalis,99002584,SNBU,Calcariidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+SnowBunting,Snow Bunting,Plectrophenax nivalis,99002584,SNBU,Calcariidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 CommonNighthawk,Common Nighthawk,Chordeiles minor,99002659,CONI,Caprimulgidae,315,FALSE,FALSE,367,193,315,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Nocturnal species are inadequately sampled by point counts and ARUs with traditional timing of early morning.
-BlackheadedGrosbeak,Black-headed Grosbeak,Pheucticus melanocephalus,179140,BHGR,Cardinalidae,21,FALSE,FALSE,0,0,21,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,1,TRUE,
-NorthernCardinal,Northern Cardinal,Cardinalis cardinalis,179124,NOCA,Cardinalidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+BlackheadedGrosbeak,Black-headed Grosbeak,Pheucticus melanocephalus,179140,BHGR,Cardinalidae,21,FALSE,FALSE,0,0,21,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,1,TRUE,Sample size requirement for modeling was not met.
+NorthernCardinal,Northern Cardinal,Cardinalis cardinalis,179124,NOCA,Cardinalidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 RosebreastedGrosbeak,Rose-breasted Grosbeak,Pheucticus ludovicianus,179139,RBGR,Cardinalidae,4248,TRUE,TRUE,6462,1033,4248,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
 WesternTanager,Western Tanager,Piranga ludoviciana,99002586,WETA,Cardinalidae,2511,TRUE,TRUE,3287,163,2511,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
 TurkeyVulture,Turkey Vulture,Cathartes aura,99001438,TUVU,Cathartidae,6,FALSE,FALSE,0,0,6,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,FALSE,Species with large home ranges are inadequately sampled by point counts and ARUs.
 BrownCreeper,Brown Creeper,Certhia americana,99002654,BRCR,Certhiidae,870,TRUE,FALSE,1360,0,870,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1,TRUE,
-AmericanGoldenPlover,American Golden-Plover,Pluvialis dominica,99003102,AMGP,Charadriidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+AmericanGoldenPlover,American Golden-Plover,Pluvialis dominica,99003102,AMGP,Charadriidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 Killdeer,Killdeer,Charadrius vociferus,99003106,KILL,Charadriidae,2764,TRUE,TRUE,1653,3897,2764,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-SemipalmatedPlover,Semipalmated Plover,Charadrius semipalmatus,99003105,SEPL,Charadriidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+SemipalmatedPlover,Semipalmated Plover,Charadrius semipalmatus,99003105,SEPL,Charadriidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 MourningDove,Mourning Dove,Zenaida macroura,99003101,MODO,Columbidae,1315,TRUE,TRUE,532,2066,1315,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 RockPigeon,Rock Pigeon,Columba livia,99003061,ROPI,Columbidae,1140,TRUE,TRUE,1032,2135,1140,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 AmericanCrow,American Crow,Corvus brachyrhynchos,179731,AMCR,Corvidae,7124,TRUE,TRUE,14641,18029,7124,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
@@ -59,8 +59,8 @@ BlackbilledMagpie,Black-billed Magpie,Pica hudsonia,726117,BBMA,Corvidae,4692,TR
 BlueJay,Blue Jay,Cyanocitta cristata,179680,BLJA,Corvidae,756,TRUE,TRUE,856,314,756,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 CommonRaven,Common Raven,Corvus corax,179725,CORA,Corvidae,5578,TRUE,TRUE,7216,2792,5578,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 GrayJay,Gray Jay,Perisoreus canadensis,179667,GRAJ,Corvidae,5997,TRUE,TRUE,7623,175,5997,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-StellersJay,Steller's Jay,Cyanocitta stelleri,179685,STJA,Corvidae,4,FALSE,FALSE,0,0,4,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
-AmericanTreeSparrow,American Tree Sparrow,Spizella arborea,179432,ATSP,Emberizidae,22,FALSE,FALSE,0,0,22,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+StellersJay,Steller's Jay,Cyanocitta stelleri,179685,STJA,Corvidae,4,FALSE,FALSE,0,0,4,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
+AmericanTreeSparrow,American Tree Sparrow,Spizella arborea,179432,ATSP,Emberizidae,22,FALSE,FALSE,0,0,22,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 BairdsSparrow,Baird's Sparrow,Ammodramus bairdii,179339,BAIS,Emberizidae,1292,FALSE,TRUE,42,2187,1292,,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,0,TRUE,
 BrewersSparrow,Brewer's Sparrow,Spizella breweri,179440,BRSP,Emberizidae,130,FALSE,TRUE,0,180,130,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 ClaycoloredSparrow,Clay-colored Sparrow,Spizella pallida,179439,CCSP,Emberizidae,8685,TRUE,TRUE,17906,21430,8685,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
@@ -68,7 +68,7 @@ ChippingSparrow,Chipping Sparrow,Spizella passerina,179435,CHSP,Emberizidae,1090
 DarkeyedJunco,Dark-eyed Junco,Junco hyemalis,179410,DEJU,Emberizidae,4701,TRUE,TRUE,8182,389,4701,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 FoxSparrow,Fox Sparrow,Passerella iliaca,179464,FOSP,Emberizidae,496,TRUE,FALSE,577,30,496,,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,0,TRUE,
 GrasshopperSparrow,Grasshopper Sparrow,Ammodramus savannarum,179333,GRSP,Emberizidae,383,FALSE,TRUE,0,599,383,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-HarrissSparrow,Harris's Sparrow,Zonotrichia querula,179454,HASP,Emberizidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+HarrissSparrow,Harris's Sparrow,Zonotrichia querula,179454,HASP,Emberizidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 LarkBunting,Lark Bunting,Calamospiza melanocorys,179312,LARB,Emberizidae,261,FALSE,TRUE,0,449,261,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 LarkSparrow,Lark Sparrow,Chondestes grammacus,179371,LASP,Emberizidae,116,FALSE,TRUE,0,135,116,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 LeContesSparrow,Le Conte's Sparrow,Ammodramus leconteii,179345,LCSP,Emberizidae,1908,TRUE,TRUE,3331,1595,1908,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
@@ -76,7 +76,7 @@ LincolnsSparrow,Lincoln's Sparrow,Melospiza lincolnii,179484,LISP,Emberizidae,56
 NelsonsSparrow,Nelson's Sparrow,Ammodramus nelsoni,554031,NESP,Emberizidae,277,TRUE,TRUE,300,265,277,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 SavannahSparrow,Savannah Sparrow,Passerculus sandwichensis,179314,SAVS,Emberizidae,8260,TRUE,TRUE,13367,24400,8260,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 SongSparrow,Song Sparrow,Melospiza melodia,179492,SOSP,Emberizidae,3726,TRUE,TRUE,9073,8124,3726,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-SpottedTowhee,Spotted Towhee,Pipilo maculatus,554380,SPTO,Emberizidae,46,FALSE,FALSE,0,47,46,,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,0,TRUE,
+SpottedTowhee,Spotted Towhee,Pipilo maculatus,554380,SPTO,Emberizidae,46,FALSE,FALSE,0,47,46,,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,0,TRUE,Sample size requirement for modeling was not met.
 SwampSparrow,Swamp Sparrow,Melospiza georgiana,179488,SWSP,Emberizidae,1175,TRUE,TRUE,1915,437,1175,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 VesperSparrow,Vesper Sparrow,Pooecetes gramineus,179366,VESP,Emberizidae,6751,TRUE,TRUE,5648,18178,6751,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 WhitecrownedSparrow,White-crowned Sparrow,Zonotrichia leucophrys,179455,WCSP,Emberizidae,452,TRUE,TRUE,975,171,452,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
@@ -84,9 +84,9 @@ WhitethroatedSparrow,White-throated Sparrow,Zonotrichia albicollis,179462,WTSP,E
 AmericanKestrel,American Kestrel,Falco sparverius,175622,AMKE,Falconidae,524,FALSE,FALSE,551,472,524,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Raptor species with large home ranges are inadequately sampled by point counts and ARUs.
 Merlin,Merlin,Falco columbarius,175613,MERL,Falconidae,196,FALSE,FALSE,126,173,196,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Raptor species with large home ranges are inadequately sampled by point counts and ARUs.
 AmericanGoldfinch,American Goldfinch,Spinus tristis,99001435,AMGO,Fringillidae,2586,TRUE,TRUE,2699,3200,2586,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-CommonRedpoll,Common Redpoll,Acanthis flammea,99001433,CORE,Fringillidae,8,FALSE,FALSE,0,0,8,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+CommonRedpoll,Common Redpoll,Acanthis flammea,99001433,CORE,Fringillidae,8,FALSE,FALSE,0,0,8,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 EveningGrosbeak,Evening Grosbeak,Coccothraustes vespertinus,179173,EVGR,Fringillidae,303,TRUE,FALSE,312,29,303,,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,1,TRUE,
-HouseFinch,House Finch,Carpodacus mexicanus,99002577,HOFI,Fringillidae,29,FALSE,FALSE,0,31,29,,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,0,TRUE,
+HouseFinch,House Finch,Carpodacus mexicanus,99002577,HOFI,Fringillidae,29,FALSE,FALSE,0,31,29,,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,0,TRUE,Sample size requirement for modeling was not met.
 PineGrosbeak,Pine Grosbeak,Pinicola enucleator,179205,PIGR,Fringillidae,80,TRUE,FALSE,93,0,80,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,0,TRUE,
 PineSiskin,Pine Siskin,Spinus pinus,99001434,PISI,Fringillidae,3378,TRUE,TRUE,5405,401,3378,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
 PurpleFinch,Purple Finch,Carpodacus purpureus,99002576,PUFI,Fringillidae,358,TRUE,TRUE,474,117,358,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
@@ -97,10 +97,10 @@ SandhillCrane,Sandhill Crane,Grus canadensis,176177,SACR,Gruidae,879,FALSE,FALSE
 BankSwallow,Bank Swallow,Riparia riparia,99002652,BANS,Hirundinidae,323,TRUE,TRUE,209,289,323,Road vs sector incosistent,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 BarnSwallow,Barn Swallow,Hirundo rustica,99002653,BARS,Hirundinidae,2007,TRUE,TRUE,1982,3058,2007,Road vs sector incosistent,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 CliffSwallow,Cliff Swallow,Petrochelidon pyrrhonota,99002644,CLSW,Hirundinidae,474,TRUE,TRUE,376,869,474,Road vs sector incosistent,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-NorthernRoughwingedSwallow,Northern Rough-winged Swallow,Stelgidopteryx serripennis,99002661,NRWS,Hirundinidae,57,FALSE,FALSE,35,52,57,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,TRUE,
-PurpleMartin,Purple Martin,Progne subis,99002664,PUMA,Hirundinidae,76,FALSE,FALSE,131,125,76,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,1,TRUE,
+NorthernRoughwingedSwallow,Northern Rough-winged Swallow,Stelgidopteryx serripennis,99002661,NRWS,Hirundinidae,57,FALSE,FALSE,35,52,57,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,TRUE,Sample size requirement for modeling was not met.
+PurpleMartin,Purple Martin,Progne subis,99002664,PUMA,Hirundinidae,76,FALSE,FALSE,131,125,76,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,1,TRUE,Sample size requirement for modeling was not met.
 TreeSwallow,Tree Swallow,Tachycineta bicolor,99002649,TRES,Hirundinidae,3114,TRUE,TRUE,5534,4928,3114,Road vs sector incosistent,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-VioletgreenSwallow,Violet-green Swallow,Tachycineta thalassina,99002648,VGSW,Hirundinidae,38,FALSE,FALSE,0,0,38,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+VioletgreenSwallow,Violet-green Swallow,Tachycineta thalassina,99002648,VGSW,Hirundinidae,38,FALSE,FALSE,0,0,38,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 BaltimoreOriole,Baltimore Oriole,Icterus galbula,179083,BAOR,Icteridae,1444,TRUE,TRUE,1979,2229,1444,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
 BrownheadedCowbird,Brown-headed Cowbird,Molothrus ater,179112,BHCO,Icteridae,6328,TRUE,TRUE,5174,10923,6328,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 Bobolink,Bobolink,Dolichonyx oryzivorus,179032,BOBO,Icteridae,53,FALSE,TRUE,0,53,53,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
@@ -121,28 +121,28 @@ MewGull,Mew Gull,Larus canus,99002569,MEGU,Laridae,3,FALSE,FALSE,0,0,3,,TRUE,FAL
 RingbilledGull,Ring-billed Gull,Larus delawarensis,99002571,RBGU,Laridae,1603,FALSE,FALSE,1357,3002,1603,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Waterfowl species are inadequately sampled by terrestrial point counts and ARUs.
 BrownThrasher,Brown Thrasher,Toxostoma rufum,178627,BRTH,Mimidae,187,FALSE,TRUE,0,273,187,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 GrayCatbird,Gray Catbird,Dumetella carolinensis,178625,GRCA,Mimidae,473,TRUE,TRUE,401,536,473,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-AmericanPipit,American Pipit,Anthus rubescens,554127,AMPI,Motacillidae,11,FALSE,FALSE,0,0,11,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+AmericanPipit,American Pipit,Anthus rubescens,554127,AMPI,Motacillidae,11,FALSE,FALSE,0,0,11,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 SpraguesPipit,Sprague's Pipit,Anthus spragueii,178499,SPPI,Motacillidae,2080,TRUE,TRUE,359,4354,2080,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-CaliforniaQuail,California Quail,Callipepla californica,175876,CAQU,Odontophoridae,11,FALSE,FALSE,0,0,11,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+CaliforniaQuail,California Quail,Callipepla californica,175876,CAQU,Odontophoridae,11,FALSE,FALSE,0,0,11,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 Osprey,Osprey,Pandion haliaetus,99003419,OSPR,Pandionidae,70,FALSE,FALSE,97,25,70,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Raptor species with large home ranges are inadequately sampled by point counts and ARUs.
 BlackcappedChickadee,Black-capped Chickadee,Poecile atricapillus,554382,BCCH,Paridae,3274,TRUE,TRUE,4309,1861,3274,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 BorealChickadee,Boreal Chickadee,Poecile hudsonicus,726112,BOCH,Paridae,1368,TRUE,TRUE,1553,74,1368,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
-MountainChickadee,Mountain Chickadee,Poecile gambeli,554385,MOCH,Paridae,155,FALSE,FALSE,174,0,155,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,
+MountainChickadee,Mountain Chickadee,Poecile gambeli,554385,MOCH,Paridae,155,FALSE,FALSE,174,0,155,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 AmericanRedstart,American Redstart,Setophaga ruticilla,178979,AMRE,Parulidae,2350,TRUE,TRUE,3443,294,2350,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 BlackAndWhiteWarbler,Black-and-white Warbler,Mniotilta varia,178844,BAWW,Parulidae,1953,TRUE,TRUE,2345,134,1953,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 BaybreastedWarbler,Bay-breasted Warbler,Setophaga castanea,99001404,BBWA,Parulidae,1168,TRUE,FALSE,1330,0,1168,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1,TRUE,
-BlackburnianWarbler,Blackburnian Warbler,Setophaga fusca,99001403,BLBW,Parulidae,36,FALSE,FALSE,43,0,36,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1,TRUE,
+BlackburnianWarbler,Blackburnian Warbler,Setophaga fusca,99001403,BLBW,Parulidae,36,FALSE,FALSE,43,0,36,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1,TRUE,Sample size requirement for modeling was not met.
 BlackpollWarbler,Blackpoll Warbler,Setophaga striata,99001405,BLPW,Parulidae,354,TRUE,FALSE,365,0,354,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1,TRUE,
 BlackthroatedGreenWarbler,Black-throated Green Warbler,Setophaga virens,99001402,BTNW,Parulidae,912,TRUE,FALSE,1928,0,912,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1,TRUE,
 CanadaWarbler,Canada Warbler,Cardellina canadensis,99001416,CAWA,Parulidae,856,TRUE,FALSE,1225,37,856,,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,0,TRUE,
 CapeMayWarbler,Cape May Warbler,Setophaga tigrina,99001400,CMWA,Parulidae,1260,TRUE,FALSE,1313,0,1260,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1,TRUE,
 ConnecticutWarbler,Connecticut Warbler,Oporornis agilis,178938,CONW,Parulidae,1417,TRUE,TRUE,2583,101,1417,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 CommonYellowthroat,Common Yellowthroat,Geothlypis trichas,178944,COYE,Parulidae,2770,TRUE,TRUE,4335,1718,2770,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-ChestnutsidedWarbler,Chestnut-sided Warbler,Setophaga pensylvanica,99001430,CSWA,Parulidae,70,FALSE,FALSE,82,0,70,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,
+ChestnutsidedWarbler,Chestnut-sided Warbler,Setophaga pensylvanica,99001430,CSWA,Parulidae,70,FALSE,FALSE,82,0,70,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 MagnoliaWarbler,Magnolia Warbler,Setophaga magnolia,99001399,MAWA,Parulidae,2674,TRUE,FALSE,3038,149,2674,,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,1,TRUE,
 MacgillivrayWarbler,MacGillivray's Warbler,Geothlypis tolmiei,99001409,MGWA,Parulidae,123,TRUE,FALSE,119,0,123,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,0,TRUE,
 MourningWarbler,Mourning Warbler,Geothlypis philadelphia,99001414,MOWA,Parulidae,1819,TRUE,TRUE,3884,196,1819,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-NashvilleWarbler,Nashville Warbler,Oreothlypis ruficapilla,99002574,NAWA,Parulidae,26,FALSE,FALSE,26,0,26,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,
+NashvilleWarbler,Nashville Warbler,Oreothlypis ruficapilla,99002574,NAWA,Parulidae,26,FALSE,FALSE,26,0,26,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 NorthernWaterthrush,Northern Waterthrush,Parkesia noveboracensis,99001337,NOWA,Parulidae,1227,TRUE,TRUE,1591,79,1227,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
 OrangecrownedWarbler,Orange-crowned Warbler,Oreothlypis celata,99001335,OCWA,Parulidae,1705,TRUE,TRUE,2222,174,1705,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 Ovenbird,Ovenbird,Seiurus aurocapilla,726205,OVEN,Parulidae,9274,TRUE,TRUE,16028,683,9274,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
@@ -157,7 +157,7 @@ DoublecrestedCormorant,Double-crested Cormorant,Phalacrocorax auritus,99003384,D
 GrayPartridge,Gray Partridge,Perdix perdix,99002560,GRAP,Phasianidae,402,FALSE,FALSE,62,524,402,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Game birds are not modeled.
 RingneckedPheasant,Ring-necked Pheasant,Phasianus colchicus,175905,RNEP,Phasianidae,743,FALSE,FALSE,63,1200,743,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Game birds are not modeled.
 RuffedGrouse,Ruffed Grouse,Bonasa umbellus,175790,RUGR,Phasianidae,1397,TRUE,TRUE,1790,193,1397,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-SpruceGrouse,Spruce Grouse,Falcipennis canadensis,553896,SPGR,Phasianidae,24,FALSE,FALSE,39,0,24,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1,TRUE,
+SpruceGrouse,Spruce Grouse,Falcipennis canadensis,553896,SPGR,Phasianidae,24,FALSE,FALSE,39,0,24,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1,TRUE,Sample size requirement for modeling was not met.
 SharptailedGrouse,Sharp-tailed Grouse,Tympanuchus phasianellus,175841,STGR,Phasianidae,212,FALSE,TRUE,0,253,212,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 AmericanThreetoedWoodpecker,American Three-toed Woodpecker,Picoides dorsalis,685725,ATTW,Picidae,194,TRUE,FALSE,210,0,194,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,0,TRUE,
 BlackbackedWoodpecker,Black-backed Woodpecker,Picoides arcticus,178250,BBWO,Picidae,128,TRUE,FALSE,130,0,128,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,0,TRUE,
@@ -165,7 +165,7 @@ DownyWoodpecker,Downy Woodpecker,Picoides pubescens,178259,DOWO,Picidae,399,TRUE
 HairyWoodpecker,Hairy Woodpecker,Picoides villosus,178262,HAWO,Picidae,921,TRUE,TRUE,1071,303,921,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
 NorthernFlicker,Northern Flicker,Colaptes auratus,178154,NOFL,Picidae,2557,TRUE,TRUE,2876,1230,2557,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 PileatedWoodpecker,Pileated Woodpecker,Dryocopus pileatus,178166,PIWO,Picidae,907,TRUE,TRUE,949,141,907,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
-RednapedSapsucker,Red-naped Sapsucker,Sphyrapicus nuchalis,178211,RNSA,Picidae,32,FALSE,FALSE,0,0,32,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,1,TRUE,
+RednapedSapsucker,Red-naped Sapsucker,Sphyrapicus nuchalis,178211,RNSA,Picidae,32,FALSE,FALSE,0,0,32,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,1,TRUE,Sample size requirement for modeling was not met.
 YellowbelliedSapsucker,Yellow-bellied Sapsucker,Sphyrapicus varius,178202,YBSA,Picidae,3244,TRUE,TRUE,4554,656,3244,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
 EaredGrebe,Eared Grebe,Podiceps nigricollis,99003371,EAGR,Podicipedidae,114,FALSE,FALSE,64,160,114,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Waterfowl species are inadequately sampled by terrestrial point counts and ARUs.
 HornedGrebe,Horned Grebe,Podiceps auritus,99003372,HOGR,Podicipedidae,122,FALSE,FALSE,116,146,122,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Waterfowl species are inadequately sampled by terrestrial point counts and ARUs.
@@ -180,14 +180,14 @@ AmericanAvocet,American Avocet,Recurvirostra americana,99003397,AMAV,Recurvirost
 BlackneckedStilt,Black-necked Stilt,Himantopus mexicanus,99003392,BNST,Recurvirostridae,21,FALSE,FALSE,0,0,21,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,FALSE,Waterfowl species are inadequately sampled by terrestrial point counts and ARUs.
 GoldencrownedKinglet,Golden-crowned Kinglet,Regulus satrapa,179865,GCKI,Regulidae,1110,TRUE,FALSE,1405,0,1110,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1,TRUE,
 RubycrownedKinglet,Ruby-crowned Kinglet,Regulus calendula,179870,RCKI,Regulidae,7207,TRUE,TRUE,12030,471,7207,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
-BlackTurnstone,Black Turnstone,Arenaria melanocephala,99003388,BLTU,Scolopacidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+BlackTurnstone,Black Turnstone,Arenaria melanocephala,99003388,BLTU,Scolopacidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 GreaterYellowlegs,Greater Yellowlegs,Tringa melanoleuca,99002632,GRYE,Scolopacidae,1071,TRUE,FALSE,1267,43,1071,,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,0,TRUE,
 LongbilledCurlew,Long-billed Curlew,Numenius americanus,99003084,LBCU,Scolopacidae,1306,FALSE,TRUE,0,2461,1306,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 LesserYellowlegs,Lesser Yellowlegs,Tringa flavipes,99002633,LEYE,Scolopacidae,581,TRUE,TRUE,617,148,581,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 MarbledGodwit,Marbled Godwit,Limosa fedoa,99003090,MAGO,Scolopacidae,2198,TRUE,TRUE,331,4081,2198,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-RedPhalarope,Red Phalarope,Phalaropus fulicarius,99002565,REPH,Scolopacidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
-RedneckedPhalarope,Red-necked Phalarope,Phalaropus lobatus,99002566,RNPH,Scolopacidae,29,FALSE,FALSE,0,29,29,,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,0,TRUE,
-ShortbilledDowitcher,Short-billed Dowitcher,Limnodromus griseus,99003088,SBDO,Scolopacidae,25,FALSE,FALSE,42,0,25,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,
+RedPhalarope,Red Phalarope,Phalaropus fulicarius,99002565,REPH,Scolopacidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
+RedneckedPhalarope,Red-necked Phalarope,Phalaropus lobatus,99002566,RNPH,Scolopacidae,29,FALSE,FALSE,0,29,29,,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,0,TRUE,Sample size requirement for modeling was not met.
+ShortbilledDowitcher,Short-billed Dowitcher,Limnodromus griseus,99003088,SBDO,Scolopacidae,25,FALSE,FALSE,42,0,25,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 SolitarySandpiper,Solitary Sandpiper,Tringa solitaria,99002631,SOSA,Scolopacidae,679,TRUE,TRUE,703,98,679,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 SpottedSandpiper,Spotted Sandpiper,Actitis macularius,99002634,SPSA,Scolopacidae,928,TRUE,TRUE,896,597,928,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 UplandSandpiper,Upland Sandpiper,Bartramia longicauda,99003399,UPSA,Scolopacidae,595,FALSE,TRUE,38,681,595,,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,0,TRUE,
@@ -207,7 +207,7 @@ NorthernPygmyOwl,Northern Pygmy-Owl,Glaucidium gnoma,99003073,NOPO,Strigidae,26,
 NorthernSawwhetOwl,Northern Saw-whet Owl,Aegolius acadicus,99003078,NSWO,Strigidae,69,FALSE,FALSE,82,0,69,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1,FALSE,Owls and other nocturnal species are inadequately sampled by point counts and ARUs with traditional timing of early morning.
 ShortearedOwl,Short-eared Owl,Asio flammeus,99003071,SEOW,Strigidae,174,FALSE,FALSE,42,176,174,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,FALSE,Owls and other nocturnal species are inadequately sampled by point counts and ARUs with traditional timing of early morning.
 EuropeanStarling,European Starling,Sturnus vulgaris,179637,EUST,Sturnidae,2586,TRUE,TRUE,3934,5944,2586,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-RubythroatedHummingbird,Ruby-throated Hummingbird,Archilochus colubris,178032,RTHU,Trochilidae,41,FALSE,FALSE,43,36,41,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,TRUE,
+RubythroatedHummingbird,Ruby-throated Hummingbird,Archilochus colubris,178032,RTHU,Trochilidae,41,FALSE,FALSE,43,36,41,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,TRUE,Sample size requirement for modeling was not met.
 HouseWren,House Wren,Troglodytes aedon,178541,HOWR,Troglodytidae,4168,TRUE,TRUE,10533,11452,4168,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 MarshWren,Marsh Wren,Cistothorus palustris,178608,MAWR,Troglodytidae,214,FALSE,FALSE,325,211,214,Wetland association absent,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,TRUE,Modeling results did not reflect known natural history of the species: wetland association was not evident.
 PacificWren,Pacific Wren,Troglodytes pacificus,99005332,PAWR,Troglodytidae,114,FALSE,FALSE,153,0,114,Wetland association absent,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,0,TRUE,Modeling results did not reflect known natural history of the species: wetland association was not evident.
@@ -215,7 +215,7 @@ RockWren,Rock Wren,Salpinctes obsoletus,178614,ROWR,Troglodytidae,51,FALSE,FALSE
 SedgeWren,Sedge Wren,Cistothorus platensis,178605,SEWR,Troglodytidae,80,FALSE,FALSE,198,94,80,Wetland association absent,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,TRUE,Modeling results did not reflect known natural history of the species: wetland association was not evident.
 WinterWren,Winter Wren,Troglodytes hiemalis,99001407,WIWR,Troglodytidae,2359,TRUE,FALSE,3823,0,2359,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1,TRUE,
 AmericanRobin,American Robin,Turdus migratorius,179759,AMRO,Turdidae,8998,TRUE,TRUE,19837,13008,8998,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-EasternBluebird,Eastern Bluebird,Sialia sialis,179801,EABL,Turdidae,2,FALSE,FALSE,0,0,2,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+EasternBluebird,Eastern Bluebird,Sialia sialis,179801,EABL,Turdidae,2,FALSE,FALSE,0,0,2,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 HermitThrush,Hermit Thrush,Catharus guttatus,179779,HETH,Turdidae,6441,TRUE,TRUE,9308,868,6441,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 MountainBluebird,Mountain Bluebird,Sialia currucoides,179811,MOBL,Turdidae,483,TRUE,TRUE,603,619,483,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 SwainsonsThrush,Swainson's Thrush,Catharus ustulatus,179788,SWTH,Turdidae,10326,TRUE,TRUE,17702,580,10326,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
@@ -223,19 +223,19 @@ TownsendsSolitaire,Townsend's Solitaire,Myadestes townsendi,179824,TOSO,Turdidae
 VariedThrush,Varied Thrush,Ixoreus naevius,179773,VATH,Turdidae,634,TRUE,FALSE,1909,0,634,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1,TRUE,
 Veery,Veery,Catharus fuscescens,179796,VEER,Turdidae,133,TRUE,TRUE,127,76,133,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 AlderFlycatcher,Alder Flycatcher,Empidonax alnorum,99002622,ALFL,Tyrannidae,4387,TRUE,TRUE,7237,2353,4387,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-CordilleranFlycatcher,Cordilleran Flycatcher,Empidonax occidentalis,99002663,COFL,Tyrannidae,9,FALSE,FALSE,0,0,9,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
+CordilleranFlycatcher,Cordilleran Flycatcher,Empidonax occidentalis,99002663,COFL,Tyrannidae,9,FALSE,FALSE,0,0,9,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
 DuskyFlycatcher,Dusky Flycatcher,Empidonax oberholseri,99002625,DUFL,Tyrannidae,108,TRUE,FALSE,168,0,108,,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,0,TRUE,
 EasternKingbird,Eastern Kingbird,Tyrannus tyrannus,99003093,EAKI,Tyrannidae,1493,TRUE,TRUE,737,2343,1493,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 EasternPhoebe,Eastern Phoebe,Sayornis phoebe,99002618,EAPH,Tyrannidae,470,TRUE,TRUE,630,427,470,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
-EasternWoodPewee,Eastern Wood-Pewee,Contopus virens,99002627,EAWP,Tyrannidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,
-GreatCrestedFlycatcher,Great Crested Flycatcher,Myiarchus crinitus,99003390,GCFL,Tyrannidae,27,FALSE,FALSE,30,29,27,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,TRUE,
-HammondsFlycatcher,Hammond's Flycatcher,Empidonax hammondii,99002660,HAFL,Tyrannidae,55,FALSE,FALSE,98,0,55,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1,TRUE,
+EasternWoodPewee,Eastern Wood-Pewee,Contopus virens,99002627,EAWP,Tyrannidae,1,FALSE,FALSE,0,0,1,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,TRUE,Sample size requirement for modeling was not met.
+GreatCrestedFlycatcher,Great Crested Flycatcher,Myiarchus crinitus,99003390,GCFL,Tyrannidae,27,FALSE,FALSE,30,29,27,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,TRUE,Sample size requirement for modeling was not met.
+HammondsFlycatcher,Hammond's Flycatcher,Empidonax hammondii,99002660,HAFL,Tyrannidae,55,FALSE,FALSE,98,0,55,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1,TRUE,Sample size requirement for modeling was not met.
 LeastFlycatcher,Least Flycatcher,Empidonax minimus,99002624,LEFL,Tyrannidae,5043,TRUE,TRUE,9686,5116,5043,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
 OlivesidedFlycatcher,Olive-sided Flycatcher,Contopus cooperi,99002662,OSFL,Tyrannidae,745,TRUE,FALSE,856,63,745,,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,0,TRUE,
 SaysPhoebe,Say's Phoebe,Sayornis saya,99002619,SAPH,Tyrannidae,67,FALSE,TRUE,0,96,67,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 WesternKingbird,Western Kingbird,Tyrannus verticalis,99003094,WEKI,Tyrannidae,486,FALSE,TRUE,0,858,486,,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,0,TRUE,
 WesternWoodPewee,Western Wood-Pewee,Contopus sordidulus,99002628,WEWP,Tyrannidae,1454,TRUE,TRUE,2044,1021,1454,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
-WillowFlycatcher,Willow Flycatcher,Empidonax traillii,99002623,WIFL,Tyrannidae,73,FALSE,FALSE,108,29,73,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,TRUE,
+WillowFlycatcher,Willow Flycatcher,Empidonax traillii,99002623,WIFL,Tyrannidae,73,FALSE,FALSE,108,29,73,,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,0,TRUE,Sample size requirement for modeling was not met.
 YellowbelliedFlycatcher,Yellow-bellied Flycatcher,Empidonax flaviventris,99002621,YBFL,Tyrannidae,813,TRUE,FALSE,835,27,813,,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,0,TRUE,
 BarnOwl,Barn Owl,Tyto alba,99003060,BANO,Tytonidae,3,FALSE,FALSE,0,0,3,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,0,FALSE,Owls and other nocturnal species are inadequately sampled by point counts and ARUs with traditional timing of early morning.
 BlueheadedVireo,Blue-headed Vireo,Vireo solitarius,179010,BHVI,Vireonidae,2022,TRUE,TRUE,2726,358,2022,,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1,TRUE,
