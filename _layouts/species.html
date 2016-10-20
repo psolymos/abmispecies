@@ -18,7 +18,7 @@
 <button type="button" class="close" data-dismiss="alert">&times;</button>
 <p>
 {{ page.comments }}
-Therefore, only a basic summary of the data is presented.
+{% unless page.taxon == "mammals" %}Therefore, only a basic summary of the data is presented.{% endunless %}
 </p>
 </div>
 {% endif %}
