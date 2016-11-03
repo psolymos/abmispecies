@@ -4,7 +4,7 @@ description: Information on species and habitats monitored by the Alberta Biodiv
 
 baseurl: http://sc-dev.abmi.ca/development
 #baseurl: http://species.abmi.ca
-contents: http://species.abmi.ca/contents
+contents: http://species.abmi.ca/contents/2015
 #ftproot: ftp://web|anonymous:anonymous@ftp.public.abmi.ca/species.abmi.ca
 ftproot: http://ftp.public.abmi.ca/species.abmi.ca
 
