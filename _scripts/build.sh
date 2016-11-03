@@ -10,6 +10,7 @@ rm -r -f ~/repos/abmispecies/pages/species/mites
 rm -r -f ~/repos/abmispecies/pages/testspecies/birds
 
 ## status update
+#git clone https://github.com/psolymos/abmispecies.git
 cd ~/repos/abmispecies
 echo 'Updating git repo'
 git pull
