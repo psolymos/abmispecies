@@ -11,7 +11,7 @@ bw_bg_col: info
 baseurl: http://sc-dev.abmi.ca/development
 #baseurl: http://species.abmi.ca
 #contents: http://species.abmi.ca/contents
-contents: http://species.abmi.ca/contents2
+contents: http://species.abmi.ca/contents/2016
 #ftproot: ftp://web|anonymous:anonymous@ftp.public.abmi.ca/species.abmi.ca
 ftproot: http://ftp.public.abmi.ca/species.abmi.ca
 
