@@ -11,8 +11,8 @@ bw_theme: sandstone
 bw_bg_col: info
 
 ## baseurl is either development or production
-baseurl: http://sc-dev.abmi.ca/development
-#baseurl: http://species.abmi.ca
+#baseurl: http://sc-dev.abmi.ca/development
+baseurl: http://species.abmi.ca
 
 ## this is for hosting the figures within baseurl
 #contents: http://species.abmi.ca/contents

@@ -26,7 +26,6 @@ layout: plain
           <p>
             Species models were updated including more data.
             Model summaries for habitat elements are added.
-            Listed species highlighted.
             Improved documentation.
           </p>
         </div>
@@ -59,7 +58,7 @@ environmental variation. We provide information on
 
 <div class="col-lg-6 col-sm-6">
 <h3><a href="{{ site.baseurl }}/pages/habitat.html"><i class="fa fa-tree"></i> Landscape Condition</a></h3>
-<p>We model abundance and distribution of <a href="{{ site.baseurl }}/pages/habitat/habitatelements.html">habitat elements</a> based field sampling.
+<p>We model abundance and distribution of <a href="{{ site.baseurl }}/pages/habitat/habitatelements.html">habitat elements</a> based on field sampling.
 We provide information on
 native vegetation <a href="{{ site.baseurl }}/pages/habitat/edges.html">edge</a>,
 <a href="{{ site.baseurl }}/pages/habitat/mesh-size.html">mesh size</a>, and
