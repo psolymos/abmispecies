@@ -34,7 +34,7 @@ The ABMI Detailed Wall-to-Wall Land Cover Map is a comprehensive representation 
   </div>
 
 <span class="pull-right">
-<a href="http://abmi.ca/home/publications/251-300/259.html?mode=detail&documenttype=Protocols" class="btn btn-primary" target="_blank">Download metadata <i class="fa fa-external-link-square"></i></a>
+<a href="{{ site.ftproot }}/geospatial/vegetation/2012_w2w_Backfilled_LayerV5_Metadata_2.docx" class="btn btn-primary" target="_blank">Download metadata <i class="fa fa-external-link-square"></i></a>
 </span>
 
 </div>
@@ -60,7 +60,7 @@ The following maps show percent cover of each land cover type within 1 km<sup>2<
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="http://abmi.ca/home/data/gis-data/land-cover-download.html?scroll=true" target="_blank">Download <i class="fa fa-external-link-square"></i></a>
+        <a class="btn btn-primary" href="{{ site.ftproot }}/geospatial/vegetation/2012_w2w_Backfilled_LayerV5_Metadata_2.docx" target="_blank">Download <i class="fa fa-external-link-square"></i></a>
       </div>
     </div>
   </div>
