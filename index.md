@@ -32,7 +32,7 @@ layout: plain
 
 <div class="col-lg-6 col-sm-6">
 <h3><a href="{{ site.baseurl }}/pages/species.html"><i class="fa fa-leaf"></i> Single Species</a></h3>
-<p>We provide informaion on spatial distribution, habitat associations, responses to human footprint, and predicted relative abundance distributions for {% for item in site.data.summary %}{% if item.names == "all" %}{{ item.mapdet }}{% endif %}{% endfor %} species in Alberta, including
+<p>We provide information on spatial distribution, habitat associations, responses to human footprint, and predicted relative abundance distributions for {% for item in site.data.summary %}{% if item.names == "all" %}{{ item.mapdet }}{% endif %}{% endfor %} species in Alberta, including
 <a href="{{ site.baseurl }}/pages/species/mammals.html">mammals</a>,
 <a href="{{ site.baseurl }}/pages/species/birds.html">birds</a>,
 <a href="{{ site.baseurl }}/pages/species/mites.html">soil mites</a>,
