@@ -1,25 +1,25 @@
-sppid,species,rank,ndet,nsite,useavail.north,useavail.south,veghf.north,soilhf.south,map.det,map.pred,scinam,comments
-RedSquirrel,Red Squirrel,Species,3965,3965,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Tamiasciurus hudsonicus,Results are based on winter snow-track transects. This is not a good technique for surveying squirrels.
-Beaver,Beaver,Species,14,14,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Castor canadensis,Results are based on winter snow-track transects. This is not a good technique for surveying beavers.
-Muskrat,Muskrat,Species,28,28,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,Ondatra zibethicus,Results are based on winter snow-track transects. This is not a good technique for surveying muskrats.
-VolesMiceAndAllies,"Voles, Mice and Allies",Family,4495,4495,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,Muridae,"Results are based on winter snow-track transects. This is not a good technique for surveying small mammals, and individual species cannot be distinguished."
-Porcupine,Porcupine,Species,111,111,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,Erethizon dorsatum,Results are based on winter snow-track transects. 
-RiverOtter,River Otter,Species,104,104,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Lontra canadensis,Results are based on winter snow-track transects. This is not a good technique for surveying river otters.
-Wolverine,Wolverine,Species,29,29,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Gulo gulo,Results are based on winter snow-track transects. 
-WeaselsAndErmine,Weasels and Ermine,Genus,3952,3952,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Mustela,Results are based on winter snow-track transects. Small weasel species cannot be distinguished.
-StripedSkunk,Striped Skunk,Species,22,22,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,Mephitis mephitis,Results are based on winter snow-track transects. 
-Badger,Badger,Species,38,38,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,Taxidea taxus,Results are based on winter snow-track transects. 
-CanadaLynx,Canada Lynx,Species,1805,1805,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,Lynx canadensis,Results are based on winter snow-track transects. 
-GrayWolf,Gray Wolf,Species,684,684,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,Canis lupus,Results are based on winter snow-track transects. 
-Coyote,Coyote,Species,4280,4280,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Canis latrans,Results are based on winter snow-track transects. 
-Foxes,Foxes,Genus,490,490,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Vulpes,"Results are based on winter snow-track transects. Fox species cannot be distinguished, but almost all records will be red foxes."
-ElkWapiti,Elk (wapiti),Species,139,139,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,Cervus elaphus,Results are based on winter snow-track transects. 
-Deer,Deer,Genus,4030,4030,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Odocoileus,Results are based on winter snow-track transects. Deer species cannot be distinguished.
-Moose,Moose,Species,2426,2426,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Alces alces,Results are based on winter snow-track transects. 
-Bison,Bison,Species,43,43,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Bison bison,Results are based on winter snow-track transects. 
-Caribou,Woodland Caribou,Species,107,107,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Rangifer tarandus caribou,Results are based on winter snow-track transects. 
-Cougar,Cougar,Species,16,16,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,Puma concolor,Results are based on winter snow-track transects. 
-Mink,Mink,Species,133,133,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,Neovison vison,Results are based on winter snow-track transects. This is not a good technique for surveying mink.
-MartenFisher,Marten and Fisher,Genus,2459,2291,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,Martes,"Results are based on winter snow-track transects. Marten and fisher cannot be distinguished reliably, and are combined here."
-AllLeporids,Hares and Rabbits,Family,6239,6234,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Leporidae,Results are based on winter snow-track transects. Hare and rabbit species cannot be distinguished.
-Pronghorn,Pronghorn,Species,15,15,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,Antilocapra americana,Results are based on winter snow-track transects. 
+"sppid","species","rank","ndet","nsite","useavail.north","useavail.south","veghf.north","soilhf.south","map.det","map.pred","scinam","comments","tsnid"
+"RedSquirrel","Red Squirrel","Species",3965,3965,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Tamiasciurus hudsonicus","Results are based on winter snow-track transects. This is not a good technique for surveying squirrels.","180166"
+"Beaver","Beaver","Species",14,14,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Castor canadensis","Results are based on winter snow-track transects. This is not a good technique for surveying beavers.","180212"
+"Muskrat","Muskrat","Species",28,28,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Ondatra zibethicus","Results are based on winter snow-track transects. This is not a good technique for surveying muskrats.","180318"
+"VolesMiceAndAllies","Voles, Mice and Allies","Family",4495,4495,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Muridae","Results are based on winter snow-track transects. This is not a good technique for surveying small mammals, and individual species cannot be distinguished.","180360"
+"Porcupine","Porcupine","Species",111,111,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Erethizon dorsatum","Results are based on winter snow-track transects. ","180393"
+"RiverOtter","River Otter","Species",104,104,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Lontra canadensis","Results are based on winter snow-track transects. This is not a good technique for surveying river otters.","180549"
+"Wolverine","Wolverine","Species",29,29,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Gulo gulo","Results are based on winter snow-track transects. ","180551"
+"WeaselsAndErmine","Weasels and Ermine","Genus",3952,3952,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Mustela","Results are based on winter snow-track transects. Small weasel species cannot be distinguished.","180552"
+"StripedSkunk","Striped Skunk","Species",22,22,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Mephitis mephitis","Results are based on winter snow-track transects. ","180562"
+"Badger","Badger","Species",38,38,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"Taxidea taxus","Results are based on winter snow-track transects. ","180565"
+"CanadaLynx","Canada Lynx","Species",1805,1805,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"Lynx canadensis","Results are based on winter snow-track transects. ","180585"
+"GrayWolf","Gray Wolf","Species",684,684,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"Canis lupus","Results are based on winter snow-track transects. ","180596"
+"Coyote","Coyote","Species",4280,4280,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Canis latrans","Results are based on winter snow-track transects. ","180599"
+"Foxes","Foxes","Genus",490,490,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Vulpes","Results are based on winter snow-track transects. Fox species cannot be distinguished, but almost all records will be red foxes.","180603"
+"ElkWapiti","Elk (wapiti)","Species",139,139,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"Cervus elaphus","Results are based on winter snow-track transects. ","180695"
+"Deer","Deer","Genus",4030,4030,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Odocoileus","Results are based on winter snow-track transects. Deer species cannot be distinguished.","180697"
+"Moose","Moose","Species",2426,2426,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Alces alces","Results are based on winter snow-track transects. ","180703"
+"Bison","Bison","Species",43,43,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Bison bison","Results are based on winter snow-track transects. ","180706"
+"Caribou","Woodland Caribou","Species",107,107,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Rangifer tarandus caribou","Results are based on winter snow-track transects. ","202411"
+"Cougar","Cougar","Species",16,16,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Puma concolor","Results are based on winter snow-track transects. ","552479"
+"Mink","Mink","Species",133,133,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"Neovison vison","Results are based on winter snow-track transects. This is not a good technique for surveying mink.","726284"
+"MartenFisher","Marten and Fisher","Genus",2459,2291,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"Martes","Results are based on winter snow-track transects. Marten and fisher cannot be distinguished reliably, and are combined here.","180559, 180560"
+"AllLeporids","Hares and Rabbits","Family",6239,6234,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"Leporidae","Results are based on winter snow-track transects. Hare and rabbit species cannot be distinguished.","180112, 180118, 180119"
+"Pronghorn","Pronghorn","Species",15,15,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"Antilocapra americana","Results are based on winter snow-track transects. ","180717"
