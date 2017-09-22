@@ -7,7 +7,7 @@ show_sector: true
 include_pager: true
 
 # Bootswatch theme
-bw_theme: yeti
+bw_theme: cosmo
 bw_bg_col: info
 
 ## baseurl is either development or production
