@@ -1,5 +1,5 @@
 title: ABMI Species
-version: '4.0 (2016-09-12)'
+version: '5.0 (2017-09-22)'
 mammalsversion: '3.2 (2016-03-18)'
 description: Information on species and habitats monitored by the Alberta Biodiversity Monitoring Institute.
 
@@ -7,7 +7,7 @@ show_sector: true
 include_pager: true
 
 # Bootswatch theme
-bw_theme: sandstone
+bw_theme: yeti
 bw_bg_col: info
 
 ## baseurl is either development or production
@@ -48,25 +48,25 @@ taxa:
   - title: Mammals
     url: /pages/species/mammals.html
     label: mammals
-    version: '3.2 (2016-03-18)'
+    version: '5.0 (2017-07-13)'
   - title: Birds
     url: /pages/species/birds.html
     label: birds
-    version: '4.0 (2016-09-12)'
+    version: '4.1 (2017-07-13)'
   - title: Soil mites
     url: /pages/species/mites.html
     label: mites
-    version: '4.0 (2016-09-12)'
+    version: '5.0 (2017-07-13)'
   - title: Vascular plants
     url: /pages/species/vplants.html
     label: vplants
-    version: '4.0 (2016-09-12)'
+    version: '5.0 (2017-07-13)'
   - title: Bryophytes
     url: /pages/species/mosses.html
     label: mosses
-    version: '4.0 (2016-09-12)'
+    version: '5.0 (2017-07-13)'
   - title: Lichens
     url: /pages/species/lichens.html
     label: lichens
-    version: '4.0 (2016-09-12)'
+    version: '5.0 (2017-07-13)'
 

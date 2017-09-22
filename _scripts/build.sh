@@ -17,7 +17,8 @@ cd ~/repos/abmispecies
 echo 'Updating git repo'
 #git checkout --track -b origin/v2015
 #git checkout v2015
-git checkout v2016
+#git checkout v2016
+git checkout master
 git pull
 
 ## run R script
