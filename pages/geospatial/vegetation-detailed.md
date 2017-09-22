@@ -25,7 +25,7 @@ data:
   long: 'Grass'
 ---
 
-The ABMI Wall-to-Wall Land Cover Map is a comprehensive representation of the types and extent of land cover in Alberta. The map is a seamless full-coverage baseline land cover map that offers provincial scale information.
+The ABMI Detailed Wall-to-Wall Land Cover Map is a comprehensive representation of the types and extent of land cover in Alberta. The map is a seamless full-coverage  map that offers detailed upland and lowland vegetation types throughout Alberta. Due to data-sharing agreements, we cannot share this GIS layer outside of the ABMI.
 
 <div class="row">
 
@@ -34,7 +34,7 @@ The ABMI Wall-to-Wall Land Cover Map is a comprehensive representation of the ty
   </div>
 
 <span class="pull-right">
-<a href="http://abmi.ca/home/publications/251-300/259.html?mode=detail&documenttype=Protocols" class="btn btn-primary" target="_blank">Download metadata <i class="fa fa-external-link-square"></i></a>
+<a href="{{ site.ftproot }}/geospatial/vegetation/2012_w2w_Backfilled_LayerV5_Metadata_2.docx" class="btn btn-primary" target="_blank">Download metadata <i class="fa fa-external-link-square"></i></a>
 </span>
 
 </div>
@@ -42,9 +42,7 @@ The ABMI Wall-to-Wall Land Cover Map is a comprehensive representation of the ty
 
 ## Distribution of land cover types used in modeling
 
-The maps show percent cover by land cover types within 1 km<sup>2</sup> grid cells.
-
-This information was created using information obtained under data-sharing agreements and ABMI does not have permission to share the resulting GIS layer.
+The following maps show percent cover of each land cover type within 1 km<sup>2</sup> grid cells throughout Alberta. Due to data-sharing agreements, we cannot share this GIS layer outside of the ABMI.
 
 {% for item in page.data %}
 
@@ -62,7 +60,7 @@ This information was created using information obtained under data-sharing agree
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="http://abmi.ca/home/data/gis-data/land-cover-download.html?scroll=true" target="_blank">Download <i class="fa fa-external-link-square"></i></a>
+        <a class="btn btn-primary" href="{{ site.ftproot }}/geospatial/vegetation/2012_w2w_Backfilled_LayerV5_Metadata_2.docx" target="_blank">Download <i class="fa fa-external-link-square"></i></a>
       </div>
     </div>
   </div>

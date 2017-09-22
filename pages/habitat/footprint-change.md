@@ -4,24 +4,14 @@ title: Human footprint change
 description: "Human footprint change."
 ---
 
-The conversion of natural habitats to habitats marked by
-human footprint is the greatest threat to biodiversity.
-In central and southern Alberta, most land conversion
-is associated with agriculture and urban growth, while
-in northern Alberta, forest harvesting has been the
-dominant land conversion activity. Over the past few
-decades, the development of oil and gas and transportation
-infrastructure has also expanded significantly, resulting
-in the modification of natural habitats throughout the
-province.
-
-The Alberta Biodiversity Monitoring Institute determined the amount
-and change in human footprint for each of Alberta's
-natural regions over time. In addition, we evaluated the
+The conversion of natural habitats to human disturbance is the greatest threat to biodiversity.
+The Alberta Biodiversity Monitoring Institute monitors the amount and location of
+human footprint in each of Alberta's
+natural regions over time. In addition, we determine the
 degree to which different types of native habitat have been
-converted by each footprint type. This information can
-be used by planners, managers, and the general public to
-understand how native habitats and biodiversity in Alberta
+converted by each footprint type. This information allows
+planners, managers, and the general public to
+understand how native habitats in Alberta
 are changing.
 
 <div class="row">

@@ -1,12 +1,29 @@
 title: ABMI Species
-version: '3.2 (2016-03-18)'
+version: '4.0 (2016-09-12)'
+mammalsversion: '3.2 (2016-03-18)'
 description: Information on species and habitats monitored by the Alberta Biodiversity Monitoring Institute.
 
+show_sector: true
+include_pager: true
+
+# Bootswatch theme
+bw_theme: sandstone
+bw_bg_col: info
+
+## baseurl is either development or production
 #baseurl: http://sc-dev.abmi.ca/development
-baseurl: http://species.abmi.ca/archive/2015
-contents: http://species.abmi.ca/contents/2015
+baseurl: http://species.abmi.ca
+
+## this is for hosting the figures within baseurl
+#contents: http://species.abmi.ca/contents
+contents: http://species.abmi.ca/contents/2016
+
+## ftproot os the root of the ftp/html server that stores large files
 #ftproot: ftp://web|anonymous:anonymous@ftp.public.abmi.ca/species.abmi.ca
 ftproot: http://ftp.public.abmi.ca/species.abmi.ca
+
+## species have there own thing, vith some versioning
+ftprootsp: http://ftp.public.abmi.ca/species.abmi.ca/species-2016
 
 #permalink:   /:categories/:title.html
 #category: news
@@ -22,8 +39,6 @@ kramdown:
   hard_wrap:      false
 markdown_ext: "markdown,mkdown,mkdn,mkd,md,Rmd"
 
-# Bootswatch theme
-#theme: yeti
 # fancy fonts on/off
 fancyfonts: false
 # navbar style: inverse, transparent
@@ -33,20 +48,25 @@ taxa:
   - title: Mammals
     url: /pages/species/mammals.html
     label: mammals
+    version: '3.2 (2016-03-18)'
   - title: Birds
     url: /pages/species/birds.html
     label: birds
+    version: '4.0 (2016-09-12)'
   - title: Soil mites
     url: /pages/species/mites.html
     label: mites
+    version: '4.0 (2016-09-12)'
   - title: Vascular plants
     url: /pages/species/vplants.html
     label: vplants
+    version: '4.0 (2016-09-12)'
   - title: Bryophytes
     url: /pages/species/mosses.html
     label: mosses
+    version: '4.0 (2016-09-12)'
   - title: Lichens
     url: /pages/species/lichens.html
     label: lichens
+    version: '4.0 (2016-09-12)'
 
-show_sector: true

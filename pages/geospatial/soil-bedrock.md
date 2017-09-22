@@ -1,20 +1,19 @@
 ---
 layout: default
-title: 'Bedrock geology of Alberta'
+title: 'Bedrock Geology of Alberta'
 description: "Soil: Bedrock geology of Alberta."
 ---
 
-This GIS layer is a generalized compilation of existing geological maps and 
-original geological mapping by Alberta Geological Survey staff. Mapping included 
-field observations and creating three-dimensional models of subsurface 
-stratigraphy based on the interpretation of geophysical logs from oil and gas 
-wells. Each three-dimensional formation surface was projected to a model of 
-the bedrock surface and the intersection formed the first approximation of the 
-position of the geological contact at the base of the surficial deposits. 
-These preliminary contacts were then adjusted to honour outcrop data and the 
-interpretation of the bedrock unit immediately below surficial deposits in 
-individual wells. This GIS layer was created at a scale of 1:1,000,000 and 
-can be accessed [here](http://www.ags.gov.ab.ca/publications/abstracts/MAP_600.html).
+This GIS layer is a generalized compilation of existing geological maps and
+original geological mapping by Alberta Geological Survey staff ([http://www.ags.gov.ab.ca/publications/abstracts/MAP_600.html](http://www.ags.gov.ab.ca/publications/abstracts/MAP_600.html)). Mapping included
+field observations and creating three-dimensional models of subsurface
+stratigraphy based on the interpretation of geophysical logs from oil and gas
+wells. Each three-dimensional formation surface was projected to a model of
+the bedrock surface and the intersection formed the first approximation of the
+position of the geological contact at the base of the surficial deposits.
+These preliminary contacts were then adjusted to honour outcrop data and the
+interpretation of the bedrock unit immediately below surficial deposits in
+individual wells. This GIS layer was created at a scale of 1:1,000,000.
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">

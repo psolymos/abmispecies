@@ -4,10 +4,9 @@ title: Native vegetation mesh size
 description: "Native vegetation mesh size"
 ---
 
-The Alberta Biodiversity Monitoring Institute tracks changes in human footprint and reports on the status of, and changes in, land use across the province of Alberta. One of the goals of the Institute is to provide credible and understandable information on the amount and location of remaining native vegetation to support natural resources management. 
-ABMI created  the Effective Mesh Size layers (Version 1.0) .
+The Alberta Biodiversity Monitoring Institute tracks changes in human footprint and reports on the status of, and changes in, land use across the province of Alberta. One of the goals of the Institute is to provide credible and understandable information on the amount and location of remaining native vegetation to support natural resources management.  To support this, the ABMI created  the Effective Mesh Size layers (Version 1.0).
 
-The primary source of data when creating the edge buffer layers was the 2012 Human Footprint Inventory (Version 3.0), a GIS polygon layer that describes human footprint in Alberta as of December 31, 2012. Polygons in that layer map the location and geographic extent of areas under human use that either have either lost their natural cover (e.g., cities, roads, agricultural land, industrial areas), or whose natural cover is periodically or temporarily replaced by resource extraction activities (e.g., forestry, seismic lines). 
+The primary source of data when creating the mesh size layer was the 2012 Human Footprint Inventory (Version 3.0), a GIS polygon layer that describes human footprint in Alberta as of December 31, 2012. Polygons in that layer map the location and geographic extent of areas under human use that either have either lost their natural cover (e.g., cities, roads, agricultural land, industrial areas), or whose natural cover is periodically or temporarily replaced by resource extraction activities (e.g., forestry, seismic lines). All areas that were not classified as human footprint were assumed to be native vegetation, and mesh size calculated based on these polygons (see [methods]({{ site.ftproot }}/habitat/mesh-size/Effective_Mesh_Size_Layer_Metadata_20Jan2016.doc)).
 
 
 <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-mesh-all-hf">Mesh size: all human footprint included</button></p>
@@ -68,4 +67,3 @@ The primary source of data when creating the edge buffer layers was the 2012 Hum
 
   </div>
 </div>
-

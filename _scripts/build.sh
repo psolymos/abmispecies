@@ -1,3 +1,6 @@
+## run like:
+## sudo bash ~/repos/abmispecies/_scripts/build.sh
+
 ## clear old stuff
 echo 'Cleaning up old stuff'
 rm -f ~/repos/abmispecies/_data/*.yml
@@ -7,22 +10,21 @@ rm -r -f ~/repos/abmispecies/pages/species/mosses
 rm -r -f ~/repos/abmispecies/pages/species/lichens
 rm -r -f ~/repos/abmispecies/pages/species/birds
 rm -r -f ~/repos/abmispecies/pages/species/mites
-rm -r -f ~/repos/abmispecies/pages/testspecies/birds
+#rm -r -f ~/repos/abmispecies/pages/testspecies/birds
 
 ## status update
-#git clone https://github.com/psolymos/abmispecies.git
 cd ~/repos/abmispecies
 echo 'Updating git repo'
-git pull
 #git checkout --track -b origin/v2015
 #git checkout v2015
-git checkout master
+git checkout v2016
+git pull
 
 ## run R script
 echo 'Running R script'
 cd ~/repos/abmispecies/_scripts
 Rscript --vanilla website_script.R
-Rscript --vanilla test.R
+#Rscript --vanilla test.R
 
 ## run Jekyll
 echo 'Running jekyll'
@@ -43,5 +45,6 @@ mv sppweb.zip ~/repos/abmispecies/_site/
 ## redirect
 echo 'Redirect overwrite'
 cp ~/repos/abmispecies/_scripts/index.html /var/www/html/index.html
+cp ~/repos/abmispecies/_scripts/robots.txt /var/www/html/robots.txt
 
 echo 'Done'

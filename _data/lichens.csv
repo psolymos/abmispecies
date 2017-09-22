@@ -1,299 +1,297 @@
-"sppid","species","ndet","nsite","useavail.north","useavail.south","veghf.north","soilhf.south","map.det","map.pred","comment","scinam"
-"Alectoria.sarmentosa","Witch's Hair",46,27,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Alectoria sarmentosa"
-"Arctoparmelia.centrifuga","Concentric Ring Lichen",21,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Arctoparmelia centrifuga"
-"Arctoparmelia.separata","Rippled Ring Lichen",8,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Arctoparmelia separata"
-"Baeomyces.rufus","Brown-beret Lichen",6,6,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Baeomyces rufus"
-"Bryoria.capillaris","Grey Horsehair",134,73,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Bryoria capillaris"
-"Bryoria.fremontii","Edible Horsehair",78,39,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Bryoria fremontii"
-"Bryoria.furcellata","Burred Horsehair",314,177,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Bryoria furcellata"
-"Bryoria.fuscescens.grp.","",1351,575,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Bryoria fuscescens grp. "
-"Bryoria.implexa","Boreal Horsehair",25,20,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Bryoria implexa"
-"Bryoria.nadvornikiana","Spiny Gray Horsehair",9,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Bryoria nadvornikiana"
-"Bryoria.pseudofuscescens","Mountain Horsehair",18,16,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Bryoria pseudofuscescens"
-"Bryoria.simplicior","Spangled Horsehair",577,240,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Bryoria simplicior"
-"Calicium.abietinum","Black Stubble Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Calicium abietinum"
-"Calicium.adaequatum","Shrub Stubble",4,4,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Calicium adaequatum"
-"Calicium.glaucellum","White-Collar Stubble",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Calicium glaucellum"
-"Calicium.pinastri","Pine Stubble",7,5,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Calicium pinastri"
-"Calicium.salicinum","Rusted Stubble",6,6,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Calicium salicinum"
-"Calicium.trabinellum","Yellow-collar Stubble Lichen",20,17,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Calicium trabinellum"
-"Calicium.viride","Green Stubble",6,6,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Calicium viride"
-"Caloplaca.lobulata","Lobulate Firedot",6,4,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Caloplaca lobulata"
-"Candelaria.pacifica.concolor","",49,37,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Candelaria pacifica/concolor"
-"Cetraria.aculeata","Spiny Heath Lichen",60,35,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Cetraria aculeata"
-"Cetraria.arenaria","Sand-Loving Iceland Lichen",25,13,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Cetraria arenaria"
-"Cetraria.ericetorum","Iceland Lichen",233,140,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cetraria ericetorum"
-"Cetraria.islandica","",5,4,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Cetraria islandica"
-"Cetraria.muricata","Alpine Spiny Heath Lichen",15,9,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Cetraria muricata"
-"Chaenotheca.chrysocephala","Canary Whiskers",9,6,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Chaenotheca chrysocephala"
-"Chaenotheca.furfuracea","Sulphur Whiskers",4,4,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Chaenotheca furfuracea"
-"Chaenotheca.gracillima","Cat's Whiskers",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Chaenotheca gracillima"
-"Chaenotheca.hispidula","Lemon Whiskers",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Chaenotheca hispidula"
-"Chaenotheca.laevigata","Lemon-twist Whiskers",2,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Chaenotheca laevigata"
-"Chaenotheca.trichialis","Frog Whiskers",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Chaenotheca trichialis"
-"Chaenothecopsis.debilis","King Pin",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Chaenothecopsis debilis"
-"Chaenothecopsis.pusilla","Ambiguous Pin",12,11,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Chaenothecopsis pusilla"
-"Chaenothecopsis.pusiola","Algal Pin",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Chaenothecopsis pusiola"
-"Chaenothecopsis.viridireagens","Red-headed Pin",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Chaenothecopsis viridireagens"
-"Circinaria.hispida","Vagabond Lichen",6,5,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Circinaria hispida"
-"Cladonia.acuminata","Branching pebblehorn",20,17,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Cladonia acuminata"
-"Cladonia.amaurocraea","Quill Cladonia",75,42,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia amaurocraea"
-"Cladonia.arbuscula.ssp.beringiana","",135,106,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia arbuscula ssp. beringiana"
-"Cladonia.arbuscula.ssp.mitis","",1066,509,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Cladonia arbuscula ssp. mitis"
-"Cladonia.bacilliformis","Lesser Greenhorn",283,199,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia bacilliformis"
-"Cladonia.borealis","Boreal Pixie-cup",211,140,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia borealis"
-"Cladonia.botrytes","Wooden Soldiers",814,432,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia botrytes"
-"Cladonia.brevis","Short Split-peg Soldiers",4,3,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Cladonia brevis"
-"Cladonia.cariosa","Peg-leg Soldiers",104,88,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia cariosa"
-"Cladonia.carneola","Crowned Pixie-cup",109,73,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia carneola"
-"Cladonia.cenotea","Powdered Funnel Cladonia",811,404,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia cenotea"
-"Cladonia.chlorophaea","Mealy Pixie-cup",1054,593,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Cladonia chlorophaea"
-"Cladonia.chlorophaea.grp.","Grainy Pixie-cup Group",592,248,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia chlorophaea grp."
-"Cladonia.coccifera","Madame's Pixie-cup",16,10,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Cladonia coccifera"
-"Cladonia.coniocraea","Common Powderhorn",1229,598,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Cladonia coniocraea"
-"Cladonia.cornuta","Common Bighorn",1048,508,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia cornuta"
-"Cladonia.crispata","Organ-pipe",837,412,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia crispata"
-"Cladonia.cristatella","British Soldiers",374,215,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia cristatella"
-"Cladonia.cyanipes","Greater Greenhorn",291,168,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia cyanipes"
-"Cladonia.dahliana","Rough Thatch",175,89,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Cladonia dahliana"
-"Cladonia.deformis","Lesser Sulphur-cup",691,367,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia deformis"
-"Cladonia.digitata","Finger Pixie-cup",15,14,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Cladonia digitata"
-"Cladonia.ecmocyna","Frost Soldiers",36,23,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Cladonia ecmocyna"
-"Cladonia.fimbriata","Trumpet Cladonia",894,539,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Cladonia fimbriata"
-"Cladonia.glauca","Glaucous Pixie Lichen",15,13,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Cladonia glauca"
-"Cladonia.gracilis","Smooth Cladonia",174,172,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia gracilis"
-"Cladonia.gracilis.ssp.turbinata","",1229,509,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia gracilis ssp. turbinata"
-"Cladonia.imbricarica","Pygmy Pixie-cup",5,4,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Cladonia imbricarica"
-"Cladonia.macilenta","Lipstick Powderhorn",743,385,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia macilenta"
-"Cladonia.macrophylla","Plated Pebblehorn",19,12,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Cladonia macrophylla"
-"Cladonia.multiformis","Sieve Lichen",495,345,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia multiformis"
-"Cladonia.norvegica","Least Powderhorn",16,14,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Cladonia norvegica"
-"Cladonia.phyllophora","Felt-soldiers",148,94,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia phyllophora"
-"Cladonia.pleurota","Red-Fruited Pixie-cup",72,65,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia pleurota"
-"Cladonia.pocillum","Rosette Pixie-cup",334,143,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Cladonia pocillum"
-"Cladonia.pyxidata","Pebbled Pixie-cup",240,180,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Cladonia pyxidata"
-"Cladonia.rangiferina","Grey Reindeer Lichen",127,98,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia rangiferina"
-"Cladonia.rei","Wand Lichen",223,124,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Cladonia rei"
-"Cladonia.robbinsii","Yellow-tongue Cladonia",126,68,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Cladonia robbinsii"
-"Cladonia.scabriuscula","Mealy-Forked Lichen",119,94,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia scabriuscula"
-"Cladonia.stellaris","Star-tipped Reindeer Lichen",150,107,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia stellaris"
-"Cladonia.stricta","Lesser Black-foot Lichen",2,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Cladonia stricta"
-"Cladonia.stygia","Black-footed Reindeer Lichen",126,78,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia stygia"
-"Cladonia.subulata","Antler Powderhorn",142,115,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia subulata"
-"Cladonia.sulphurina","Greater Sulphur-cup",502,262,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia sulphurina"
-"Cladonia.symphycarpa","Greater Thatch Soldiers",75,53,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Cladonia symphycarpa"
-"Cladonia.trassii","Spotted Black-foot Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Cladonia trassii"
-"Cladonia.uncialis","Thorn Cladonia",133,81,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Cladonia uncialis"
-"Cladonia.verruculosa","Western Wand Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Cladonia verruculosa"
-"Cladonia.verticillata","Laddered Pixie-cup",45,41,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Cladonia verticillata"
-"Collema.coccophorum","Tarpaper",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Collema coccophorum"
-"Collema.crispum.s.l.","",40,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Collema crispum s.l."
-"Collema.furfuraceum","Blistered Jelly Lichen",7,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Collema furfuraceum"
-"Collema.fuscovirens","Bleb Tarpaper",4,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Collema fuscovirens"
-"Collema.multipartitum","Protracted Jelly",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Collema multipartitum"
-"Collema.tenax.grp.","Tar-jelly Group",21,17,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Collema tenax grp."
-"Dactylina.beringica","Arctic Butter-fingers",2,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Dactylina beringica"
-"Dactylina.ramulosa","Frosted Fingers",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Dactylina ramulosa"
-"Dermatocarpon.luridum","Streamside Stippleback",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Dermatocarpon luridum"
-"Evernia.mesomorpha","Boreal Oakmoss Lichen",1552,657,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Evernia mesomorpha"
-"Flavocetraria.cucullata","Curled Snow Lichen",28,25,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Flavocetraria cucullata"
-"Flavocetraria.nivalis","Crinkled Snow Lichen",129,70,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Flavocetraria nivalis"
-"Flavopunctelia.flaventior","Speckled Greenshield",73,52,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Flavopunctelia flaventior"
-"Flavopunctelia.soredica","Powder-edged Speckled Greenshield",21,12,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Flavopunctelia soredica"
-"Fuscopannaria.cyanolepra","Disintegrating Shingle Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Fuscopannaria cyanolepra"
-"Fuscopannaria.praetermissa","Moss Shingle Lichen",8,8,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Fuscopannaria praetermissa"
-"Heterodermia.galactophylla","Milky-skin Centipede Lichen",18,15,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Heterodermia galactophylla"
-"Heterodermia.japonica","Japanese Centipede Lichen",4,4,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Heterodermia japonica"
-"Heterodermia.speciosa","Powdered Centipede",5,5,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Heterodermia speciosa"
-"Hypocenomyce.oligospora","Peter Pan Cockleshell",6,5,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypocenomyce oligospora"
-"Hypocenomyce.scalaris","Common Clam Lichen",14,14,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypocenomyce scalaris"
-"Hypogymnia.austerodes.grp.","Varnished Tube Lichen Group",72,46,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Hypogymnia austerodes grp."
-"Hypogymnia.bitteri","Powdered Tube Lichen",36,28,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Hypogymnia bitteri"
-"Hypogymnia.enteromorpha","Gut Lichen",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypogymnia enteromorpha"
-"Hypogymnia.imshaugii","Forked Tube Lichen",3,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypogymnia imshaugii"
-"Hypogymnia.incurvoides","Lattice Tube Lichen",3,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypogymnia incurvoides"
-"Hypogymnia.occidentalis","Lattice Tube Lichen",13,9,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypogymnia occidentalis"
-"Hypogymnia.physodes","Hooded Tube Lichen",1597,658,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Hypogymnia physodes"
-"Hypogymnia.protea","Chameleon Tube Lichen",27,21,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Hypogymnia protea"
-"Hypogymnia.recurva","Recurved Tube Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypogymnia recurva"
-"Hypogymnia.rugosa","Wrinkled Tube Lichen",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypogymnia rugosa"
-"Hypogymnia.subobscura","Heath Tube Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypogymnia subobscura"
-"Hypogymnia.tubulosa","Dog Bone",64,55,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Hypogymnia tubulosa"
-"Hypogymnia.vittata","Brown Monk's Hood",2,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypogymnia vittata"
-"Hypogymnia.wilfiana","Deflated Tube Lichen",28,18,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Hypogymnia wilfiana"
-"Imshaugia.aleurites","Salted Starburst",570,289,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Imshaugia aleurites"
-"Imshaugia.placorodia","American Starburst",97,51,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Imshaugia placorodia"
-"Kaernefeltia.merrillii","Blackened Thornbush",48,25,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Kaernefeltia merrillii"
-"Lasallia.pensylvanica","Blackened Toadskin",4,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Lasallia pensylvanica"
-"Lecanorales","",5,4,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Lecanorales"
-"Leptogium.intermedium","Forty-five Vinyl",22,20,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Leptogium intermedium"
-"Leptogium.lichenoides","Tattered Vinyl",3,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Leptogium lichenoides"
-"Leptogium.pseudofurfuraceum","Dimpled Vinyl",4,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Leptogium pseudofurfuraceum"
-"Leptogium.saturninum","Peppered Vinyl",74,63,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Leptogium saturninum"
-"Leptogium.subtile.grp.","Appressed Vinyl Group",90,75,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Leptogium subtile grp."
-"Leptogium.teretiusculum","Shrubby Vinyl",13,11,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Leptogium teretiusculum"
-"Letharia.columbiana","Brown-eyed Wolf Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Letharia columbiana"
-"Letharia.vulpina","Wolf Lichen",41,22,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Letharia vulpina"
-"Lichenomphalia.umbellifera","Greenpea Mushroom Lichen",7,6,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Lichenomphalia umbellifera"
-"Lobaria.hallii","Iron Lung",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Lobaria hallii"
-"Lobaria.linita","Cabbage Lungwort",7,4,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Lobaria linita"
-"Lobaria.pulmonaria","Lung Lichen",35,24,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Lobaria pulmonaria"
-"Lobaria.scrobiculata","Textured Lungwort",3,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Lobaria scrobiculata"
-"Lobothallia.alphoplaca","Puffed Sunken-disk Lichen",18,14,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Lobothallia alphoplaca"
-"Melanelia.disjuncta","Mealy Camouflage Lichen",2,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanelia disjuncta"
-"Melanelia.hepatizon","Rimmed Camouflage Lichen",3,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanelia hepatizon"
-"Melanelia.panniformis","Shingled Camouflage Lichen",2,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanelia panniformis"
-"Melanelia.sorediata","Powdered Camouflage Lichen",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanelia sorediata"
-"Melanelia.stygia","Alpine Camouflage Lichen",6,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanelia stygia"
-"Melanelia.tominii","Dimpled Camouflage Lichen",3,3,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanelia tominii"
-"Melanelixia.albertana","Powdered Camouflage Lichen",149,106,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Melanelixia albertana"
-"Melanelixia.fuliginosa","Shiny Camouflage Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanelixia fuliginosa"
-"Melanelixia.subaurifera","Abraded Camouflage Lichen",910,450,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Melanelixia subaurifera"
-"Melanohalea.elegantula","Elegant Camouflage Lichen",33,28,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Melanohalea elegantula"
-"Melanohalea.exasperata","Exasperating Camouflage Lichen",37,34,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Melanohalea exasperata"
-"Melanohalea.exasperatula","Lustrous Camouflage Lichen",407,232,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Melanohalea exasperatula"
-"Melanohalea.infumata","Smoky Camouflage Lichen",4,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanohalea infumata"
-"Melanohalea.multispora","Many-spored Camouflage Lichen",4,4,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanohalea multispora"
-"Melanohalea.olivaceoides","Olivaceous Camouflage Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanohalea olivaceoides"
-"Melanohalea.septentrionalis.olivacea","",630,318,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Melanohalea septentrionalis/olivacea"
-"Melanohalea.subelegantula","Subelegant Camouflage Lichen",3,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanohalea subelegantula"
-"Melanohalea.subexasperatula.DLH","",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanohalea subexasperatula DLH"
-"Melanohalea.subolivacea","Brown-eyed Camouflage Lichen",25,22,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Melanohalea subolivacea"
-"Melanohalea.trabeculata","Baby Brown Lichen",133,88,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Melanohalea trabeculata"
-"Microcalicium.disseminatum","Whisk Broom",2,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Microcalicium disseminatum"
-"Mycocalicium.subtile","Snag Pin",14,11,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Mycocalicium subtile"
-"Nephroma.arcticum","Green Paw",11,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Nephroma arcticum"
-"Nephroma.bellum","Cat Paw",100,67,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Nephroma bellum"
-"Nephroma.expallidum","Alpine Paw",7,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Nephroma expallidum"
-"Nephroma.helveticum","Dog Paw",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Nephroma helveticum"
-"Nephroma.parile","Powder Paw",7,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Nephroma parile"
-"Nephroma.resupinatum","Blister Paw",64,46,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Nephroma resupinatum"
-"Nodobryoria.abbreviata","Tufted Foxtail",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Nodobryoria abbreviata"
-"Nodobryoria.oregana","Pendent Foxtail",15,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Nodobryoria oregana"
-"Parmelia.fraudans","Usnic Shield",14,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Parmelia fraudans"
-"Parmelia.hygrophila","Salted Shield",5,5,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Parmelia hygrophila"
-"Parmelia.saxatilis","Salted Shield",3,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Parmelia saxatilis"
-"Parmelia.sulcata","Hammered Shield Lichen",1850,758,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Parmelia sulcata"
-"Parmeliopsis.ambigua","Green Starburst",1051,480,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Parmeliopsis ambigua"
-"Parmeliopsis.hyperopta","Gray Starburst",718,356,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Parmeliopsis hyperopta"
-"Peltigera.aphthosa","Freckle Pelt",469,290,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Peltigera aphthosa"
-"Peltigera.canina","Dog-lichen",443,318,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Peltigera canina"
-"Peltigera.castanea","Chestnut Pelt",5,4,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Peltigera castanea"
-"Peltigera.cinnamomea","Cinnamon Pelt",5,5,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Peltigera cinnamomea"
-"Peltigera.collina","Tree Pelt",10,8,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Peltigera collina"
-"Peltigera.degenii","Degen's Felt Pelt",3,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Peltigera degenii"
-"Peltigera.didactyla","Alternating Dog-lichen",249,190,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Peltigera didactyla"
-"Peltigera.elisabethae","Concentric Pelt",234,172,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Peltigera elisabethae"
-"Peltigera.evansiana","Peppered Pelt",52,42,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Peltigera evansiana"
-"Peltigera.extenuata","Sheepish Pelt",197,158,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Peltigera extenuata"
-"Peltigera.horizontalis","Flat Dog Lichen",22,21,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Peltigera horizontalis"
-"Peltigera.hymenina","Dog Lichen",3,3,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Peltigera hymenina"
-"Peltigera.kristinssonii","Dark-veined Pelt",16,10,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Peltigera kristinssonii"
-"Peltigera.latiloba","Macho Freckle Pelt",6,5,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Peltigera latiloba"
-"Peltigera.lepidophora","Butterfly Pelt",15,15,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Peltigera lepidophora"
-"Peltigera.leucophlebia","Ruffled Freckle Pelt",601,336,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Peltigera leucophlebia"
-"Peltigera.malacea","Veinless Pelt",220,141,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Peltigera malacea"
-"Peltigera.membranacea","Membranous Dog-lichen",152,138,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Peltigera membranacea"
-"Peltigera.neckeri","Black Saddle Lichen",378,292,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Peltigera neckeri"
-"Peltigera.neopolydactyla","Carpet Pelt",292,190,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Peltigera neopolydactyla"
-"Peltigera.polydactylon","Frog Pelt",32,30,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Peltigera polydactylon"
-"Peltigera.ponojensis","Pale-bellied Dog-lichen",71,63,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Peltigera ponojensis"
-"Peltigera.praetextata","Born-Again Pelt",326,193,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Peltigera praetextata"
-"Peltigera.retifoveata","Sponge Pelt",53,46,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Peltigera retifoveata"
-"Peltigera.rufescens","Field Dog-lichen",272,200,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Peltigera rufescens"
-"Peltigera.scabrosa","Scabby Pelt",125,79,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Peltigera scabrosa"
-"Peltigera.venosa","Fan Pelt",4,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Peltigera venosa"
-"Phaeocalicium.compressulum","Alder Needles",79,55,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Phaeocalicium compressulum"
-"Phaeocalicium.flabelliforme","Fan-shaped Needles",3,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Phaeocalicium flabelliforme"
-"Phaeocalicium.polyporaeum","Polypore Needles",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Phaeocalicium polyporaeum"
-"Phaeocalicium.populneum","Poplar Needles",128,88,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Phaeocalicium populneum"
-"Phaeocalicium.praecedens","New Needles",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Phaeocalicium praecedens"
-"Phaeophyscia.adiastola","Granulated Shadow",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Phaeophyscia adiastola"
-"Phaeophyscia.ciliata","Smooth Shadow",9,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Phaeophyscia ciliata"
-"Phaeophyscia.constipata","Pincushion Shadow",188,96,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Phaeophyscia constipata"
-"Phaeophyscia.hirsuta","Powdered Shadow",14,11,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Phaeophyscia hirsuta"
-"Phaeophyscia.kairamoi","Gritty Whiskered Shadow",43,32,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Phaeophyscia kairamoi"
-"Phaeophyscia.nigricans","One-horse Shadow",9,8,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Phaeophyscia nigricans"
-"Phaeophyscia.orbicularis","Mealy Shadow",296,181,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Phaeophyscia orbicularis"
-"Phaeophyscia.pusilloides","Pompon Shadow",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Phaeophyscia pusilloides"
-"Phaeophyscia.sciastra","Five O'Clock Shadow",4,4,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Phaeophyscia sciastra"
-"Physcia.adscendens","Hooded Rosette Lichen",1019,499,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Physcia adscendens"
-"Physcia.aipolia.alnophila","",679,379,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Physcia aipolia/alnophila"
-"Physcia.biziana","Frosted Rosette Lichen",7,6,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Physcia biziana"
-"Physcia.caesia","Powdered Rosette",23,22,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Physcia caesia"
-"Physcia.convexa","Convex Rosette Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Physcia convexa"
-"Physcia.dimidiata","Frosted Rosette",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Physcia dimidiata"
-"Physcia.dubia","Powder-tipped Rosette Lichen",32,28,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Physcia dubia"
-"Physcia.millegrana","Mealy Rosette Lichen",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Physcia millegrana"
-"Physcia.phaea","Black-eyed Rosette Lichen",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Physcia phaea"
-"Physcia.stellaris","Star Rosette Lichen",417,227,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Physcia stellaris"
-"Physcia.subtilis","Slender Rosette",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Physcia subtilis"
-"Physciella.chloantha","Powdery-margined Cryptic Rosette",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Physciella chloantha"
-"Physciella.melanchra","Mealy Cryptic Rosette",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Physciella melanchra"
-"Physconia.detersa.isidiigera","",58,48,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Physconia detersa/isidiigera"
-"Physconia.enteroxantha","Yellow-edged Frost Lichen",33,25,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Physconia enteroxantha"
-"Physconia.grumosa","Lumpish Frost Lichen",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Physconia grumosa"
-"Physconia.muscigena","Ground Frost",246,112,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Physconia muscigena"
-"Physconia.perisidiosa","Bordered Frost",20,14,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Physconia perisidiosa"
-"Platismatia.glauca","Ragbag",122,82,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Platismatia glauca"
-"Protopannaria.pezizoides","Peacock Mouse",7,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Protopannaria pezizoides"
-"Pseudephebe.minuscula","Coarse Rockwool",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Pseudephebe minuscula"
-"Pseudevernia.consocians","Silver Antler Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Pseudevernia consocians"
-"Psora.cerebriformis","Brain Scale",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Psora cerebriformis"
-"Psora.himalayana","Mountain Scale",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Psora himalayana"
-"Psoroma.hypnorum","Green Moss-shingle",7,5,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Psoroma hypnorum"
-"Punctelia.jeckeri.caseana","",39,33,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Punctelia jeckeri/caseana"
-"Ramalina.dilacerata","Punctured Ramalina",953,460,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Ramalina dilacerata"
-"Ramalina.obtusata","Hooded Ramalina",72,58,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Ramalina obtusata"
-"Ramalina.pollinaria.grp.","",174,127,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Ramalina pollinaria grp."
-"Ramalina.sinensis","Fan Ramalina",61,44,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Ramalina sinensis"
-"Ramalina.sorediosinensis.DLH","Dirty Fan Ramalina",6,5,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Ramalina sorediosinensis DLH"
-"Ramalina.thrausta","Angel's Hair",19,16,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Ramalina thrausta"
-"Rhizoplaca.chrysoleuca","Orange Rock-posy",56,42,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Rhizoplaca chrysoleuca"
-"Rhizoplaca.melanophthalma","Green Rock-posy",102,61,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Rhizoplaca melanophthalma"
-"Rhizoplaca.subdiscrepans","Scattered Rock-posy",4,4,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Rhizoplaca subdiscrepans"
-"Solorina.saccata","Common Chocolate Chip Lichen",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Solorina saccata"
-"Sphinctrina.anglica","English Puckered Pin",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Sphinctrina anglica"
-"Stenocybe.major","Greater Stickpin",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Stenocybe major"
-"Stenocybe.pullatula","Alder Stickpin",81,44,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Stenocybe pullatula"
-"Stereocaulon.All","",110,77,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Stereocaulon.All"
-"Thamnolia.subuliformis","Whiteworm",2,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Thamnolia subuliformis"
-"Tuckermannopsis.americana","Fringed Ruffle",1187,536,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Tuckermannopsis americana"
-"Tuckermannopsis.chlorophylla","Powdered Ruffle Lichen",63,40,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Tuckermannopsis chlorophylla"
-"Tuckermannopsis.ciliaris","Fringed Wrinkle Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Tuckermannopsis ciliaris"
-"Tuckermannopsis.orbata","Variable Wrinkle Lichen",113,81,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Tuckermannopsis orbata"
-"Tuckermannopsis.platyphylla","Broad Wrinkle Lichen",33,16,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Tuckermannopsis platyphylla"
-"Tuckermannopsis.sepincola","Chestnut Wrinkle Lichen",561,274,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Tuckermannopsis sepincola"
-"Tuckermannopsis.subalpina","Arboreal Iceland Lichen",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Tuckermannopsis subalpina"
-"Umbilicaria.cylindrica","Fringed Rock Tripe",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Umbilicaria cylindrica"
-"Umbilicaria.deusta","Peppered Rock Tripe",5,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Umbilicaria deusta"
-"Umbilicaria.hyperborea","Blistered Rock Tripe",11,7,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Umbilicaria hyperborea"
-"Umbilicaria.muhlenbergii","Plated Rock Tripe",28,12,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Umbilicaria muhlenbergii"
-"Umbilicaria.torrefacta","Punctured Rock Tripe",2,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Umbilicaria torrefacta"
-"Umbilicaria.virginis","Blushing Rock Tripe",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Umbilicaria virginis"
-"Usnea.cavernosa","Pitted Beard",95,57,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,"","Usnea cavernosa"
-"Usnea.cornuta","Inflated Beard",3,3,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Usnea cornuta"
-"Usnea.fragilescens","",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Usnea fragilescens"
-"Usnea.glabrata","Lustrous Beard",381,174,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Usnea glabrata"
-"Usnea.hirta","Bristly Beard",915,428,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Usnea hirta"
-"Usnea.lapponica","Powdered Beard",1205,533,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Usnea lapponica"
-"Usnea.scabrata","Straw Beard",834,398,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Usnea scabrata"
-"Usnea.substerilis.subfloridana","",1140,532,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Usnea substerilis/subfloridana"
-"Verrucariaceae","",4,2,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Verrucariaceae"
-"Vulpicida.canadensis","Brown-eyed Sunshine",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Vulpicida canadensis"
-"Vulpicida.pinastri","Powdered Sunshine",1596,671,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Vulpicida pinastri"
-"Vulpicida.tilesii","Limestone Sunshine",5,3,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Vulpicida tilesii"
-"Xanthomendoza.fallax","Hooded Sunburst Lichen",213,141,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Xanthomendoza fallax"
-"Xanthomendoza.fulva","Bare-bottomed Sunburst Lichen",16,14,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Xanthomendoza fulva"
-"Xanthomendoza.hasseana.montana","",116,72,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,"","Xanthomendoza hasseana/montana"
-"Xanthoparmelia.camtschadalis","Vagabond Rockfrog",140,66,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Xanthoparmelia camtschadalis"
-"Xanthoparmelia.chlorochroa","Tumbleweed Rockfrog",66,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Xanthoparmelia chlorochroa"
-"Xanthoparmelia.coloradoensis","Questionable Rockfrog",39,26,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Xanthoparmelia coloradoensis"
-"Xanthoparmelia.mexicana","Salted Rock-shield",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Xanthoparmelia mexicana"
-"Xanthoparmelia.stenophylla","Shingled Rockfrog",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Xanthoparmelia stenophylla"
-"Xanthoparmelia.subdecipiens","Deceiving Rockfrog",9,8,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Xanthoparmelia subdecipiens"
-"Xanthoparmelia.wyomingica","Variable Rockfrog",193,82,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Xanthoparmelia wyomingica"
-"Xanthoria.candelaria","Shrubby Sunburst Lichen",26,25,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,"","Xanthoria candelaria"
-"Xanthoria.elegans","Elegant Sunburst Lichen",104,74,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,"","Xanthoria elegans"
-"Xanthoria.polycarpa","Pin-cushion Sunburst Lichen",37,29,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,"","Xanthoria polycarpa"
-"Xanthoria.sorediata","Sugared Sunburst",1,1,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"","Xanthoria sorediata"
+"sppid","species","scinam","ndet","nsite","map.det","useavail.north","veghf.north","useavail.south","soilhf.south","map.pred","comments","tsnid"
+"Alectoria.sarmentosa.ssp.sarmentosa",NA,"Alectoria sarmentosa ssp. sarmentosa",46,27,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002993
+"Arctoparmelia.centrifuga",NA,"Arctoparmelia centrifuga",29,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002510
+"Arctoparmelia.separata",NA,"Arctoparmelia separata",9,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002511
+"Baeomyces.rufus",NA,"Baeomyces rufus",6,6,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,98280008
+"Bryoria.capillaris",NA,"Bryoria capillaris",161,97,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002217
+"Bryoria.fremontii",NA,"Bryoria fremontii",75,36,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002218
+"Bryoria.friabilis",NA,"Bryoria friabilis",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99004860
+"Bryoria.furcellata",NA,"Bryoria furcellata",375,204,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002219
+"Bryoria.fuscescens.glabra.lanestris.vrangiana",NA,"Bryoria fuscescens/glabra/lanestris/vrangiana",1643,697,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,NA
+"Bryoria.implexa",NA,"Bryoria implexa",31,26,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002221
+"Bryoria.nadvornikiana",NA,"Bryoria nadvornikiana",15,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002223
+"Bryoria.pseudofuscescens",NA,"Bryoria pseudofuscescens",19,17,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002224
+"Bryoria.simplicior",NA,"Bryoria simplicior",750,343,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002225
+"Calicium.abietinum",NA,"Calicium abietinum",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002512
+"Calicium.adaequatum",NA,"Calicium adaequatum",6,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002871
+"Calicium.glaucellum",NA,"Calicium glaucellum",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002872
+"Calicium.pinastri",NA,"Calicium pinastri",11,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002873
+"Calicium.salicinum",NA,"Calicium salicinum",9,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002874
+"Calicium.trabinellum",NA,"Calicium trabinellum",27,23,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002513
+"Calicium.viride",NA,"Calicium viride",2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,98281194
+"Caloplaca.lobulata",NA,"Caloplaca lobulata",7,5,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA,99003170
+"Candelaria.pacifica",NA,"Candelaria pacifica",97,71,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002875
+"Cetraria.aculeata.muricata",NA,"Cetraria aculeata/muricata",87,44,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA,NA
+"Cetraria.arenaria",NA,"Cetraria arenaria",30,15,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA,99002154
+"Cetraria.ericetorum.ssp.reticulata",NA,"Cetraria ericetorum ssp. reticulata",271,168,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002997
+"Cetraria.islandica.ssp.islandica",NA,"Cetraria islandica ssp. islandica",5,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002998
+"Chaenotheca.chrysocephala",NA,"Chaenotheca chrysocephala",10,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002515
+"Chaenotheca.furfuracea",NA,"Chaenotheca furfuracea",5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,98283158
+"Chaenotheca.gracillima",NA,"Chaenotheca gracillima",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003167
+"Chaenotheca.hispidula",NA,"Chaenotheca hispidula",4,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002879
+"Chaenotheca.laevigata",NA,"Chaenotheca laevigata",2,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002516
+"Chaenotheca.trichialis",NA,"Chaenotheca trichialis",2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003166
+"Chaenothecopsis.debilis",NA,"Chaenothecopsis debilis",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003153
+"Chaenothecopsis.pusilla",NA,"Chaenothecopsis pusilla",14,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002880
+"Chaenothecopsis.pusiola",NA,"Chaenothecopsis pusiola",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003154
+"Chaenothecopsis.viridireagens",NA,"Chaenothecopsis viridireagens",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003155
+"Circinaria.hispida",NA,"Circinaria hispida",8,6,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA,99000232
+"Cladonia.acuminata",NA,"Cladonia acuminata",26,22,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,99002151
+"Cladonia.amaurocraea",NA,"Cladonia amaurocraea",86,49,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002148
+"Cladonia.arbuscula.ssp.beringiana",NA,"Cladonia arbuscula ssp. beringiana",182,144,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002999
+"Cladonia.arbuscula.ssp.mitis",NA,"Cladonia arbuscula ssp. mitis",1267,605,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99003000
+"Cladonia.bacilliformis",NA,"Cladonia bacilliformis",348,248,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002155
+"Cladonia.botrytes",NA,"Cladonia botrytes",984,523,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002341
+"Cladonia.brevis",NA,"Cladonia brevis",4,3,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA,99002882
+"Cladonia.cariosa",NA,"Cladonia cariosa",113,96,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002342
+"Cladonia.carneola",NA,"Cladonia carneola",110,71,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002152
+"Cladonia.cenotea",NA,"Cladonia cenotea",946,472,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002343
+"Cladonia.chlorophaea.grayi.merochlorophaea.novochlorophaea",NA,"Cladonia chlorophaea/grayi/merochlorophaea/novochlorophaea",1571,760,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,NA
+"Cladonia.coccifera.borealis",NA,"Cladonia coccifera/borealis",252,163,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,NA
+"Cladonia.coniocraea",NA,"Cladonia coniocraea",1485,720,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002345
+"Cladonia.coniocraea.f.pycnotheliza",NA,"Cladonia coniocraea f. pycnotheliza",31,30,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002989
+"Cladonia.cornuta.ssp.cornuta",NA,"Cladonia cornuta ssp. cornuta",1254,606,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99003001
+"Cladonia.crispata.var.crispata",NA,"Cladonia crispata var. crispata",1002,503,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99003007
+"Cladonia.cristatella",NA,"Cladonia cristatella",460,263,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002156
+"Cladonia.cyanipes",NA,"Cladonia cyanipes",365,226,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002346
+"Cladonia.dahliana",NA,"Cladonia dahliana",244,124,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA,99002884
+"Cladonia.deformis",NA,"Cladonia deformis",812,423,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002157
+"Cladonia.digitata",NA,"Cladonia digitata",12,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002348
+"Cladonia.ecmocyna",NA,"Cladonia ecmocyna",21,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002364
+"Cladonia.fimbriata",NA,"Cladonia fimbriata",1019,610,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002349
+"Cladonia.glauca",NA,"Cladonia glauca",15,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002886
+"Cladonia.gracilis.ssp.gracilis.elongata.vulnerata",NA,"Cladonia gracilis ssp. gracilis/elongata/vulnerata",21,20,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA
+"Cladonia.gracilis.ssp.turbinata",NA,"Cladonia gracilis ssp. turbinata",1564,715,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002367
+"Cladonia.imbricarica",NA,"Cladonia imbricarica",6,5,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA,99003053
+"Cladonia.macilenta.var.bacillaris",NA,"Cladonia macilenta var. bacillaris",927,507,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99003008
+"Cladonia.macrophylla",NA,"Cladonia macrophylla",24,16,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002352
+"Cladonia.multiformis",NA,"Cladonia multiformis",556,376,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002159
+"Cladonia.norvegica",NA,"Cladonia norvegica",31,29,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002518
+"Cladonia.phyllophora",NA,"Cladonia phyllophora",180,123,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,98284109
+"Cladonia.pleurota",NA,"Cladonia pleurota",68,60,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002354
+"Cladonia.pocillum.magyarica",NA,"Cladonia pocillum/magyarica",405,179,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,NA
+"Cladonia.pyxidata",NA,"Cladonia pyxidata",239,178,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002355
+"Cladonia.rangiferina",NA,"Cladonia rangiferina",139,104,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,98283993
+"Cladonia.rei",NA,"Cladonia rei",250,131,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002161
+"Cladonia.robbinsii",NA,"Cladonia robbinsii",163,86,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA,99002896
+"Cladonia.scabriuscula",NA,"Cladonia scabriuscula",132,106,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002162
+"Cladonia.stellaris",NA,"Cladonia stellaris",164,110,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,91343360
+"Cladonia.stricta",NA,"Cladonia stricta",3,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002898
+"Cladonia.stygia",NA,"Cladonia stygia",190,120,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,91137295
+"Cladonia.subulata",NA,"Cladonia subulata",194,159,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002357
+"Cladonia.sulphurina",NA,"Cladonia sulphurina",604,335,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002358
+"Cladonia.symphycarpa",NA,"Cladonia symphycarpa",105,73,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA,99002163
+"Cladonia.trassii",NA,"Cladonia trassii",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002899
+"Cladonia.uncialis",NA,"Cladonia uncialis",164,100,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002164
+"Cladonia.verticillata",NA,"Cladonia verticillata",48,43,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002521
+"Collema.coccophorum",NA,"Collema coccophorum",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002900
+"Collema.crispum.s.l.",NA,"Collema crispum s.l.",50,40,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA,NA
+"Collema.furfuraceum",NA,"Collema furfuraceum",9,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002306
+"Collema.fuscovirens",NA,"Collema fuscovirens",4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002307
+"Collema.multipartitum",NA,"Collema multipartitum",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002903
+"Collema.tenax.grp.",NA,"Collema tenax grp.",24,20,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,99002864
+"Dactylina.beringica",NA,"Dactylina beringica",2,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002907
+"Dactylina.ramulosa",NA,"Dactylina ramulosa",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002908
+"Dermatocarpon.luridum",NA,"Dermatocarpon luridum",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002909
+"Evernia.mesomorpha",NA,"Evernia mesomorpha",1923,789,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002166
+"Flavocetraria.cucullata",NA,"Flavocetraria cucullata",25,22,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,98289957
+"Flavocetraria.nivalis",NA,"Flavocetraria nivalis",157,85,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,98289958
+"Flavopunctelia.flaventior",NA,"Flavopunctelia flaventior",128,81,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,91139741
+"Flavopunctelia.soredica",NA,"Flavopunctelia soredica",23,14,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,98289990
+"Fuscopannaria.cyanolepra",NA,"Fuscopannaria cyanolepra",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002914
+"Fuscopannaria.praetermissa",NA,"Fuscopannaria praetermissa",8,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002915
+"Heterodermia.galactophylla.japonica.speciosa",NA,"Heterodermia galactophylla/japonica/speciosa",51,44,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,NA
+"Hypocenomyce.anthracophila",NA,"Hypocenomyce anthracophila",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99004861
+"Hypocenomyce.oligospora",NA,"Hypocenomyce oligospora",14,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002919
+"Hypocenomyce.scalaris",NA,"Hypocenomyce scalaris",14,14,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002316
+"Hypogymnia.austerodes.grp.",NA,"Hypogymnia austerodes grp.",73,47,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002866
+"Hypogymnia.bitteri",NA,"Hypogymnia bitteri",38,28,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002235
+"Hypogymnia.enteromorpha",NA,"Hypogymnia enteromorpha",2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002167
+"Hypogymnia.imshaugii",NA,"Hypogymnia imshaugii",3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002920
+"Hypogymnia.incurvoides",NA,"Hypogymnia incurvoides",3,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002527
+"Hypogymnia.occidentalis",NA,"Hypogymnia occidentalis",12,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002236
+"Hypogymnia.physodes",NA,"Hypogymnia physodes",1925,779,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002237
+"Hypogymnia.protea",NA,"Hypogymnia protea",31,23,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002528
+"Hypogymnia.recurva",NA,"Hypogymnia recurva",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002921
+"Hypogymnia.rugosa",NA,"Hypogymnia rugosa",2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002922
+"Hypogymnia.subobscura",NA,"Hypogymnia subobscura",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002923
+"Hypogymnia.tubulosa",NA,"Hypogymnia tubulosa",79,67,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002238
+"Hypogymnia.vittata",NA,"Hypogymnia vittata",2,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002169
+"Hypogymnia.wilfiana",NA,"Hypogymnia wilfiana",28,18,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002168
+"Imshaugia.aleurites",NA,"Imshaugia aleurites",701,351,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002240
+"Imshaugia.placorodia",NA,"Imshaugia placorodia",118,64,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002241
+"Kaernefeltia.merrillii",NA,"Kaernefeltia merrillii",52,29,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,91408352
+"Lasallia.pensylvanica",NA,"Lasallia pensylvanica",5,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002925
+"Lecanorales",NA,"Lecanorales",5,4,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA,99002197
+"Leptogium.intermedium",NA,"Leptogium intermedium",29,26,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA,99002927
+"Leptogium.lichenoides.pulvinatum",NA,"Leptogium lichenoides/pulvinatum",5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA
+"Leptogium.pseudofurfuraceum",NA,"Leptogium pseudofurfuraceum",4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002929
+"Leptogium.saturninum.s.l.",NA,"Leptogium saturninum s.l.",80,68,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,NA
+"Leptogium.subtile.grp.",NA,"Leptogium subtile grp.",57,50,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99003152
+"Leptogium.tenuissimum",NA,"Leptogium tenuissimum",79,69,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002930
+"Leptogium.teretiusculum",NA,"Leptogium teretiusculum",17,15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002931
+"Letharia.columbiana",NA,"Letharia columbiana",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002932
+"Letharia.vulpina",NA,"Letharia vulpina",41,22,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002170
+"Lichenomphalia.umbellifera",NA,"Lichenomphalia umbellifera",8,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002530
+"Lobaria.hallii",NA,"Lobaria hallii",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002372
+"Lobaria.linita",NA,"Lobaria linita",6,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002171
+"Lobaria.pulmonaria",NA,"Lobaria pulmonaria",36,25,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002373
+"Lobaria.scrobiculata",NA,"Lobaria scrobiculata",3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002933
+"Lobothallia.alphoplaca",NA,"Lobothallia alphoplaca",21,16,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA,99002531
+"Melanelia.disjuncta",NA,"Melanelia disjuncta",2,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002935
+"Melanelia.hepatizon",NA,"Melanelia hepatizon",5,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002532
+"Melanelia.panniformis",NA,"Melanelia panniformis",4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002533
+"Melanelia.sorediata",NA,"Melanelia sorediata",2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002936
+"Melanelia.stygia",NA,"Melanelia stygia",8,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002534
+"Melanelia.subaurifera",NA,"Melanelia subaurifera",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,NA
+"Melanelia.tominii",NA,"Melanelia tominii",3,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002937
+"Melanelixia.albertana",NA,"Melanelixia albertana",240,156,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99000233
+"Melanelixia.fuliginosa",NA,"Melanelixia fuliginosa",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002938
+"Melanelixia.subaurifera",NA,"Melanelixia subaurifera",1183,570,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,94022590
+"Melanohalea.cf.exasperata",NA,"Melanohalea cf. exasperata",39,31,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA
+"Melanohalea.cf.subolivacea",NA,"Melanohalea cf. subolivacea",26,22,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA
+"Melanohalea.elegantula",NA,"Melanohalea elegantula",31,26,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,94022592
+"Melanohalea.exasperatula",NA,"Melanohalea exasperatula",581,344,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,94022596
+"Melanohalea.infumata",NA,"Melanohalea infumata",4,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002939
+"Melanohalea.multispora",NA,"Melanohalea multispora",6,6,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002535
+"Melanohalea.olivaceoides",NA,"Melanohalea olivaceoides",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002940
+"Melanohalea.septentrionalis.olivacea",NA,"Melanohalea septentrionalis/olivacea",820,417,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,NA
+"Melanohalea.subelegantula",NA,"Melanohalea subelegantula",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99000229
+"Melanohalea.trabeculata",NA,"Melanohalea trabeculata",201,136,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002536
+"Microcalicium.disseminatum",NA,"Microcalicium disseminatum",2,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003159
+"Mycocalicium.subtile",NA,"Mycocalicium subtile",18,15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002941
+"Nephroma.arcticum",NA,"Nephroma arcticum",11,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002374
+"Nephroma.bellum",NA,"Nephroma bellum",131,87,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002375
+"Nephroma.expallidum",NA,"Nephroma expallidum",7,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002942
+"Nephroma.parile",NA,"Nephroma parile",7,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002377
+"Nephroma.resupinatum",NA,"Nephroma resupinatum",84,56,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002378
+"Nodobryoria.abbreviata",NA,"Nodobryoria abbreviata",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,98298421
+"Nodobryoria.oregana",NA,"Nodobryoria oregana",15,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,93262046
+"Parmelia.fraudans",NA,"Parmelia fraudans",18,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002944
+"Parmelia.hygrophila",NA,"Parmelia hygrophila",5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002945
+"Parmelia.saxatilis",NA,"Parmelia saxatilis",3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002252
+"Parmelia.sulcata",NA,"Parmelia sulcata",2286,905,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002253
+"Parmeliopsis.ambigua",NA,"Parmeliopsis ambigua",1260,564,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002249
+"Parmeliopsis.hyperopta",NA,"Parmeliopsis hyperopta",849,408,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002250
+"Peltigera.aphthosa",NA,"Peltigera aphthosa",510,310,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002172
+"Peltigera.canina",NA,"Peltigera canina",511,371,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002173
+"Peltigera.castanea",NA,"Peltigera castanea",7,6,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002537
+"Peltigera.cinnamomea",NA,"Peltigera cinnamomea",4,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,98300015
+"Peltigera.collina",NA,"Peltigera collina",15,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002338
+"Peltigera.degenii",NA,"Peltigera degenii",4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002947
+"Peltigera.didactyla",NA,"Peltigera didactyla",309,235,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002174
+"Peltigera.elisabethae",NA,"Peltigera elisabethae",299,215,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002325
+"Peltigera.evansiana",NA,"Peltigera evansiana",62,51,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002175
+"Peltigera.extenuata",NA,"Peltigera extenuata",243,198,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,91393420
+"Peltigera.fuscoponojensis.TGO",NA,"Peltigera fuscoponojensis TGO",6,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99003160
+"Peltigera.hymenina",NA,"Peltigera hymenina",3,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002538
+"Peltigera.kristinssonii",NA,"Peltigera kristinssonii",16,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002327
+"Peltigera.latiloba.s.l.",NA,"Peltigera latiloba s.l.",17,16,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA
+"Peltigera.lepidophora",NA,"Peltigera lepidophora",18,18,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,99002176
+"Peltigera.leucophlebia",NA,"Peltigera leucophlebia",697,392,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002328
+"Peltigera.malacea",NA,"Peltigera malacea",240,156,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002329
+"Peltigera.membranacea",NA,"Peltigera membranacea",160,142,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002330
+"Peltigera.neckeri",NA,"Peltigera neckeri",427,323,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002177
+"Peltigera.neopolydactyla.occidentalis",NA,"Peltigera neopolydactyla/occidentalis",344,224,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,NA
+"Peltigera.neorufescens.TGO",NA,"Peltigera neorufescens TGO",12,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99003162
+"Peltigera.polydactylon",NA,"Peltigera polydactylon",30,28,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002539
+"Peltigera.ponojensis",NA,"Peltigera ponojensis",60,52,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002333
+"Peltigera.praetextata",NA,"Peltigera praetextata",432,269,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002334
+"Peltigera.retifoveata",NA,"Peltigera retifoveata",47,40,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002335
+"Peltigera.rufescens",NA,"Peltigera rufescens",325,240,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002336
+"Peltigera.scabrosa",NA,"Peltigera scabrosa",145,92,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002337
+"Peltigera.venosa",NA,"Peltigera venosa",4,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002323
+"Phaeocalicium.compressulum",NA,"Phaeocalicium compressulum",105,68,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002540
+"Phaeocalicium.flabelliforme",NA,"Phaeocalicium flabelliforme",5,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002950
+"Phaeocalicium.interruptum",NA,"Phaeocalicium interruptum",2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003420
+"Phaeocalicium.polyporaeum",NA,"Phaeocalicium polyporaeum",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003163
+"Phaeocalicium.populneum",NA,"Phaeocalicium populneum",198,124,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002541
+"Phaeocalicium.praecedens",NA,"Phaeocalicium praecedens",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002951
+"Phaeophyscia.adiastola",NA,"Phaeophyscia adiastola",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002178
+"Phaeophyscia.ciliata",NA,"Phaeophyscia ciliata",13,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002302
+"Phaeophyscia.constipata",NA,"Phaeophyscia constipata",228,120,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA,99002303
+"Phaeophyscia.decolor",NA,"Phaeophyscia decolor",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002952
+"Phaeophyscia.hirsuta",NA,"Phaeophyscia hirsuta",16,12,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,99002179
+"Phaeophyscia.kairamoi",NA,"Phaeophyscia kairamoi",80,60,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002954
+"Phaeophyscia.nigricans",NA,"Phaeophyscia nigricans",36,27,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA,99002955
+"Phaeophyscia.orbicularis",NA,"Phaeophyscia orbicularis",481,270,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002304
+"Phaeophyscia.pusilloides",NA,"Phaeophyscia pusilloides",5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002956
+"Phaeophyscia.sciastra",NA,"Phaeophyscia sciastra",5,5,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA,99002957
+"Phaeorrhiza.sareptana.nimbosa",NA,"Phaeorrhiza sareptana/nimbosa",3,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,NA
+"Physcia.adscendens",NA,"Physcia adscendens",1338,633,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002279
+"Physcia.aipolia.alnophila",NA,"Physcia aipolia/alnophila",906,485,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,NA
+"Physcia.biziana",NA,"Physcia biziana",8,7,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,99002182
+"Physcia.caesia",NA,"Physcia caesia",23,22,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,99002281
+"Physcia.dimidiata",NA,"Physcia dimidiata",5,5,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,99002958
+"Physcia.dubia",NA,"Physcia dubia",36,32,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA,99002282
+"Physcia.stellaris",NA,"Physcia stellaris",633,322,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002284
+"Physcia.subtilis",NA,"Physcia subtilis",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002960
+"Physciella.chloantha",NA,"Physciella chloantha",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002961
+"Physciella.melanchra",NA,"Physciella melanchra",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002962
+"Physconia.detersa.isidiigera",NA,"Physconia detersa/isidiigera",71,57,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,NA
+"Physconia.enteroxantha",NA,"Physconia enteroxantha",43,34,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002963
+"Physconia.grumosa",NA,"Physconia grumosa",9,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002543
+"Physconia.muscigena",NA,"Physconia muscigena",282,127,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA,99002319
+"Physconia.perisidiosa.labrata.TLE",NA,"Physconia perisidiosa/labrata TLE",31,23,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,NA
+"Platismatia.glauca",NA,"Platismatia glauca",125,85,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002243
+"Protopannaria.pezizoides",NA,"Protopannaria pezizoides",8,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002544
+"Pseudephebe.minuscula",NA,"Pseudephebe minuscula",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002965
+"Pseudevernia.consocians",NA,"Pseudevernia consocians",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003050
+"Psora.cerebriformis",NA,"Psora cerebriformis",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002966
+"Psora.himalayana",NA,"Psora himalayana",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002967
+"Psoroma.hypnorum",NA,"Psoroma hypnorum",7,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002968
+"Punctelia.jeckeri.caseana",NA,"Punctelia jeckeri/caseana",61,47,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,NA
+"Ramalina.dilacerata",NA,"Ramalina dilacerata",1154,553,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002204
+"Ramalina.obtusata",NA,"Ramalina obtusata",97,77,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002186
+"Ramalina.pollinaria.grp.",NA,"Ramalina pollinaria grp.",222,159,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,NA
+"Ramalina.sinensis",NA,"Ramalina sinensis",99,69,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002206
+"Ramalina.sorediosinensis.DLH",NA,"Ramalina sorediosinensis DLH",8,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99003052
+"Ramalina.thrausta",NA,"Ramalina thrausta",21,18,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002189
+"Rhizoplaca.chrysoleuca",NA,"Rhizoplaca chrysoleuca",60,45,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA,99002230
+"Rhizoplaca.melanophthalma",NA,"Rhizoplaca melanophthalma",116,71,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA,99002231
+"Rhizoplaca.subdiscrepans",NA,"Rhizoplaca subdiscrepans",4,4,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA,99002546
+"Solorina.saccata",NA,"Solorina saccata",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99000230
+"Sphinctrina.anglica",NA,"Sphinctrina anglica",3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002970
+"Spilonema.revertens",NA,"Spilonema revertens",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99004870
+"Stenocybe.major",NA,"Stenocybe major",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002971
+"Stenocybe.pullatula",NA,"Stenocybe pullatula",120,67,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002547
+"Stereocaulon.spp.",NA,"Stereocaulon spp.",126,85,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,NA
+"Thamnolia.subuliformis",NA,"Thamnolia subuliformis",2,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002974
+"Tuckermannopsis.americana",NA,"Tuckermannopsis americana",1401,624,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002255
+"Tuckermannopsis.chlorophylla",NA,"Tuckermannopsis chlorophylla",69,45,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002256
+"Tuckermannopsis.orbata",NA,"Tuckermannopsis orbata",138,104,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002259
+"Tuckermannopsis.platyphylla",NA,"Tuckermannopsis platyphylla",32,15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,91162445
+"Tuckermannopsis.sepincola",NA,"Tuckermannopsis sepincola",721,352,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002260
+"Tuckermannopsis.subalpina",NA,"Tuckermannopsis subalpina",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99000228
+"Umbilicaria.cylindrica",NA,"Umbilicaria cylindrica",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003177
+"Umbilicaria.deusta",NA,"Umbilicaria deusta",6,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002975
+"Umbilicaria.hyperborea",NA,"Umbilicaria hyperborea",12,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002550
+"Umbilicaria.muhlenbergii",NA,"Umbilicaria muhlenbergii",33,14,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002190
+"Umbilicaria.torrefacta",NA,"Umbilicaria torrefacta",2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002977
+"Umbilicaria.virginis",NA,"Umbilicaria virginis",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002978
+"Usnea.cavernosa",NA,"Usnea cavernosa",117,73,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA,99002262
+"Usnea.cornuta",NA,"Usnea cornuta",5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002979
+"Usnea.diplotypus",NA,"Usnea diplotypus",3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002191
+"Usnea.glabrata",NA,"Usnea glabrata",545,281,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002264
+"Usnea.hirta",NA,"Usnea hirta",1170,544,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,99002266
+"Usnea.lapponica",NA,"Usnea lapponica",1475,653,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002267
+"Usnea.scabrata",NA,"Usnea scabrata",1045,523,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA,99002268
+"Usnea.scabrata.f.dasopoga",NA,"Usnea scabrata f. dasopoga",24,23,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99003180
+"Usnea.substerilis.subfloridana",NA,"Usnea substerilis/subfloridana",1427,669,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,NA
+"Verrucariaceae",NA,"Verrucariaceae",63,41,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA,99002501
+"Vulpicida.canadensis",NA,"Vulpicida canadensis",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003176
+"Vulpicida.pinastri",NA,"Vulpicida pinastri",1905,790,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,91359076
+"Vulpicida.tilesii",NA,"Vulpicida tilesii",5,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA,99002982
+"Xanthomendoza.fallax",NA,"Xanthomendoza fallax",339,199,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,94037608
+"Xanthomendoza.fulva",NA,"Xanthomendoza fulva",35,30,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,94037607
+"Xanthomendoza.hasseana.montana",NA,"Xanthomendoza hasseana/montana",217,122,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA,NA
+"Xanthoparmelia.camtschadalis",NA,"Xanthoparmelia camtschadalis",175,84,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA,99002551
+"Xanthoparmelia.chlorochroa",NA,"Xanthoparmelia chlorochroa",81,41,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA,91345268
+"Xanthoparmelia.coloradoensis",NA,"Xanthoparmelia coloradoensis",42,28,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,99002986
+"Xanthoparmelia.mexicana",NA,"Xanthoparmelia mexicana",2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99003175
+"Xanthoparmelia.stenophylla",NA,"Xanthoparmelia stenophylla",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002987
+"Xanthoparmelia.subdecipiens",NA,"Xanthoparmelia subdecipiens",9,8,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA,99002552
+"Xanthoparmelia.wyomingica",NA,"Xanthoparmelia wyomingica",237,100,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA,99000231
+"Xanthoria.candelaria",NA,"Xanthoria candelaria",24,22,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA,99002291
+"Xanthoria.elegans",NA,"Xanthoria elegans",119,86,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA,99002292
+"Xanthoria.sorediata",NA,"Xanthoria sorediata",1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,99002988

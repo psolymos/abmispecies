@@ -17,7 +17,7 @@ data:
   long: 'Soft linear features'
 ---
 
-The ABMI Wall-to-Wall Human Footprint (HF) Inventory (scale 1:15,000) is a complete representation of provincial scale anthropogenic footprint information for the province of Alberta. This comprehensive layer includes all the HF information related to the energy, forestry, and agriculture industries, as well as urban development. HF layers are available from the following years: 2007, 2010, 2012.
+The ABMI Wall-to-Wall Human Footprint (HF) Inventory (scale 1:15,000) ) identifies all of the human footprint (defined as the temporary or permanent transformation of native ecosystems to industrial, residential or recreational land uses) throughout the province of Alberta. This comprehensive layer includes all the HF information related to the energy, forestry, and agriculture industries, as well as urban development. HF layers can be downloaded for the following years: 2007, 2010, 2012.
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
@@ -27,7 +27,7 @@ The ABMI Wall-to-Wall Human Footprint (HF) Inventory (scale 1:15,000) is a compl
 
 ## Spatial distribution of footprint types
 
-The maps show percent cover by footprint types (2012 HF) within 1 km<sup>2</sup> grid cells.
+Each of the maps show percent cover by footprint types (2012 HF) within 1 km<sup>2</sup> grid cells throughout Alberta.
 
 {% for item in page.data %}
 
@@ -52,4 +52,3 @@ The maps show percent cover by footprint types (2012 HF) within 1 km<sup>2</sup>
 </div>
 
 {% endfor %}
-

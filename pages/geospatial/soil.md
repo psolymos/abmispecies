@@ -4,11 +4,9 @@ title: 'Soil layers'
 description: "Soil: spatial distribution."
 ---
 
-Habitat use for many species is directly affected by the type of soil and the 
-vegetation that grows on that soil. As a result, soil information was used by 
-ABMI when modeling variation in species abundance throughout Alberta. 
-In addition, soil characteristics were used in gap analyses to priorize 
-management actions. A variety of soil layers were used by ABMI.
+Habitat use for many species is directly affected by the type of soil and the
+vegetation that grows on that soil. As a result, soil information is used by
+ABMI when modeling variation in species abundance throughout Alberta. A variety of soil layers are used by ABMI.
 
 <div class="row">
 <div class="col-5 col-sm-5 col-lg-5">

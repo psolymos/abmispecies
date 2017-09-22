@@ -4,10 +4,9 @@ title: Native vegetation edge
 description: "Native vegetation edge"
 ---
 
-The Alberta Biodiversity Monitoring Institute tracks changes in human footprint and reports on the status of, and changes in, land use across the province of Alberta. One of the goals of the Institute is to provide credible and understandable information on the amount and location of remaining native vegetation to support natural resources management. 
-ABMI created  the 2015 Edge Buffer Layer (Version 1.0).
+The Alberta Biodiversity Monitoring Institute tracks changes in human footprint and reports on the status of, and changes in, land use across the province of Alberta. One of the goals of the Institute is to provide credible and understandable information on the amount and location of remaining native vegetation to support natural resources management. To support this, the ABMI created  the 2015 Edge Buffer Layer (Version 1.0).
 
-The primary source of data when creating the edge buffer layers was the 2012 Human Footprint Inventory (Version 3.0), a GIS polygon layer that describes human footprint in Alberta as of December 31, 2012. Polygons in that layer map the location and geographic extent of areas under human use that either have either lost their natural cover (e.g., cities, roads, agricultural land, industrial areas), or whose natural cover is periodically or temporarily replaced by resource extraction activities (e.g., forestry, seismic lines). 
+The primary source of data when creating the edge buffer layers was the 2012 Human Footprint Inventory (Version 3.0), a GIS polygon layer that describes human footprint in Alberta as of December 31, 2012. Polygons in that layer map the location and geographic extent of areas under human use that have either lost their natural cover (e.g., cities, roads, agricultural land, industrial areas), or whose natural cover is periodically or temporarily replaced by resource extraction activities (e.g., forestry, seismic lines). All areas that were not classified as human footprint were assumed to be native vegetation, and buffers of various distances into this native vegetation were determined (see [methods]({{ site.ftproot }}/habitat/edges/W2W_Edge_Buffer_Metadata_16Dec2015final.doc)).
 
 
 <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-edges-all-hf">Edge distance: all human footprint included</button></p>
@@ -67,4 +66,3 @@ The primary source of data when creating the edge buffer layers was the 2012 Hum
 
   </div>
 </div>
-

@@ -4,13 +4,12 @@ title: 'Surficial geology of Alberta'
 description: "Soil: Surficial Geology of Alberta."
 ---
 
-This GIS layer is a generalized compilation of the surficial geology of Alberta 
-using published Alberta Geological Survey, Geological Survey of Canada, and 
-Environment Canada information, as well as university theses data. Boundary 
-discrepancies between information sources were largely resolved during the 
-process of reclassifying the input data to a common legend with only limited 
-remapping. This GIS layer was created at a scale of 1:1,000,000 and can be 
-accessed [here](http://www.ags.gov.ab.ca/publications/abstracts/Map_601.html).
+This GIS layer is a generalized compilation of the surficial geology of Alberta
+using published Alberta Geological Survey, Geological Survey of Canada, and
+Environment Canada information, as well as university theses data ([http://www.ags.gov.ab.ca/publications/abstracts/Map_601.html](http://www.ags.gov.ab.ca/publications/abstracts/Map_601.html)). Boundary
+discrepancies between information sources were largely resolved during the
+process of reclassifying the input data to a common legend with only limited
+remapping. This GIS layer was created at a scale of 1:1,000,000.
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">

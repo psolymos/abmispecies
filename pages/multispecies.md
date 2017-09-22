@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Multi species"
+title: "Multi Species Groups"
 ---
 
 The following results on multiple species are available:
