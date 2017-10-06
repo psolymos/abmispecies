@@ -8,7 +8,7 @@ include_pager: true
 
 # Bootswatch theme
 bw_theme: cosmo
-bw_bg_col: info
+bw_bg_col: warning
 
 ## baseurl is either development or production
 baseurl: http://sc-dev.abmi.ca/development
