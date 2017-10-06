@@ -383,7 +383,13 @@
 
             <h2 id="citation">Recommended citation</h2>
             <p>ABMI ({{ site.time | date: "%Y" }}). {{ page.title }}.
-            ABMI Species Website, version {% if page.taxon == "mammals" %}{{ site.mammalsversion }}{% else %}{{ site.version }}{% endif %}.
+            ABMI Species Website, version
+            {% if page.taxon == "mammals" %}{{ site.taxa.mammals.version }}{% endif %}
+            {% if page.taxon == "birds" %}{{ site.taxa.birds.version }}{% endif %}
+            {% if page.taxon == "vplants" %}{{ site.taxa.vplants.version }}{% endif %}
+            {% if page.taxon == "mites" %}{{ site.taxa.mites.version }}{% endif %}
+            {% if page.taxon == "lichens" %}{{ site.taxa.lichens.version }}{% endif %}
+            {% if page.taxon == "mosses" %}{{ site.taxa.mosses.version }}{% endif %}.
             URL: <a href="{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ page.spplabel}}.html">{{ site.baseurl }}/pages/species/{{ page.taxon }}/{{ page.spplabel }}.html</a>.</p>
 
     {% if site.include_pager %}
