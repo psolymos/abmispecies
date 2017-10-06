@@ -14,7 +14,7 @@ bw_bg_col: info
 #baseurl: http://sc-dev.abmi.ca/development
 #baseurl: http://species.abmi.ca
 ## us this for archive
-baseurl: http://species.abmi.ca/2016
+baseurl: http://species.abmi.ca/archive/2016
 
 ## this is for hosting the figures within baseurl
 #contents: http://species.abmi.ca/contents
