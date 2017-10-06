@@ -3,7 +3,7 @@ layout: default
 title: 'Non-native vascular plants'
 spplabel: NNplants
 description: "Non-native vascular plants"
-taxon: non-native-plants
+taxon: nnplants
 taxonname: 'Non-native vascular plants'
 status: native
 toclabels:
@@ -14,8 +14,8 @@ toclabels:
   map-det: false
   map-df: false
   map-rf: false
-  sector-north: true
-  sector-south: true
+  sector-north: false
+  sector-south: false
   soilhf-nontreed-south: true
   soilhf-treed-south: true
   useavail-north: false
@@ -33,7 +33,7 @@ toclabels:
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
   <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-veghf-north.csv" download>Habitat coefficients (north)</a></li>
+    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/coefficient-tables-nonnative-plants.zip" download>Habitat coefficients (north)</a></li>
   </ul>
 </div>
 </span>
@@ -54,7 +54,7 @@ toclabels:
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
   <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-soilhf-south.csv" download>Habitat coefficients (south)</a></li>
+    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/coefficient-tables-nonnative-plants.zip" download>Habitat coefficients (south)</a></li>
   </ul>
 </div>
 </span>
@@ -75,7 +75,7 @@ toclabels:
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
   <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-soilhf-south.csv" download>Habitat coefficients (south)</a></li>
+    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/coefficient-tables-nonnative-plants.zip" download>Habitat coefficients (south)</a></li>
   </ul>
 </div>
 </span>
@@ -95,7 +95,7 @@ toclabels:
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
   <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-veghf-north.csv" download>Habitat coefficients (north)</a></li>
+    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/coefficient-tables-nonnative-plants.zip" download>Habitat coefficients (north)</a></li>
   </ul>
 </div>
 </span>
@@ -115,68 +115,7 @@ toclabels:
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
   <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-soilhf-south.csv" download>Habitat coefficients (south)</a></li>
-  </ul>
-</div>
-</span>
-            </div>
-          </div>
-          {% endif %}
-
-          {% if site.show_sector and page.toclabels.sector-north and page.status == "native" %}
-          <div class="row">
-            <h2 id="sector-north">Sector effects in northern Alberta</h2>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/multispecies/{{ page.taxon }}/sector-north/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
-            </div>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <p>The effect of a sector on the number of non-native vascular plant species is the product of the area of the sector's footprint (width of the bars), and the average "per unit area" effect of that sector's footprint on the species (height of the bars). The area of footprint for a sector is the sum of the footprint belonging to it. The average effect is the difference between the predicted current and reference abundances in that sector's footprint type based on the model. The sector effect is higher when: 1) The sector's footprint occupies more area, 2) The number of non-native vascular plant species is strongly affected by that sector's footprint, and 3) The footprint is created in high quality habitat. Note that soft linear footprint types are classified based on the sector to which they belong (Energy: seismic lines, pipelines, power lines; Transportation: road verges). The sector effects are based on empirical models, and so have uncertainty.  Sector effects only include direct effects of footprint, not indirect effects (e.g., pollution, noise, access effects) or possible cumulative effects where two or more sectors interact. Where two or more footprint types are overlaid, the calculation only includes the footprint type that is "on top" (e.g., a wellsite in a cultivated field, or a road in a forestry harvest area).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-<span class="pull-right">
-<div class="btn-group">
-  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-sector-effects.zip" download>Regional sector effect estimates</a></li>
-  </ul>
-</div>
-</span>
-            </div>
-          </div>
-          {% endif %}
-
-          {% if site.show_sector and page.toclabels.sector-south and page.status == "native" %}
-          <div class="row">
-            <h2 id="sector-south">Sector effects in southern Alberta</h2>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/multispecies/{{ page.taxon }}/sector-south/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
-            </div>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <p>The effect of a sector on the number of non-native vascular plant species is the product of the area of the sector's footprint (width of the bars), and the average "per unit area" effect of that sector's footprint on the species (height of the bars). The area of footprint for a sector is the sum of the footprint belonging to it. The average effect is the difference between the predicted current and reference abundances in that sector's footprint type based on the  model. The sector effect is higher when: 1) The sector's footprint occupies more area, 2) The species is strongly affected by that sector's footprint, and 3) The footprint is created in high quality habitat. Note that soft linear footprint types are classified based on the sector to which they belong (Energy: seismic lines, pipelines, power lines; Transportation: road verges). The sector effects are based on empirical models, and so have uncertainty.  Sector effects only include direct effects of footprint, not indirect effects (e.g., pollution, noise, access effects) or possible cumulative effects where two or more sectors interact. Where two or more footprint types are overlaid, the calculation only includes the footprint type that is "on top" (e.g., a wellsite in a cultivated field, or a road in a forestry harvest area).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-<span class="pull-right">
-<div class="btn-group">
-  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-sector-effects.zip" download>Regional sector effect estimates</a></li>
-  </ul>
-</div>
-</span>
-            </div>
-          </div>
-          {% endif %}
-
-          {% if page.toclabels.map-rf and page.status == "native" %}
-          <div class="row">
-            <h2 id="map-rf">Predicted relative abundance throughout Alberta under reference conditions </h2>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/multispecies/{{ page.taxon }}/map-rf/{{ page.spplabel}}.png" class="img-responsive" alt="Map, reference">
-            </div>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <p>Habitat association models, plus models describing how number of non-native vascular plant species varied spatially and with climate gradients were used to predict number of non-native vascular plant species in 1 km<sup>2</sup> spatial units under reference conditions (see <a href="{{ site.baseurl }}/methods.html">methods</a>). Predictions in each 1 km<sup>2</sup> unit were made after all human footprint in the 1 km<sup>2</sup> unit had been 'backfilled' based on native vegetation in the surrounding area. Pixels depicted in red were predicted to have the highest abundance, grading through light tan to dark blue where the number of non-native vascular plant species was predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-<span class="pull-right">
-<div class="btn-group">
-  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-regional-abundance.zip" download>Regional abundance estimates</a></li>
-    <li><a href="{{ site.ftproot }}/multispecies/{{ page.taxon }}/{{ page.spplabel}}.zip" download>Raster layers</a></li>
+    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/coefficient-tables-nonnative-plants.zip" download>Habitat coefficients (south)</a></li>
   </ul>
 </div>
 </span>
@@ -206,24 +145,4 @@ toclabels:
           </div>
           {% endif %}
 
-          {% if page.toclabels.map-df and page.status == "native" %}
-          <div class="row">
-            <h2 id="map-df">Difference in relative abundance between current and reference conditions</h2>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <img src="{{ site.contents }}/multispecies/{{ page.taxon }}/map-df/{{ page.spplabel}}.png" class="img-responsive" alt="Map">
-            </div>
-            <div class="col-5 col-sm-5 col-lg-5">
-              <p>For each 1 km<sup>2</sup> unit the difference between predicted current and reference conditions was determined. In 1 km<sup>2</sup> units depicted in green the species was predicted to have higher abundance under present conditions than under reference conditions, with the opposite true for 1 km<sup>2</sup> units depicted in red. The intensity of green and red depict the relative magnitude of increase or decrease for the species between reference and current conditions. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-<span class="pull-right">
-<div class="btn-group">
-  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.contents }}/multispecies/{{ page.taxon }}/{{ page.taxon }}-regional-abundance.zip" download>Regional abundance estimates</a></li>
-    <li><a href="{{ site.ftproot }}/multispecies/{{ page.taxon }}/{{ page.spplabel}}.zip" download>Raster layers</a></li>
-  </ul>
-</div>
-</span>
-            </div>
-          </div>
-          {% endif %}
 
