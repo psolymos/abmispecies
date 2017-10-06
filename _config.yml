@@ -40,36 +40,36 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md,Rmd"
 # fancy fonts on/off
 fancyfonts: true
 # navbar style: inverse, transparent
-navbar: inverse
+navbar: transparent
 
 taxa:
-  - mammals:
-    - title: Mammals
-      url: /pages/species/mammals.html
-      label: mammals
-      version: '5.0 (2017-07-13)'
-  - birds:
-    - title: Birds
-      url: /pages/species/birds.html
-      label: birds
-      version: '4.1 (2017-07-13)'
-  - mites:
-    - title: Soil mites
-      url: /pages/species/mites.html
-      label: mites
-      version: '5.0 (2017-07-13)'
-  - vplants:
-    - title: Vascular plants
-      url: /pages/species/vplants.html
-      label: vplants
-      version: '5.0 (2017-07-13)'
-  - mosses:
-    - title: Bryophytes
-      url: /pages/species/mosses.html
-      label: mosses
-      version: '5.0 (2017-07-13)'
-  - lichens:
-    - title: Lichens
-      url: /pages/species/lichens.html
-      label: lichens
-      version: '5.0 (2017-07-13)'
+  mammals:
+    title: Mammals
+    url: /pages/species/mammals.html
+    label: mammals
+    version: '5.0 (2017-07-13)'
+  birds:
+    title: Birds
+    url: /pages/species/birds.html
+    label: birds
+    version: '4.1 (2017-07-13)'
+  mites:
+    title: Soil mites
+    url: /pages/species/mites.html
+    label: mites
+    version: '5.0 (2017-07-13)'
+  vplants:
+    title: Vascular plants
+    url: /pages/species/vplants.html
+    label: vplants
+    version: '5.0 (2017-07-13)'
+  mosses:
+    title: Bryophytes
+    url: /pages/species/mosses.html
+    label: mosses
+    version: '5.0 (2017-07-13)'
+  lichens:
+    title: Lichens
+    url: /pages/species/lichens.html
+    label: lichens
+    version: '5.0 (2017-07-13)'
