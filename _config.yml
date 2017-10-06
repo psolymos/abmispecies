@@ -21,7 +21,7 @@ contents: http://species.abmi.ca/contents/2017
 ftproot: http://ftp.public.abmi.ca/species.abmi.ca
 
 ## species have there own thing, with some versioning
-ftprootsp: http://ftp.public.abmi.ca/species.abmi.ca/species-2016
+ftprootsp: http://ftp.public.abmi.ca/species.abmi.ca/species-2017
 
 #permalink:   /:categories/:title.html
 #category: news
