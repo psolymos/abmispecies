@@ -40,7 +40,7 @@ kramdown:
 markdown_ext: "markdown,mkdown,mkdn,mkd,md,Rmd"
 
 # fancy fonts on/off
-fancyfonts: false
+fancyfonts: true
 # navbar style: inverse, transparent
 navbar: transparent
 
