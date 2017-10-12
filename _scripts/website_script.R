@@ -5,8 +5,14 @@ TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants","habitatel
 ## 1st we tidy up the species lookup tables
 if (FALSE) {
 
-ROOT <- "e:/peter/AB_data_v2016/out/birds/tables/lookup"
-OUT <- "e:/peter/AB_data_v2016/out/birds/tables/lookup/pages"
+#ROOT <- "e:/peter/AB_data_v2016/out/birds/tables/lookup"
+#OUT <- "e:/peter/AB_data_v2016/out/birds/tables/lookup/pages"
+ROOT <- "~/repos/abmispecies/_data"
+OUT <- "~/repos/abmispecies/_data"
+
+cn <- c("sppid", "scinam",
+    "map.det", "useavail.north", "veghf.north",
+    "useavail.south", "soilhf.south", "map.pred")
 
 #taxon <- "lichens"
 for (taxon in TAXON) {
@@ -20,14 +26,14 @@ lt$useavail.south[lt$soilhf.south] <- FALSE
 if (taxon == "vplants") {
     lt$nonnative <- FALSE
     lt$nonnative[!is.na(lt$origin) & lt$origin == "Exotic"] <- TRUE
-    tmp <- read.csv(file.path(ROOT, paste0(taxon, "_taxon.csv")))
-    lt$species <- tmp$COMMON_NAME[match(rownames(lt), tmp$Analysis_Name)]
-    lt$tsnid <- tmp$TSN_ID[match(rownames(lt), tmp$Analysis_Name)]
-    lt$species[lt$species == "VNA"] <- NA
+    #tmp <- read.csv(file.path(ROOT, paste0(taxon, "_taxon.csv")))
+    #lt$species <- tmp$COMMON_NAME[match(rownames(lt), tmp$Analysis_Name)]
+    #lt$tsnid <- tmp$TSN_ID[match(rownames(lt), tmp$Analysis_Name)]
+    lt$species[!is.na(lt$species) & lt$species == "VNA"] <- NA
     lt <- droplevels(lt)
 }
-stopifnot(all(!is.na(lt[-which(colnames(lt)=="species")])))
-write.csv(lt, paste0("~/repos/abmispecies/_data/", taxon, ".csv"), row.names=FALSE)
+stopifnot(all(colSums(is.na(lt[,cn])) == 0))
+write.csv(lt, paste0(OUT, taxon, ".csv"), row.names=FALSE)
 }
 
 }
