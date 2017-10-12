@@ -17,24 +17,24 @@ cn <- c("sppid", "scinam",
 #taxon <- "lichens"
 for (taxon in TAXON) {
 
-lt <- read.csv(file.path(ROOT, paste0(taxon, ".csv")))
-rownames(lt) <- lt$sppid
+    lt <- read.csv(file.path(ROOT, paste0(taxon, ".csv")))
+    rownames(lt) <- lt$sppid
 
-lt <- droplevels(lt[lt$map.det,])
-lt$useavail.north[lt$veghf.north] <- FALSE
-lt$useavail.south[lt$soilhf.south] <- FALSE
-if (taxon == "vplants") {
-    lt$nonnative <- FALSE
-    lt$nonnative[!is.na(lt$origin) & lt$origin == "Exotic"] <- TRUE
-    #tmp <- read.csv(file.path(ROOT, paste0(taxon, "_taxon.csv")))
-    #lt$species <- tmp$COMMON_NAME[match(rownames(lt), tmp$Analysis_Name)]
-    #lt$tsnid <- tmp$TSN_ID[match(rownames(lt), tmp$Analysis_Name)]
-    lt$species[!is.na(lt$species) & lt$species == "VNA"] <- NA
-    lt <- droplevels(lt)
-}
-stopifnot(all(colSums(is.na(lt[,cn])) == 0))
-write.csv(lt, paste0(OUT, taxon, ".csv"), row.names=FALSE)
-}
+    lt <- droplevels(lt[lt$map.det,])
+    lt$useavail.north[lt$veghf.north] <- FALSE
+    lt$useavail.south[lt$soilhf.south] <- FALSE
+    if (taxon == "vplants") {
+        lt$nonnative <- FALSE
+        lt$nonnative[!is.na(lt$origin) & lt$origin == "Exotic"] <- TRUE
+        #tmp <- read.csv(file.path(ROOT, paste0(taxon, "_taxon.csv")))
+        #lt$species <- tmp$COMMON_NAME[match(rownames(lt), tmp$Analysis_Name)]
+        #lt$tsnid <- tmp$TSN_ID[match(rownames(lt), tmp$Analysis_Name)]
+        lt$species[!is.na(lt$species) & lt$species == "VNA"] <- NA
+        lt <- droplevels(lt)
+    }
+    stopifnot(all(colSums(is.na(lt[,cn])) == 0))
+    write.csv(lt, paste0(OUT, taxon, ".csv"), row.names=FALSE)
+    }
 
 }
 
