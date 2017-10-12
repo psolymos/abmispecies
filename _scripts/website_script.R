@@ -7,8 +7,8 @@ if (FALSE) {
 
 #ROOT <- "e:/peter/AB_data_v2016/out/birds/tables/lookup"
 #OUT <- "e:/peter/AB_data_v2016/out/birds/tables/lookup/pages"
-ROOT <- "~/repos/abmispecies/_data"
-OUT <- "~/repos/abmispecies/_data"
+ROOT <- "~/repos/abmispecies/_data/"
+OUT <- "~/repos/abmispecies/_data/"
 
 cn <- c("sppid", "scinam",
     "map.det", "useavail.north", "veghf.north",

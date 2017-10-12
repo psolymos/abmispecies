@@ -1,259 +1,259 @@
-sppid,species,scinam,rank,spp_code,tsnid,ndet,nsite,map.det,useavail.north,veghf.north,useavail.south,soilhf.south,map.pred,comments
-Achipteria.coleoptrata,NA,Achipteria coleoptrata,Species,AchipteriaColeoptrata,741627,90,69,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Achipteria.sp.1.DEW,NA,Achipteria sp. 1 DEW,Species,AchipteriaSp1DEW,99000001,526,310,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Aeroppia.sp.1.DEW,NA,Aeroppia sp. 1 DEW,Species,AeroppiaSp1DEW,99000075,43,29,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA
-Allosuctobelba.gigantea,NA,Allosuctobelba gigantea,Species,AllosuctobelbaGigantea,739974,36,25,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Allosuctobelba.sp.2.DEW,NA,Allosuctobelba sp. 2 DEW,Species,AllosuctobelbaSp2DEW,99000076,98,81,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Ametroproctus.oresbios,NA,Ametroproctus oresbios,Species,AmetroproctusOresbios,741258,9,5,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Ametroproctus.reticulatus,NA,Ametroproctus reticulatus,Species,AmetroproctusReticulatus,741263,7,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Anachipteria.howardi,NA,Anachipteria howardi,Species,AnachipteriaHowardi,741659,264,155,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Anachipteria.sp.1.DEW,NA,Anachipteria sp. 1 DEW,Species,AnachipteriaSp1DEW,99000005,121,81,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Astegistes.sp.1.DEW,NA,Astegistes sp. 1 DEW,Species,AstegistesSp1DEW,99000239,11,9,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Atropacarus.striculus,NA,Atropacarus striculus,Species,AtropacarusStriculus,99000211,205,131,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Autogneta.longilamellata,NA,Autogneta longilamellata,Species,AutognetaLongilamellata,738925,3,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Autogneta.sp.2.DEW,NA,Autogneta sp. 2 DEW,Species,AutognetaSp2DEW,99000077,6,6,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Banksinoma.lanceolata.canadensis,NA,Banksinoma lanceolata canadensis,Subspecies,BanksinomaLanceolataCanadensis,99000187,31,27,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Banksinoma.spinifera,NA,Banksinoma spinifera,Species,BanksinomaSpinifera,99000185,45,41,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Belba,NA,Belba,Genus,Belba,733757,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Belba.sp.A.DEW,NA,Belba sp. A DEW,Species,BelbaSpADEW,99001377,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Bipassalozetes.intermedius,NA,Bipassalozetes intermedius,Species,BipassalozetesIntermedius,741373,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Caenobelba.alleganiensis,NA,Caenobelba alleganiensis,Species,CaenobelbaAlleganiensis,99005340,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Camisia.biurus,NA,Camisia biurus,Species,CamisiaBiurus,736941,42,41,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Camisia.biverrucata,NA,Camisia biverrucata,Species,CamisiaBiverrucata,736942,150,113,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Camisia.horrida,NA,Camisia horrida,Species,CamisiaHorrida,736951,5,4,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Camisia.sp.1.DEW,NA,Camisia sp. 1 DEW,Species,CamisiaSp1DEW,99000078,44,39,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Camisia.spinifer,NA,Camisia spinifer,Species,CamisiaSpinifer,736960,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Carabodes.granulatus,NA,Carabodes granulatus,Species,CarabodesGranulatus,740817,103,85,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Carabodes.labyrinthicus,NA,Carabodes labyrinthicus,Species,CarabodesLabyrinthicus,740826,477,273,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Carabodes.polyporetes,NA,Carabodes polyporetes,Species,CarabodesPolyporetes,740842,33,31,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Carabodes.wonalancetanus,NA,Carabodes wonalancetanus,Species,CarabodesWonalancetanus,740861,12,12,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Cepheus.sp.1.DEW,NA,Cepheus sp. 1 DEW,Species,CepheusSp1DEW,99000007,362,259,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Cepheus.sp.2.DEW,NA,Cepheus sp. 2 DEW,Species,CepheusSp2DEW,99000008,49,44,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Cepheus.sp.2B.DEW,NA,Cepheus sp. 2B DEW,Species,CepheusSp2BDEW,99000010,4,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Ceratoppia.bipilis,NA,Ceratoppia bipilis,Species,CeratoppiaBipilis,738240,32,27,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Ceratoppia.quadridentata.arctica,NA,Ceratoppia quadridentata arctica,Subspecies,CeratoppiaQuadridentataArctica,99000064,632,430,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Ceratozetes.borealis,NA,Ceratozetes borealis,Species,CeratozetesBorealis,741912,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Ceratozetes.cuspidatus,NA,Ceratozetes cuspidatus,Species,CeratozetesCuspidatus,741918,64,58,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Ceratozetes.enodis,NA,Ceratozetes enodis,Species,CeratozetesEnodis,741919,3,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Ceratozetes.gracilis,NA,Ceratozetes gracilis,Species,CeratozetesGracilis,741923,903,435,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Ceratozetes.kananaskis,NA,Ceratozetes kananaskis,Species,CeratozetesKananaskis,741928,9,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Ceratozetes.mediocris,NA,Ceratozetes mediocris,Species,CeratozetesMediocris,741935,29,23,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Ceratozetes.parvulus,NA,Ceratozetes parvulus,Species,CeratozetesParvulus,741947,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Ceratozetes.sp.2.LML,NA,Ceratozetes sp. 2 LML,Species,CeratozetesSp2LML,99005339,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Ceratozetes.thienemanni,NA,Ceratozetes thienemanni,Species,CeratozetesThienemanni,96754950,63,50,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Chamobates.cuspidatus,NA,Chamobates cuspidatus,Species,ChamobatesCuspidatus,742151,230,155,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Chamobates.sp.2.DEW,NA,Chamobates sp. 2 DEW,Species,ChamobatesSp2DEW,99000245,4,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Cyrtozetes.sp.1.DEW,NA,Cyrtozetes sp. 1 DEW,Species,CyrtozetesSp1DEW,99000079,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Dentizetes.ledensis,NA,Dentizetes ledensis,Species,DentizetesLedensis,741971,92,78,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Dentizetes.rudentiger,NA,Dentizetes rudentiger,Species,DentizetesRudentiger,741972,63,32,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Diapterobates.humeralis,NA,Diapterobates humeralis,Species,DiapterobatesHumeralis,742211,331,264,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Diapterobates.sitnikovae,NA,Diapterobates sitnikovae,Species,DiapterobatesSitnikovae,742224,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Diapterobates.variabilis,NA,Diapterobates variabilis,Species,DiapterobatesVariabilis,742227,4,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Dometorina.plantivaga,NA,Dometorina plantivaga,Species,DometorinaPlantivaga,742695,14,14,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Dorycranosus.acutidens,NA,Dorycranosus acutidens,Species,DorycranosusAcutidens,99000150,72,48,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Dorycranosus.parallelus,NA,Dorycranosus parallelus,Species,DorycranosusParallelus,99000151,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Dorycranosus.sp.3.DEW,NA,Dorycranosus sp. 3 DEW,Species,DorycranosusSp3DEW,99000080,24,17,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Dorycranosus.sp.4.DEW,NA,Dorycranosus sp. 4 DEW,Species,DorycranosusSp4DEW,99000081,6,6,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Dyobelba.sp.1.DEW,NA,Dyobelba sp. 1 DEW,Species,DyobelbaSp1DEW,99000082,43,23,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Dyobelba.sp.2.DEW,NA,Dyobelba sp. 2 DEW,Species,DyobelbaSp2DEW,99000246,6,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Eniochthonius.crosbyi,NA,Eniochthonius crosbyi,Species,EniochthoniusCrosbyi,99000132,261,178,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Eniochthonius.mahunkai,NA,Eniochthonius mahunkai,Species,EniochthoniusMahunkai,99000062,12,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Eniochthonius.minutissimus,NA,Eniochthonius minutissimus,Species,EniochthoniusMinutissimus,99000133,43,41,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Eniochthonius.sp.1.LML,NA,Eniochthonius sp. 1 LML,Species,EniochthoniusSp1LML,99005341,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Eobrachychthonius.latior,NA,Eobrachychthonius latior,Species,EobrachychthoniusLatior,735041,7,6,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Epidamaeus.arcticola,NA,Epidamaeus arcticola,Species,EpidamaeusArcticola,99000141,90,68,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Epidamaeus.canadensis,NA,Epidamaeus canadensis,Species,EpidamaeusCanadensis,99003124,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Epidamaeus.coxalis,NA,Epidamaeus coxalis,Species,EpidamaeusCoxalis,99000145,253,151,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Epidamaeus.floccosus,NA,Epidamaeus floccosus,Species,EpidamaeusFloccosus,99000143,103,92,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Epidamaeus.fortispinosus,NA,Epidamaeus fortispinosus,Species,EpidamaeusFortispinosus,99000144,9,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Epidamaeus.koyukon,NA,Epidamaeus koyukon,Species,EpidamaeusKoyukon,99000146,36,30,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Epidamaeus.sp.1.DEW,NA,Epidamaeus sp. 1 DEW,Species,EpidamaeusSp1DEW,99000014,35,29,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Epidamaeus.sp.10.DEW,NA,Epidamaeus sp. 10 DEW,Species,EpidamaeusSp10DEW,99001375,8,8,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Epidamaeus.sp.11.DEW,NA,Epidamaeus sp. 11 DEW,Species,EpidamaeusSp11DEW,99003035,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Epidamaeus.sp.2.DEW,NA,Epidamaeus sp. 2 DEW,Species,EpidamaeusSp2DEW,99000015,161,127,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Epidamaeus.sp.3.DEW,NA,Epidamaeus sp. 3 DEW,Species,EpidamaeusSp3DEW,99000016,47,41,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Epidamaeus.sp.4.DEW,NA,Epidamaeus sp. 4 DEW,Species,EpidamaeusSp4DEW,99000083,11,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Epidamaeus.sp.5.DEW,NA,Epidamaeus sp. 5 DEW,Species,EpidamaeusSp5DEW,99000017,44,35,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Epidamaeus.sp.6.DEW,NA,Epidamaeus sp. 6 DEW,Species,EpidamaeusSp6DEW,99000084,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Epidamaeus.sp.7.DEW,NA,Epidamaeus sp. 7 DEW,Species,EpidamaeusSp7DEW,99000238,27,18,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Epidamaeus.sp.8.DEW,NA,Epidamaeus sp. 8 DEW,Species,EpidamaeusSp8DEW,99001378,23,19,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Epidamaeus.sp.9.DEW,NA,Epidamaeus sp. 9 DEW,Species,EpidamaeusSp9DEW,99001371,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Epidamaeus.tritylos,NA,Epidamaeus tritylos,Species,EpidamaeusTritylos,99000142,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Eporibatula.sp.1.DEW,NA,Eporibatula sp. 1 DEW,Species,EporibatulaSp1DEW,99001369,4,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Eremaeus.boreomontanus,NA,Eremaeus boreomontanus,Species,EremaeusBoreomontanus,738542,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Eremaeus.translamellatus,NA,Eremaeus translamellatus,Species,EremaeusTranslamellatus,738565,218,138,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Eremaeus.walteri,NA,Eremaeus walteri,Species,EremaeusWalteri,738567,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Eueremaeus.aridulus,NA,Eueremaeus aridulus,Species,EueremaeusAridulus,738570,4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Eueremaeus.chiatous,NA,Eueremaeus chiatous,Species,EueremaeusChiatous,738574,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Eueremaeus.foveolatus,NA,Eueremaeus foveolatus,Species,EueremaeusFoveolatus,738580,9,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Eueremaeus.marshalli.quadrilamellatus,NA,Eueremaeus marshalli/quadrilamellatus,Species,EueremaeusMarshalli,738586,298,204,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Eueremaeus.masinasin,NA,Eueremaeus masinasin,Species,EueremaeusMasinasin,738587,331,171,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA
-Eueremaeus.tetrosus,NA,Eueremaeus tetrosus,Species,EueremaeusTetrosus,738597,43,28,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Eupelops.septentrionalis,NA,Eupelops septentrionalis,Species,EupelopsSeptentrionalis,741461,48,34,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Eupelops.sp.2.DEW,NA,Eupelops sp. 2 DEW,Species,EupelopsSp2DEW,99000019,4,4,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Eupelops.sp.3.DEW,NA,Eupelops sp. 3 DEW,Species,EupelopsSp3DEW,99000085,32,19,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Euphthiracarus.flavus,NA,Euphthiracarus flavus,Species,EuphthiracarusFlavus,99000205,415,202,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Euphthiracarus.fulvus,NA,Euphthiracarus fulvus,Species,EuphthiracarusFulvus,735835,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Eupterotegaeus.rhamphosus,NA,Eupterotegaeus rhamphosus,Species,EupterotegaeusRhamphosus,737830,6,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Eupterotegaeus.rostratus,NA,Eupterotegaeus rostratus,Species,EupterotegaeusRostratus,99000086,11,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Exochocepheus.eremitus,NA,Exochocepheus eremitus,Species,ExochocepheusEremitus,741323,11,10,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Fuscozetes.fuscipes,NA,Fuscozetes fuscipes,Species,FuscozetesFuscipes,741994,123,76,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Galumna.sp.1.DEW,NA,Galumna sp. 1 DEW,Species,GalumnaSp1DEW,99000021,96,72,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Galumna.sp.2.DEW,NA,Galumna sp. 2 DEW,Species,GalumnaSp2DEW,99000136,15,14,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Galumna.sp.3.DEW,NA,Galumna sp. 3 DEW,Species,GalumnaSp3DEW,99000236,8,6,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Galumna.sp.4.DEW,NA,Galumna sp. 4 DEW,Species,GalumnaSp4DEW,99002666,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Gemmazetes.sp.1.DEW,NA,Gemmazetes sp. 1 DEW,Species,GemmazetesSp1DEW,99000023,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Gustavia.sp.1.DEW,NA,Gustavia sp. 1 DEW,Species,GustaviaSp1DEW,99000024,39,25,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Gymnodamaeus.ornatus,NA,Gymnodamaeus ornatus,Species,GymnodamaeusOrnatus,99000178,222,145,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Gymnodamaeus.sp.1.DEW,NA,Gymnodamaeus sp. 1 DEW,Species,GymnodamaeusSp1DEW,99000025,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Hafenferrefia.sp.1.DEW,NA,Hafenferrefia sp. 1 DEW,Species,HafenferrefiaSp1DEW,99000026,28,23,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Hafenferrefia.sp.2.DEW,NA,Hafenferrefia sp. 2 DEW,Species,HafenferrefiaSp2DEW,99001372,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Hemileius.haydeni,NA,Hemileius haydeni,Species,HemileiusHaydeni,742717,19,15,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Heminothrus.longisetosus,NA,Heminothrus longisetosus,Species,HeminothrusLongisetosus,736975,189,151,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Heminothrus.targionii,NA,Heminothrus targionii,Species,HeminothrusTargionii,736982,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Heminothrus.thori,NA,Heminothrus thori,Species,HeminothrusThori,736989,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Heminothrus.yamasakii,NA,Heminothrus yamasakii,Species,HeminothrusYamasakii,736990,7,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Hermanniella.robusta,NA,Hermanniella robusta,Species,HermanniellaRobusta,737235,174,138,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Heterozetes.aquaticus,NA,Heterozetes aquaticus,Species,HeterozetesAquaticus,741879,15,15,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Hoplophthiracarus.illinoisensis,NA,Hoplophthiracarus illinoisensis,Species,HoplophthiracarusIllinoisensis,99000209,64,43,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Hydrozetes.octosetosus,NA,Hydrozetes octosetosus,Species,HydrozetesOctosetosus,99003034,6,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Hydrozetes.sp.1.DEW,NA,Hydrozetes sp. 1 DEW,Species,HydrozetesSp1DEW,99000089,8,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Hydrozetes.sp.2.DEW,NA,Hydrozetes sp. 2 DEW,Species,HydrozetesSp2DEW,99000088,16,14,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Hydrozetes.sp.3.DEW,NA,Hydrozetes sp. 3 DEW,Species,HydrozetesSp3DEW,99000244,5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Hydrozetes.sp.E.RAN,NA,Hydrozetes sp. E RAN,Species,HydrozetesSpERAN,99000028,80,63,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Hypochthonius.luteus,NA,Hypochthonius luteus,Species,HypochthoniusLuteus,735010,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Hypochthonius.rufulus,NA,Hypochthonius rufulus,Species,HypochthoniusRufulus,735012,150,113,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Iugoribates.gracilis,NA,Iugoribates gracilis,Species,IugoribatesGracilis,742179,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Jacotella.quadricaudicula,NA,Jacotella quadricaudicula,Species,JacotellaQuadricaudicula,99000180,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Jornadia.larreae,NA,Jornadia larreae,Species,JornadiaLarreae,742449,13,7,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Joshuella.agrosticula,NA,Joshuella agrosticula,Species,JoshuellaAgrosticula,99000182,12,10,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Lanibelba.sp.1.DEW,NA,Lanibelba sp. 1 DEW,Species,LanibelbaSp1DEW,99000031,45,34,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA
-Lauroppia.sp.3.LML,NA,Lauroppia sp. 3 LML,Species,LauroppiaSp3LML,99005343,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Lepidozetes.singularis,NA,Lepidozetes singularis,Species,LepidozetesSingularis,741710,17,16,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Lepidozetes.sp.1.DEW,NA,Lepidozetes sp. 1 DEW,Species,LepidozetesSp1DEW,99000090,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Lepidozetes.sp.2.LML,NA,Lepidozetes sp. 2 LML,Species,LepidozetesSp2LML,99005344,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Liacarus.acutidens,NA,Liacarus acutidens,Species,LiacarusAcutidens,738388,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Limnozetes.canadensis,NA,Limnozetes canadensis,Species,LimnozetesCanadensis,99000032,15,14,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Limnozetes.sp.1.LML,NA,Limnozetes sp. 1 LML,Species,LimnozetesSp1LML,99005345,3,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Lucoppia.burrowsii,NA,Lucoppia burrowsii,Species,LucoppiaBurrowsii,99000225,31,27,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Lucoppia.sp.1.LML,NA,Lucoppia sp. 1 LML,Species,LucoppiaSp1LML,99005400,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Mainothrus.badius,NA,Mainothrus badius,Species,MainothrusBadius,736677,58,40,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Malaconothrus.mollisetosus,NA,Malaconothrus mollisetosus,Species,MalaconothrusMollisetosus,99000065,23,21,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Mesotritia.nuda,NA,Mesotritia nuda,Species,MesotritiaNuda,735675,4,4,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Moritzoppia.sp.1.DEW,NA,Moritzoppia sp. 1 DEW,Species,MoritzoppiaSp1DEW,99000091,4,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Mucronothrus.nasalis,NA,Mucronothrus nasalis,Species,MucronothrusNasalis,736679,25,17,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Multioppia.sp.1.DEW,NA,Multioppia sp. 1 DEW,Species,MultioppiaSp1DEW,99000034,16,15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Mycobates.altus,NA,Mycobates altus,Species,MycobatesAltus,742281,6,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Mycobates.dryas,NA,Mycobates dryas,Species,MycobatesDryas,99000197,4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Mycobates.incurvatus,NA,Mycobates incurvatus,Species,MycobatesIncurvatus,99000198,168,126,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Mycobates.perates,NA,Mycobates perates,Species,MycobatesPerates,99000195,43,35,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Nanhermannia.sp.1.DEW,NA,Nanhermannia sp. 1 DEW,Species,NanhermanniaSp1DEW,99000035,446,271,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Neogymnobates.luteus,NA,Neogymnobates luteus,Species,NeogymnobatesLuteus,742088,62,51,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Neogymnobates.sp.1.DEW,NA,Neogymnobates sp. 1 DEW,Species,NeogymnobatesSp1DEW,99000012,17,15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Neonothrus.humicola,NA,Neonothrus humicola,Species,NeonothrusHumicola,96796475,174,138,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Neoribates.sp.1.DEW,NA,Neoribates sp. 1 DEW,Species,NeoribatesSp1DEW,99002084,61,55,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Neoribates.sp.2.DEW,NA,Neoribates sp. 2 DEW,Species,NeoribatesSp2DEW,99002085,77,63,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Nothrus.anauniensis,NA,Nothrus anauniensis,Species,NothrusAnauniensis,736859,67,52,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA
-Nothrus.borussicus,NA,Nothrus borussicus,Species,NothrusBorussicus,736868,72,64,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Nothrus.parvus,NA,Nothrus parvus,Species,NothrusParvus,99000092,7,4,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Nothrus.pratensis,NA,Nothrus pratensis,Species,NothrusPratensis,736910,247,147,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Nothrus.sp.B.DEW,NA,Nothrus sp. B DEW,Species,NothrusSpBDEW,99000036,88,65,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Oppia.sp.1.DEW,NA,Oppia sp. 1 DEW,Species,OppiaSp1DEW,99000093,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Oppia.sp.2.LML,NA,Oppia sp. 2 LML,Species,OppiaSp2LML,99005346,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Oppiella,NA,Oppiella,Genus,Oppiella,734087,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Oppiella.sp.2.DEW,NA,Oppiella sp. 2 DEW,Species,OppiellaSp2DEW,99005347,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Oppiella.sp.3.DEW,NA,Oppiella sp. 3 DEW,Species,OppiellaSp3DEW,99000094,10,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Oppiella.sp.4.LML,NA,Oppiella sp. 4 LML,Species,OppiellaSp4LML,99005348,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Oppiella.washburni,NA,Oppiella washburni,Species,OppiellaWashburni,99000066,39,33,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Oribatella,NA,Oribatella,Genus,Oribatella,734331,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Oribatella.abmi,NA,Oribatella abmi,Species,OribatellaAbmi,99000247,24,20,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA
-Oribatella.banksi,NA,Oribatella banksi,Species,OribatellaBanksi,99000241,10,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Oribatella.canadensis,NA,Oribatella canadensis,Species,OribatellaCanadensis,99005349,3,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Oribatella.ewingi,NA,Oribatella ewingi,Species,OribatellaEwingi,99001379,5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Oribatella.jacoti,NA,Oribatella jacoti,Species,OribatellaJacoti,99002081,35,31,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Oribatella.pawnee,NA,Oribatella pawnee,Species,OribatellaPawnee,99000095,35,21,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Oribatella.reticulatoides,NA,Oribatella reticulatoides,Species,OribatellaReticulatoides,99002082,14,12,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Oribatella.yukonensis,NA,Oribatella yukonensis,Species,OribatellaYukonensis,99000038,18,18,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Oribatodes.mirabilis,NA,Oribatodes mirabilis,Species,OribatodesMirabilis,737843,373,221,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Oribatula.sp.1.DEW,NA,Oribatula sp. 1 DEW,Subspecies,OribatulaSp1DEW,99000040,604,321,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Oribatula.sp.2.LML,NA,Oribatula sp. 2 LML,Species,OribatulaSp2LML,99005350,3,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Oribatula.sp.3.LML,NA,Oribatula sp. 3 LML,Species,OribatulaSp3LML,99005351,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Parachipteria.bella,NA,Parachipteria bella,Species,ParachipteriaBella,99000067,8,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Parachipteria.sp.1.DEW,NA,Parachipteria sp. 1 DEW,Species,ParachipteriaSp1DEW,99000096,7,6,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Paraleius.leontonycha,NA,Paraleius leontonycha,Species,ParaleiusLeontonycha,99002083,5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Parapyroppia.sp.1.DEW,NA,Parapyroppia sp. 1 DEW,Species,ParapyroppiaSp1DEW,99000041,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Pelopsis.bifurcatus,NA,Pelopsis bifurcatus,Species,PelopsisBifurcatus,99000189,25,22,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Peloptulus.sp.1.DEW,NA,Peloptulus sp. 1 DEW,Species,PeloptulusSp1DEW,99000042,447,246,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Peloribates.canadensis,NA,Peloribates canadensis,Species,PeloribatesCanadensis,743476,63,48,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Peloribates.pilosus,NA,Peloribates pilosus,Species,PeloribatesPilosus,743520,440,277,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Peloribates.sp.3.DEW,NA,Peloribates sp. 3 DEW,Species,PeloribatesSp3DEW,99000043,57,50,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Peloribates.sp.4.DEW,NA,Peloribates sp. 4 DEW,Species,PeloribatesSp4DEW,99000044,155,91,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA
-Peloribates.sp.5.DEW,NA,Peloribates sp. 5 DEW,Species,PeloribatesSp5DEW,99000243,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Pergalumna.sp.1.DEW,NA,Pergalumna sp. 1 DEW,Species,PergalumnaSp1DEW,99000045,540,386,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Phauloppia.boletorum,NA,Phauloppia boletorum,Species,PhauloppiaBoletorum,742612,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Phthiracarus.borealis,NA,Phthiracarus borealis,Species,PhthiracarusBorealis,99000214,126,108,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Phthiracarus.boresetosus,NA,Phthiracarus boresetosus,Species,PhthiracarusBoresetosus,99000216,243,177,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Phthiracarus.validus,NA,Phthiracarus validus,Species,PhthiracarusValidus,96660614,5,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Pilogalumna.sp.1.DEW,NA,Pilogalumna sp. 1 DEW,Species,PilogalumnaSp1DEW,99000002,468,335,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Pilogalumna.sp.2.DEW,NA,Pilogalumna sp. 2 DEW,Species,PilogalumnaSp2DEW,99000003,50,41,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA
-Platynothrus.peltifer,NA,Platynothrus peltifer,Species,PlatynothrusPeltifer,99000148,244,189,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Platynothrus.sibiricus,NA,Platynothrus sibiricus,Species,PlatynothrusSibiricus,99000149,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Platynothrus.sp.1.DEW,NA,Platynothrus sp. 1 DEW,Species,PlatynothrusSp1DEW,99000097,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Platynothrus.yamasakii,NA,Platynothrus yamasakii,Species,PlatynothrusYamasakii,96870065,140,98,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Pleodamaeus.plokosus,NA,Pleodamaeus plokosus,Species,PleodamaeusPlokosus,99001376,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Pleodamaeus.sp.1.DEW,NA,Pleodamaeus sp. 1 DEW,Species,PleodamaeusSp1DEW,99000047,7,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Podoribates.longipes,NA,Podoribates longipes,Species,PodoribatesLongipes,742416,70,44,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA
-Propelops.alaskensis,NA,Propelops alaskensis,Species,PropelopsAlaskensis,99000175,825,463,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Propelops.canadensis,NA,Propelops canadensis,Species,PropelopsCanadensis,741504,235,145,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA
-Propelops.sp.3.DEW,NA,Propelops sp. 3 DEW,Species,PropelopsSp3DEW,99001374,11,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Protoribates.haughlandae,NA,Protoribates haughlandae,Species,ProtoribatesHaughlandae,99000049,75,59,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Protoribates.robustior,NA,Protoribates robustior,Species,ProtoribatesRobustior,99000056,90,74,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Protoribates.sp.3.LML,NA,Protoribates sp. 3 LML,Species,ProtoribatesSp3LML,99005359,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Protoribotritia.sp.1.DEW,NA,Protoribotritia sp. 1 DEW,Species,ProtoribotritiaSp1DEW,99000050,26,23,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Punctoribates.palustris,NA,Punctoribates palustris,Species,PunctoribatesPalustris,99000192,36,29,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Pyroppia.sp.1.DEW,NA,Pyroppia sp. 1 DEW,Species,PyroppiaSp1DEW,99000051,4,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Quatrobelba.montana,NA,Quatrobelba montana,Species,QuatrobelbaMontana,95501322,107,84,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Ramusella,NA,Ramusella,Genus,Ramusella,734040,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Rhysotritia.ardua,NA,Rhysotritia ardua,Species,RhysotritiaArdua,99000061,248,177,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Rhysotritia.diaphoros,NA,Rhysotritia diaphoros,Species,RhysotritiaDiaphoros,99000234,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Roynortonella.gildersleeveae,NA,Roynortonella gildersleeveae,Species,RoynortonellaGildersleeveae,99000174,18,17,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Roynortonella.sp.1.DEW,NA,Roynortonella sp. 1 DEW,Species,RoynortonellaSp1DEW,99000139,143,105,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Scapheremaeus.palustris,NA,Scapheremaeus palustris,Species,ScapheremaeusPalustris,741223,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Scheloribates.laevigatus,NA,Scheloribates laevigatus,Species,ScheloribatesLaevigatus,743031,15,13,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
-Scheloribates.pallidulus,NA,Scheloribates pallidulus,Species,ScheloribatesPallidulus,743076,275,218,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Scheloribates.sp.3.DEW,NA,Scheloribates sp. 3 DEW,Species,ScheloribatesSp3DEW,99002086,6,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Scheloribates.sp.4.LML,NA,Scheloribates sp. 4 LML,Species,ScheloribatesSp4LML,99005353,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Scutozetes.lanceolatus,NA,Scutozetes lanceolatus,Species,ScutozetesLanceolatus,741719,137,92,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Sphaerozetes.arcticus,NA,Sphaerozetes arcticus,Species,SphaerozetesArcticus,742103,122,95,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Sphaerozetes.sp.1.DEW,NA,Sphaerozetes sp. 1 DEW,Species,SphaerozetesSp1DEW,99000098,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Suctobelbella.punctata,NA,Suctobelbella punctata,Species,SuctobelbellaPunctata,99000069,12,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Suctobelbella.sp.2.DEW,NA,Suctobelbella sp. 2 DEW,Species,SuctobelbellaSp2DEW,99000052,4,4,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Suctobelbella.sp.3.DEW,NA,Suctobelbella sp. 3 DEW,Species,SuctobelbellaSp3DEW,99002667,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Svalbardia.paludicola,NA,Svalbardia paludicola,Species,SvalbardiaPaludicola,742249,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Tectocepheus.sarekensis,NA,Tectocepheus sarekensis,Species,TectocepheusSarekensis,99000147,298,225,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Tectocepheus.velatus,NA,Tectocepheus velatus,Species,TectocepheusVelatus,741050,97,67,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Tectoribates.alcescampestris,NA,Tectoribates alcescampestris,Species,TectoribatesAlcescampestris,99002087,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Tectoribates.borealis,NA,Tectoribates borealis,Species,TectoribatesBorealis,99001373,9,7,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
-Tegoribates.americanus,NA,Tegoribates americanus,Species,TegoribatesAmericanus,741721,66,51,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,NA
-Tenuliala.sp.1.DEW,NA,Tenuliala sp. 1 DEW,Species,TenulialaSp1DEW,99002668,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Trhypochthoniellus.setosus.canadensis,NA,Trhypochthoniellus setosus canadensis,Species,TrhypochthoniellusSetosusCanadensis,99003037,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Trhypochthonius.cladonicola,NA,Trhypochthonius cladonicola,Species,TrhypochthoniusCladonicola,736692,38,27,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Trhypochthonius.nigricans,NA,Trhypochthonius nigricans,Species,TrhypochthoniusNigricans,736703,4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Trhypochthonius.tectorum,NA,Trhypochthonius tectorum,Species,TrhypochthoniusTectorum,736713,547,375,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Trichoribates.copperminensis,NA,Trichoribates copperminensis,Species,TrichoribatesCopperminensis,99001370,4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Trichoribates.sp.2.DEW,NA,Trichoribates sp. 2 DEW,Species,TrichoribatesSp2DEW,99000053,9,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Trichoribates.sp.3.DEW,NA,Trichoribates sp. 3 DEW,Species,TrichoribatesSp3DEW,99000237,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Trichoribates.sp.5.LML,NA,Trichoribates sp. 5 LML,Species,TrichoribatesSp5LML,99005354,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Trichoribates.striatus,NA,Trichoribates striatus,Species,TrichoribatesStriatus,99000063,70,52,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,NA
-Trimalaconothrus.foveolatus,NA,Trimalaconothrus foveolatus,Species,TrimalaconothrusFoveolatus,736790,5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Trimalaconothrus.maior,NA,Trimalaconothrus maior,Species,TrimalaconothrusMaior,96615654,59,48,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Trimalaconothrus.sp.3.DEW,NA,Trimalaconothrus sp. 3 DEW,Species,TrimalaconothrusSp3DEW,99000242,9,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Trimalaconothrus.sp.4.DEW,NA,Trimalaconothrus sp. 4 DEW,Species,TrimalaconothrusSp4DEW,99003036,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Unduloribates.dianae,NA,Unduloribates dianae,Species,UnduloribatesDianae,99000055,104,73,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,NA
-Zetomimus.francisi,NA,Zetomimus francisi,Species,ZetomimusFrancisi,742137,32,21,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Zetomimus.setosus,NA,Zetomimus setosus,Species,ZetomimusSetosus,742140,7,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Zygoribatula.bulanovae,NA,Zygoribatula bulanovae,Species,ZygoribatulaBulanovae,99000059,13,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
-Zygoribatula.sp.1.DEW,NA,Zygoribatula sp. 1 DEW,Species,ZygoribatulaSp1DEW,99000057,213,122,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,NA
-Zygoribatula.sp.2.DEW,NA,Zygoribatula sp. 2 DEW,Species,ZygoribatulaSp2DEW,99000058,157,93,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,NA
-Zygoribatula.sp.3.DEW,NA,Zygoribatula sp. 3 DEW,Species,ZygoribatulaSp3DEW,99002088,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
-Zygoribatula.sp.4.DEW,NA,Zygoribatula sp. 4 DEW,Species,ZygoribatulaSp4DEW,99000240,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"sppid","species","scinam","rank","spp_code","tsnid","ndet","nsite","map.det","useavail.north","veghf.north","useavail.south","soilhf.south","map.pred","comments"
+"Achipteria.coleoptrata",NA,"Achipteria coleoptrata","Species","AchipteriaColeoptrata",741627,90,69,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Achipteria.sp.1.DEW",NA,"Achipteria sp. 1 DEW","Species","AchipteriaSp1DEW",99000001,526,310,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Aeroppia.sp.1.DEW",NA,"Aeroppia sp. 1 DEW","Species","AeroppiaSp1DEW",99000075,43,29,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,NA
+"Allosuctobelba.gigantea",NA,"Allosuctobelba gigantea","Species","AllosuctobelbaGigantea",739974,36,25,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Allosuctobelba.sp.2.DEW",NA,"Allosuctobelba sp. 2 DEW","Species","AllosuctobelbaSp2DEW",99000076,98,81,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Ametroproctus.oresbios",NA,"Ametroproctus oresbios","Species","AmetroproctusOresbios",741258,9,5,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Ametroproctus.reticulatus",NA,"Ametroproctus reticulatus","Species","AmetroproctusReticulatus",741263,7,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Anachipteria.howardi",NA,"Anachipteria howardi","Species","AnachipteriaHowardi",741659,264,155,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Anachipteria.sp.1.DEW",NA,"Anachipteria sp. 1 DEW","Species","AnachipteriaSp1DEW",99000005,121,81,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Astegistes.sp.1.DEW",NA,"Astegistes sp. 1 DEW","Species","AstegistesSp1DEW",99000239,11,9,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Atropacarus.striculus",NA,"Atropacarus striculus","Species","AtropacarusStriculus",99000211,205,131,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Autogneta.longilamellata",NA,"Autogneta longilamellata","Species","AutognetaLongilamellata",738925,3,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Autogneta.sp.2.DEW",NA,"Autogneta sp. 2 DEW","Species","AutognetaSp2DEW",99000077,6,6,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Banksinoma.lanceolata.canadensis",NA,"Banksinoma lanceolata canadensis","Subspecies","BanksinomaLanceolataCanadensis",99000187,31,27,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Banksinoma.spinifera",NA,"Banksinoma spinifera","Species","BanksinomaSpinifera",99000185,45,41,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Belba",NA,"Belba","Genus","Belba",733757,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Belba.sp.A.DEW",NA,"Belba sp. A DEW","Species","BelbaSpADEW",99001377,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Bipassalozetes.intermedius",NA,"Bipassalozetes intermedius","Species","BipassalozetesIntermedius",741373,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Caenobelba.alleganiensis",NA,"Caenobelba alleganiensis","Species","CaenobelbaAlleganiensis",99005340,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Camisia.biurus",NA,"Camisia biurus","Species","CamisiaBiurus",736941,42,41,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Camisia.biverrucata",NA,"Camisia biverrucata","Species","CamisiaBiverrucata",736942,150,113,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Camisia.horrida",NA,"Camisia horrida","Species","CamisiaHorrida",736951,5,4,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Camisia.sp.1.DEW",NA,"Camisia sp. 1 DEW","Species","CamisiaSp1DEW",99000078,44,39,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Camisia.spinifer",NA,"Camisia spinifer","Species","CamisiaSpinifer",736960,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Carabodes.granulatus",NA,"Carabodes granulatus","Species","CarabodesGranulatus",740817,103,85,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Carabodes.labyrinthicus",NA,"Carabodes labyrinthicus","Species","CarabodesLabyrinthicus",740826,477,273,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Carabodes.polyporetes",NA,"Carabodes polyporetes","Species","CarabodesPolyporetes",740842,33,31,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Carabodes.wonalancetanus",NA,"Carabodes wonalancetanus","Species","CarabodesWonalancetanus",740861,12,12,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Cepheus.sp.1.DEW",NA,"Cepheus sp. 1 DEW","Species","CepheusSp1DEW",99000007,362,259,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Cepheus.sp.2.DEW",NA,"Cepheus sp. 2 DEW","Species","CepheusSp2DEW",99000008,49,44,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Cepheus.sp.2B.DEW",NA,"Cepheus sp. 2B DEW","Species","CepheusSp2BDEW",99000010,4,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Ceratoppia.bipilis",NA,"Ceratoppia bipilis","Species","CeratoppiaBipilis",738240,32,27,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Ceratoppia.quadridentata.arctica",NA,"Ceratoppia quadridentata arctica","Subspecies","CeratoppiaQuadridentataArctica",99000064,632,430,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Ceratozetes.borealis",NA,"Ceratozetes borealis","Species","CeratozetesBorealis",741912,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Ceratozetes.cuspidatus",NA,"Ceratozetes cuspidatus","Species","CeratozetesCuspidatus",741918,64,58,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Ceratozetes.enodis",NA,"Ceratozetes enodis","Species","CeratozetesEnodis",741919,3,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Ceratozetes.gracilis",NA,"Ceratozetes gracilis","Species","CeratozetesGracilis",741923,903,435,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Ceratozetes.kananaskis",NA,"Ceratozetes kananaskis","Species","CeratozetesKananaskis",741928,9,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Ceratozetes.mediocris",NA,"Ceratozetes mediocris","Species","CeratozetesMediocris",741935,29,23,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Ceratozetes.parvulus",NA,"Ceratozetes parvulus","Species","CeratozetesParvulus",741947,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Ceratozetes.sp.2.LML",NA,"Ceratozetes sp. 2 LML","Species","CeratozetesSp2LML",99005339,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Ceratozetes.thienemanni",NA,"Ceratozetes thienemanni","Species","CeratozetesThienemanni",96754950,63,50,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Chamobates.cuspidatus",NA,"Chamobates cuspidatus","Species","ChamobatesCuspidatus",742151,230,155,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Chamobates.sp.2.DEW",NA,"Chamobates sp. 2 DEW","Species","ChamobatesSp2DEW",99000245,4,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Cyrtozetes.sp.1.DEW",NA,"Cyrtozetes sp. 1 DEW","Species","CyrtozetesSp1DEW",99000079,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Dentizetes.ledensis",NA,"Dentizetes ledensis","Species","DentizetesLedensis",741971,92,78,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Dentizetes.rudentiger",NA,"Dentizetes rudentiger","Species","DentizetesRudentiger",741972,63,32,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Diapterobates.humeralis",NA,"Diapterobates humeralis","Species","DiapterobatesHumeralis",742211,331,264,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Diapterobates.sitnikovae",NA,"Diapterobates sitnikovae","Species","DiapterobatesSitnikovae",742224,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Diapterobates.variabilis",NA,"Diapterobates variabilis","Species","DiapterobatesVariabilis",742227,4,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Dometorina.plantivaga",NA,"Dometorina plantivaga","Species","DometorinaPlantivaga",742695,14,14,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Dorycranosus.acutidens",NA,"Dorycranosus acutidens","Species","DorycranosusAcutidens",99000150,72,48,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Dorycranosus.parallelus",NA,"Dorycranosus parallelus","Species","DorycranosusParallelus",99000151,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Dorycranosus.sp.3.DEW",NA,"Dorycranosus sp. 3 DEW","Species","DorycranosusSp3DEW",99000080,24,17,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Dorycranosus.sp.4.DEW",NA,"Dorycranosus sp. 4 DEW","Species","DorycranosusSp4DEW",99000081,6,6,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Dyobelba.sp.1.DEW",NA,"Dyobelba sp. 1 DEW","Species","DyobelbaSp1DEW",99000082,43,23,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Dyobelba.sp.2.DEW",NA,"Dyobelba sp. 2 DEW","Species","DyobelbaSp2DEW",99000246,6,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Eniochthonius.crosbyi",NA,"Eniochthonius crosbyi","Species","EniochthoniusCrosbyi",99000132,261,178,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Eniochthonius.mahunkai",NA,"Eniochthonius mahunkai","Species","EniochthoniusMahunkai",99000062,12,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Eniochthonius.minutissimus",NA,"Eniochthonius minutissimus","Species","EniochthoniusMinutissimus",99000133,43,41,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Eniochthonius.sp.1.LML",NA,"Eniochthonius sp. 1 LML","Species","EniochthoniusSp1LML",99005341,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Eobrachychthonius.latior",NA,"Eobrachychthonius latior","Species","EobrachychthoniusLatior",735041,7,6,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Epidamaeus.arcticola",NA,"Epidamaeus arcticola","Species","EpidamaeusArcticola",99000141,90,68,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Epidamaeus.canadensis",NA,"Epidamaeus canadensis","Species","EpidamaeusCanadensis",99003124,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Epidamaeus.coxalis",NA,"Epidamaeus coxalis","Species","EpidamaeusCoxalis",99000145,253,151,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Epidamaeus.floccosus",NA,"Epidamaeus floccosus","Species","EpidamaeusFloccosus",99000143,103,92,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Epidamaeus.fortispinosus",NA,"Epidamaeus fortispinosus","Species","EpidamaeusFortispinosus",99000144,9,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Epidamaeus.koyukon",NA,"Epidamaeus koyukon","Species","EpidamaeusKoyukon",99000146,36,30,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Epidamaeus.sp.1.DEW",NA,"Epidamaeus sp. 1 DEW","Species","EpidamaeusSp1DEW",99000014,35,29,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Epidamaeus.sp.10.DEW",NA,"Epidamaeus sp. 10 DEW","Species","EpidamaeusSp10DEW",99001375,8,8,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Epidamaeus.sp.11.DEW",NA,"Epidamaeus sp. 11 DEW","Species","EpidamaeusSp11DEW",99003035,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Epidamaeus.sp.2.DEW",NA,"Epidamaeus sp. 2 DEW","Species","EpidamaeusSp2DEW",99000015,161,127,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Epidamaeus.sp.3.DEW",NA,"Epidamaeus sp. 3 DEW","Species","EpidamaeusSp3DEW",99000016,47,41,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Epidamaeus.sp.4.DEW",NA,"Epidamaeus sp. 4 DEW","Species","EpidamaeusSp4DEW",99000083,11,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Epidamaeus.sp.5.DEW",NA,"Epidamaeus sp. 5 DEW","Species","EpidamaeusSp5DEW",99000017,44,35,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Epidamaeus.sp.6.DEW",NA,"Epidamaeus sp. 6 DEW","Species","EpidamaeusSp6DEW",99000084,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Epidamaeus.sp.7.DEW",NA,"Epidamaeus sp. 7 DEW","Species","EpidamaeusSp7DEW",99000238,27,18,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Epidamaeus.sp.8.DEW",NA,"Epidamaeus sp. 8 DEW","Species","EpidamaeusSp8DEW",99001378,23,19,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Epidamaeus.sp.9.DEW",NA,"Epidamaeus sp. 9 DEW","Species","EpidamaeusSp9DEW",99001371,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Epidamaeus.tritylos",NA,"Epidamaeus tritylos","Species","EpidamaeusTritylos",99000142,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Eporibatula.sp.1.DEW",NA,"Eporibatula sp. 1 DEW","Species","EporibatulaSp1DEW",99001369,4,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Eremaeus.boreomontanus",NA,"Eremaeus boreomontanus","Species","EremaeusBoreomontanus",738542,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Eremaeus.translamellatus",NA,"Eremaeus translamellatus","Species","EremaeusTranslamellatus",738565,218,138,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Eremaeus.walteri",NA,"Eremaeus walteri","Species","EremaeusWalteri",738567,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Eueremaeus.aridulus",NA,"Eueremaeus aridulus","Species","EueremaeusAridulus",738570,4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Eueremaeus.chiatous",NA,"Eueremaeus chiatous","Species","EueremaeusChiatous",738574,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Eueremaeus.foveolatus",NA,"Eueremaeus foveolatus","Species","EueremaeusFoveolatus",738580,9,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Eueremaeus.marshalli.quadrilamellatus",NA,"Eueremaeus marshalli/quadrilamellatus","Species","EueremaeusMarshalli",738586,298,204,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Eueremaeus.masinasin",NA,"Eueremaeus masinasin","Species","EueremaeusMasinasin",738587,331,171,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,NA
+"Eueremaeus.tetrosus",NA,"Eueremaeus tetrosus","Species","EueremaeusTetrosus",738597,43,28,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Eupelops.septentrionalis",NA,"Eupelops septentrionalis","Species","EupelopsSeptentrionalis",741461,48,34,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Eupelops.sp.2.DEW",NA,"Eupelops sp. 2 DEW","Species","EupelopsSp2DEW",99000019,4,4,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Eupelops.sp.3.DEW",NA,"Eupelops sp. 3 DEW","Species","EupelopsSp3DEW",99000085,32,19,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Euphthiracarus.flavus",NA,"Euphthiracarus flavus","Species","EuphthiracarusFlavus",99000205,415,202,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Euphthiracarus.fulvus",NA,"Euphthiracarus fulvus","Species","EuphthiracarusFulvus",735835,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Eupterotegaeus.rhamphosus",NA,"Eupterotegaeus rhamphosus","Species","EupterotegaeusRhamphosus",737830,6,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Eupterotegaeus.rostratus",NA,"Eupterotegaeus rostratus","Species","EupterotegaeusRostratus",99000086,11,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Exochocepheus.eremitus",NA,"Exochocepheus eremitus","Species","ExochocepheusEremitus",741323,11,10,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Fuscozetes.fuscipes",NA,"Fuscozetes fuscipes","Species","FuscozetesFuscipes",741994,123,76,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Galumna.sp.1.DEW",NA,"Galumna sp. 1 DEW","Species","GalumnaSp1DEW",99000021,96,72,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Galumna.sp.2.DEW",NA,"Galumna sp. 2 DEW","Species","GalumnaSp2DEW",99000136,15,14,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Galumna.sp.3.DEW",NA,"Galumna sp. 3 DEW","Species","GalumnaSp3DEW",99000236,8,6,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Galumna.sp.4.DEW",NA,"Galumna sp. 4 DEW","Species","GalumnaSp4DEW",99002666,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Gemmazetes.sp.1.DEW",NA,"Gemmazetes sp. 1 DEW","Species","GemmazetesSp1DEW",99000023,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Gustavia.sp.1.DEW",NA,"Gustavia sp. 1 DEW","Species","GustaviaSp1DEW",99000024,39,25,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Gymnodamaeus.ornatus",NA,"Gymnodamaeus ornatus","Species","GymnodamaeusOrnatus",99000178,222,145,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Gymnodamaeus.sp.1.DEW",NA,"Gymnodamaeus sp. 1 DEW","Species","GymnodamaeusSp1DEW",99000025,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Hafenferrefia.sp.1.DEW",NA,"Hafenferrefia sp. 1 DEW","Species","HafenferrefiaSp1DEW",99000026,28,23,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Hafenferrefia.sp.2.DEW",NA,"Hafenferrefia sp. 2 DEW","Species","HafenferrefiaSp2DEW",99001372,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Hemileius.haydeni",NA,"Hemileius haydeni","Species","HemileiusHaydeni",742717,19,15,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Heminothrus.longisetosus",NA,"Heminothrus longisetosus","Species","HeminothrusLongisetosus",736975,189,151,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Heminothrus.targionii",NA,"Heminothrus targionii","Species","HeminothrusTargionii",736982,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Heminothrus.thori",NA,"Heminothrus thori","Species","HeminothrusThori",736989,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Heminothrus.yamasakii",NA,"Heminothrus yamasakii","Species","HeminothrusYamasakii",736990,7,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Hermanniella.robusta",NA,"Hermanniella robusta","Species","HermanniellaRobusta",737235,174,138,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Heterozetes.aquaticus",NA,"Heterozetes aquaticus","Species","HeterozetesAquaticus",741879,15,15,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Hoplophthiracarus.illinoisensis",NA,"Hoplophthiracarus illinoisensis","Species","HoplophthiracarusIllinoisensis",99000209,64,43,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Hydrozetes.octosetosus",NA,"Hydrozetes octosetosus","Species","HydrozetesOctosetosus",99003034,6,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Hydrozetes.sp.1.DEW",NA,"Hydrozetes sp. 1 DEW","Species","HydrozetesSp1DEW",99000089,8,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Hydrozetes.sp.2.DEW",NA,"Hydrozetes sp. 2 DEW","Species","HydrozetesSp2DEW",99000088,16,14,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Hydrozetes.sp.3.DEW",NA,"Hydrozetes sp. 3 DEW","Species","HydrozetesSp3DEW",99000244,5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Hydrozetes.sp.E.RAN",NA,"Hydrozetes sp. E RAN","Species","HydrozetesSpERAN",99000028,80,63,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Hypochthonius.luteus",NA,"Hypochthonius luteus","Species","HypochthoniusLuteus",735010,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Hypochthonius.rufulus",NA,"Hypochthonius rufulus","Species","HypochthoniusRufulus",735012,150,113,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Iugoribates.gracilis",NA,"Iugoribates gracilis","Species","IugoribatesGracilis",742179,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Jacotella.quadricaudicula",NA,"Jacotella quadricaudicula","Species","JacotellaQuadricaudicula",99000180,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Jornadia.larreae",NA,"Jornadia larreae","Species","JornadiaLarreae",742449,13,7,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Joshuella.agrosticula",NA,"Joshuella agrosticula","Species","JoshuellaAgrosticula",99000182,12,10,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Lanibelba.sp.1.DEW",NA,"Lanibelba sp. 1 DEW","Species","LanibelbaSp1DEW",99000031,45,34,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,NA
+"Lauroppia.sp.3.LML",NA,"Lauroppia sp. 3 LML","Species","LauroppiaSp3LML",99005343,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Lepidozetes.singularis",NA,"Lepidozetes singularis","Species","LepidozetesSingularis",741710,17,16,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Lepidozetes.sp.1.DEW",NA,"Lepidozetes sp. 1 DEW","Species","LepidozetesSp1DEW",99000090,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Lepidozetes.sp.2.LML",NA,"Lepidozetes sp. 2 LML","Species","LepidozetesSp2LML",99005344,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Liacarus.acutidens",NA,"Liacarus acutidens","Species","LiacarusAcutidens",738388,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Limnozetes.canadensis",NA,"Limnozetes canadensis","Species","LimnozetesCanadensis",99000032,15,14,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Limnozetes.sp.1.LML",NA,"Limnozetes sp. 1 LML","Species","LimnozetesSp1LML",99005345,3,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Lucoppia.burrowsii",NA,"Lucoppia burrowsii","Species","LucoppiaBurrowsii",99000225,31,27,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Lucoppia.sp.1.LML",NA,"Lucoppia sp. 1 LML","Species","LucoppiaSp1LML",99005400,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Mainothrus.badius",NA,"Mainothrus badius","Species","MainothrusBadius",736677,58,40,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Malaconothrus.mollisetosus",NA,"Malaconothrus mollisetosus","Species","MalaconothrusMollisetosus",99000065,23,21,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Mesotritia.nuda",NA,"Mesotritia nuda","Species","MesotritiaNuda",735675,4,4,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Moritzoppia.sp.1.DEW",NA,"Moritzoppia sp. 1 DEW","Species","MoritzoppiaSp1DEW",99000091,4,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Mucronothrus.nasalis",NA,"Mucronothrus nasalis","Species","MucronothrusNasalis",736679,25,17,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Multioppia.sp.1.DEW",NA,"Multioppia sp. 1 DEW","Species","MultioppiaSp1DEW",99000034,16,15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Mycobates.altus",NA,"Mycobates altus","Species","MycobatesAltus",742281,6,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Mycobates.dryas",NA,"Mycobates dryas","Species","MycobatesDryas",99000197,4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Mycobates.incurvatus",NA,"Mycobates incurvatus","Species","MycobatesIncurvatus",99000198,168,126,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Mycobates.perates",NA,"Mycobates perates","Species","MycobatesPerates",99000195,43,35,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Nanhermannia.sp.1.DEW",NA,"Nanhermannia sp. 1 DEW","Species","NanhermanniaSp1DEW",99000035,446,271,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Neogymnobates.luteus",NA,"Neogymnobates luteus","Species","NeogymnobatesLuteus",742088,62,51,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Neogymnobates.sp.1.DEW",NA,"Neogymnobates sp. 1 DEW","Species","NeogymnobatesSp1DEW",99000012,17,15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Neonothrus.humicola",NA,"Neonothrus humicola","Species","NeonothrusHumicola",96796475,174,138,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Neoribates.sp.1.DEW",NA,"Neoribates sp. 1 DEW","Species","NeoribatesSp1DEW",99002084,61,55,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Neoribates.sp.2.DEW",NA,"Neoribates sp. 2 DEW","Species","NeoribatesSp2DEW",99002085,77,63,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Nothrus.anauniensis",NA,"Nothrus anauniensis","Species","NothrusAnauniensis",736859,67,52,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,NA
+"Nothrus.borussicus",NA,"Nothrus borussicus","Species","NothrusBorussicus",736868,72,64,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Nothrus.parvus",NA,"Nothrus parvus","Species","NothrusParvus",99000092,7,4,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Nothrus.pratensis",NA,"Nothrus pratensis","Species","NothrusPratensis",736910,247,147,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Nothrus.sp.B.DEW",NA,"Nothrus sp. B DEW","Species","NothrusSpBDEW",99000036,88,65,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Oppia.sp.1.DEW",NA,"Oppia sp. 1 DEW","Species","OppiaSp1DEW",99000093,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Oppia.sp.2.LML",NA,"Oppia sp. 2 LML","Species","OppiaSp2LML",99005346,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Oppiella",NA,"Oppiella","Genus","Oppiella",734087,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Oppiella.sp.2.DEW",NA,"Oppiella sp. 2 DEW","Species","OppiellaSp2DEW",99005347,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Oppiella.sp.3.DEW",NA,"Oppiella sp. 3 DEW","Species","OppiellaSp3DEW",99000094,10,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Oppiella.sp.4.LML",NA,"Oppiella sp. 4 LML","Species","OppiellaSp4LML",99005348,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Oppiella.washburni",NA,"Oppiella washburni","Species","OppiellaWashburni",99000066,39,33,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Oribatella",NA,"Oribatella","Genus","Oribatella",734331,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Oribatella.abmi",NA,"Oribatella abmi","Species","OribatellaAbmi",99000247,24,20,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,NA
+"Oribatella.banksi",NA,"Oribatella banksi","Species","OribatellaBanksi",99000241,10,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Oribatella.canadensis",NA,"Oribatella canadensis","Species","OribatellaCanadensis",99005349,3,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Oribatella.ewingi",NA,"Oribatella ewingi","Species","OribatellaEwingi",99001379,5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Oribatella.jacoti",NA,"Oribatella jacoti","Species","OribatellaJacoti",99002081,35,31,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Oribatella.pawnee",NA,"Oribatella pawnee","Species","OribatellaPawnee",99000095,35,21,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Oribatella.reticulatoides",NA,"Oribatella reticulatoides","Species","OribatellaReticulatoides",99002082,14,12,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Oribatella.yukonensis",NA,"Oribatella yukonensis","Species","OribatellaYukonensis",99000038,18,18,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Oribatodes.mirabilis",NA,"Oribatodes mirabilis","Species","OribatodesMirabilis",737843,373,221,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Oribatula.sp.1.DEW",NA,"Oribatula sp. 1 DEW","Subspecies","OribatulaSp1DEW",99000040,604,321,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Oribatula.sp.2.LML",NA,"Oribatula sp. 2 LML","Species","OribatulaSp2LML",99005350,3,3,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Oribatula.sp.3.LML",NA,"Oribatula sp. 3 LML","Species","OribatulaSp3LML",99005351,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Parachipteria.bella",NA,"Parachipteria bella","Species","ParachipteriaBella",99000067,8,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Parachipteria.sp.1.DEW",NA,"Parachipteria sp. 1 DEW","Species","ParachipteriaSp1DEW",99000096,7,6,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Paraleius.leontonycha",NA,"Paraleius leontonycha","Species","ParaleiusLeontonycha",99002083,5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Parapyroppia.sp.1.DEW",NA,"Parapyroppia sp. 1 DEW","Species","ParapyroppiaSp1DEW",99000041,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Pelopsis.bifurcatus",NA,"Pelopsis bifurcatus","Species","PelopsisBifurcatus",99000189,25,22,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Peloptulus.sp.1.DEW",NA,"Peloptulus sp. 1 DEW","Species","PeloptulusSp1DEW",99000042,447,246,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Peloribates.canadensis",NA,"Peloribates canadensis","Species","PeloribatesCanadensis",743476,63,48,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Peloribates.pilosus",NA,"Peloribates pilosus","Species","PeloribatesPilosus",743520,440,277,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Peloribates.sp.3.DEW",NA,"Peloribates sp. 3 DEW","Species","PeloribatesSp3DEW",99000043,57,50,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Peloribates.sp.4.DEW",NA,"Peloribates sp. 4 DEW","Species","PeloribatesSp4DEW",99000044,155,91,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,NA
+"Peloribates.sp.5.DEW",NA,"Peloribates sp. 5 DEW","Species","PeloribatesSp5DEW",99000243,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Pergalumna.sp.1.DEW",NA,"Pergalumna sp. 1 DEW","Species","PergalumnaSp1DEW",99000045,540,386,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Phauloppia.boletorum",NA,"Phauloppia boletorum","Species","PhauloppiaBoletorum",742612,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Phthiracarus.borealis",NA,"Phthiracarus borealis","Species","PhthiracarusBorealis",99000214,126,108,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Phthiracarus.boresetosus",NA,"Phthiracarus boresetosus","Species","PhthiracarusBoresetosus",99000216,243,177,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Phthiracarus.validus",NA,"Phthiracarus validus","Species","PhthiracarusValidus",96660614,5,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Pilogalumna.sp.1.DEW",NA,"Pilogalumna sp. 1 DEW","Species","PilogalumnaSp1DEW",99000002,468,335,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Pilogalumna.sp.2.DEW",NA,"Pilogalumna sp. 2 DEW","Species","PilogalumnaSp2DEW",99000003,50,41,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,NA
+"Platynothrus.peltifer",NA,"Platynothrus peltifer","Species","PlatynothrusPeltifer",99000148,244,189,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Platynothrus.sibiricus",NA,"Platynothrus sibiricus","Species","PlatynothrusSibiricus",99000149,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Platynothrus.sp.1.DEW",NA,"Platynothrus sp. 1 DEW","Species","PlatynothrusSp1DEW",99000097,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Platynothrus.yamasakii",NA,"Platynothrus yamasakii","Species","PlatynothrusYamasakii",96870065,140,98,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Pleodamaeus.plokosus",NA,"Pleodamaeus plokosus","Species","PleodamaeusPlokosus",99001376,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Pleodamaeus.sp.1.DEW",NA,"Pleodamaeus sp. 1 DEW","Species","PleodamaeusSp1DEW",99000047,7,7,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Podoribates.longipes",NA,"Podoribates longipes","Species","PodoribatesLongipes",742416,70,44,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,NA
+"Propelops.alaskensis",NA,"Propelops alaskensis","Species","PropelopsAlaskensis",99000175,825,463,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Propelops.canadensis",NA,"Propelops canadensis","Species","PropelopsCanadensis",741504,235,145,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,NA
+"Propelops.sp.3.DEW",NA,"Propelops sp. 3 DEW","Species","PropelopsSp3DEW",99001374,11,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Protoribates.haughlandae",NA,"Protoribates haughlandae","Species","ProtoribatesHaughlandae",99000049,75,59,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Protoribates.robustior",NA,"Protoribates robustior","Species","ProtoribatesRobustior",99000056,90,74,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Protoribates.sp.3.LML",NA,"Protoribates sp. 3 LML","Species","ProtoribatesSp3LML",99005359,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Protoribotritia.sp.1.DEW",NA,"Protoribotritia sp. 1 DEW","Species","ProtoribotritiaSp1DEW",99000050,26,23,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Punctoribates.palustris",NA,"Punctoribates palustris","Species","PunctoribatesPalustris",99000192,36,29,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Pyroppia.sp.1.DEW",NA,"Pyroppia sp. 1 DEW","Species","PyroppiaSp1DEW",99000051,4,4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Quatrobelba.montana",NA,"Quatrobelba montana","Species","QuatrobelbaMontana",95501322,107,84,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Ramusella",NA,"Ramusella","Genus","Ramusella",734040,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Rhysotritia.ardua",NA,"Rhysotritia ardua","Species","RhysotritiaArdua",99000061,248,177,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Rhysotritia.diaphoros",NA,"Rhysotritia diaphoros","Species","RhysotritiaDiaphoros",99000234,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Roynortonella.gildersleeveae",NA,"Roynortonella gildersleeveae","Species","RoynortonellaGildersleeveae",99000174,18,17,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Roynortonella.sp.1.DEW",NA,"Roynortonella sp. 1 DEW","Species","RoynortonellaSp1DEW",99000139,143,105,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Scapheremaeus.palustris",NA,"Scapheremaeus palustris","Species","ScapheremaeusPalustris",741223,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Scheloribates.laevigatus",NA,"Scheloribates laevigatus","Species","ScheloribatesLaevigatus",743031,15,13,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,NA
+"Scheloribates.pallidulus",NA,"Scheloribates pallidulus","Species","ScheloribatesPallidulus",743076,275,218,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Scheloribates.sp.3.DEW",NA,"Scheloribates sp. 3 DEW","Species","ScheloribatesSp3DEW",99002086,6,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Scheloribates.sp.4.LML",NA,"Scheloribates sp. 4 LML","Species","ScheloribatesSp4LML",99005353,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Scutozetes.lanceolatus",NA,"Scutozetes lanceolatus","Species","ScutozetesLanceolatus",741719,137,92,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Sphaerozetes.arcticus",NA,"Sphaerozetes arcticus","Species","SphaerozetesArcticus",742103,122,95,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Sphaerozetes.sp.1.DEW",NA,"Sphaerozetes sp. 1 DEW","Species","SphaerozetesSp1DEW",99000098,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Suctobelbella.punctata",NA,"Suctobelbella punctata","Species","SuctobelbellaPunctata",99000069,12,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Suctobelbella.sp.2.DEW",NA,"Suctobelbella sp. 2 DEW","Species","SuctobelbellaSp2DEW",99000052,4,4,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Suctobelbella.sp.3.DEW",NA,"Suctobelbella sp. 3 DEW","Species","SuctobelbellaSp3DEW",99002667,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Svalbardia.paludicola",NA,"Svalbardia paludicola","Species","SvalbardiaPaludicola",742249,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Tectocepheus.sarekensis",NA,"Tectocepheus sarekensis","Species","TectocepheusSarekensis",99000147,298,225,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Tectocepheus.velatus",NA,"Tectocepheus velatus","Species","TectocepheusVelatus",741050,97,67,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Tectoribates.alcescampestris",NA,"Tectoribates alcescampestris","Species","TectoribatesAlcescampestris",99002087,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Tectoribates.borealis",NA,"Tectoribates borealis","Species","TectoribatesBorealis",99001373,9,7,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,NA
+"Tegoribates.americanus",NA,"Tegoribates americanus","Species","TegoribatesAmericanus",741721,66,51,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,NA
+"Tenuliala.sp.1.DEW",NA,"Tenuliala sp. 1 DEW","Species","TenulialaSp1DEW",99002668,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Trhypochthoniellus.setosus.canadensis",NA,"Trhypochthoniellus setosus canadensis","Species","TrhypochthoniellusSetosusCanadensis",99003037,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Trhypochthonius.cladonicola",NA,"Trhypochthonius cladonicola","Species","TrhypochthoniusCladonicola",736692,38,27,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Trhypochthonius.nigricans",NA,"Trhypochthonius nigricans","Species","TrhypochthoniusNigricans",736703,4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Trhypochthonius.tectorum",NA,"Trhypochthonius tectorum","Species","TrhypochthoniusTectorum",736713,547,375,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Trichoribates.copperminensis",NA,"Trichoribates copperminensis","Species","TrichoribatesCopperminensis",99001370,4,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Trichoribates.sp.2.DEW",NA,"Trichoribates sp. 2 DEW","Species","TrichoribatesSp2DEW",99000053,9,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Trichoribates.sp.3.DEW",NA,"Trichoribates sp. 3 DEW","Species","TrichoribatesSp3DEW",99000237,3,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Trichoribates.sp.5.LML",NA,"Trichoribates sp. 5 LML","Species","TrichoribatesSp5LML",99005354,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Trichoribates.striatus",NA,"Trichoribates striatus","Species","TrichoribatesStriatus",99000063,70,52,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,NA
+"Trimalaconothrus.foveolatus",NA,"Trimalaconothrus foveolatus","Species","TrimalaconothrusFoveolatus",736790,5,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Trimalaconothrus.maior",NA,"Trimalaconothrus maior","Species","TrimalaconothrusMaior",96615654,59,48,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Trimalaconothrus.sp.3.DEW",NA,"Trimalaconothrus sp. 3 DEW","Species","TrimalaconothrusSp3DEW",99000242,9,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Trimalaconothrus.sp.4.DEW",NA,"Trimalaconothrus sp. 4 DEW","Species","TrimalaconothrusSp4DEW",99003036,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Unduloribates.dianae",NA,"Unduloribates dianae","Species","UnduloribatesDianae",99000055,104,73,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,NA
+"Zetomimus.francisi",NA,"Zetomimus francisi","Species","ZetomimusFrancisi",742137,32,21,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Zetomimus.setosus",NA,"Zetomimus setosus","Species","ZetomimusSetosus",742140,7,5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Zygoribatula.bulanovae",NA,"Zygoribatula bulanovae","Species","ZygoribatulaBulanovae",99000059,13,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,NA
+"Zygoribatula.sp.1.DEW",NA,"Zygoribatula sp. 1 DEW","Species","ZygoribatulaSp1DEW",99000057,213,122,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,NA
+"Zygoribatula.sp.2.DEW",NA,"Zygoribatula sp. 2 DEW","Species","ZygoribatulaSp2DEW",99000058,157,93,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,NA
+"Zygoribatula.sp.3.DEW",NA,"Zygoribatula sp. 3 DEW","Species","ZygoribatulaSp3DEW",99002088,1,1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
+"Zygoribatula.sp.4.DEW",NA,"Zygoribatula sp. 4 DEW","Species","ZygoribatulaSp4DEW",99000240,2,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,NA
