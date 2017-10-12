@@ -40,9 +40,9 @@ write.csv(lt, paste0(OUT, taxon, ".csv"), row.names=FALSE)
 
 ROOT <- "~/repos/abmispecies/_data"
 OUT <- if (interactive())
-    "e:/peter/sppweb2016/pages/species" else "~/repos/abmispecies/pages/species"
+    "e:/peter/sppweb2017/pages/species" else "~/repos/abmispecies/pages/species"
 OUT2 <- if (interactive())
-    "e:/peter/sppweb2016/pages/species" else "~/repos/abmispecies/_data"
+    "e:/peter/sppweb2017/pages/species" else "~/repos/abmispecies/_data"
 
 graph_labels <- matrix(c(
     "linear-north", "veghf.north",
