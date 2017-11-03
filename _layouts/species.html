@@ -63,7 +63,6 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
           <p>It was not possible to create complex habitat association models for {{ sppword }} detected fewer than {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} times in northern Alberta study area. For these {{ sppword }}, a coarse index of habitat use was determined as the proportion of detections in each native vegetation and human footprint type in comparison to the proportional availability of the habitat types (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.contents }}/methods/ABMI-species-manual-v4.0.pdf">manual</a>). An index value &lt;0 indicates lower than expected proportion of detections in that habitat type; and index value &gt;0 indicates a higher than expected proportion. Due to the coarseness of the analyses, maps of predicted habitat abundance were not created for these {{ sppword }}.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-          {% unless page.taxon == "habitatelements" %}
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -73,7 +72,6 @@
   </ul>
 </div>
 </span>
-          {% endunless %}
             </div>
           </div>
           {% endif %}
@@ -84,7 +82,6 @@
             <div class="col-10 col-sm-5 col-lg-10">
               <img src="{{ site.contents }}/species/{{ page.taxon }}/veghf-north/{{ page.spplabel}}.png" class="img-responsive" alt="Habitats, North">
               <p>Models were used to show how {{ sppword }}' relative abundance differed among vegetation and human footprint types in the Boreal and Foothills regions of Alberta (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.contents }}/methods/ABMI-species-manual-v4.0.pdf">manual</a>). Models were only created for {{ sppword }} that had at least {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} detections using data from ABMI{% if page.taxon == "birds" %}, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab (see <a href="{{ site.baseurl }}/collaborations.html">collaborations</a>){% endif %}. Predicted {{ sppword }} abundance in each habitat type is shown with bars. Vertical lines indicate 90% confidence intervals. Dots within the forested habitat types show predicted {{ sppword }} abundance in cutblocks of various ages.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-          {% unless page.taxon == "habitatelements" %}
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -94,7 +91,6 @@
   </ul>
 </div>
 </span>
-          {% endunless %}
             </div>
           </div>
 {% endif %}
@@ -107,7 +103,6 @@
   </div>
   <div class="col-5 col-sm-5 col-lg-5">
 <p>It was not possible to create complex habitat association models for {{ sppword }} detected fewer than {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} times in southern Alberta study area. For these {{ sppword }}, a coarse index of habitat use was determined as the proportion of detections in each native vegetation and human footprint type in comparison to the proportional availability of the habitat types (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.contents }}/methods/ABMI-species-manual-v4.0.pdf">manual</a>). An index value &lt;0 indicates lower than expected proportion of detections in that habitat type; and index value &gt;0 indicates a higher than expected proportion. Due to the coarseness of the analyses, maps of predicted habitat abundance were not created for these {{ sppword }}.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-          {% unless page.taxon == "habitatelements" %}
 <span class="pull-right">
 <div class="btn-group">
 <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -117,7 +112,6 @@
 </ul>
 </div>
 </span>
-          {% endunless %}
   </div>
 </div>
 {% endif %}
@@ -131,7 +125,6 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
               <p>Models were used to show how {{ sppword }}, relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.contents }}/methods/ABMI-species-manual-v4.0.pdf">manual</a>). Models were only created for {{ sppword }} that had at least {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} detections using data from ABMI{% if page.taxon == "birds" %}, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab (see <a href="{{ site.baseurl }}/collaborations.html">collaborations</a>){% endif %}. Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be present on each soil type; the presence/absence of trees greatly affects the presence and abundance of many biota. As such, information is presented twice for southern Alberta: once for sites with trees present, and onec for sites without trees present. Predicted {{ sppword }} abundance in each soil/human footprint type is shown with bars. Vertical lines indicate 90% confidence intervals.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-          {% unless page.taxon == "habitatelements" %}
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -141,7 +134,6 @@
   </ul>
 </div>
 </span>
-          {% endunless %}
             </div>
           </div>
           {% endif %}
@@ -155,7 +147,6 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
               <p>Models were used to show how {{ sppword }}' relative abundance differed among soil and human footprint types in the grassland and parkland regions of Alberta (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.contents }}/methods/ABMI-species-manual-v4.0.pdf">manual</a>). Models were only created for {{ sppword }} that had at least {% if page.taxon == "birds" or page.taxon == "mammals" %}100{% else %}20{% endif %} detections using data from ABMI{% if page.taxon == "birds" %}, Breeding Bird Surveys, Environment Canada, and Dr. Erin Bayne's lab (see <a href="{{ site.baseurl }}/collaborations.html">collaborations</a>){% endif %}. Due to natural disturbances and vegetation succession, varying amounts of aspen and other trees may be present on each soil type; the presence/absence of trees greatly affects the presence and abundance of many biota. As such, information is presented twice for southern Alberta: once for sites with trees present, and onec for sites without trees present. Predicted {{ sppword }} abundance in each soil/human footprint type is shown with bars. Vertical lines indicate 90% confidence intervals.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-          {% unless page.taxon == "habitatelements" %}
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -165,7 +156,6 @@
   </ul>
 </div>
 </span>
-          {% endunless %}
             </div>
           </div>
           {% endif %}
@@ -178,7 +168,6 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
           <p>For linear footprint in northern Alberta. The pairs of points show the change in relative abundance expected between the average habitat with no linear footprint (left point) and average habitat when 10% linear footprint is present (right point) (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.contents }}/methods/ABMI-species-manual-v4.0.pdf">manual</a>). {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-          {% unless page.taxon == "habitatelements" %}
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -188,7 +177,6 @@
   </ul>
 </div>
 </span>
-          {% endunless %}
             </div>
           </div>
           {% endif %}
@@ -201,7 +189,6 @@
           </div>
           <div class="col-5 col-sm-5 col-lg-5">
           <p>For linear footprint in southern Alberta. The pairs of points show the change in relative abundance expected between the average habitat with no linear footprint (left point) and average habitat when 10% linear footprint is present (right point) (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.contents }}/methods/ABMI-species-manual-v4.0.pdf">manual</a>). {% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-          {% unless page.taxon == "habitatelements" %}
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -211,7 +198,6 @@
   </ul>
 </div>
 </span>
-          {% endunless %}
             </div>
           </div>
           {% endif %}
@@ -270,7 +256,6 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
               <p>Habitat association models, plus models describing how {{ sppword }} varied spatially and with climate gradients were used to predict {{ sppword }} abundance in 1 km<sup>2</sup> spatial units under reference conditions (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.contents }}/methods/ABMI-species-manual-v4.0.pdf">manual</a>). Predictions of relative abundance of the {{ sppword }} in each 1 km<sup>2</sup> unit were made after all human footprint in the 1 km<sup>2</sup> unit had been 'backfilled' based on native vegetation in the surrounding area. Pixels depicted in red are predicted to have the highest abundance for the {{ sppword }}, grading through light tan to dark blue where the {{ sppword }} is predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-          {% unless page.taxon == "habitatelements" %}
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -280,7 +265,6 @@
   </ul>
 </div>
 </span>
-          {% endunless %}
             </div>
           </div>
           {% endif %}
@@ -294,7 +278,6 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
               <p>Habitat association models, plus models describing how {{ sppword }} varied spatially and with climate gradients were used to predict {{ sppword }} abundance in 1 km<sup>2</sup> spatial units under current conditions (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.contents }}/methods/ABMI-species-manual-v4.0.pdf">manual</a>). Predictions of relative abundance of the {{ sppword }} in each 1 km<sup>2</sup> unit were made based on the vegetation and human footprint present in the 1 km<sup>2</sup> unit in 2012. Pixels depicted in red are predicted to have the highest abundance for the {{ sppword }}, grading through light tan to dark blue where the {{ sppword }} is predicted to be less abundant or absent. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map (see <a href="{{ site.baseurl }}{{ page.url }}#map-sd-cr">uncertainty map</a> below).{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-          {% unless page.taxon == "habitatelements" %}
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -304,7 +287,6 @@
   </ul>
 </div>
 </span>
-          {% endunless %}
             </div>
           </div>
           {% endif %}
@@ -317,7 +299,6 @@
             </div>
             <div class="col-5 col-sm-5 col-lg-5">
               <p>For each 1 km<sup>2</sup> unit the difference between predicted current and reference conditions was determined (see <a href="{{ site.baseurl }}/methods.html">methods</a> and <a href="{{ site.contents }}/methods/ABMI-species-manual-v4.0.pdf">manual</a>). In 1 km<sup>2</sup> units depicted in green the {{ sppword }} was predicted to have higher abundance under present conditions than under reference conditions, with the opposite true for 1 km<sup>2</sup> units depicted in pink. The intensity of green and pink depict the relative magnitude of increase or decrease for the {{ sppword }} between reference and current conditions. This figure has uncertainty due to uncertainty in the models and in the underlying vegetation map.{% if page.taxon == "mammals" %} This result was based on winter track surveys.{% endif %}</p>
-          {% unless page.taxon == "habitatelements" %}
 <span class="pull-right">
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
@@ -327,7 +308,6 @@
   </ul>
 </div>
 </span>
-          {% endunless %}
             </div>
           </div>
           {% endif %}
