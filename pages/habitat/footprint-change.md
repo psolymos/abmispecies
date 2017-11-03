@@ -19,7 +19,7 @@ are changing.
 
 <p>
 <div class="btn-group">
-  <a href="{{ page.appurl }}" class="btn btn-primary" aria-expanded="false">Open in new window <i class="fa fa-external-link-square"></i></a>
+  <a href="{{ page.appurl }}" class="btn btn-primary" aria-expanded="false" target="_blank">Open in new window <i class="fa fa-external-link-square"></i></a>
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
   <ul class="dropdown-menu">
     <li><a href="{{ site.ftproot }}/habitat/footprint-change/veghf3x7.zip" download>Footprint change (tables)</a></li>
