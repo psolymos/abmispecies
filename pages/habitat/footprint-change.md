@@ -17,13 +17,11 @@ are changing.
 
 <iframe src="{{ page.appurl }}" height="600px" width="100%" frameborder='0'>Loading...</iframe>
 
-<p>
 <div class="btn-group">
-  <a href="{{ page.appurl }}" class="btn btn-primary" aria-expanded="false" target="_blank">Open in new window <i class="fa fa-external-link-square"></i></a>
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
   <ul class="dropdown-menu">
     <li><a href="{{ site.ftproot }}/habitat/footprint-change/veghf3x7.zip" download>Footprint change (tables)</a></li>
     <li><a href="http://abmi.ca/home/data-analytics/da-top/da-product-overview/GIS-Land-Surface/Human-Footprint-Sample-Based-Inventory.html" download>Geodatabase and metadata <i class="fa fa-external-link-square"></i></a></li>
   </ul>
+  <a href="{{ page.appurl }}" class="btn btn-primary" aria-expanded="false" target="_blank">Open in new window <i class="fa fa-external-link-square"></i></a>
 </div>
-</p>
