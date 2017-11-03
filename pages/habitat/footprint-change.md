@@ -14,26 +14,14 @@ planners, managers, and the general public to
 understand how native habitats in Alberta
 are changing.
 
-<div class="row">
-
-<div class="col-6 col-sm-6 col-lg-6">
-<img src="{{ site.contents }}/habitat/footprint-change/HFchange.png" class="img-responsive" alt="Human footprint change">
-</div>
-<div class="col-6 col-sm-6 col-lg-6">
+<iframe src="http://206.167.180.241:3838/hfchange/" height="600px" width="100%" frameborder='0'>Loading...</iframe>
 
 <p>
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
   <ul class="dropdown-menu">
     <li><a href="{{ site.ftproot }}/habitat/footprint-change/veghf3x7.zip" download>Footprint change (tables)</a></li>
-    <li><a href="http://abmi.ca/home/data/gis-data/3X7-Photoplot-Land-Cover-Dataset.html?scroll=true" download>Geodatabase and metadata</a></li>
+    <li><a href="http://abmi.ca/home/data-analytics/da-top/da-product-overview/GIS-Land-Surface/Human-Footprint-Sample-Based-Inventory.html" download>Geodatabase and metadata</a></li>
   </ul>
 </div>
 </p>
-
-<p>
-<a href="http://sc-dev.abmi.ca/ocpu/library/footprintchange/www/" class="btn btn-primary" target="_blank">Explore the data set <i class="fa fa-external-link-square"></i></a>
-</p>
-
-</div>
-</div>
