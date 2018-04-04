@@ -14,7 +14,7 @@ baseurl: http://sc-dev.abmi.ca/development
 
 ## this is for hosting the figures within baseurl
 #contents: http://species.abmi.ca/contents
-contents: http://species.abmi.ca/contents/2017
+contents: http://species.abmi.ca/contents/2018
 
 ## ftproot os the root of the ftp/html server that stores large files
 #ftproot: ftp://web|anonymous:anonymous@ftp.public.abmi.ca/species.abmi.ca
@@ -40,7 +40,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md,Rmd"
 # fancy fonts on/off
 fancyfonts: true
 # navbar style: inverse, transparent
-navbar: transparent
+navbar: inverse
 
 taxa:
   mammals:
