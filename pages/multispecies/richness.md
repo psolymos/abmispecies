@@ -24,7 +24,7 @@ The richness index across all taxa was derived by taking the simple average of s
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
-  <p><img src="{{ site.contents }}/multispecies/richness/richness-allspecies.jpg" class="img-responsive" alt="Richness map: all species"/></p>
+  <p><img src="{{ site.contents }}/multispecies/richness/Species%20richness%20map%20of%20all%202017_Current.png" class="img-responsive" alt="Richness map: all species"/></p>
 
   </div>
   <div class="col-6 col-sm-6 col-lg-6">
@@ -33,7 +33,7 @@ The richness index across all taxa was derived by taking the simple average of s
 <div class="btn-group">
   <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Download <i class="fa fa-download"></i></a>
   <ul class="dropdown-menu">
-    <li><a href="{{ site.ftproot }}/multispecies/richness/richness-all.asc" download>Map (raster file)</a></li>
+    <li><a href="{{ site.ftproot }}/multispecies/richness/SpeciesRichness_all.RData" download>Map (R data file)</a></li>
   </ul>
 </div>
 </span>
@@ -56,12 +56,12 @@ Species richness maps are available for these taxa:
         <h4 class="modal-title" id="modal-{{ item.short }}-label">Species richness map for {{ item.long }}</h4>
       </div>
       <div class="modal-body">
-        <img src="{{ site.contents }}/multispecies/richness/richness-{{ item.short }}.jpg" class="img-responsive" alt="Richness map: {{ item.long }}"/>
+        <img src="{{ site.contents }}/multispecies/richness/Species%20richness%20map%20of%20{{ item.short }}%202017_Current.png" class="img-responsive" alt="Richness map: {{ item.long }}"/>
         <p>Species richness for each taxon was modelled by stacking predictions from individual species habitat association models. Individual species models were built by relating the species' occurrence data to three sets of environmental variables: vegetation types, human footprint, and geographic location. Using these relationships, the mean occurrence probability of each species was projected for each 1 km<sup>2</sup> grid cell in the province. The species richness index for each taxon was produced by simply summing these predicted probabilities and scaling the values to range between 0 and 1 by dividing each 1 km<sup>2</sup> grid cell value by maximum value over all grid cells.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a class="btn btn-primary" href="{{ site.ftproot }}/multispecies/richness/richness-{{ item.short }}.asc" download>Download raster file <i class="fa fa-download"></i></a>
+        <a class="btn btn-primary" href="{{ site.ftproot }}/multispecies/richness/SpeciesRichness_{{ item.short }}.RData" download>Download R data file <i class="fa fa-download"></i></a>
       </div>
     </div>
   </div>
