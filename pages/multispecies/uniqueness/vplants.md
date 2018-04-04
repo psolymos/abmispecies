@@ -6,19 +6,19 @@ long: 'Native vascular plants'
 short: vplants
 ---
 
-Uniqueness of species composition in space is a relative measure and values estimated for specific sites are partly dependent on the scale of study. For example, a given area might be regarded less unique in a relatively homogeneous subset area where it is found but that particular subset area could have high uniqueness compared to a larger scale of study. 
+Uniqueness of species composition in space is a relative measure and values estimated for specific sites are partly dependent on the scale of study. For example, a given area might be regarded less unique in a relatively homogeneous subset area where it is found but that particular subset area could have high uniqueness compared to a larger scale of study.
 
 <div class="row">
   <div class="col-6 col-sm-6 col-lg-6">
 
   <h3>Northern Alberta</h3>
-  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/uniqueness-north-{{ page.short }}.png" class="img-responsive" alt="Uniqueness: {{ page.long }}, North"/></p>
+  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/Species%20Uniqueness%20North.png" class="img-responsive" alt="Uniqueness: {{ page.long }}, North"/></p>
 
   </div>
   <div class="col-6 col-sm-6 col-lg-6">
 
   <h3>Southern Alberta</h3>
-  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/uniqueness-south-{{ page.short }}.png" class="img-responsive" alt="Uniqueness: {{ page.long }}, South"/></p>
+  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/Species%20Uniqueness%20South.png" class="img-responsive" alt="Uniqueness: {{ page.long }}, South"/></p>
 
   </div>
 </div>
@@ -39,13 +39,13 @@ The relative uniqueness measure shows the degree to which species composition in
   <div class="col-12 col-sm-12 col-lg-12">
 
   <h3>Boreal</h3>
-  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/uniqueness-habitat-boreal-{{ page.short }}.png" class="img-responsive" alt="Uniqueness, habitat associations: {{ page.long }}, Boreal"/></p>
+  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/Uniqueness-Habitat%20association%20Boreal.png" class="img-responsive" alt="Uniqueness, habitat associations: {{ page.long }}, Boreal"/></p>
 
   </div>
   <div class="col-12 col-sm-12 col-lg-12">
 
   <h3>Foothills</h3>
-  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/uniqueness-habitat-foothills-{{ page.short }}.png" class="img-responsive" alt="Uniqueness, habitat associations: {{ page.long }}, Foothills"/></p>
+  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/Uniqueness-Habitat%20association%20Foothills.png" class="img-responsive" alt="Uniqueness, habitat associations: {{ page.long }}, Foothills"/></p>
 
   </div>
 </div>
@@ -54,13 +54,13 @@ The relative uniqueness measure shows the degree to which species composition in
   <div class="col-6 col-sm-6 col-lg-6">
 
   <h3>Parkland</h3>
-  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/uniqueness-habitat-parkland-{{ page.short }}.png" class="img-responsive" alt="Uniqueness, habitat associations: {{ page.long }}, Parkland"/></p>
+  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/Uniqueness-Habitat%20association%20Parkland.png" class="img-responsive" alt="Uniqueness, habitat associations: {{ page.long }}, Parkland"/></p>
 
   </div>
   <div class="col-6 col-sm-6 col-lg-6">
 
   <h3>Grasslands</h3>
-  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/uniqueness-habitat-grassland-{{ page.short }}.png" class="img-responsive" alt="Uniqueness, habitat associations: {{ page.long }}, Grassland"/></p>
+  <p><img src="{{ site.contents }}/multispecies/uniqueness/{{ page.short }}/Uniqueness-Habitat%20association%20Grassland.png" class="img-responsive" alt="Uniqueness, habitat associations: {{ page.long }}, Grassland"/></p>
 
   </div>
 </div>
