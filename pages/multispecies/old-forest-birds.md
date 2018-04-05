@@ -12,7 +12,7 @@ Intactness for a single species is defined as SI = 100 x min(Current, Reference)
 
 ## Species richness map
 
-Species richness is the sum of occurrence probabilities of multiple species within each 1 km<sup>2</sup> mapping unit.
+Species richness is the sum of mean occurrence probabilities of multiple species within each 1 km<sup>2</sup> mapping unit. The scale of reference for species richness is 1 ha.
 
 <img src="{{ site.contents }}/multispecies/old-forest-birds/multi-map-richness.png" class="img-responsive" alt="Richness map" width="60%"/>
 
