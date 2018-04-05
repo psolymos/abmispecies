@@ -46,6 +46,8 @@ Each taxon is weighted equally, regardless of how many species it contains.
 
 ## Intactness for groups of species
 
+<img src="{{ site.contents }}/multispecies/intactness/si-map.png" class="img-responsive" alt="Intactness map by taxon"/>
+
 {% for item in page.data %}
 
 <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-{{ item.short }}">{{ item.long }}</button></p>
@@ -70,5 +72,9 @@ Each taxon is weighted equally, regardless of how many species it contains.
 </div>
 
 {% endfor %}
+
+<img src="{{ site.contents }}/multispecies/intactness/si.png" class="img-responsive" alt="Intactness diagram"/>
+
+<img src="{{ site.contents }}/multispecies/intactness/si-bi.png" class="img-responsive" alt="Intactness vs HF"/>
 
 See more detailed description of the analyses and limitations in the [methods section]({{ site.baseurl }}/methods.html)  and in the [intactness manual]({{ site.contents }}/multispecies/intactness/47_ABMI_2014-09-25_SpeciesModelingAndIntactnessManual_ABMI.pdf).
