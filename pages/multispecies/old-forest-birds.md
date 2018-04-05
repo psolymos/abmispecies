@@ -8,13 +8,13 @@ taxon: birds
 
 Intactness for a single species is defined as SI = 100 x min(Current, Reference) / min(Current, Reference) and is in the range of 0–100% for each 1 km<sup>2</sup> mapping unit. The intactness map for old forest birds is the average of the single-species intactness values within each pixel.
 
-<img src="{{ site.contents }}/multispecies/old-forest-birds/multi-map-intactness.png" class="img-responsive" alt="Intactness map"/>
+<img src="{{ site.contents }}/multispecies/old-forest-birds/multi-map-intactness.png" class="img-responsive" alt="Intactness map" width="60%"/>
 
 ## Species richness map
 
 Species richness is the sum of occurrence probabilities of multiple species within each 1 km<sup>2</sup> mapping unit.
 
-<img src="{{ site.contents }}/multispecies/old-forest-birds/multi-map-richness.png" class="img-responsive" alt="Richness map"/>
+<img src="{{ site.contents }}/multispecies/old-forest-birds/multi-map-richness.png" class="img-responsive" alt="Richness map" width="60%"/>
 
 ## Sector effects
 
@@ -26,17 +26,17 @@ The "vase" diagrams highlight the distribution of sector effects within the set 
 
 Sector effects on regional population for a given sector are calculated as the difference between sector specific current and reference abundance, standardized by the total reference abundance in the entire region (including all sectors and native land cover types).
 
-<img src="{{ site.contents }}/multispecies/old-forest-birds/multi-sector-total.png" class="img-responsive" alt="Sector effects: regional"/>
+<img src="{{ site.contents }}/multispecies/old-forest-birds/multi-sector-total.png" class="img-responsive" alt="Sector effects: regional" width="60%"/>
 
 ### Effects on population under footprint
 
 Sector effects on population under footprint for a given sector are calculated as the difference between sector specific current and reference abundance, standardized by the reference abundance in that sector.
 
 
-<img src="{{ site.contents }}/multispecies/old-forest-birds/multi-sector-underhf.png" class="img-responsive" alt="Sector effects: under HF"/>
+<img src="{{ site.contents }}/multispecies/old-forest-birds/multi-sector-underhf.png" class="img-responsive" alt="Sector effects: under HF" width="60%"/>
 
 ### Regional effects per unit area
 
 Per unit area effects are calculated from the regional population effects, but further divided by the proportion of the sector specific footprint in the region. The corresponding graphs show the area of the sector's footprint as the width of the bars, and the per unit area effect as the height of the bars. The area of the bar corresponds to the regional sector effect.
 
-<img src="{{ site.contents }}/multispecies/old-forest-birds/multi-sector-unit.png" class="img-responsive" alt="Sector effects: unit"/>
+<img src="{{ site.contents }}/multispecies/old-forest-birds/multi-sector-unit.png" class="img-responsive" alt="Sector effects: unit" width="60%"/>
