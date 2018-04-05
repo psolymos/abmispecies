@@ -73,7 +73,11 @@ Each taxon is weighted equally, regardless of how many species it contains.
 
 {% endfor %}
 
+## Intactness by Natural Regions
+
 <img src="{{ site.contents }}/multispecies/intactness/si.png" class="img-responsive" alt="Intactness diagram"/>
+
+## Human footprint and intactness relationships by taxonomic groups
 
 <img src="{{ site.contents }}/multispecies/intactness/si-bi.png" class="img-responsive" alt="Intactness vs HF"/>
 
