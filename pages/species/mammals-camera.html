@@ -5,6 +5,10 @@ taxon: 'mammals-camera'
 listbycomnam: true
 ---
 
+{% for item in site.data.summary %}
+  {% if item.names == page.taxon %}<p>Number of species: {{ item.mapdet }} (<i class="fa fa-circle" style="color:orange"></i> basic summaries for {{ item.mapdetonly }}, <i class="fa fa-circle" style="color:green"></i> full model summaries for {{ item.mappred }} species)</p>{% endif %}
+{% endfor %}
+
 {% if page.listbycomnam %}
   <div class="col-md-6">
 {% else %}
