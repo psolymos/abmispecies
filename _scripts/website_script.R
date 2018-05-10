@@ -1,4 +1,5 @@
-TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants","habitatelements")
+TAXON <- c("mites", "mosses", "lichens","mammals", "birds", "vplants","habitatelements",
+    "mammals-camera")
 #TAXON <- c("mites", "mosses", "lichens","mammals","birds")
 #TAXON <- c("mites", "mosses", "lichens","mammals", "vplants")
 
@@ -157,7 +158,7 @@ for (taxon in TAXON) {
 
     ## generating index
     spptab0 <- spptab
-    lead_vars <- if (taxon %in% c("mammals","birds","vplants"))
+    lead_vars <- if (taxon %in% c("mammals","birds","vplants","mammals-camera"))
         c("comnam", "scinam") else "scinam"
     if (taxon == "habitatelements")
         lead_vars <- "comnam"
