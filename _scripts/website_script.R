@@ -88,7 +88,8 @@ function(spplabel, title_format="comnam (<em>scinam</em>)", layout="species", Pr
         }
         taxonname <- switch(taxon,
             "mites"="Soil mites",
-            "mammals"="Mammals",
+            "mammals"="Mammals (snow tracks)",
+            "mammals-camera"="Mammals (camera)",
             "birds"="Birds",
             "mosses"="Bryophytes",
             "vplants"="Vascular plants",
@@ -128,6 +129,9 @@ for (taxon in TAXON) {
         dimnames=list(rownames(lt), graph_labels[,"dir"]))
     for (i in 1:ncol(M))
         M[lt[[graph_labels[i,"check"]]],i] <- 1L
+
+    if (taxon == "mammals-camera")
+        M[,c("linear-north", "linear-south", "map-sd-cr", "sector-north", "sector-south")] <- 0
 
     spptab <- lt[,c("sppid","scinam","species","comments")]
     colnames(spptab) <- c("sppid","scinam","comnam","comments")
