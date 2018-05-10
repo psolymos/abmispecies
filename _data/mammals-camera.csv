@@ -3,7 +3,6 @@ BlackBear,Black Bear,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Ursus americanus
 CanadaLynx,Canada Lynx,Species,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Lynx canadensis,Results are based on camera traps. ,180585
 Cougar,Cougar,Species,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Puma concolor,Results are based on camera traps. ,552479
 Coyote,Coyote,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Canis latrans,Results are based on camera traps. ,180599
-Deer,Deer,Genus,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Odocoileus,Results are based on camera traps. ,180697
 ElkWapiti,Elk (wapiti),Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Cervus elaphus,Results are based on camera traps. ,180695
 Fisher,Fisher,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Martes pennanti,Results are based on camera traps. ,180560
 GrayWolf,Gray Wolf,Species,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Canis lupus,Results are based on camera traps. ,180596
