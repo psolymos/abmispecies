@@ -1,25 +1,26 @@
 sppid,species,rank,ndet,nsite,useavail.north,useavail.south,veghf.north,soilhf.south,map.det,map.pred,scinam,comments,tsnid
-BlackBear,Black Bear,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Ursus americanus,Results are based on camera traps. ,180544
-CanadaLynx,Canada Lynx,Species,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Lynx canadensis,Results are based on camera traps. ,180585
-Cougar,Cougar,Species,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Puma concolor,Results are based on camera traps. ,552479
-Coyote,Coyote,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Canis latrans,Results are based on camera traps. ,180599
-ElkWapiti,Elk (wapiti),Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Cervus elaphus,Results are based on camera traps. ,180695
-Fisher,Fisher,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Martes pennanti,Results are based on camera traps. ,180560
-GrayWolf,Gray Wolf,Species,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Canis lupus,Results are based on camera traps. ,180596
-Marten,Marten,Species,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Martes americana,Results are based on camera traps. ,180559
-Moose,Moose,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Alces alces,Results are based on camera traps. ,180703
-Muledeer,Mule Deer,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Odocoileus hemionus,Results are based on camera traps. ,180698
-Porcupine,Porcupine,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Erethizon dorsatum,Results are based on camera traps. ,180393
-Redfox,Red Fox,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Vulpes vulpes,Results are based on camera traps. ,180604
-RedSquirrel,Red Squirrel,Species,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Tamiasciurus hudsonicus,Results are based on camera traps. ,180166
-SnowshoeHare,Snowshoe Hare,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Lepus americanus,Results are based on camera traps. ,180112
-StripedSkunk,Striped Skunk,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Mephitis mephitis,Results are based on camera traps. ,180562
-WeaselsAndErmine,Weasels and Ermine,Genus,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Mustela,Results are based on camera traps. ,180552
-WhitetailedDeer,White-tailed Deer,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Odocoileus virginianus,Results are based on camera traps. ,180699
-WhitetailedJackRabbit,White-tailed Jack Rabbit,Species,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,Lepus townsendii,Results are based on camera traps. ,180118
-Wolverine,Wolverine,Species,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Gulo gulo,Results are based on camera traps. ,180551
-WoodlandCaribou,Woodland Caribou,Species,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Rangifer tarandus caribou,Results are based on camera traps. ,202411
-Badger,Badger,Species,,,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,Taxidea taxus,Results are based on camera traps. ,180565
-Pronghorn,Pronghorn,Species,,,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,Antilocapra americana,Results are based on camera traps. ,180717
-Raccoon,Raccoon,Species,,,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,Procyon lotor,Results are based on camera traps. ,180575
-RichardsonsGroundSquirrel,Richardson's Ground Squirrel,Species,,,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,Spermophilus richardsonii,Results are based on camera traps. ,180157
+Badger,Badger,Species,,,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Taxidea taxus,Results are based on camera traps. ,180565
+BlackBear,Black Bear,Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Ursus americanus,Results are based on camera traps. ,180544
+CanadaLynx,Canada Lynx,Species,,,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,Lynx canadensis,Results are based on camera traps. ,180585
+Cougar,Cougar,Species,,,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Puma concolor,Results are based on camera traps. ,552479
+Coyote,Coyote,Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Canis latrans,Results are based on camera traps. ,180599
+ElkWapiti,Elk (wapiti),Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Cervus elaphus,Results are based on camera traps. ,180695
+Fisher,Fisher,Species,,,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,Martes pennanti,Results are based on camera traps. ,180560
+GrayWolf,Gray Wolf,Species,,,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,Canis lupus,Results are based on camera traps. ,180596
+Marten,Marten,Species,,,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,Martes americana,Results are based on camera traps. ,180559
+Moose,Moose,Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Alces alces,Results are based on camera traps. ,180703
+Muledeer,Mule Deer,Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Odocoileus hemionus,Results are based on camera traps. ,180698
+Porcupine,Porcupine,Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Erethizon dorsatum,Results are based on camera traps. ,180393
+Pronghorn,Pronghorn,Species,,,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Antilocapra americana,Results are based on camera traps. ,180717
+Raccoon,Raccoon,Species,,,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Procyon lotor,Results are based on camera traps. ,180575
+Redfox,Red Fox,Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Vulpes vulpes,Results are based on camera traps. ,180604
+RedSquirrel,Red Squirrel,Species,,,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,Tamiasciurus hudsonicus,Results are based on camera traps. ,180166
+RichardsonsGroundSquirrel,Richardson's Ground Squirrel,Species,,,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Spermophilus richardsonii,Results are based on camera traps. ,180157
+SnowshoeHare,Snowshoe Hare,Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Lepus americanus,Results are based on camera traps. ,180112
+StripedSkunk,Striped Skunk,Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Mephitis mephitis,Results are based on camera traps. ,180562
+WeaselsAndErmine,Weasels and Ermine,Genus,,,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Mustela,Results are based on camera traps. ,180552
+WhitetailedDeer,White-tailed Deer,Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Odocoileus virginianus,Results are based on camera traps. ,180699
+WhitetailedJackRabbit,White-tailed Jack Rabbit,Species,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,Lepus townsendii,Results are based on camera traps. ,180118
+Wolverine,Wolverine,Species,,,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,Gulo gulo,Results are based on camera traps. ,180551
+WoodlandCaribou,Woodland Caribou,Species,,,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,Rangifer tarandus caribou,Results are based on camera traps. ,202411
+Grizzlybear,Grizzly Bear,Species,,,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Ursus arctos,Results are based on camera traps. ,180543
