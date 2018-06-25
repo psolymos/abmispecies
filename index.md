@@ -20,13 +20,13 @@ layout: plain
     <div class="container">
         <div class="row">
 
-        <div class="alert alert-dismissible alert-info">
+        <div class="alert alert-dismissible alert-warning">
           <button type="button" class="close" data-dismiss="alert">&times;</button>
-          <h4>What's new in this version?</h4>
+          <h4>Notice</h4>
           <p>
-            Species models were updated including more data.
-            Model summaries for habitat elements are added.
-            Improved documentation.
+            This website is going to be phased out in the near future,
+            results are now available at the
+            <a href="http://abmi.ca/home/data-analytics"><strong>ABMI Data & Analytics Portal</strong></a>
           </p>
         </div>
 
