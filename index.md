@@ -24,8 +24,8 @@ layout: plain
           <button type="button" class="close" data-dismiss="alert">&times;</button>
           <h4>Notice!</h4>
           <p>
-            This version of the species website is going to be phased out in the near future.
-            Results are now available at the
+            This version of the species website is going to be phased out in the near future,
+            results are now available at the
             <a href="http://abmi.ca/home/data-analytics"><strong>ABMI Data & Analytics Portal</strong></a>
           </p>
         </div>
