@@ -22,7 +22,7 @@ layout: plain
 
         <div class="alert alert-dismissible alert-warning">
           <button type="button" class="close" data-dismiss="alert">&times;</button>
-          <h4>Notice</h4>
+          <h4>Notice!</h4>
           <p>
             This website is going to be phased out in the near future,
             results are now available at the
