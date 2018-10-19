@@ -1,3 +1,5 @@
+#!/bin/sh
+
 ## run like:
 ## sudo bash ~/repos/abmispecies/_scripts/build.sh
 

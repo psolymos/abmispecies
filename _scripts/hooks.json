@@ -1,0 +1,8 @@
+[
+  {
+    "id": "redeploy-webhook",
+    "execute-command": "/home/solymos/repos/abmispecies/_scripts/build.sh",
+    "command-working-directory": "/home/solymos/go",
+    "response-message": "I got the payload!"
+  }
+]
