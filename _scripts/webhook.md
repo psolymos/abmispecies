@@ -7,4 +7,4 @@ sudo chmod u+x redeploy.sh
 
 ## now we can run webhook
 
-/home/solymos/go/bin/webhook -hooks /home/solymos/repos/abmispecies/_scripts/hooks.json -verbose -ip 142.244.198.153
+/home/solymos/go/bin/webhook -hooks /home/solymos/repos/abmispecies/_scripts/hooks.json -verbose
